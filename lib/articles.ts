@@ -112,6 +112,21 @@ export function getLatestArticles(count = 6): Article[] {
     .slice(0, count);
 }
 
+export function getRelatedArticles(slug: string, count = 3): Article[] {
+  const current = getArticleBySlug(slug);
+  if (!current) return getLatestArticles(count);
+
+  // Same category first, excluding current article
+  const sameCategory = articles.filter(
+    (a) => a.slug !== slug && a.category === current.category
+  );
+  const others = articles.filter(
+    (a) => a.slug !== slug && a.category !== current.category
+  );
+
+  return [...sameCategory, ...others].slice(0, count);
+}
+
 export function formatDate(dateStr: string): string {
   const date = new Date(dateStr);
   return date.toLocaleDateString("fr-FR", {

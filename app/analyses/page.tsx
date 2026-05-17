@@ -7,7 +7,8 @@ import { categories } from "@/lib/categories";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Analyses",
+  title: "Analyses et guides sur le marché du stockage",
+  alternates: { canonical: "https://observatoire-du-stockage.fr/analyses" },
   description:
     "Toutes les analyses, guides et études de l'Observatoire du Stockage sur l'investissement, le marché, la rentabilité, la réglementation et l'exploitation des espaces de stockage.",
 };

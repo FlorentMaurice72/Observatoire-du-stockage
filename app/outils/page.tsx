@@ -4,7 +4,8 @@ import SectionHeader from "@/components/ui/SectionHeader";
 import NewsletterBlock from "@/components/ui/NewsletterBlock";
 
 export const metadata: Metadata = {
-  title: "Outils pour investisseurs et exploitants",
+  title: "Outils pour investisseurs et exploitants — calculateurs, checklists, guides",
+  alternates: { canonical: "https://observatoire-du-stockage.fr/outils" },
   description:
     "Calculateurs, checklists, modèles et guides pratiques pour analyser et gérer des espaces de stockage. Bientôt disponibles.",
 };

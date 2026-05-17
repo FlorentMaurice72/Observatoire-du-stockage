@@ -7,7 +7,8 @@ import CalloutBox from "@/components/ui/CalloutBox";
 import { getArticlesByCategory } from "@/lib/articles";
 
 export const metadata: Metadata = {
-  title: "Investir dans les espaces de stockage",
+  title: "Investir dans les espaces de stockage — boxs, garages, entrepôts",
+  alternates: { canonical: "https://observatoire-du-stockage.fr/investir" },
   description:
     "Guide complet pour investisseurs : comprendre les actifs de stockage, analyser un projet, évaluer la rentabilité et anticiper les risques.",
 };

@@ -6,7 +6,8 @@ import NewsletterBlock from "@/components/ui/NewsletterBlock";
 import { getArticlesByCategory } from "@/lib/articles";
 
 export const metadata: Metadata = {
-  title: "Marché du stockage",
+  title: "Marché du stockage en France — tendances, analyses locales et données",
+  alternates: { canonical: "https://observatoire-du-stockage.fr/marche" },
   description:
     "Comprendre le marché français des espaces de stockage : tendances, dynamiques sectorielles, analyses locales par ville et département.",
 };

@@ -6,7 +6,8 @@ import CalloutBox from "@/components/ui/CalloutBox";
 import { getArticlesByCategory } from "@/lib/articles";
 
 export const metadata: Metadata = {
-  title: "Réglementation des espaces de stockage",
+  title: "Réglementation des espaces de stockage — fiscalité, bail, assurance",
+  alternates: { canonical: "https://observatoire-du-stockage.fr/reglementation" },
   description:
     "Points de vigilance sur la fiscalité, les baux, les assurances, la responsabilité et l'urbanisme applicables aux espaces de stockage.",
 };
