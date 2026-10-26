@@ -43,7 +43,8 @@ const outils: { icon: string; title: string; description: string; features: stri
     description:
       "Un guide structuré pour analyser méthodiquement un projet d'acquisition : localisation, demande locative, prix, charges, risques.",
     features: ["Grille d'analyse", "Méthodologie structurée", "Points de vigilance"],
-    status: "En développement",
+    status: "Disponible",
+    href: "/outils/guide-analyse-projet",
   },
   {
     icon: "📋",
