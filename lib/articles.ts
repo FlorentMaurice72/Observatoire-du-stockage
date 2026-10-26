@@ -12,6 +12,46 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "due-diligence-lot-garages",
+    title: "Les étapes d'une due diligence sérieuse sur un lot de garages",
+    excerpt:
+      "Avant de signer un compromis, une vérification méthodique s'impose : état du bâti, situation locative, documents de copropriété, clauses du règlement. Tour d'horizon des points à examiner pour ne pas acheter à l'aveugle.",
+    category: "investissement",
+    date: "2026-10-20",
+    author: "La rédaction",
+    readingTime: 10,
+  },
+  {
+    slug: "rentabilite-brute-nette-difference",
+    title: "Rentabilité brute, rentabilité nette : pourquoi la différence est déterminante",
+    excerpt:
+      "Le taux de rentabilité brute est souvent le seul chiffre mis en avant lors d'une présentation d'investissement. Il est insuffisant pour prendre une décision éclairée. Comprendre ce qu'il masque est une étape incontournable.",
+    category: "rentabilite",
+    date: "2026-10-15",
+    author: "La rédaction",
+    readingTime: 9,
+  },
+  {
+    slug: "bail-location-espace-stockage",
+    title: "Le bail applicable à la location d'un espace de stockage : ce que dit le droit",
+    excerpt:
+      "La location d'un box, d'un garage ou d'une cave ne relève d'aucun statut locatif spécifique. C'est le droit commun du contrat qui s'applique, avec des implications pratiques importantes pour le bailleur comme pour le locataire.",
+    category: "reglementation",
+    date: "2026-10-10",
+    author: "La rédaction",
+    readingTime: 9,
+  },
+  {
+    slug: "fixer-loyer-espace-stockage",
+    title: "Fixer le bon loyer pour un espace de stockage : méthode et pièges à éviter",
+    excerpt:
+      "Un loyer trop élevé génère de la vacance. Un loyer trop bas pénalise la rentabilité et crée un précédent difficile à corriger. La méthode pour se positionner justement repose sur l'observation du marché local, pas sur des moyennes nationales.",
+    category: "exploitation",
+    date: "2026-10-05",
+    author: "La rédaction",
+    readingTime: 8,
+  },
+  {
     slug: "investir-box-stockage-fondamentaux",
     title: "Investir dans un box de stockage : les fondamentaux à comprendre avant de se lancer",
     excerpt:
