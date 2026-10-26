@@ -12,6 +12,46 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "evaluer-demande-locative-espace-stockage",
+    title: "Comment évaluer la demande locative avant d'acheter un espace de stockage ?",
+    excerpt:
+      "Évaluer la demande locative locale est une étape structurante de toute analyse d'acquisition. Avant de s'engager, plusieurs indicateurs concrets permettent d'objectiver le potentiel d'un marché local — sans pour autant prédire la rentabilité d'un projet particulier.",
+    category: "investissement",
+    date: "2026-11-17",
+    author: "La rédaction",
+    readingTime: 9,
+  },
+  {
+    slug: "mise-en-location-espace-stockage-ligne",
+    title: "Mettre en location un espace de stockage en ligne : plateformes, annonces et bonnes pratiques",
+    excerpt:
+      "La mise en location d'un espace de stockage passe aujourd'hui majoritairement par des canaux numériques. Comprendre les plateformes disponibles, rédiger une annonce efficace et gérer les candidatures permet de réduire les périodes de vacance locative.",
+    category: "exploitation",
+    date: "2026-11-10",
+    author: "La rédaction",
+    readingTime: 8,
+  },
+  {
+    slug: "assurance-pno-espace-stockage",
+    title: "Assurance propriétaire non occupant pour un espace de stockage : ce qu'il faut vérifier",
+    excerpt:
+      "L'assurance propriétaire non occupant (PNO) est souvent négligée lors de l'acquisition d'espaces de stockage. Elle couvre pourtant des risques spécifiques qui ne sont pas pris en charge par l'assurance de copropriété ni par l'assurance du locataire.",
+    category: "reglementation",
+    date: "2026-11-03",
+    author: "La rédaction",
+    readingTime: 8,
+  },
+  {
+    slug: "vacance-locative-espaces-stockage",
+    title: "Vacance locative sur les espaces de stockage : causes, prévention et impact sur le rendement",
+    excerpt:
+      "La vacance locative est l'un des principaux risques d'un investissement dans les espaces de stockage. Comprendre ses causes, anticiper ses effets et mettre en place des pratiques préventives est indispensable pour maintenir un niveau de revenus stable.",
+    category: "rentabilite",
+    date: "2026-10-27",
+    author: "La rédaction",
+    readingTime: 9,
+  },
+  {
     slug: "due-diligence-lot-garages",
     title: "Les étapes d'une due diligence sérieuse sur un lot de garages",
     excerpt:

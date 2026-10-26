@@ -666,6 +666,505 @@ const investirFondamentauxContent = () => (
   </div>
 );
 
+const vacanceLocativeContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      La vacance locative désigne la période pendant laquelle un espace de stockage reste inoccupé et ne génère aucun revenu. C'est l'un des principaux risques opérationnels d'un investissement dans ce type d'actif. Contrairement à d'autres postes de charge, elle est difficile à anticiper précisément et peut modifier significativement l'équilibre financier d'un projet.
+    </p>
+
+    <div className="my-8 bg-[#f8f9fa] rounded-xl border border-slate-100 p-6 flex items-center justify-center">
+      <svg width="100%" height="200" viewBox="0 0 560 200" className="max-w-lg">
+        <text x="20" y="28" fontSize="11" fill="#64748b" fontFamily="sans-serif" fontWeight="600">Impact de la vacance sur les loyers encaissés (indicatif)</text>
+        <text x="20" y="65" fontSize="10" fill="#94a3b8" fontFamily="sans-serif">Vacance 0 %</text>
+        <rect x="130" y="52" width="280" height="18" rx="3" fill="#1e3a5f" opacity="0.8"/>
+        <text x="416" y="65" fontSize="10" fill="#1e3a5f" fontFamily="sans-serif" fontWeight="600">100 %</text>
+        <text x="20" y="105" fontSize="10" fill="#94a3b8" fontFamily="sans-serif">Vacance 10 %</text>
+        <rect x="130" y="92" width="252" height="18" rx="3" fill="#3b82f6" opacity="0.7"/>
+        <text x="388" y="105" fontSize="10" fill="#3b82f6" fontFamily="sans-serif" fontWeight="600">90 %</text>
+        <text x="20" y="145" fontSize="10" fill="#94a3b8" fontFamily="sans-serif">Vacance 20 %</text>
+        <rect x="130" y="132" width="224" height="18" rx="3" fill="#f59e0b" opacity="0.7"/>
+        <text x="360" y="145" fontSize="10" fill="#b45309" fontFamily="sans-serif" fontWeight="600">80 %</text>
+        <text x="130" y="180" fontSize="9" fill="#94a3b8" fontFamily="sans-serif">Proportion des loyers théoriques effectivement encaissés</text>
+      </svg>
+    </div>
+
+    <h2 id="definition-vacance">Qu'est-ce que la vacance locative ?</h2>
+    <p>
+      La vacance locative est la période pendant laquelle un bien immobilier est disponible à la location mais inoccupé. Pour un espace de stockage, elle peut se produire entre deux locataires (vacance de rotation), lors d'une démarche initiale de mise en location (vacance de départ), ou de façon prolongée lorsque la demande est structurellement insuffisante dans la zone (vacance structurelle).
+    </p>
+    <p>
+      Elle se mesure habituellement en taux annuel : un taux de vacance de 10 % signifie que le bien est inoccupé en moyenne l'équivalent de cinq semaines sur une année. Ce chiffre peut paraître modeste. Son impact sur la rentabilité nette est pourtant significatif lorsqu'on le traduit en revenus manqués et en charges fixes qui continuent de courir pendant la période d'inoccupation.
+    </p>
+    <p>
+      La vacance est un risque inhérent à tout investissement locatif. Elle ne peut pas être entièrement éliminée, mais elle peut être anticipée, mesurée et gérée. C'est l'objet des pratiques décrites dans cet article.
+    </p>
+
+    <CalloutBox type="vigilance">
+      Un calcul de rentabilité établi sur la base d'un taux d'occupation de 100 % donne une image optimiste du projet. Toute analyse sérieuse intègre une hypothèse de vacance, même modeste, pour refléter la réalité d'une gestion locative sur la durée.
+    </CalloutBox>
+
+    <h2 id="causes-vacance">Les principales causes de vacance</h2>
+    <p>
+      Plusieurs facteurs peuvent générer ou prolonger une période de vacance sur un espace de stockage. Tous ne sont pas maîtrisables par le propriétaire, mais certains peuvent être anticipés et atténués.
+    </p>
+    <p>
+      <strong>Une demande locative insuffisante dans la zone.</strong> La demande pour des espaces de stockage est géographiquement très localisée. Dans certaines zones — périphérie peu dense, communes rurales, secteurs avec une offre de self-storage abondante — la demande peut être structurellement faible. Un espace bien entretenu et au prix du marché peut rester vacant faute de candidats locaux.
+    </p>
+    <p>
+      <strong>Un loyer déconnecté du marché local.</strong> Un loyer demandé supérieur aux prix pratiqués dans la zone réduit mécaniquement le nombre de candidats et allonge le délai de mise en location. C'est l'une des causes de vacance les plus directement évitables.
+    </p>
+    <p>
+      <strong>Une visibilité insuffisante.</strong> Un espace non annoncé sur les canaux où les locataires potentiels cherchent peut rester vide simplement par manque d'exposition. La présence sur les plateformes en ligne est aujourd'hui incontournable dans la plupart des marchés.
+    </p>
+    <p>
+      <strong>L'état du bien.</strong> Un espace dégradé — porte difficile à manœuvrer, humidité visible, accès mal dégagé — génère des refus de candidats pourtant intéressés par la localisation ou le prix. Les travaux de remise en état entre deux locataires réduisent la vacance à moyen terme.
+    </p>
+    <p>
+      <strong>La rotation des locataires.</strong> Les espaces de stockage connaissent souvent des durées de bail plus courtes que les baux d'habitation. Une rotation fréquente multiplie les périodes de vacance inter-locataires. Certaines catégories de locataires — professionnels, artisans, entreprises — tendent à offrir une stabilité plus grande que les particuliers en transition.
+    </p>
+
+    <CalloutBox type="retenir">
+      Une partie significative des périodes de vacance résulte de facteurs maîtrisables : loyer mal positionné, visibilité insuffisante, état du bien négligé. Identifier la cause réelle d'une vacance est la première étape pour y remédier.
+    </CalloutBox>
+
+    <h2 id="impact-rendement">L'impact sur la rentabilité : un calcul illustratif</h2>
+    <p>
+      Pour comprendre concrètement l'impact de la vacance, voici un raisonnement purement illustratif, avec des hypothèses fictives à ne pas appliquer directement à un projet réel. Considérons un espace dont le loyer mensuel est de 100 (quelle qu'en soit l'unité). Le loyer annuel théorique à pleine occupation est de 1 200. Si cet espace est vacant l'équivalent d'un mois par an (taux de vacance d'environ 8 %), le loyer effectivement encaissé tombe à 1 100.
+    </p>
+    <p>
+      En rentabilité nette, l'impact est amplifié par le fait que les charges fixes — taxe foncière, assurance, charges de copropriété — continuent de courir pendant la vacance. Le manque à gagner ne se résume pas aux loyers non encaissés : il se traduit aussi par un accroissement du poids relatif des charges sur les revenus réellement perçus.
+    </p>
+    <p>
+      C'est pourquoi les analyses sérieuses intègrent systématiquement une hypothèse de vacance — souvent exprimée en pourcentage du loyer brut annuel ou en nombre de semaines — pour calculer un rendement net réaliste plutôt qu'un rendement théorique à pleine occupation.
+    </p>
+
+    <CalloutBox type="vigilance">
+      Les hypothèses de vacance à retenir dépendent du marché local, du type de bien et de la qualité de la gestion. Il n'existe pas de taux universel applicable à tous les projets. Interrogez les acteurs locaux — agences, autres propriétaires — sur les durées de vacance observées dans la zone avant de fixer votre propre hypothèse.
+    </CalloutBox>
+
+    <h2 id="prevention">Les pratiques de prévention</h2>
+    <p>
+      Plusieurs leviers permettent de réduire la fréquence et la durée des périodes de vacance :
+    </p>
+    <ul>
+      <li><strong>Anticiper les départs.</strong> Maintenir un contact régulier avec les locataires en place, notamment à l'approche des échéances de bail, permet d'anticiper les départs et de commencer les démarches de relocation avant que l'espace soit effectivement libéré.</li>
+      <li><strong>Publier l'annonce dès que le départ est connu.</strong> Attendre que le locataire ait rendu les clés pour diffuser l'annonce allonge inutilement la vacance. Une annonce publiée avec une date de disponibilité à venir réduit le délai entre deux locations.</li>
+      <li><strong>Assurer une présence sur plusieurs canaux.</strong> Plateformes généralistes, plateformes spécialisées, affichage local, réseau de bouche-à-oreille : une visibilité multi-canal maximise les chances de trouver rapidement un locataire.</li>
+      <li><strong>Maintenir le bien en bon état.</strong> Entre deux locataires, une remise en état rapide — nettoyage, petites réparations — améliore l'attractivité de l'espace et réduit les refus de candidats à la visite.</li>
+      <li><strong>Positionner le loyer au prix du marché.</strong> Un loyer cohérent avec les prix pratiqués localement attire davantage de candidats et réduit le délai de relocation.</li>
+      <li><strong>Fidéliser les bons locataires.</strong> Un locataire fiable, payant régulièrement et respectant le bien, mérite une gestion attentive. Une augmentation de loyer trop brutale ou une communication dégradée peut inciter un bon locataire à chercher une alternative.</li>
+    </ul>
+
+    <h2 id="gestion-vacance">Gérer une période de vacance</h2>
+    <p>
+      Lorsqu'une vacance survient et se prolonge, plusieurs actions permettent d'en limiter la durée.
+    </p>
+    <p>
+      <strong>Vérifier le positionnement prix.</strong> Si les premières semaines de diffusion n'ont généré aucune candidature, la première question est celle du loyer demandé. Une comparaison rapide avec les annonces concurrentes actives dans la zone permet de vérifier si le prix est en ligne avec le marché ou au-dessus.
+    </p>
+    <p>
+      <strong>Élargir la diffusion.</strong> Si l'espace n'est présent que sur un ou deux canaux, étendre la diffusion à d'autres plateformes ou supports locaux peut faire émerger des candidats qui n'auraient pas vu l'annonce initialement.
+    </p>
+    <p>
+      <strong>Actualiser l'annonce.</strong> Une annonce ancienne ou peu soignée — photos de mauvaise qualité, description sommaire — génère moins de contacts. La rafraîchir peut relancer l'intérêt.
+    </p>
+    <p>
+      <strong>Accepter un ajustement tarifaire.</strong> Dans certains marchés peu actifs, un léger ajustement du loyer à la baisse peut permettre de trouver un locataire rapidement et de limiter le coût total de la vacance, plutôt que d'attendre plusieurs mois à un prix inadapté.
+    </p>
+
+    <h2 id="evaluer-risque">Évaluer le risque de vacance avant l'achat</h2>
+    <p>
+      L'évaluation du risque de vacance doit faire partie de la due diligence avant toute acquisition. Plusieurs indicateurs méritent d'être examinés :
+    </p>
+    <ul>
+      <li><strong>L'historique de vacance du bien.</strong> Le vendeur peut transmettre un relevé de l'historique locatif sur les dernières années. Des périodes de vacance récurrentes sont un signal à analyser et à expliquer.</li>
+      <li><strong>Les annonces actives dans la zone.</strong> Un grand nombre d'annonces non pourvues depuis plusieurs semaines peut indiquer une demande locale insuffisante ou une offre excédentaire.</li>
+      <li><strong>La présence de self-storage professionnel.</strong> Des acteurs structurés proposant des offres flexibles, sécurisées et accessibles exercent une pression concurrentielle sur les garages traditionnels pour certains profils de locataires.</li>
+      <li><strong>Le profil des locataires actuels.</strong> Des locataires stables, présents depuis plusieurs années, suggèrent une demande locale soutenue. Un turnover élevé indique un marché plus volatile ou un problème structurel du bien.</li>
+    </ul>
+
+    <div className="mt-8 pt-6 border-t border-slate-100">
+      <h3 className="text-sm font-bold text-slate-700 mb-3">Sources et références</h3>
+      <ul className="space-y-1">
+        <li className="text-xs text-slate-500">→ Service-public.fr — Obligations du bailleur en matière d'entretien et de remise en état</li>
+        <li className="text-xs text-slate-500">→ Legifrance.gouv.fr — Code civil, articles 1719 et suivants (obligations du bailleur)</li>
+        <li className="text-xs text-slate-500">→ Service-public.fr — Location d'un garage ou d'un parking : droits et obligations</li>
+      </ul>
+    </div>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      La vacance locative est un risque structurel de tout investissement dans les espaces de stockage. Elle peut résulter de facteurs non maîtrisables (demande locale insuffisante) ou de facteurs évitables (loyer inadapté, visibilité insuffisante, état du bien dégradé). Intégrer une hypothèse de vacance réaliste dans le calcul de rentabilité, évaluer le risque local avant l'achat et mettre en place des pratiques préventives sont les trois piliers d'une gestion locative robuste.
+    </CalloutBox>
+  </div>
+);
+
+const assurancePnoContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      L'assurance propriétaire non occupant (PNO) est une garantie souscrite par le propriétaire d'un bien immobilier qu'il ne occupe pas lui-même. Elle couvre des risques que ni l'assurance de copropriété ni l'assurance du locataire ne prennent en charge systématiquement. Pour les espaces de stockage, elle mérite une attention particulière lors de toute acquisition.
+    </p>
+
+    <div className="my-8 bg-[#f8f9fa] rounded-xl border border-slate-100 p-6 flex items-center justify-center">
+      <svg width="100%" height="200" viewBox="0 0 560 200" className="max-w-lg">
+        <circle cx="200" cy="100" r="70" fill="#1e3a5f" opacity="0.12" stroke="#1e3a5f" strokeWidth="1.5"/>
+        <circle cx="320" cy="100" r="70" fill="#22c55e" opacity="0.12" stroke="#22c55e" strokeWidth="1.5"/>
+        <circle cx="260" cy="60" r="55" fill="#3b82f6" opacity="0.12" stroke="#3b82f6" strokeWidth="1.5"/>
+        <text x="145" y="120" fontSize="10" fill="#1e3a5f" fontFamily="sans-serif" fontWeight="600">Copropriété</text>
+        <text x="340" y="120" fontSize="10" fill="#166534" fontFamily="sans-serif" fontWeight="600">Locataire</text>
+        <text x="240" y="30" fontSize="10" fill="#1d4ed8" fontFamily="sans-serif" fontWeight="600">PNO</text>
+        <text x="215" y="95" fontSize="9" fill="#475569" fontFamily="sans-serif">Zone de</text>
+        <text x="210" y="107" fontSize="9" fill="#475569" fontFamily="sans-serif">couverture</text>
+        <text x="210" y="119" fontSize="9" fill="#475569" fontFamily="sans-serif">partagée</text>
+      </svg>
+    </div>
+
+    <h2 id="qu-est-ce-que-pno">Qu'est-ce que l'assurance PNO ?</h2>
+    <p>
+      L'assurance propriétaire non occupant est un contrat d'assurance souscrit par le propriétaire d'un bien immobilier mis en location. Elle intervient dans les situations où la responsabilité du propriétaire est engagée et où les garanties du locataire ou de la copropriété sont absentes ou insuffisantes.
+    </p>
+    <p>
+      Elle se distingue de l'assurance multirisque habitation (MRH) souscrite par le locataire, qui couvre les biens et la responsabilité civile de l'occupant, et de l'assurance de copropriété, qui couvre les parties communes et la responsabilité collective du syndicat. La PNO vient compléter ces deux couvertures en couvrant la responsabilité et les dommages du point de vue du propriétaire bailleur.
+    </p>
+    <p>
+      Pour les espaces de stockage, la PNO est particulièrement pertinente car les locataires ne souscrivent pas toujours une assurance, et certains types de sinistres peuvent engager la responsabilité du propriétaire sans être couverts par la copropriété.
+    </p>
+
+    <CalloutBox type="vigilance">
+      La souscription d'une assurance PNO n'est pas légalement obligatoire pour les espaces de stockage en dehors des copropriétés soumises à la loi ALUR. Elle est néanmoins fortement recommandée pour tout propriétaire bailleur, quelle que soit la configuration juridique du bien.
+    </CalloutBox>
+
+    <h2 id="risques-couverts">Les risques couverts et les exclusions typiques</h2>
+    <p>
+      Les garanties proposées dans les contrats PNO varient d'un assureur à l'autre. De manière générale, une PNO couvre tout ou partie des risques suivants :
+    </p>
+    <ul>
+      <li><strong>Responsabilité civile du propriétaire :</strong> dommages causés à des tiers ou au locataire du fait du bien (défaut d'entretien, vice de construction, chute d'un élément du bâtiment) ;</li>
+      <li><strong>Dommages aux biens immobiliers :</strong> incendie, dégât des eaux, tempête, catastrophe naturelle, actes de vandalisme — sur les parties du bien appartenant au propriétaire ;</li>
+      <li><strong>Vacance locative partielle :</strong> certains contrats prévoient une garantie en cas de sinistre rendant le bien temporairement non louable ;</li>
+      <li><strong>Recours des locataires et voisins :</strong> couverture des recours exercés contre le propriétaire à la suite d'un sinistre dont l'origine est dans son bien.</li>
+    </ul>
+    <p>
+      Les exclusions courantes comprennent les dommages résultant d'un défaut d'entretien manifeste et documenté, les sinistres causés intentionnellement, et certains types de sinistres spécifiques selon les contrats (infiltrations d'origine inconnue, dommages liés à l'humidité chronique non déclarée, etc.).
+    </p>
+
+    <CalloutBox type="retenir">
+      Lire attentivement les exclusions de garantie est aussi important que lire les garanties elles-mêmes. Un contrat PNO bon marché peut exclure précisément les risques les plus fréquents pour des espaces de stockage (infiltrations, humidité, dégâts des eaux).
+    </CalloutBox>
+
+    <h2 id="pno-vs-copropriete">PNO et assurance de copropriété : quelle articulation ?</h2>
+    <p>
+      Lorsque le lot de garages est soumis au régime de la copropriété, une assurance de l'immeuble est souscrite par le syndicat des copropriétaires. Elle couvre en principe les parties communes et peut inclure une couverture des parties privatives selon les clauses du contrat et le vote en assemblée générale.
+    </p>
+    <p>
+      L'articulation entre l'assurance collective de la copropriété et la PNO du propriétaire bailleur est parfois source de confusion. En pratique, l'assurance copropriété ne couvre généralement pas la responsabilité civile du propriétaire bailleur en tant qu'individu, ni les dommages causés à des tiers ou à des locataires dont l'origine est une négligence spécifique au propriétaire.
+    </p>
+    <p>
+      Il est recommandé de lire attentivement le contrat de copropriété pour identifier les garanties effectivement couvertes au titre des parties privatives, avant de souscrire une PNO. Cette lecture permet d'éviter les doublons et d'identifier les zones de non-couverture à combler.
+    </p>
+
+    <h2 id="responsabilite-civile">La responsabilité civile du propriétaire</h2>
+    <p>
+      Le propriétaire d'un espace de stockage peut voir sa responsabilité civile engagée dans plusieurs situations. L'article 1244 du Code civil (responsabilité du fait des choses) peut s'appliquer lorsqu'un dommage causé par un élément du bâtiment — chute d'un élément de toiture, effondrement d'une porte, rupture d'une canalisation — affecte un tiers ou le locataire.
+    </p>
+    <p>
+      De même, si un sinistre prenant naissance dans un lot du propriétaire se propage à des parties communes ou à d'autres lots (incendie, dégât des eaux), la responsabilité du propriétaire peut être recherchée par la copropriété ou par d'autres copropriétaires.
+    </p>
+    <p>
+      La garantie responsabilité civile incluse dans la plupart des contrats PNO couvre précisément ces situations. Son absence expose le propriétaire à devoir indemniser les victimes sur ses fonds propres, ce qui peut représenter des montants significatifs en cas de sinistre grave.
+    </p>
+
+    <CalloutBox type="legal">
+      Les dispositions relatives à la responsabilité civile du propriétaire sont issues du Code civil (articles 1240 et suivants). Pour toute situation de sinistre complexe ou de mise en cause de la responsabilité, consultez un avocat spécialisé en droit immobilier.
+    </CalloutBox>
+
+    <h2 id="points-vigilance">Les points de vigilance à l'examen d'un contrat PNO</h2>
+    <p>
+      Avant de souscrire une assurance PNO pour des espaces de stockage, plusieurs points méritent une vérification attentive :
+    </p>
+    <ul>
+      <li><strong>La définition de l'usage assuré.</strong> Certains contrats PNO sont conçus pour des logements et excluent explicitement les garages ou locaux de stockage. Vérifiez que la nature du bien est bien couverte par le contrat proposé.</li>
+      <li><strong>Le montant des franchises.</strong> Une franchise élevée peut rendre la garantie peu utile pour des sinistres de faible ou moyenne importance, qui sont statistiquement les plus fréquents.</li>
+      <li><strong>Les plafonds d'indemnisation.</strong> Vérifiez que les plafonds de garantie sont cohérents avec la valeur du bien et les risques potentiels.</li>
+      <li><strong>Les délais de déclaration.</strong> La plupart des contrats imposent un délai de déclaration du sinistre (souvent 5 jours ouvrés). Le non-respect de ce délai peut entraîner une déchéance de garantie.</li>
+      <li><strong>La couverture en cas de vacance prolongée.</strong> Certains contrats PNO réduisent ou suspendent les garanties si le bien est inoccupé au-delà d'une certaine durée. Ce point est particulièrement important pour les espaces de stockage susceptibles de rester vacants entre deux locataires.</li>
+    </ul>
+
+    <h2 id="cout-pno">Le coût d'une assurance PNO</h2>
+    <p>
+      Le coût d'une assurance PNO pour des espaces de stockage est variable selon les assureurs, la localisation du bien, sa superficie, son état et les garanties souscrites. Les tarifs pratiqués pour des garages et lots de boxes sont généralement plus modestes que pour des logements, en raison de la nature des risques couverts et de la valeur des biens.
+    </p>
+    <p>
+      Il est conseillé de comparer plusieurs offres, en veillant à comparer des garanties équivalentes plutôt que des prix. Un contrat proposant un tarif très bas peut exclure des garanties essentielles. La prime d'assurance PNO constitue une charge annuelle à intégrer dans le calcul de rentabilité nette du bien.
+    </p>
+    <p>
+      Du point de vue fiscal, la prime d'assurance PNO est une charge déductible des revenus fonciers au régime réel, au titre des frais de gestion et d'entretien du bien. Elle n'est pas déductible dans le cadre du régime microfoncier, qui applique un abattement forfaitaire couvrant l'ensemble des charges.
+    </p>
+
+    <div className="mt-8 pt-6 border-t border-slate-100">
+      <h3 className="text-sm font-bold text-slate-700 mb-3">Sources et références</h3>
+      <ul className="space-y-1">
+        <li className="text-xs text-slate-500">→ Service-public.fr — Assurance du propriétaire non occupant (PNO)</li>
+        <li className="text-xs text-slate-500">→ Legifrance.gouv.fr — Code civil, articles 1240 et suivants (responsabilité civile)</li>
+        <li className="text-xs text-slate-500">→ Impots.gouv.fr — Revenus fonciers au régime réel : charges déductibles</li>
+        <li className="text-xs text-slate-500">→ BOFIP (bofip.impots.gouv.fr) — BOI-RFPI-BASE-20-40 (charges déductibles des revenus fonciers)</li>
+      </ul>
+    </div>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      L'assurance PNO est un outil de protection du propriétaire bailleur face aux risques qui ne sont couverts ni par l'assurance de copropriété ni par l'assurance du locataire. Pour des espaces de stockage, elle couvre notamment la responsabilité civile du propriétaire et les dommages aux parties privatives. Avant de souscrire, vérifiez que la nature du bien est bien couverte, examinez les franchises, les plafonds et les conditions de vacance. La prime constitue une charge déductible au régime réel.
+    </CalloutBox>
+  </div>
+);
+
+const miseEnLocationLigneContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      La recherche d'un espace de stockage se fait aujourd'hui majoritairement en ligne. Que ce soit pour un particulier cherchant à stocker ses affaires lors d'un déménagement ou un artisan en quête d'un local pour ses matériaux, le réflexe premier est de consulter une plateforme ou un moteur de recherche. Être visible sur ces canaux est devenu une condition préalable à une mise en location rapide.
+    </p>
+
+    <div className="my-8 bg-[#f8f9fa] rounded-xl border border-slate-100 p-6 flex items-center justify-center">
+      <svg width="100%" height="160" viewBox="0 0 560 160" className="max-w-lg">
+        <rect x="20" y="60" width="90" height="40" rx="6" fill="#1e3a5f" opacity="0.15" stroke="#1e3a5f" strokeWidth="1"/>
+        <text x="65" y="84" textAnchor="middle" fontSize="10" fill="#1e3a5f" fontFamily="sans-serif" fontWeight="600">Annonce</text>
+        <path d="M112 80 L140 80" stroke="#94a3b8" strokeWidth="1.5" markerEnd="url(#arrow)"/>
+        <rect x="142" y="60" width="90" height="40" rx="6" fill="#3b82f6" opacity="0.15" stroke="#3b82f6" strokeWidth="1"/>
+        <text x="187" y="84" textAnchor="middle" fontSize="10" fill="#1d4ed8" fontFamily="sans-serif" fontWeight="600">Contacts</text>
+        <path d="M234 80 L262 80" stroke="#94a3b8" strokeWidth="1.5"/>
+        <rect x="264" y="60" width="90" height="40" rx="6" fill="#8b5cf6" opacity="0.15" stroke="#8b5cf6" strokeWidth="1"/>
+        <text x="309" y="84" textAnchor="middle" fontSize="10" fill="#6d28d9" fontFamily="sans-serif" fontWeight="600">Visites</text>
+        <path d="M356 80 L384 80" stroke="#94a3b8" strokeWidth="1.5"/>
+        <rect x="386" y="60" width="90" height="40" rx="6" fill="#22c55e" opacity="0.15" stroke="#22c55e" strokeWidth="1"/>
+        <text x="431" y="84" textAnchor="middle" fontSize="10" fill="#166534" fontFamily="sans-serif" fontWeight="600">Contrat</text>
+        <text x="65" y="120" textAnchor="middle" fontSize="9" fill="#94a3b8" fontFamily="sans-serif">Diffusion</text>
+        <text x="187" y="120" textAnchor="middle" fontSize="9" fill="#94a3b8" fontFamily="sans-serif">Sélection</text>
+        <text x="309" y="120" textAnchor="middle" fontSize="9" fill="#94a3b8" fontFamily="sans-serif">Qualification</text>
+        <text x="431" y="120" textAnchor="middle" fontSize="9" fill="#94a3b8" fontFamily="sans-serif">Signature</text>
+      </svg>
+    </div>
+
+    <h2 id="canaux-disponibles">Les canaux disponibles pour louer un espace de stockage</h2>
+    <p>
+      Il existe plusieurs types de canaux pour diffuser une offre de location d'espace de stockage. Leur pertinence varie selon la localisation du bien, la cible visée (particuliers ou professionnels) et le niveau de service souhaité par le propriétaire.
+    </p>
+    <ul>
+      <li><strong>Les plateformes immobilières généralistes</strong> : elles offrent une large audience et permettent d'atteindre des locataires potentiels qui consultent déjà ces sites pour d'autres recherches immobilières.</li>
+      <li><strong>Les plateformes spécialisées dans le stockage</strong> : elles concentrent une audience explicitement à la recherche d'espaces de stockage, ce qui améliore la qualité des contacts générés.</li>
+      <li><strong>Les réseaux sociaux et les groupes locaux</strong> : des groupes Facebook de quartier, des forums locaux ou des applications de mise en relation de voisinage permettent d'atteindre des locataires potentiels dans un rayon géographique précis.</li>
+      <li><strong>L'affichage local</strong> : dans certains secteurs — notamment pour des garages en pied d'immeuble ou en résidence — une affiche visible depuis la voirie ou dans les parties communes reste efficace pour capter la demande de proximité.</li>
+      <li><strong>Les agences immobilières locales</strong> : certaines agences gèrent ou diffusent des annonces de garages et boxes. Elles offrent un service clé en main mais prélèvent une commission.</li>
+    </ul>
+
+    <CalloutBox type="retenir">
+      Multiplier les canaux de diffusion augmente mécaniquement le nombre de candidats potentiels et réduit le délai de mise en location. Ce gain doit être mis en regard du temps de gestion que représente la coordination de plusieurs annonces simultanées.
+    </CalloutBox>
+
+    <h2 id="plateformes-generiques">Les plateformes immobilières généralistes</h2>
+    <p>
+      Les grandes plateformes d'annonces immobilières en France permettent de publier des annonces pour des garages, caves et boxes. Elles disposent d'une audience large et d'une forte notoriété, ce qui leur confère un volume de trafic élevé.
+    </p>
+    <p>
+      La publication d'une annonce sur ces plateformes est souvent payante pour les particuliers, avec des options de mise en avant payantes. Le coût de la visibilité est à mettre en perspective avec la durée moyenne de vacance que l'annonce permet d'éviter.
+    </p>
+    <p>
+      Ces plateformes sont particulièrement adaptées lorsque la demande locale est soutenue et que le bien se distingue facilement dans les résultats de recherche (bon état, localisation centrale, prix compétitif). Elles sont moins efficaces dans les zones où la demande est faible, car le volume d'annonces publiées reste faible et la concurrence avec les autres offres est limitée.
+    </p>
+
+    <h2 id="plateformes-specialisees">Les plateformes spécialisées stockage</h2>
+    <p>
+      Des plateformes dédiées à la mise en relation entre propriétaires d'espaces de stockage et locataires se sont développées en France ces dernières années. Elles proposent généralement un modèle de commission sur les premières transactions ou un abonnement, en échange d'une interface de gestion et d'une mise en relation qualifiée.
+    </p>
+    <p>
+      Leur avantage principal est la qualification de l'audience : les locataires qui consultent ces plateformes sont explicitement à la recherche d'un espace de stockage, ce qui réduit le nombre de contacts non pertinents. Certaines proposent également des services annexes (modèles de contrat, gestion des paiements, assurance) qui peuvent faciliter la gestion.
+    </p>
+    <p>
+      La présence sur ce type de plateforme est complémentaire aux plateformes généralistes. Elle est particulièrement pertinente pour les propriétaires gérant plusieurs unités ou souhaitant déléguer une partie de la gestion administrative.
+    </p>
+
+    <h2 id="rediger-annonce">Rédiger une annonce efficace</h2>
+    <p>
+      Une annonce bien rédigée génère davantage de contacts qualifiés et réduit les échanges non aboutis. Plusieurs éléments sont déterminants :
+    </p>
+    <ul>
+      <li><strong>La superficie exacte.</strong> Indiquer la surface en mètres carrés (et si possible les dimensions) permet au candidat d'évaluer immédiatement si l'espace correspond à son besoin.</li>
+      <li><strong>L'accès et la localisation précise.</strong> L'adresse exacte n'est pas toujours nécessaire dans l'annonce, mais la proximité d'un axe ou d'un quartier de référence aide à qualifier l'intérêt. L'accessibilité (plain-pied, accès voiture, ascenseur) doit être précisée.</li>
+      <li><strong>L'état général et les équipements.</strong> Mentionner l'éclairage, le type de fermeture, la présence d'électricité, l'état de la toiture ou du sol permet au candidat d'anticiper les conditions d'usage.</li>
+      <li><strong>Le loyer mensuel charges comprises ou hors charges.</strong> Indiquer clairement ce qui est inclus dans le loyer évite les incompréhensions lors de la prise de contact.</li>
+      <li><strong>Les conditions de location.</strong> Durée minimale, type de contrat, dépôt de garantie demandé : ces informations filtrent naturellement les candidats dont les attentes sont incompatibles avec vos conditions.</li>
+    </ul>
+
+    <CalloutBox type="vigilance">
+      Une annonce imprécise génère des contacts non qualifiés et fait perdre du temps aux deux parties. Investir quelques minutes supplémentaires dans la rédaction de l'annonce améliore significativement la qualité des candidatures.
+    </CalloutBox>
+
+    <h2 id="photos-et-visites">Photographies et visites</h2>
+    <p>
+      Les photos sont le premier critère de sélection d'une annonce en ligne. Un espace photographié sous un bon éclairage, propre et dégagé donne une image plus favorable qu'un espace encombré photographié dans la pénombre, même si les deux espaces sont identiques par ailleurs.
+    </p>
+    <p>
+      Quelques conseils pratiques : photographier l'espace après un nettoyage complet, utiliser un flash ou une lampe supplémentaire pour compenser l'absence d'éclairage naturel, inclure une photo de l'accès extérieur (portail, voie d'accès) et une photo de l'intérieur montrant le sol et la hauteur sous plafond.
+    </p>
+    <p>
+      Concernant les visites, il est recommandé de les organiser en journée pour bénéficier d'un éclairage naturel maximal, et de préparer les réponses aux questions fréquentes (état de la toiture, montant exact des charges, conditions de résiliation, disponibilité d'un accès 24h/24).
+    </p>
+
+    <h2 id="gestion-candidatures">Gérer les candidatures et sélectionner un locataire</h2>
+    <p>
+      La sélection d'un locataire pour un espace de stockage est moins formalisée que pour un logement. Il n'existe pas de dossier type réglementé. Néanmoins, quelques vérifications élémentaires permettent de limiter le risque d'impayé :
+    </p>
+    <ul>
+      <li>Vérifier l'identité du candidat (pièce d'identité valide) ;</li>
+      <li>S'assurer de la cohérence entre l'usage déclaré et le profil du candidat ;</li>
+      <li>Demander une justification de domicile ou d'activité pour évaluer la fiabilité du contact ;</li>
+      <li>Recueillir un numéro de téléphone et une adresse email fonctionnels pour faciliter les échanges futurs.</li>
+    </ul>
+    <p>
+      Pour les espaces loués à des professionnels ou artisans, vérifier l'existence légale de l'entreprise (via le registre SIRENE accessible sur annuaire-entreprises.data.gouv.fr) est une démarche simple qui apporte une information utile sur la viabilité du locataire potentiel.
+    </p>
+
+    <div className="mt-8 pt-6 border-t border-slate-100">
+      <h3 className="text-sm font-bold text-slate-700 mb-3">Sources et références</h3>
+      <ul className="space-y-1">
+        <li className="text-xs text-slate-500">→ Annuaire-entreprises.data.gouv.fr — Vérification de l'existence légale d'une entreprise</li>
+        <li className="text-xs text-slate-500">→ Service-public.fr — Location d'un garage ou d'un parking : droits et obligations</li>
+        <li className="text-xs text-slate-500">→ Legifrance.gouv.fr — Code civil, articles 1709 et suivants (louage de choses)</li>
+      </ul>
+    </div>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      La mise en location en ligne d'un espace de stockage repose sur trois piliers : la visibilité (présence sur les canaux pertinents), la qualité de l'annonce (description précise, bonnes photos) et la gestion efficace des candidatures (réactivité, vérifications élémentaires). Ces pratiques réduisent le délai de mise en location et améliorent la qualité des locataires en place, ce qui limite la vacance et les incidents de gestion.
+    </CalloutBox>
+  </div>
+);
+
+const evaluerDemandeLocativeContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      L'analyse de la demande locative locale est l'une des étapes les moins formalisées — et pourtant les plus déterminantes — d'un projet d'acquisition d'espaces de stockage. Elle conditionne directement le niveau du loyer accessible, la vitesse de relocation en cas de départ d'un locataire, et le risque de vacance structurelle. C'est une investigation à conduire avant toute décision, pas après.
+    </p>
+
+    <div className="my-8 bg-[#f8f9fa] rounded-xl border border-slate-100 p-6 flex items-center justify-center">
+      <svg width="100%" height="200" viewBox="0 0 400 200" className="max-w-sm">
+        <circle cx="200" cy="100" r="80" fill="none" stroke="#1e3a5f" strokeWidth="1.5" opacity="0.3"/>
+        <circle cx="200" cy="100" r="55" fill="none" stroke="#3b82f6" strokeWidth="1.5" opacity="0.4"/>
+        <circle cx="200" cy="100" r="30" fill="#1e3a5f" opacity="0.15" stroke="#1e3a5f" strokeWidth="1.5"/>
+        <text x="200" y="104" textAnchor="middle" fontSize="10" fill="#1e3a5f" fontFamily="sans-serif" fontWeight="600">Zone cible</text>
+        <text x="200" y="162" textAnchor="middle" fontSize="9" fill="#3b82f6" fontFamily="sans-serif">Zone intermédiaire</text>
+        <text x="200" y="188" textAnchor="middle" fontSize="9" fill="#94a3b8" fontFamily="sans-serif">Zone de référence élargie</text>
+      </svg>
+    </div>
+
+    <h2 id="pourquoi-evaluer">Pourquoi évaluer la demande avant d'acheter ?</h2>
+    <p>
+      Le marché des espaces de stockage est par nature très local. La demande dépend de la densité de population, du tissu économique local, de la présence de zones résidentielles à faibles surfaces habitables, et de la concurrence existante. Ces facteurs varient significativement d'un quartier à l'autre, voire d'une rue à l'autre dans certaines configurations urbaines.
+    </p>
+    <p>
+      Une erreur fréquente consiste à raisonner à partir de données générales — "la demande de stockage augmente en France" — pour en déduire qu'un espace spécifique trouvera facilement un locataire. Cette extrapolation est trompeuse. La demande nationale ou régionale ne préjuge pas de la demande dans une zone géographique précise, et encore moins pour un type de bien particulier.
+    </p>
+    <p>
+      L'objectif de l'analyse préalable n'est pas de prédire la rentabilité — ce n'est pas possible avec les données disponibles — mais d'identifier les signaux qui confirment ou infirment l'existence d'une demande locale active. C'est une démarche d'objectivation, pas de validation a posteriori d'une décision déjà prise.
+    </p>
+
+    <CalloutBox type="vigilance">
+      L'analyse de la demande locative est une investigation à conduire personnellement sur le terrain et en ligne, avant de formuler une offre d'achat. Elle ne peut pas être entièrement déléguée à un vendeur ou à un agent dont l'intérêt est de conclure la transaction.
+    </CalloutBox>
+
+    <h2 id="indicateurs-indirects">Les indicateurs indirects de la demande</h2>
+    <p>
+      Il n'existe pas de données statistiques publiques fiables sur la demande locative pour les espaces de stockage à l'échelle locale. L'analyse repose donc sur des indicateurs indirects qui permettent d'inférer le niveau probable de la demande.
+    </p>
+    <p>
+      <strong>La densité de population et la structure du logement.</strong> Dans les zones à forte densité — centres-villes, quartiers à forte proportion d'appartements de petite surface — la demande de stockage complémentaire est généralement plus soutenue que dans les zones pavillonnaires où les habitants disposent de garages et caves intégrés à leur logement.
+    </p>
+    <p>
+      <strong>La mobilité résidentielle.</strong> Les zones connaissant une forte mobilité des ménages — villes universitaires, bassins d'emploi dynamiques, quartiers à forte population de locataires — génèrent plus de besoins de stockage temporaire que les zones à population stable.
+    </p>
+    <p>
+      <strong>La présence d'activités économiques locales.</strong> Artisans, petits commerçants, professions libérales itinérantes : ces acteurs constituent une demande de stockage spécifique (matériaux, équipements, archives) souvent plus stable que la demande résidentielle.
+    </p>
+    <p>
+      <strong>Les projets de rénovation urbaine et de densification.</strong> Des opérations de démolition de pavillons, de transformation d'anciennes zones industrielles ou de construction de logements collectifs peuvent modifier significativement la demande locale à moyen terme.
+    </p>
+
+    <h2 id="observer-offre">Observer l'offre existante</h2>
+    <p>
+      L'analyse de l'offre existante dans la zone est aussi informative que l'analyse directe de la demande. Un marché où l'offre est abondante et les prix bas signale soit une demande insuffisante, soit une concurrence structurelle forte (self-storage professionnel, grande quantité de garages disponibles).
+    </p>
+    <p>
+      Les éléments à observer incluent :
+    </p>
+    <ul>
+      <li>Le nombre d'espaces de stockage en location dans la zone de chalandise immédiate (rayon de 500 mètres à 2 kilomètres selon la configuration urbaine) ;</li>
+      <li>La durée de mise en ligne des annonces actives : une annonce restée non pourvue depuis plusieurs semaines ou mois est un signal de demande insuffisante ou de prix inadapté ;</li>
+      <li>La présence d'acteurs professionnels de self-storage à proximité, qui captent souvent la demande la plus solvable avec des offres flexibles et sécurisées ;</li>
+      <li>Les prix pratiqués par les offres concurrentes actives, qui constituent la fourchette de référence pour positionner un futur loyer.</li>
+    </ul>
+
+    <CalloutBox type="retenir">
+      Observer les annonces non pourvues depuis longtemps est souvent plus instructif que compter les annonces existantes. Une offre abondante peut coexister avec une demande forte ; des annonces vieilles de plusieurs mois signalent quasi systématiquement un déséquilibre entre l'offre et la demande.
+    </CalloutBox>
+
+    <h2 id="annonces-en-ligne">Lire les annonces en ligne : ce qu'elles révèlent</h2>
+    <p>
+      Les plateformes d'annonces immobilières constituent une source d'information directement exploitable pour l'analyse de la demande locale. Plusieurs lectures sont possibles à partir de ces données :
+    </p>
+    <p>
+      <strong>Le nombre d'annonces actives dans la zone.</strong> Une zone avec peu d'annonces peut signifier soit une faible offre (favorable : les locataires potentiels ont peu de choix), soit une faible demande (défavorable : les propriétaires ne prennent même pas la peine de publier car la relocation est lente). Le contexte local permet de distinguer les deux situations.
+    </p>
+    <p>
+      <strong>La date de première mise en ligne.</strong> Sur certaines plateformes, la date de publication de l'annonce est visible. Une annonce récente est neutre ; une annonce publiée depuis plusieurs mois sans avoir trouvé preneur est un signal négatif.
+    </p>
+    <p>
+      <strong>L'évolution des prix demandés.</strong> Si des annonces similaires ont baissé leur prix récemment, cela peut indiquer une pression à la baisse sur le marché local.
+    </p>
+    <p>
+      <strong>Les caractéristiques des biens en offre.</strong> Observer ce que proposent les offres concurrentes — état, surface, accès, équipements — permet de situer le bien envisagé dans le spectre de l'offre locale et d'évaluer son positionnement concurrentiel.
+    </p>
+
+    <h2 id="echanger-localement">Échanger avec les acteurs locaux</h2>
+    <p>
+      L'analyse documentaire et en ligne ne remplace pas la connaissance de terrain. Plusieurs types d'acteurs locaux peuvent apporter des informations qualitatives utiles :
+    </p>
+    <ul>
+      <li><strong>Les agences immobilières locales.</strong> Un agent qui gère ou met en location des garages dans la zone dispose d'une connaissance directe du marché : délai de relocation habituel, profil des locataires, niveau des prix acceptables.</li>
+      <li><strong>Les notaires locaux.</strong> Ils réalisent des transactions sur ce type de bien et ont une vision des prix pratiqués et de l'activité du marché.</li>
+      <li><strong>Les propriétaires de biens similaires dans la zone.</strong> Certains forums ou groupes de propriétaires permettent d'échanger des informations sur les conditions réelles du marché local.</li>
+      <li><strong>Les locataires potentiels eux-mêmes.</strong> Publier une annonce test avant même d'avoir signé le compromis peut permettre de mesurer l'intérêt réel : le nombre de contacts générés en quelques jours donne une indication directe de la demande locale.</li>
+    </ul>
+
+    <CalloutBox type="vigilance">
+      Les informations fournies par le vendeur sur l'état de la demande locale sont à traiter avec prudence : son intérêt est de rassurer l'acheteur sur le potentiel locatif du bien. Croisez systématiquement ces informations avec des sources indépendantes.
+    </CalloutBox>
+
+    <h2 id="limites-analyse">Les limites de l'analyse préliminaire</h2>
+    <p>
+      L'analyse de la demande locative avant achat est nécessaire mais ne garantit pas les résultats futurs. Plusieurs limites méritent d'être gardées à l'esprit :
+    </p>
+    <p>
+      <strong>La demande peut évoluer.</strong> L'arrivée d'un acteur professionnel de self-storage dans la zone, une opération de rénovation urbaine modifiant la structure du quartier, ou un changement du tissu économique local peuvent modifier le niveau de la demande après l'acquisition.
+    </p>
+    <p>
+      <strong>L'analyse porte sur le marché, pas sur le bien spécifique.</strong> Un marché local actif ne garantit pas qu'un bien particulier trouvera facilement un locataire. L'état du bien, son accessibilité, son prix et sa visibilité jouent également un rôle déterminant.
+    </p>
+    <p>
+      <strong>Les données disponibles sont imparfaites.</strong> Les annonces en ligne ne représentent qu'une fraction des transactions réelles. Les transactions de gré à gré, les locations issues du bouche-à-oreille ou les marchés locaux peu numérisés sont sous-représentés dans les données observables.
+    </p>
+
+    <div className="mt-8 pt-6 border-t border-slate-100">
+      <h3 className="text-sm font-bold text-slate-700 mb-3">Sources et références</h3>
+      <ul className="space-y-1">
+        <li className="text-xs text-slate-500">→ INSEE.fr — Données démographiques et de logement par commune (recensement)</li>
+        <li className="text-xs text-slate-500">→ Annuaire-entreprises.data.gouv.fr — Présence d'activités économiques locales</li>
+        <li className="text-xs text-slate-500">→ Geoportail.gouv.fr — Cartographie et occupation des sols</li>
+        <li className="text-xs text-slate-500">→ Notaires.fr — Données de transactions immobilières locales (base DVF)</li>
+      </ul>
+    </div>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      Évaluer la demande locative avant d'acquérir un espace de stockage est une démarche d'investigation multi-sources : données démographiques, observation des annonces actives, échanges avec les acteurs locaux. Elle ne produit pas de certitudes mais permet d'identifier des signaux de marché favorables ou défavorables. Un marché local actif est un prérequis — insuffisant à lui seul — pour envisager un investissement sérieux dans un espace de stockage.
+    </CalloutBox>
+  </div>
+);
+
 // ── Page component ──────────────────────────────────────────────────────────────
 
 export default async function ArticlePage({ params }: Props) {
@@ -718,6 +1217,38 @@ export default async function ArticlePage({ params }: Props) {
       { id: "erreurs-classiques", title: "Les erreurs classiques", level: 2 },
       { id: "revision-du-loyer", title: "La révision du loyer", level: 2 },
       { id: "indexation", title: "L'indexation contractuelle", level: 2 },
+    ],
+    "vacance-locative-espaces-stockage": [
+      { id: "definition-vacance", title: "Qu'est-ce que la vacance locative ?", level: 2 },
+      { id: "causes-vacance", title: "Les principales causes de vacance", level: 2 },
+      { id: "impact-rendement", title: "L'impact sur la rentabilité", level: 2 },
+      { id: "prevention", title: "Les pratiques de prévention", level: 2 },
+      { id: "gestion-vacance", title: "Gérer une période de vacance", level: 2 },
+      { id: "evaluer-risque", title: "Évaluer le risque avant l'achat", level: 2 },
+    ],
+    "assurance-pno-espace-stockage": [
+      { id: "qu-est-ce-que-pno", title: "Qu'est-ce que l'assurance PNO ?", level: 2 },
+      { id: "risques-couverts", title: "Les risques couverts et exclusions", level: 2 },
+      { id: "pno-vs-copropriete", title: "PNO et assurance de copropriété", level: 2 },
+      { id: "responsabilite-civile", title: "La responsabilité civile du propriétaire", level: 2 },
+      { id: "points-vigilance", title: "Les points de vigilance", level: 2 },
+      { id: "cout-pno", title: "Le coût d'une assurance PNO", level: 2 },
+    ],
+    "mise-en-location-espace-stockage-ligne": [
+      { id: "canaux-disponibles", title: "Les canaux disponibles", level: 2 },
+      { id: "plateformes-generiques", title: "Les plateformes généralistes", level: 2 },
+      { id: "plateformes-specialisees", title: "Les plateformes spécialisées", level: 2 },
+      { id: "rediger-annonce", title: "Rédiger une annonce efficace", level: 2 },
+      { id: "photos-et-visites", title: "Photographies et visites", level: 2 },
+      { id: "gestion-candidatures", title: "Gérer les candidatures", level: 2 },
+    ],
+    "evaluer-demande-locative-espace-stockage": [
+      { id: "pourquoi-evaluer", title: "Pourquoi évaluer la demande avant d'acheter ?", level: 2 },
+      { id: "indicateurs-indirects", title: "Les indicateurs indirects de la demande", level: 2 },
+      { id: "observer-offre", title: "Observer l'offre existante", level: 2 },
+      { id: "annonces-en-ligne", title: "Lire les annonces en ligne", level: 2 },
+      { id: "echanger-localement", title: "Échanger avec les acteurs locaux", level: 2 },
+      { id: "limites-analyse", title: "Les limites de l'analyse préliminaire", level: 2 },
     ],
   };
   const tocItems = tocMap[slug] ?? [];
@@ -811,6 +1342,10 @@ export default async function ArticlePage({ params }: Props) {
                     "rentabilite-brute-nette-difference": rentabiliteBruteNetteContent,
                     "bail-location-espace-stockage": bailLocationContent,
                     "fixer-loyer-espace-stockage": fixerLoyerContent,
+                    "vacance-locative-espaces-stockage": vacanceLocativeContent,
+                    "assurance-pno-espace-stockage": assurancePnoContent,
+                    "mise-en-location-espace-stockage-ligne": miseEnLocationLigneContent,
+                    "evaluer-demande-locative-espace-stockage": evaluerDemandeLocativeContent,
                   };
                   const renderContent = contentMap[slug];
                   return renderContent ? renderContent() : (
