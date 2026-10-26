@@ -17,7 +17,8 @@ const outils: { icon: string; title: string; description: string; features: stri
     description:
       "Estimez la rentabilité brute et nette d'un espace de stockage en intégrant le prix d'achat, les loyers observés, les charges, la vacance et la fiscalité.",
     features: ["Rentabilité brute et nette", "Simulation de vacance", "Impact fiscal estimé"],
-    status: "En développement",
+    status: "Disponible",
+    href: "/outils/calculateur-rentabilite",
   },
   {
     icon: "✅",
