@@ -4,6 +4,7 @@ import SectionHeader from "@/components/ui/SectionHeader";
 import ArticleCard from "@/components/ui/ArticleCard";
 import NewsletterBlock from "@/components/ui/NewsletterBlock";
 import CalloutBox from "@/components/ui/CalloutBox";
+import EbookLeadMagnet from "@/components/ui/EbookLeadMagnet";
 import { getArticlesByCategory } from "@/lib/articles";
 
 export const metadata: Metadata = {
@@ -177,9 +178,57 @@ export default function InvestirPage() {
         </div>
       </section>
 
+      {/* Outils disponibles */}
+      <section className="bg-[#f8f9fa] py-12 md:py-16 border-b border-slate-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionHeader
+            label="Outils gratuits"
+            title="Par où commencer ?"
+            description="Trois outils pratiques pour structurer votre analyse, de la première visite au calcul de rentabilité."
+          />
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+            {[
+              {
+                href: "/outils/checklist-acquisition",
+                icon: "✅",
+                title: "Checklist d'acquisition",
+                description: "44 points à vérifier avant de signer : bâti, locatif, documents, juridique, financier.",
+                cta: "Accéder à la checklist",
+              },
+              {
+                href: "/outils/calculateur-rentabilite",
+                icon: "🧮",
+                title: "Calculateur de rentabilité",
+                description: "Estimez la rentabilité brute et nette en intégrant loyers, charges, vacance et fiscalité.",
+                cta: "Accéder au calculateur",
+              },
+              {
+                href: "/outils/guide-analyse-projet",
+                icon: "📐",
+                title: "Guide d'analyse d'un projet",
+                description: "Grille d'évaluation structurée sur 6 dimensions : localisation, demande, bâti, copropriété, financier, risques.",
+                cta: "Accéder au guide",
+              },
+            ].map((outil) => (
+              <Link key={outil.href} href={outil.href} className="group bg-white rounded-xl border border-slate-200 hover:border-blue-200 hover:shadow-md p-6 transition-all flex flex-col">
+                <span className="text-3xl mb-3">{outil.icon}</span>
+                <h3 className="font-bold text-[#1a1a2e] text-base mb-2">{outil.title}</h3>
+                <p className="text-sm text-slate-600 leading-relaxed flex-1 mb-4">{outil.description}</p>
+                <span className="text-xs font-semibold text-blue-700 flex items-center gap-1">
+                  {outil.cta}
+                  <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Articles */}
       {articles.length > 0 && (
-        <section className="bg-[#f8f9fa] py-12 border-b border-slate-100">
+        <section className="bg-white py-12 border-b border-slate-100">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-xl font-bold text-[#1a1a2e] mb-6">Articles recommandés</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -191,6 +240,7 @@ export default function InvestirPage() {
         </section>
       )}
 
+      <EbookLeadMagnet variant="large" />
       <NewsletterBlock />
     </>
   );

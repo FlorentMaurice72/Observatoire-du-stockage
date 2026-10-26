@@ -172,9 +172,70 @@ export default function MarchePage() {
         </div>
       </section>
 
+      {/* Questions fréquentes */}
+      <section className="bg-white py-12 md:py-16 border-b border-slate-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl">
+            <SectionHeader
+              label="Questions fréquentes"
+              title="Ce que les investisseurs cherchent à comprendre"
+            />
+            <div className="space-y-5">
+              {[
+                {
+                  q: "Comment mesurer la demande locative dans une zone donnée ?",
+                  a: "Il n'existe pas de base de données publique consolidée sur la demande locative d'espaces de stockage. Les méthodes pratiques incluent l'observation des annonces de location existantes (durée de mise en ligne, fréquence des nouvelles annonces), les échanges avec des agents immobiliers locaux, et la consultation des délais de rotation sur les lots existants. Une vacance faible et un délai de relocation court sont des signaux positifs, mais ils ne préjugent pas des tendances futures.",
+                },
+                {
+                  q: "Existe-t-il des données de prix de transaction sur les garages et boxs ?",
+                  a: "Les données publiques sur les transactions immobilières (DVF — Demandes de valeurs foncières, disponibles sur data.gouv.fr) incluent des transactions sur des biens de type « dépendances » et « places de stationnement ». Ces données sont parcellaires et ne distinguent pas toujours les types d'actifs. Elles peuvent néanmoins servir de point de référence indicatif pour certains secteurs géographiques.",
+                },
+                {
+                  q: "La croissance du self-storage professionnel menace-t-elle les garages individuels ?",
+                  a: "Les deux marchés s'adressent à des segments de demande partiellement différents. Le self-storage professionnel offre des services complémentaires (flexibilité, sécurité, accessibilité) qui peuvent attirer certains clients. Dans les zones où ces acteurs sont bien implantés, la concurrence peut peser sur le niveau des loyers pratiqués. Dans les zones peu couvertes, les garages individuels répondent à une demande de stockage de proximité qui reste structurelle.",
+                },
+                {
+                  q: "Vaut-il mieux investir en zone urbaine ou en zone périphérique ?",
+                  a: "Il n'y a pas de réponse universelle. Les zones urbaines denses offrent généralement une demande locative plus visible et un risque de vacance moindre, mais les prix d'acquisition y sont souvent plus élevés. Les zones périphériques peuvent présenter des rendements bruts apparemment supérieurs, mais la demande peut y être plus fragile et la revente plus difficile. Chaque projet doit être analysé selon les paramètres locaux spécifiques.",
+                },
+              ].map(({ q, a }) => (
+                <div key={q} className="bg-[#f8f9fa] rounded-xl border border-slate-100 p-5">
+                  <h3 className="font-bold text-[#1a1a2e] text-sm mb-2">→ {q}</h3>
+                  <p className="text-sm text-slate-600 leading-relaxed">{a}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA outil */}
+      <section className="bg-[#f8f9fa] py-10 border-b border-slate-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-white rounded-2xl border border-slate-100 shadow-sm p-8 flex flex-col sm:flex-row items-center gap-6">
+            <div className="text-4xl shrink-0">📐</div>
+            <div className="flex-1">
+              <h2 className="font-bold text-[#1a1a2e] text-lg mb-1">Guide d'analyse d'un projet</h2>
+              <p className="text-sm text-slate-600 leading-relaxed">
+                Une grille d'évaluation structurée sur 6 dimensions — localisation, demande locative, état du bien, copropriété, financier, risques — pour analyser méthodiquement un projet d'acquisition.
+              </p>
+            </div>
+            <Link
+              href="/outils/guide-analyse-projet"
+              className="shrink-0 inline-flex items-center gap-2 bg-[#1e3a5f] text-white font-semibold text-sm px-5 py-2.5 rounded-xl hover:bg-[#162d4a] transition-colors"
+            >
+              Accéder au guide
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Articles */}
       {articles.length > 0 && (
-        <section className="bg-[#f8f9fa] py-12 border-b border-slate-100">
+        <section className="bg-white py-12 border-b border-slate-100">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-xl font-bold text-[#1a1a2e] mb-6">Analyses de marché publiées</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">

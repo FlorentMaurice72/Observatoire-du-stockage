@@ -118,9 +118,74 @@ export default function ReglementationPage() {
         </div>
       </section>
 
+      {/* Textes de référence */}
+      <section className="bg-[#f8f9fa] py-12 md:py-16 border-b border-slate-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl">
+            <SectionHeader
+              label="Références"
+              title="Principaux textes à connaître"
+              description="Ces textes constituent les sources primaires sur les principales questions réglementaires. Leur interprétation reste l'affaire d'un professionnel qualifié."
+            />
+            <div className="space-y-3">
+              {[
+                {
+                  source: "Code général des impôts (CGI)",
+                  ref: "Art. 14 et suivants / Art. 28 (régime réel foncier)",
+                  description: "Revenus fonciers : définition, régime micro-foncier, régime réel, déductions admises.",
+                  url: "https://www.legifrance.gouv.fr",
+                },
+                {
+                  source: "BOFIP — Bulletin officiel des finances publiques",
+                  ref: "BOI-RFPI-DECLA-20 (micro-foncier) / BOI-RFPI-BASE (régime réel)",
+                  description: "Doctrine administrative sur la fiscalité des revenus fonciers, seuils et modalités.",
+                  url: "https://bofip.impots.gouv.fr",
+                },
+                {
+                  source: "Code civil",
+                  ref: "Art. 1709 et suivants (bail de droit commun)",
+                  description: "Régime applicable aux contrats de location d'espaces de stockage (hors bail commercial).",
+                  url: "https://www.legifrance.gouv.fr",
+                },
+                {
+                  source: "Code de commerce",
+                  ref: "Art. L. 145-1 et suivants (bail commercial)",
+                  description: "Applicable si le locataire est commerçant et l'espace est affecté à son activité commerciale.",
+                  url: "https://www.legifrance.gouv.fr",
+                },
+                {
+                  source: "Code de la construction et de l'habitation",
+                  ref: "Art. L. 721-1 et suivants (copropriété — obligations du vendeur)",
+                  description: "Documents obligatoires à remettre à l'acquéreur avant le compromis (loi ALUR).",
+                  url: "https://www.legifrance.gouv.fr",
+                },
+                {
+                  source: "Code de l'urbanisme",
+                  ref: "Art. L. 151-1 et suivants (PLU)",
+                  description: "Règles d'usage des sols, changement de destination d'un local, autorisations nécessaires.",
+                  url: "https://www.legifrance.gouv.fr",
+                },
+              ].map((t) => (
+                <div key={t.ref} className="bg-white rounded-xl border border-slate-100 p-4 flex gap-4">
+                  <div className="w-2 bg-[#1e3a5f] rounded-full opacity-20 shrink-0" />
+                  <div>
+                    <p className="font-bold text-[#1a1a2e] text-sm">{t.source}</p>
+                    <p className="text-xs text-blue-700 font-mono mb-1">{t.ref}</p>
+                    <p className="text-xs text-slate-600 leading-relaxed">{t.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <p className="mt-4 text-xs text-slate-400 leading-relaxed">
+              Les références sont indicatives. Consultez directement legifrance.gouv.fr, bofip.impots.gouv.fr ou impots.gouv.fr pour les textes à jour. Toute interprétation de ces textes dans un contexte particulier relève d'un professionnel qualifié.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Articles */}
       {articles.length > 0 && (
-        <section className="bg-[#f8f9fa] py-12 border-b border-slate-100">
+        <section className="bg-white py-12 border-b border-slate-100">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-xl font-bold text-[#1a1a2e] mb-6">Analyses sur la réglementation</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
