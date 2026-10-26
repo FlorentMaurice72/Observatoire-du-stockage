@@ -21,6 +21,7 @@ const footerLinks = {
     { href: "/a-propos", label: "À propos" },
     { href: "/contact", label: "Contact" },
     { href: "/newsletter", label: "Newsletter" },
+    { href: "/ebook", label: "Ebook gratuit" },
     { href: "/mentions-legales", label: "Mentions légales" },
     { href: "/politique-confidentialite", label: "Politique de confidentialité" },
   ],

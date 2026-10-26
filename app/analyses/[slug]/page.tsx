@@ -7,6 +7,7 @@ import CalloutBox from "@/components/ui/CalloutBox";
 import TableOfContents from "@/components/ui/TableOfContents";
 import ArticleCard from "@/components/ui/ArticleCard";
 import NewsletterBlock from "@/components/ui/NewsletterBlock";
+import EbookLeadMagnet from "@/components/ui/EbookLeadMagnet";
 
 const BASE_URL = "https://observatoire-du-stockage.fr";
 
@@ -282,6 +283,9 @@ export default async function ArticlePage({ params }: Props) {
                     Les contenus de l'Observatoire du Stockage sont fournis à titre informatif et pédagogique. Ils ne constituent pas un conseil en investissement, juridique ou fiscal. Consultez un professionnel qualifié avant toute décision.
                   </p>
                 </div>
+
+                {/* Ebook */}
+                <EbookLeadMagnet variant="sidebar" />
 
                 {/* Newsletter */}
                 <div className="bg-white rounded-xl border border-slate-100 shadow-sm overflow-hidden">

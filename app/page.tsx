@@ -3,6 +3,7 @@ import Link from "next/link";
 import ArticleCard from "@/components/ui/ArticleCard";
 import SectionHeader from "@/components/ui/SectionHeader";
 import NewsletterBlock from "@/components/ui/NewsletterBlock";
+import EbookLeadMagnet from "@/components/ui/EbookLeadMagnet";
 import { getLatestArticles, getFeaturedArticles } from "@/lib/articles";
 
 export const metadata: Metadata = {
@@ -350,6 +351,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Ebook lead magnet */}
+      <EbookLeadMagnet variant="large" />
 
       {/* Newsletter */}
       <NewsletterBlock />
