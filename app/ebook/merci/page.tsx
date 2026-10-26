@@ -22,12 +22,23 @@ export default function EbookMerciPage() {
         </span>
 
         <h1 className="text-2xl md:text-3xl font-bold text-[#1a1a2e] leading-tight mb-4">
-          L'ebook est finalisé
+          Votre ebook est prêt
         </h1>
 
-        <p className="text-base text-slate-600 leading-relaxed mb-8">
-          <strong className="text-[#1a1a2e]">De 0 à 34 boxes en 5 ans</strong> est prêt. Le lien de téléchargement sera disponible prochainement. En attendant, retrouvez les analyses et ressources de l'Observatoire.
+        <p className="text-base text-slate-600 leading-relaxed mb-6">
+          <strong className="text-[#1a1a2e]">De 0 à 34 boxes en 5 ans</strong> est disponible en téléchargement immédiat.
         </p>
+
+        <a
+          href="/ebook-de-0-a-34-boxes.pdf"
+          download
+          className="inline-flex items-center gap-2 bg-[#1e3a5f] text-white font-semibold px-8 py-4 rounded-xl hover:bg-[#162d4a] transition-colors text-base mb-8"
+        >
+          <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+          </svg>
+          Télécharger l'ebook (PDF)
+        </a>
 
         <div className="bg-[#f8f9fa] rounded-2xl border border-slate-100 p-6 mb-8 text-left">
           <h2 className="font-bold text-[#1a1a2e] text-sm mb-3">Ce que contient l'ebook</h2>
