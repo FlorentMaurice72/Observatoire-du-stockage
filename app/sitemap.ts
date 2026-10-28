@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { articles } from "@/lib/articles";
+import { villes } from "@/lib/villes";
 
 const BASE_URL = "https://observatoire-du-stockage.fr";
 
@@ -25,6 +26,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/politique-confidentialite`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.2 },
   ];
 
+  const villePages: MetadataRoute.Sitemap = villes.map((v) => ({
+    url: `${BASE_URL}/marche/${v.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
   const articlePages: MetadataRoute.Sitemap = articles.map((article) => ({
     url: `${BASE_URL}/analyses/${article.slug}`,
     lastModified: new Date(article.date),
@@ -32,5 +40,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: article.featured ? 0.9 : 0.7,
   }));
 
-  return [...staticPages, ...articlePages];
+  return [...staticPages, ...villePages, ...articlePages];
 }
