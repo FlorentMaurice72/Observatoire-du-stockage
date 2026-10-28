@@ -2520,6 +2520,56 @@ export default async function ArticlePage({ params }: Props) {
                   </div>
                 </div>
 
+                {/* Outils recommandés selon catégorie */}
+                {(() => {
+                  const categoryTools: Record<string, { href: string; icon: string; label: string }[]> = {
+                    investissement: [
+                      { href: "/outils/calculateur-rentabilite", icon: "🧮", label: "Calculateur de rentabilité" },
+                      { href: "/outils/checklist-acquisition", icon: "✅", label: "Checklist d'acquisition" },
+                      { href: "/outils/guide-analyse-projet", icon: "📐", label: "Guide d'analyse d'un projet" },
+                    ],
+                    exploitation: [
+                      { href: "/outils/suivi-locatif", icon: "📋", label: "Suivi locatif" },
+                      { href: "/outils/guide-analyse-projet", icon: "📐", label: "Guide d'analyse d'un projet" },
+                      { href: "/outils/calculateur-rentabilite", icon: "🧮", label: "Calculateur de rentabilité" },
+                    ],
+                    reglementation: [
+                      { href: "/outils/modele-contrat-commente", icon: "📄", label: "Modèle de contrat commenté" },
+                      { href: "/outils/checklist-acquisition", icon: "✅", label: "Checklist d'acquisition" },
+                      { href: "/outils/guide-analyse-projet", icon: "📐", label: "Guide d'analyse d'un projet" },
+                    ],
+                    marche: [
+                      { href: "/marche", icon: "📍", label: "Analyses locales par ville" },
+                      { href: "/outils/calculateur-rentabilite", icon: "🧮", label: "Calculateur de rentabilité" },
+                      { href: "/outils/guide-analyse-projet", icon: "📐", label: "Guide d'analyse d'un projet" },
+                    ],
+                  };
+                  const tools = categoryTools[article.category];
+                  if (!tools) return null;
+                  return (
+                    <div className="bg-[#1e3a5f] rounded-xl p-5 text-white">
+                      <h3 className="font-bold text-sm mb-1">Outils pratiques</h3>
+                      <p className="text-blue-200 text-xs leading-relaxed mb-3">Ressources gratuites liées à cet article.</p>
+                      <ul className="space-y-1.5">
+                        {tools.map((t) => (
+                          <li key={t.href}>
+                            <Link
+                              href={t.href}
+                              className="flex items-center gap-2 text-xs font-medium text-blue-100 hover:text-white py-1 transition-colors"
+                            >
+                              <span>{t.icon}</span>
+                              <span>{t.label}</span>
+                              <svg className="w-3 h-3 ml-auto shrink-0 opacity-60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                              </svg>
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  );
+                })()}
+
                 {/* Rubriques liées */}
                 <div className="bg-white rounded-xl border border-slate-100 shadow-sm p-5">
                   <h3 className="font-bold text-[#1a1a2e] text-xs uppercase tracking-wider mb-3">
