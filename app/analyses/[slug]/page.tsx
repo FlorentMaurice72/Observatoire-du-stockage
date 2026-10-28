@@ -2999,6 +2999,57 @@ export default async function ArticlePage({ params }: Props) {
       { id: "externaliser", title: "Externaliser la gestion : quand et comment ?", level: 2 },
       { id: "structure-juridique", title: "La question de la structure juridique à l'échelle", level: 2 },
     ],
+    "prix-garages-donnees-dvf": [
+      { id: "qu-est-ce-que-dvf", title: "Qu'est-ce que la base DVF ?", level: 2 },
+      { id: "garages-dans-dvf", title: "Les garages dans la base DVF", level: 2 },
+      { id: "ce-que-revele-dvf", title: "Ce que révèlent les données", level: 2 },
+      { id: "comment-utiliser-dvf", title: "Comment utiliser DVF dans une analyse ?", level: 2 },
+    ],
+    "travaux-garage-loue-responsabilite": [
+      { id: "principe-general", title: "Le principe général : le droit commun s'applique", level: 2 },
+      { id: "obligation-bailleur", title: "Les obligations du bailleur", level: 2 },
+      { id: "obligation-locataire", title: "Les obligations du locataire", level: 2 },
+      { id: "role-du-contrat", title: "Le rôle central du contrat", level: 2 },
+      { id: "travaux-amelioration", title: "Les travaux d'amélioration", level: 2 },
+    ],
+    "investir-garage-zone-rurale": [
+      { id: "atouts-apparents", title: "Les atouts apparents : prix et rendement brut", level: 2 },
+      { id: "fragilite-demande", title: "La fragilité de la demande locative en zone peu dense", level: 2 },
+      { id: "liquidite-revente", title: "La liquidité et la revente", level: 2 },
+      { id: "types-demande-rural", title: "Les types de demande qui persistent en zone rurale", level: 2 },
+      { id: "precautions-avant-achat", title: "Précautions spécifiques avant d'investir", level: 2 },
+    ],
+    "tva-location-garage": [
+      { id: "principe-exoneration", title: "Le principe : l'exonération de TVA", level: 2 },
+      { id: "cas-tva-applicable", title: "Les cas où la TVA peut s'appliquer", level: 2 },
+      { id: "impact-sur-loyers", title: "L'impact de la TVA sur les loyers et la rentabilité", level: 2 },
+      { id: "point-vigilance-acquisition", title: "Point de vigilance lors d'une acquisition", level: 2 },
+    ],
+    "negocier-prix-achat-lot-garages": [
+      { id: "preparer-negociation", title: "Préparer la négociation", level: 2 },
+      { id: "leviers-negociation", title: "Les leviers de négociation", level: 2 },
+      { id: "motivation-vendeur", title: "Comprendre la motivation du vendeur", level: 2 },
+      { id: "erreurs-a-eviter", title: "Les erreurs à éviter", level: 2 },
+    ],
+    "augmenter-loyer-garage": [
+      { id: "indexation-contractuelle", title: "L'indexation contractuelle", level: 2 },
+      { id: "renegociation-amiable", title: "La renégociation amiable en cours de bail", level: 2 },
+      { id: "changement-locataire", title: "Le levier le plus efficace : le changement de locataire", level: 2 },
+      { id: "erreurs-a-eviter", title: "Les erreurs à éviter", level: 2 },
+    ],
+    "garage-bail-commercial-ou-civil": [
+      { id: "conditions-bail-commercial", title: "Conditions d'application du bail commercial", level: 2 },
+      { id: "consequences-bail-commercial", title: "Les conséquences d'un bail commercial", level: 2 },
+      { id: "contrat-civil-professionnel", title: "Le contrat civil avec un professionnel", level: 2 },
+      { id: "importance-redaction", title: "L'importance de la rédaction du contrat", level: 2 },
+    ],
+    "diagnostic-performance-energetique-garage": [
+      { id: "dpe-garage", title: "Le DPE : non obligatoire pour les garages", level: 2 },
+      { id: "diagnostic-amiante", title: "Le diagnostic amiante", level: 2 },
+      { id: "erp-zones-risques", title: "L'état des risques et pollutions (ERP)", level: 2 },
+      { id: "loi-carrez", title: "La loi Carrez en copropriété", level: 2 },
+      { id: "ce-qui-ne-sapplique-pas", title: "Ce qui ne s'applique généralement pas aux garages", level: 2 },
+    ],
   };
   const tocItems = tocMap[slug] ?? [];
 
@@ -3103,6 +3154,14 @@ export default async function ArticlePage({ params }: Props) {
                     "lot-garages-occupe-ou-vacant": lotOccupeOuVacantContent,
                     "acteurs-self-storage-france": acteursSelfStorageContent,
                     "structurer-gestion-plusieurs-unites-stockage": structurerGestionContent,
+                    "prix-garages-donnees-dvf": prixGaragesDonneesDvfContent,
+                    "travaux-garage-loue-responsabilite": travauxGarageLoueResponsabiliteContent,
+                    "investir-garage-zone-rurale": investirGarageZoneRuraleContent,
+                    "tva-location-garage": tvaLocationGarageContent,
+                    "negocier-prix-achat-lot-garages": negocierPrixAchatLotGaragesContent,
+                    "augmenter-loyer-garage": augmenterLoyerGarageContent,
+                    "garage-bail-commercial-ou-civil": garageBailCommercialOuCivilContent,
+                    "diagnostic-performance-energetique-garage": diagnosticPerformanceEnergetiqueGarageContent,
                   };
                   const renderContent = contentMap[slug];
                   return renderContent ? renderContent() : (
