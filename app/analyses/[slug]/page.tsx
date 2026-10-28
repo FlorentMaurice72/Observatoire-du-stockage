@@ -3287,10 +3287,37 @@ export default async function ArticlePage({ params }: Props) {
                   );
                 })()}
 
-                {/* Rubriques liées */}
+                {/* Articles liés */}
+                {relatedArticles.length > 0 && (
+                  <div className="bg-white rounded-xl border border-slate-100 shadow-sm p-5">
+                    <h3 className="font-bold text-[#1a1a2e] text-xs uppercase tracking-wider mb-3">
+                      Articles liés
+                    </h3>
+                    <ul className="space-y-3">
+                      {relatedArticles.map((a) => (
+                        <li key={a.slug}>
+                          <Link
+                            href={`/analyses/${a.slug}`}
+                            className="flex items-start gap-2 text-xs text-slate-600 hover:text-blue-700 transition-colors leading-relaxed group"
+                          >
+                            <svg className="w-3 h-3 text-slate-300 shrink-0 mt-0.5 group-hover:text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                            </svg>
+                            {a.title}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                    <Link href="/analyses" className="block mt-3 text-xs text-blue-700 hover:underline">
+                      Toutes les analyses →
+                    </Link>
+                  </div>
+                )}
+
+                {/* Rubriques */}
                 <div className="bg-white rounded-xl border border-slate-100 shadow-sm p-5">
                   <h3 className="font-bold text-[#1a1a2e] text-xs uppercase tracking-wider mb-3">
-                    Approfondir
+                    Explorer
                   </h3>
                   <ul className="space-y-2">
                     {[

@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { villes, getVilleBySlug } from "@/lib/villes";
 import NewsletterBlock from "@/components/ui/NewsletterBlock";
 import CalloutBox from "@/components/ui/CalloutBox";
-import { getArticlesByCategory } from "@/lib/articles";
+import { getArticlesByCategory, getArticleBySlug } from "@/lib/articles";
 import ArticleCard from "@/components/ui/ArticleCard";
 
 const BASE_URL = "https://observatoire-du-stockage.fr";
@@ -46,6 +46,13 @@ export default async function VillePage({ params }: Props) {
   if (!ville) notFound();
 
   const articlesMarch = getArticlesByCategory("marche").slice(0, 3);
+
+  const keyInvestArticles = [
+    "evaluer-demande-locative-espace-stockage",
+    "prix-garages-donnees-dvf",
+    "due-diligence-lot-garages",
+    "investir-box-stockage-fondamentaux",
+  ].map((slug) => getArticleBySlug(slug)).filter(Boolean);
 
   return (
     <>
@@ -203,6 +210,28 @@ export default async function VillePage({ params }: Props) {
                   <strong>Rappel :</strong> Une analyse de marché locale ne remplace pas une due diligence complète. Vérifiez les données sur le terrain, consultez les annonces récentes et faites appel à un professionnel de l'immobilier local avant toute décision.
                 </p>
               </div>
+
+              {/* Articles liés à l'investissement */}
+              {keyInvestArticles.length > 0 && (
+                <div className="bg-white rounded-xl border border-slate-100 p-5">
+                  <h3 className="font-bold text-[#1a1a2e] text-sm mb-3">Pour aller plus loin</h3>
+                  <ul className="space-y-2">
+                    {keyInvestArticles.map((a) => a && (
+                      <li key={a.slug}>
+                        <Link
+                          href={`/analyses/${a.slug}`}
+                          className="text-xs text-slate-600 hover:text-blue-700 transition-colors leading-relaxed flex items-start gap-2"
+                        >
+                          <svg className="w-3 h-3 text-slate-300 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                          </svg>
+                          {a.title}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
 
               {/* Autres villes */}
               <div className="bg-white rounded-xl border border-slate-100 p-5">
