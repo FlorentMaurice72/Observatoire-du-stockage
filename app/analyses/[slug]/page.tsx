@@ -1706,6 +1706,492 @@ const nomPropreSocieteContent = () => (
   </div>
 );
 
+const financerAchatGaragesContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      Financer l'achat d'un lot de garages ne se fait pas de la même façon qu'un investissement résidentiel classique. Les banques appréhendent différemment ce type d'actif, les exigences d'apport peuvent varier, et la structure juridique choisie influence directement les modalités du crédit. Autant de paramètres à anticiper avant de consulter un établissement financier.
+    </p>
+
+    <div className="my-8 bg-[#f8f9fa] rounded-xl border border-slate-100 p-6 flex items-center justify-center">
+      <svg width="100%" height="160" viewBox="0 0 500 160" className="max-w-lg">
+        <text x="10" y="20" fontSize="11" fill="#94a3b8" fontFamily="sans-serif">Structure de financement — exemple illustratif</text>
+        {/* Barre apport */}
+        <rect x="10" y="35" width="100" height="40" rx="4" fill="#22c55e" opacity="0.7"/>
+        <text x="60" y="60" textAnchor="middle" fontSize="10" fill="white" fontFamily="sans-serif" fontWeight="bold">Apport</text>
+        {/* Barre crédit */}
+        <rect x="115" y="35" width="250" height="40" rx="4" fill="#1e3a5f" opacity="0.75"/>
+        <text x="240" y="60" textAnchor="middle" fontSize="10" fill="white" fontFamily="sans-serif" fontWeight="bold">Crédit immobilier</text>
+        {/* Frais */}
+        <rect x="370" y="35" width="80" height="40" rx="4" fill="#94a3b8" opacity="0.6"/>
+        <text x="410" y="60" textAnchor="middle" fontSize="10" fill="white" fontFamily="sans-serif" fontWeight="bold">Frais</text>
+        {/* Légende */}
+        <text x="10" y="105" fontSize="10" fill="#94a3b8" fontFamily="sans-serif">Apport : variable selon la banque et le profil</text>
+        <text x="10" y="120" fontSize="10" fill="#94a3b8" fontFamily="sans-serif">Crédit : durée et taux à négocier selon le dossier</text>
+        <text x="10" y="135" fontSize="10" fill="#94a3b8" fontFamily="sans-serif">Frais : notaire, agence, travaux éventuels</text>
+      </svg>
+    </div>
+
+    <h2 id="banques-et-garages">1. Comment les banques appréhendent ce type d'actif</h2>
+    <p>
+      Les lots de garages et les espaces de stockage ne bénéficient pas du même traitement bancaire que l'immobilier résidentiel. Plusieurs raisons expliquent cette différence d'approche.
+    </p>
+    <p>
+      D'abord, la liquidité de ces actifs est généralement considérée comme moindre. En cas de défaut de remboursement et de saisie, la banque estime que la revente d'un lot de garages peut prendre plus de temps et s'avérer moins prévisible qu'un appartement. Cette perception influe sur le niveau de risque attribué au dossier.
+    </p>
+    <p>
+      Ensuite, les revenus locatifs issus de garages sont perçus comme moins stables que ceux d'un logement, dont la demande est structurellement soutenue. La vacance locative possible, la difficulté à évaluer le marché local, et l'absence de données de référence standardisées contribuent à cette réserve.
+    </p>
+    <p>
+      Enfin, toutes les banques ne financent pas ce type d'actif avec la même appétence. Certains établissements, notamment les grandes banques de réseau, peuvent être plus réticents que des établissements régionaux ou des courtiers spécialisés dans l'investissement locatif.
+    </p>
+
+    <CalloutBox type="vigilance">
+      Ne présumez pas qu'une banque qui finance votre résidence principale financera automatiquement votre investissement en garages dans les mêmes conditions. Renseignez-vous en amont sur la politique de l'établissement vis-à-vis de ce type d'actif avant de monter un dossier complet.
+    </CalloutBox>
+
+    <h2 id="apport-attendu">2. Le niveau d'apport généralement attendu</h2>
+    <p>
+      Le niveau d'apport exigé pour un investissement locatif en espaces de stockage dépend de plusieurs facteurs : l'établissement prêteur, le profil de l'emprunteur, la qualité du bien, et l'environnement de taux au moment de la demande.
+    </p>
+    <p>
+      En règle générale, les banques sont plus exigeantes en termes d'apport sur les investissements locatifs que sur les résidences principales. Pour un bien de type "garages", cet apport peut être plus élevé encore, certains établissements demandant que l'emprunteur couvre non seulement les frais de notaire mais également une fraction plus importante du prix d'acquisition.
+    </p>
+    <p>
+      Il est difficile de donner un chiffre universel : les pratiques varient d'un établissement à l'autre et évoluent avec les conditions de marché. La meilleure approche est de consulter plusieurs banques ou un courtier spécialisé pour obtenir des offres comparables.
+    </p>
+
+    <CalloutBox type="retenir">
+      Prévoyez systématiquement de couvrir les frais de notaire (généralement entre 7 et 8 % du prix d'acquisition pour un bien ancien) par votre apport personnel, en complément de l'éventuelle fraction du prix demandée par la banque. Ces frais ne sont jamais financés par le crédit dans les conditions standards.
+    </CalloutBox>
+
+    <h2 id="capacite-emprunt">3. La capacité d'emprunt et le calcul de la banque</h2>
+    <p>
+      La banque évalue la solvabilité de l'emprunteur selon des critères précis. Pour un investissement locatif, deux approches coexistent selon les établissements.
+    </p>
+    <p>
+      <strong>L'approche "différentielle"</strong> consiste à intégrer les revenus locatifs attendus dans le calcul de la capacité d'emprunt, en ne retenant qu'un pourcentage de ces revenus (souvent entre 70 et 80 % pour tenir compte des charges, de la vacance et de la fiscalité). Cette approche est plus favorable à l'emprunteur.
+    </p>
+    <p>
+      <strong>L'approche "globale"</strong> additionne simplement les charges du nouveau crédit aux charges existantes, sans tenir compte des revenus locatifs potentiels. Elle est plus conservative et peut aboutir à un refus même pour un projet dont la rentabilité est avérée.
+    </p>
+    <p>
+      Pour les garages, la banque demandera généralement à voir les baux en cours ou, à défaut, une estimation de loyer basée sur le marché local. Un lot entièrement vacant présente un risque locatif perçu plus important et peut nécessiter un dossier de présentation plus solide.
+    </p>
+
+    <h2 id="structure-acquisition">4. La structure d'acquisition et son impact sur le financement</h2>
+    <p>
+      Selon que vous acquérez en nom propre, via une SCI à l'IR ou via une société à l'IS, les conditions de financement peuvent varier significativement.
+    </p>
+    <p>
+      <strong>En nom propre</strong> : le financement est accordé à la personne physique. Les revenus locatifs sont traités comme des revenus fonciers. La capacité d'emprunt est évaluée sur la base des revenus personnels et des charges existantes.
+    </p>
+    <p>
+      <strong>Via une SCI à l'IR</strong> : la banque peut financer la SCI ou l'associé personne physique selon les cas. Dans une SCI à l'IR, les résultats sont transparents fiscalement et remontent dans la déclaration des associés. La banque regarde généralement les revenus des associés pour évaluer la solvabilité.
+    </p>
+    <p>
+      <strong>Via une société à l'IS</strong> : le financement peut être accordé à la société elle-même, sous réserve qu'elle présente des garanties suffisantes. Pour une société récente ou sans historique de résultats, les banques peuvent demander une caution personnelle des dirigeants.
+    </p>
+
+    <CalloutBox type="legal">
+      Le choix de la structure d'acquisition a des conséquences fiscales, patrimoniales et financières importantes qui dépassent la seule question du crédit. Consultez un expert-comptable ou un conseiller fiscal avant de décider. Ce choix est difficile à modifier après la signature.
+    </CalloutBox>
+
+    <h2 id="negocier-conditions">5. Négocier les conditions de crédit</h2>
+    <p>
+      Comme tout crédit immobilier, les conditions d'un financement pour un lot de garages peuvent être négociées. Plusieurs éléments sont en jeu.
+    </p>
+    <p>
+      <strong>Le taux d'intérêt</strong> dépend du profil de l'emprunteur, de la durée du crédit et du contexte de marché. La mise en concurrence de plusieurs établissements, notamment via un courtier, permet souvent d'obtenir des conditions plus favorables.
+    </p>
+    <p>
+      <strong>La durée du crédit</strong> influence directement la mensualité et le coût total du financement. Une durée plus longue réduit la mensualité mais augmente le coût total des intérêts. Le choix optimal dépend de la rentabilité nette du projet et de la stratégie patrimoniale de l'investisseur.
+    </p>
+    <p>
+      <strong>Les garanties demandées</strong> (hypothèque, PPD, caution) ont un coût et une souplesse différents. L'hypothèque est plus coûteuse à mettre en place mais libère l'emprunteur plus facilement en cas de revente anticipée si la banque accepte une mainlevée.
+    </p>
+
+    <h2 id="avant-de-solliciter">6. Ce qu'il faut préparer avant de solliciter une banque</h2>
+    <p>
+      Un dossier de financement solide facilite l'instruction et renforce la crédibilité du projet aux yeux de la banque. Les éléments à préparer incluent :
+    </p>
+    <ul>
+      <li>Les documents personnels habituels (avis d'imposition, bulletins de salaire ou bilans si indépendant, relevés bancaires).</li>
+      <li>Les documents relatifs au bien : compromis ou promesse de vente, état locatif si le bien est occupé, diagnostics techniques.</li>
+      <li>Une présentation chiffrée du projet : prix d'acquisition, loyers mensuels constatés ou estimés, charges annuelles, rendement brut et net estimé.</li>
+      <li>Un plan de financement clair : montant emprunté souhaité, apport disponible, durée envisagée.</li>
+    </ul>
+    <p>
+      Plus le dossier est documenté et cohérent, plus la banque sera en mesure d'évaluer le risque et de formuler une offre adaptée. Un projet présenté de façon approximative ou sans justification des loyers attendus peut être rejeté ou conditionné à des garanties supplémentaires.
+    </p>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      Financer un lot de garages demande une préparation spécifique : toutes les banques ne traitent pas ce type d'actif de la même façon, le niveau d'apport attendu peut être plus élevé que pour un bien résidentiel, et la structure d'acquisition choisie a des conséquences directes sur les conditions de financement. Consulter plusieurs établissements ou un courtier spécialisé est fortement recommandé pour obtenir les meilleures conditions et s'assurer que le projet est finançable avant de s'engager.
+    </CalloutBox>
+  </div>
+);
+
+const lotOccupeOuVacantContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      La question "occupé ou vacant ?" est l'une des premières que se pose un investisseur face à une opportunité d'acquisition. Elle n'a pas de réponse universelle : les deux situations présentent des avantages et des risques réels, et le choix dépend autant du projet de l'investisseur que de la qualité des locataires et du marché local.
+    </p>
+
+    <div className="my-8 bg-[#f8f9fa] rounded-xl border border-slate-100 p-6 flex items-center justify-center">
+      <svg width="100%" height="180" viewBox="0 0 560 180" className="max-w-2xl">
+        <text x="140" y="20" textAnchor="middle" fontSize="11" fill="#1e3a5f" fontFamily="sans-serif" fontWeight="bold">Occupé</text>
+        <text x="420" y="20" textAnchor="middle" fontSize="11" fill="#1e3a5f" fontFamily="sans-serif" fontWeight="bold">Vacant</text>
+        {[
+          ["Rendement immédiat", "#22c55e", "#f59e0b"],
+          ["Liberté de gestion", "#f59e0b", "#22c55e"],
+          ["Risque à l'entrée", "#f59e0b", "#22c55e"],
+          ["Prix de négociation", "#94a3b8", "#22c55e"],
+          ["Complexité due diligence", "#f59e0b", "#22c55e"],
+        ].map(([label, colorLeft, colorRight], i) => (
+          <g key={label as string}>
+            <text x="270" y={45 + i * 28} textAnchor="middle" fontSize="10" fill="#64748b" fontFamily="sans-serif">{label as string}</text>
+            <rect x="60" y={33 + i * 28} width="180" height="16" rx="3" fill={colorLeft as string} opacity="0.6"/>
+            <rect x="310" y={33 + i * 28} width="180" height="16" rx="3" fill={colorRight as string} opacity="0.6"/>
+          </g>
+        ))}
+        <rect x="10" y="165" width="12" height="8" rx="2" fill="#22c55e" opacity="0.7"/>
+        <text x="27" y="172" fontSize="9" fill="#64748b" fontFamily="sans-serif">Favorable</text>
+        <rect x="100" y="165" width="12" height="8" rx="2" fill="#f59e0b" opacity="0.7"/>
+        <text x="117" y="172" fontSize="9" fill="#64748b" fontFamily="sans-serif">Variable / vigilance</text>
+        <rect x="230" y="165" width="12" height="8" rx="2" fill="#94a3b8" opacity="0.7"/>
+        <text x="247" y="172" fontSize="9" fill="#64748b" fontFamily="sans-serif">Neutre</text>
+      </svg>
+    </div>
+
+    <h2 id="lot-occupe-avantages">1. Lot occupé : les avantages</h2>
+    <p>
+      Acquérir un lot dont les unités sont partiellement ou totalement louées présente plusieurs avantages concrets.
+    </p>
+    <p>
+      <strong>Un rendement immédiat.</strong> Dès la signature de l'acte de vente et le transfert des baux, les loyers commencent à être perçus. Il n'y a pas de période de vacance initiale à financer. Pour un investisseur qui emprunte, cela signifie que les mensualités de crédit peuvent être partiellement couvertes par les revenus locatifs dès le premier mois.
+    </p>
+    <p>
+      <strong>Une demande locative vérifiée.</strong> La présence de locataires en place est une preuve concrète que des personnes sont prêtes à louer ce type de bien dans cette zone. C'est un signal de marché que ne peut pas offrir un bien vacant.
+    </p>
+    <p>
+      <strong>Un historique disponible.</strong> Le vendeur peut fournir des quittances de loyers passés, un historique des paiements, des informations sur la durée des locations. Ces éléments permettent de valider le niveau de loyer pratiqué et la fiabilité des locataires.
+    </p>
+
+    <h2 id="lot-occupe-vigilance">2. Lot occupé : les points de vigilance</h2>
+    <p>
+      La présence de locataires n'est pas sans risques. Un lot occupé mérite une analyse approfondie avant signature.
+    </p>
+    <p>
+      <strong>La qualité des locataires en place.</strong> Des locataires anciens, avec des loyers inférieurs au marché ou des impayés récurrents, peuvent hériter du nouveau propriétaire. Demandez les quittances des 12 derniers mois et vérifiez la concordance avec les relevés bancaires du vendeur.
+    </p>
+    <p>
+      <strong>Le niveau des loyers.</strong> Un loyer maintenu bas depuis plusieurs années peut être difficile à revaloriser sans risque de départ du locataire. À l'inverse, un loyer déjà au niveau du marché laisse peu de marge d'amélioration.
+    </p>
+    <p>
+      <strong>Les baux transmis.</strong> Les baux en cours se transfèrent à l'acquéreur avec leurs conditions existantes. Vérifiez les durées restantes, les clauses de révision et les conditions de résiliation. Un bail avec une clause d'indexation inactive depuis plusieurs années peut représenter un manque à gagner significatif.
+    </p>
+
+    <CalloutBox type="vigilance">
+      Méfiez-vous des lots présentés comme "100 % occupés" sans documentation probante. Certains vendeurs peuplent temporairement un lot avant la vente avec des locataires de complaisance ou des loyers fictifs. Demandez systématiquement les copies des contrats et des justificatifs de paiement.
+    </CalloutBox>
+
+    <h2 id="lot-vacant-avantages">3. Lot vacant : les avantages</h2>
+    <p>
+      Un lot sans locataire au moment de l'acquisition offre une liberté totale dès l'entrée en possession.
+    </p>
+    <p>
+      <strong>Liberté de sélection des locataires.</strong> L'investisseur choisit lui-même ses futurs locataires, fixe les loyers selon le marché actuel, et choisit le type de contrat qu'il souhaite utiliser.
+    </p>
+    <p>
+      <strong>Possibilité de réaliser des travaux sans contrainte.</strong> Remettre en état les unités, améliorer la sécurité, repeindre ou remplacer les portes peut se faire sans contrainte d'occupation. Ces améliorations peuvent justifier un positionnement tarifaire plus élevé.
+    </p>
+    <p>
+      <strong>Levier de négociation sur le prix.</strong> Un lot vacant est moins "bankable" pour un acquéreur non averti, et certains vendeurs sont prêts à consentir une décote. Si la vacance résulte d'une mauvaise gestion plutôt que d'un manque de demande, l'acquéreur peut capter cette valeur.
+    </p>
+
+    <h2 id="lot-vacant-risques">4. Lot vacant : les risques</h2>
+    <p>
+      La vacance initiale comporte des risques réels qui méritent d'être évalués avant de s'engager.
+    </p>
+    <p>
+      <strong>Période sans revenus.</strong> Le temps nécessaire pour trouver des locataires, signer les contrats et encaisser les premiers loyers peut varier de quelques semaines à plusieurs mois selon la zone. Pendant ce temps, les charges fixes continuent de courir.
+    </p>
+    <p>
+      <strong>Validation de la demande locale.</strong> Si le lot est vacant depuis longtemps, il faut s'interroger sur la cause : est-ce un problème de gestion, de loyer trop élevé, ou un manque réel de demande dans la zone ? Un lot vacant dans une zone peu dynamique peut rester difficile à louer même avec un prix attractif.
+    </p>
+    <p>
+      <strong>Coût des éventuels travaux.</strong> Un lot vacant laissé à l'abandon peut nécessiter des remises en état significatives. Ces coûts doivent être intégrés dans le plan de financement et la rentabilité prévisionnelle.
+    </p>
+
+    <h2 id="impact-prix">5. L'impact sur le prix de négociation</h2>
+    <p>
+      La situation locative d'un lot influence directement son prix de marché. Un lot entièrement occupé avec des loyers proches du marché se vend généralement à un prix plus élevé qu'un lot vacant, toutes choses égales par ailleurs. La présence de revenus immédiats est valorisée.
+    </p>
+    <p>
+      À l'inverse, un lot vacant ou partiellement occupé avec des loyers sous-marché peut se négocier avec une décote. Cette décote doit être suffisante pour compenser la période de vacance initiale et les éventuels travaux de remise en état.
+    </p>
+    <p>
+      Il n'existe pas de règle universelle sur le niveau de cette décote : elle dépend du marché local, de la qualité du bien, de l'urgence du vendeur et du niveau de rendement attendu. L'important est d'intégrer ces paramètres dans le calcul de rentabilité prévisionnel avant de formuler une offre.
+    </p>
+
+    <h2 id="quelle-situation-preferer">6. Quelle situation préférer ?</h2>
+    <p>
+      La réponse dépend du profil et des objectifs de l'investisseur.
+    </p>
+    <p>
+      Un investisseur qui cherche un revenu locatif immédiat pour couvrir ses charges dès le premier mois trouvera davantage de sécurité dans un lot occupé, à condition d'avoir vérifié la qualité des locataires et le niveau des loyers.
+    </p>
+    <p>
+      Un investisseur qui dispose d'une trésorerie suffisante pour absorber quelques mois de vacance, et qui veut partir sur de bonnes bases avec ses propres locataires, pourra tirer parti d'un lot vacant pour mieux contrôler la qualité et les conditions des baux.
+    </p>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      Il n'existe pas de situation universellement préférable entre un lot occupé et un lot vacant. L'important est d'analyser chaque cas selon ses propres paramètres : qualité des locataires en place, niveau des loyers par rapport au marché local, état du bien, potentiel de valorisation, et capacité financière de l'investisseur à absorber une éventuelle période de vacance initiale.
+    </CalloutBox>
+  </div>
+);
+
+const acteursSelfStorageContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      Le self-storage professionnel représente une composante croissante du marché du stockage en France. Comprendre qui en sont les acteurs, comment ils fonctionnent et comment ils se positionnent par rapport aux garages et boxes individuels permet à tout investisseur ou exploitant d'évaluer la concurrence sur son marché local.
+    </p>
+
+    <div className="my-8 bg-[#f8f9fa] rounded-xl border border-slate-100 p-6 flex items-center justify-center">
+      <svg width="100%" height="200" viewBox="0 0 560 200" className="max-w-2xl">
+        {/* Carte stylisée France */}
+        <ellipse cx="280" cy="100" rx="200" ry="130" fill="#e8eef5" stroke="#1e3a5f" strokeWidth="1" opacity="0.4"/>
+        <text x="280" y="25" textAnchor="middle" fontSize="11" fill="#94a3b8" fontFamily="sans-serif">Densité d'offre self-storage (schéma indicatif)</text>
+        {/* Grandes métropoles — grands cercles */}
+        <circle cx="270" cy="70" r="22" fill="#1e3a5f" opacity="0.7"/>
+        <text x="270" y="74" textAnchor="middle" fontSize="9" fill="white" fontFamily="sans-serif">Paris</text>
+        <circle cx="310" cy="145" r="14" fill="#1e3a5f" opacity="0.6"/>
+        <text x="310" y="149" textAnchor="middle" fontSize="8" fill="white" fontFamily="sans-serif">Lyon</text>
+        <circle cx="195" cy="170" r="12" fill="#1e3a5f" opacity="0.55"/>
+        <text x="195" y="174" textAnchor="middle" fontSize="8" fill="white" fontFamily="sans-serif">Bdx</text>
+        <circle cx="340" cy="170" r="11" fill="#1e3a5f" opacity="0.5"/>
+        <text x="340" y="174" textAnchor="middle" fontSize="8" fill="white" fontFamily="sans-serif">Marse.</text>
+        {/* Villes moyennes — petits cercles */}
+        <circle cx="160" cy="95" r="7" fill="#94a3b8" opacity="0.6"/>
+        <circle cx="390" cy="90" r="7" fill="#94a3b8" opacity="0.6"/>
+        <circle cx="230" cy="130" r="7" fill="#94a3b8" opacity="0.5"/>
+        <circle cx="355" cy="115" r="6" fill="#94a3b8" opacity="0.45"/>
+        {/* Zones peu denses */}
+        <circle cx="210" cy="65" r="4" fill="#94a3b8" opacity="0.35"/>
+        <circle cx="360" cy="65" r="4" fill="#94a3b8" opacity="0.3"/>
+        <circle cx="170" cy="155" r="4" fill="#94a3b8" opacity="0.3"/>
+        {/* Légende */}
+        <circle cx="20" cy="178" r="8" fill="#1e3a5f" opacity="0.7"/>
+        <text x="34" y="182" fontSize="9" fill="#64748b" fontFamily="sans-serif">Forte densité</text>
+        <circle cx="130" cy="178" r="5" fill="#94a3b8" opacity="0.6"/>
+        <text x="142" y="182" fontSize="9" fill="#64748b" fontFamily="sans-serif">Présence partielle</text>
+        <circle cx="260" cy="178" r="3" fill="#94a3b8" opacity="0.35"/>
+        <text x="270" y="182" fontSize="9" fill="#64748b" fontFamily="sans-serif">Faible présence</text>
+      </svg>
+    </div>
+
+    <h2 id="qu-est-ce-que-self-storage">1. Le self-storage professionnel : définition et positionnement</h2>
+    <p>
+      Le self-storage désigne un service de location d'espaces de stockage individuels dans des installations dédiées, gérées par un opérateur professionnel. Ces installations se distinguent des garages ou boxes locatifs classiques par plusieurs caractéristiques : accès 24h/24 ou sur plage horaire étendue, surveillance et sécurité renforcées, flexibilité contractuelle (contrats souvent mensuels résiliables à court préavis), et large gamme de tailles de boxes.
+    </p>
+    <p>
+      Le modèle s'est développé aux États-Unis dans les années 1960-1970 avant de se diffuser progressivement en Europe. En France, le marché reste en développement par rapport à certains pays anglo-saxons, mais connaît une croissance sensible depuis les années 2010, portée par la densification urbaine, la mobilité résidentielle et professionnelle, et les besoins de stockage des TPE/PME.
+    </p>
+
+    <h2 id="grands-operateurs">2. Les grands opérateurs présents en France</h2>
+    <p>
+      Parmi les acteurs du self-storage professionnel en France, on distingue des groupes d'envergure internationale et des opérateurs à dimension plus nationale.
+    </p>
+    <p>
+      Les groupes internationaux présents sur le marché français sont généralement des sociétés foncières cotées (REITs) ou des fonds d'investissement spécialisés dans l'immobilier de stockage. Ils exploitent des sites de grande taille, principalement dans les zones urbaines et périurbaines denses. Leurs sites sont conçus avec des standards techniques élevés : contrôle d'accès électronique, vidéosurveillance, climatisation optionnelle, gamme de boxes du petit format (quelques m²) au grand format (plusieurs dizaines de m²).
+    </p>
+    <p>
+      Des opérateurs à dimension nationale ou régionale complètent ce paysage. Ils peuvent adopter des modèles différents : sites en propre, franchises, ou partenariats avec des promoteurs immobiliers. Leur présence est souvent plus marquée en régions, là où les grands groupes internationaux sont moins implantés.
+    </p>
+
+    <CalloutBox type="vigilance">
+      Les parts de marché et les classements des opérateurs évoluent régulièrement (acquisitions, ouvertures, fermetures de sites). Aucune donnée précise sur ce point n'est citée ici sans source vérifiable. Pour une analyse concurrentielle locale, la méthode la plus fiable reste l'observation directe des sites existants dans la zone concernée.
+    </CalloutBox>
+
+    <h2 id="acteurs-regionaux">3. Les acteurs régionaux et indépendants</h2>
+    <p>
+      En dehors des grands opérateurs structurés, un tissu d'acteurs plus petits existe dans de nombreuses villes françaises. Ces acteurs indépendants exploitent souvent un ou quelques sites, avec des modèles plus variables : anciens entrepôts reconvertis, hangars agricoles transformés, locaux commerciaux réaménagés.
+    </p>
+    <p>
+      Ces acteurs locaux ont parfois une connaissance fine de leur marché et une proximité avec leur clientèle que les grands groupes ne peuvent pas offrir. En contrepartie, leurs installations peuvent être moins standardisées et leur capacité d'investissement plus limitée.
+    </p>
+    <p>
+      Repérer ces acteurs sur un marché local est utile pour tout investisseur souhaitant évaluer la concurrence réelle : une recherche sur les annuaires en ligne, les pages de résultats de moteurs de recherche pour "self-storage [ville]", ou encore les plateformes de réservation spécialisées permet d'identifier rapidement l'offre existante dans une zone donnée.
+    </p>
+
+    <h2 id="modele-economique">4. Le modèle économique du self-storage</h2>
+    <p>
+      Le modèle économique du self-storage professionnel repose sur plusieurs leviers distincts du modèle locatif classique de garages individuels.
+    </p>
+    <p>
+      <strong>La flexibilité contractuelle</strong> : les contrats de self-storage sont généralement mensuels avec un préavis court. Cette flexibilité est valorisée par les clients mais crée une rotation potentiellement élevée et une volatilité des revenus.
+    </p>
+    <p>
+      <strong>L'optimisation du taux d'occupation</strong> : les opérateurs professionnels utilisent des outils de pricing dynamique pour ajuster les tarifs en fonction de la demande et du taux d'occupation de chaque site. Un site à fort taux d'occupation peut augmenter ses tarifs pour les nouvelles entrées.
+    </p>
+    <p>
+      <strong>Les services additionnels</strong> : emballages, cadenas, assurance du mobilier stocké, livraison de palettes, accès camion : ces services complémentaires représentent une source de revenus additionnelle pour les opérateurs structurés.
+    </p>
+
+    <h2 id="impact-marche-local">5. L'impact sur les marchés locaux</h2>
+    <p>
+      L'implantation d'un site de self-storage professionnel dans une zone peut avoir un impact sur le marché locatif des garages et boxes individuels. Cet impact dépend de plusieurs facteurs.
+    </p>
+    <p>
+      Si l'opérateur se positionne sur le même segment de demande (particuliers cherchant à stocker des meubles ou des biens personnels), une concurrence directe peut s'exercer, notamment si les tarifs sont comparables. La flexibilité contractuelle et la sécurité renforcée offertes par le self-storage professionnel peuvent attirer une partie de la clientèle potentielle des garages.
+    </p>
+    <p>
+      Si l'opérateur cible principalement les professionnels et TPE/PME avec des boxes de grande taille, l'impact sur les garages individuels (généralement loués à des particuliers) peut être plus limité.
+    </p>
+
+    <h2 id="coexistence">6. Coexistence avec les garages et boxes individuels</h2>
+    <p>
+      Dans de nombreuses zones, garages individuels et self-storage professionnel coexistent en répondant à des besoins complémentaires plutôt qu'en concurrence frontale.
+    </p>
+    <p>
+      Les garages individuels répondent souvent à une demande de proximité immédiate, de prix accessible, ou de location longue durée stable. Certains locataires préfèrent un accès depuis la rue de leur immeuble plutôt qu'un déplacement en voiture vers un site de self-storage.
+    </p>
+    <p>
+      Le self-storage professionnel répond davantage à une demande de flexibilité, de variété de formats et de services, ou à des besoins ponctuels liés à un déménagement, une succession ou une transition professionnelle.
+    </p>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      La présence d'opérateurs de self-storage professionnel sur un marché local est un élément à analyser avant d'investir dans des garages ou boxes. Elle ne rend pas nécessairement l'investissement moins pertinent, mais impose de bien comprendre le positionnement de son offre par rapport à la concurrence existante — en termes de prix, de localisation, de services et de profil de la clientèle visée.
+    </CalloutBox>
+  </div>
+);
+
+const structurerGestionContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      Gérer quelques garages de façon informelle, avec un tableur rudimentaire et des rappels par SMS, peut fonctionner à petite échelle. Mais au-delà d'un certain seuil — souvent dès une dizaine d'unités — cette approche montre ses limites : oublis, erreurs de suivi, difficultés à préparer les déclarations fiscales, et perte de temps dans la gestion quotidienne. Structurer son organisation est une étape incontournable pour tout investisseur qui souhaite développer et pérenniser son parc.
+    </p>
+
+    <div className="my-8 bg-[#f8f9fa] rounded-xl border border-slate-100 p-6 flex items-center justify-center">
+      <svg width="100%" height="140" viewBox="0 0 580 140" className="max-w-2xl">
+        <text x="10" y="18" fontSize="11" fill="#94a3b8" fontFamily="sans-serif">Flux de gestion d'un parc de stockage</text>
+        {[
+          ["Baux", 30],
+          ["Loyers", 145],
+          ["Charges", 260],
+          ["Déclarations", 375],
+          ["Révision", 490],
+        ].map(([label, x], i) => (
+          <g key={label as string}>
+            <rect x={x as number} y="35" width="95" height="36" rx="6" fill="#1e3a5f" opacity={0.8 - i * 0.1}/>
+            <text x={(x as number) + 47} y="57" textAnchor="middle" fontSize="10" fill="white" fontFamily="sans-serif" fontWeight="bold">{label as string}</text>
+            {i < 4 && (
+              <path d={`M${(x as number) + 98} 53 L${(x as number) + 112} 53`} stroke="#94a3b8" strokeWidth="1.5" markerEnd="url(#arrow)"/>
+            )}
+          </g>
+        ))}
+        <defs>
+          <marker id="arrow" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+            <path d="M0,0 L6,3 L0,6 Z" fill="#94a3b8"/>
+          </marker>
+        </defs>
+        <text x="10" y="100" fontSize="10" fill="#94a3b8" fontFamily="sans-serif">Signature → Encaissement → Paiement charges → Fiscalité → Revalorisation annuelle</text>
+        <text x="10" y="118" fontSize="10" fill="#94a3b8" fontFamily="sans-serif">Chaque étape gagne à être tracée et anticipée dans un système structuré.</text>
+      </svg>
+    </div>
+
+    <h2 id="quand-structurer">1. À partir de quand structurer sa gestion ?</h2>
+    <p>
+      Il n'existe pas de seuil universel au-delà duquel la structuration devient obligatoire. Mais plusieurs signaux indiquent qu'une organisation plus rigoureuse s'impose.
+    </p>
+    <p>
+      Le premier signal est le sentiment de "perdre le fil" : ne plus savoir précisément quelles unités sont occupées, quels loyers ont été perçus ce mois-ci, quelles échéances de bail approchent. Ce flou opérationnel est un risque réel — il peut conduire à des oublis de révision de loyer, à des impayés non traités à temps, ou à des erreurs dans les déclarations fiscales.
+    </p>
+    <p>
+      Le deuxième signal est la préparation de la déclaration fiscale annuelle. Si rassembler les justificatifs de loyers perçus, de charges payées et de travaux réalisés prend plusieurs jours, la gestion n'est pas assez structurée.
+    </p>
+    <p>
+      Le troisième signal est l'acquisition d'un deuxième bien ou d'un deuxième lot. Dès qu'il y a plusieurs ensembles à gérer — potentiellement avec des copropriétés différentes, des niveaux de loyers différents et des périodicités d'échéance différentes — un système de suivi dédié devient nécessaire.
+    </p>
+
+    <h2 id="suivi-des-baux">2. Le suivi des baux et des échéances</h2>
+    <p>
+      Le bail est la pièce contractuelle centrale de la relation locative. Son suivi structuré permet d'anticiper les événements importants et d'éviter les situations où une clause a été oubliée ou une révision manquée.
+    </p>
+    <p>
+      Les informations minimales à centraliser pour chaque bail comprennent : l'identité du locataire, la date de signature, le loyer initial, la date de prise d'effet, la clause d'indexation (indice de référence et périodicité), la durée du préavis, et le dépôt de garantie encaissé.
+    </p>
+    <p>
+      À partir de ces données, un calendrier d'échéances peut être constitué : dates de révision de loyer, dates anniversaires des baux, dates de fin de préavis pour les baux qui seraient résiliés. Ce calendrier peut être géré dans un tableur ou dans un logiciel dédié.
+    </p>
+
+    <CalloutBox type="retenir">
+      La révision de loyer est l'un des leviers les plus simples pour maintenir la rentabilité d'un parc. Elle repose sur une clause contractuelle et un indice (souvent l'IRL pour les logements, ou un indice spécifié dans le bail pour les locaux non résidentiels). Ne pas la pratiquer régulièrement, c'est laisser le loyer réel se dégrader par rapport au marché.
+    </CalloutBox>
+
+    <h2 id="suivi-financier">3. Le suivi financier : loyers, charges et trésorerie</h2>
+    <p>
+      Le suivi financier d'un parc locatif couvre trois dimensions principales : les recettes (loyers encaissés), les dépenses (charges, travaux, taxe foncière, assurance) et la trésorerie nette disponible.
+    </p>
+    <p>
+      <strong>Les recettes locatives</strong> doivent être enregistrées mensuellement, par unité et par bien. Ce niveau de détail permet de détecter rapidement les impayés (une unité qui n'a pas payé ce mois-ci), de calculer le taux d'encaissement réel, et de préparer les déclarations fiscales sans reconstitution laborieuse.
+    </p>
+    <p>
+      <strong>Les dépenses</strong> méritent d'être catégorisées : charges de copropriété (provisions et régularisations), travaux d'entretien courant, travaux exceptionnels, taxe foncière, prime d'assurance, éventuels frais de gestion. Cette catégorisation facilite l'analyse de rentabilité et la déduction des charges dans le cadre du régime réel foncier.
+    </p>
+    <p>
+      <strong>La trésorerie nette</strong> — différence entre les loyers perçus et les charges payées sur une période — est l'indicateur opérationnel le plus utile pour piloter le parc au quotidien.
+    </p>
+
+    <h2 id="outils-disponibles">4. Les outils disponibles : tableurs, logiciels, applications</h2>
+    <p>
+      Le choix des outils dépend de la taille du parc, du budget disponible et des habitudes de l'investisseur.
+    </p>
+    <p>
+      <strong>Le tableur (Excel, Google Sheets)</strong> est l'outil le plus accessible. Un tableur bien conçu peut couvrir l'ensemble des besoins de gestion d'un parc de taille modeste : suivi des baux, des loyers, des charges et du calendrier d'échéances. Il est gratuit, personnalisable, et peut être partagé facilement avec un comptable ou un gestionnaire.
+    </p>
+    <p>
+      <strong>Les logiciels de gestion locative</strong> (souvent proposés en SaaS) offrent des fonctionnalités plus avancées : génération automatique de quittances, relances d'impayés, intégration bancaire, tableaux de bord. Ils conviennent mieux à des parcs de taille significative (au-delà de 20 à 30 unités selon les cas) où le gain de temps justifie le coût.
+    </p>
+    <p>
+      <strong>Les applications mobiles</strong> permettent un suivi en déplacement et peuvent se connecter à certains logiciels de gestion. Utiles pour les investisseurs qui gèrent depuis plusieurs endroits ou qui souhaitent consulter leurs indicateurs rapidement.
+    </p>
+
+    <CalloutBox type="vigilance">
+      Quel que soit l'outil choisi, la qualité de la gestion dépend avant tout de la régularité avec laquelle il est alimenté. Un logiciel perfectionné mais mal renseigné produit des données fausses. Un tableur simple mais mis à jour chaque semaine est plus fiable qu'un logiciel complexe mis à jour deux fois par an.
+    </CalloutBox>
+
+    <h2 id="externaliser">5. Externaliser la gestion : quand et comment ?</h2>
+    <p>
+      La gestion locative peut être déléguée à un professionnel — agent immobilier, administrateur de biens — moyennant une commission sur les loyers encaissés. Cette option présente des avantages et des inconvénients à évaluer selon le contexte.
+    </p>
+    <p>
+      <strong>Les avantages de l'externalisation</strong> : gain de temps, expertise dans la rédaction des baux, gestion des impayés et des états des lieux, réseau pour trouver des locataires. Pour un investisseur éloigné géographiquement de son parc ou disposant de peu de temps, l'externalisation peut être un choix rationnel.
+    </p>
+    <p>
+      <strong>Les inconvénients</strong> : le coût de la gestion (généralement entre 5 et 10 % des loyers hors taxes selon les prestations incluses) réduit la rentabilité nette. De plus, tous les gestionnaires ne sont pas également compétents sur les spécificités des garages et boxes, qui diffèrent de l'immobilier résidentiel classique.
+    </p>
+    <p>
+      Si vous externalisez, définissez précisément le périmètre de la mission (recherche de locataires, rédaction des baux, encaissement des loyers, gestion des impayés, états des lieux) et vérifiez que le prestataire a une expérience sur ce type de bien.
+    </p>
+
+    <h2 id="structure-juridique">6. La question de la structure juridique à l'échelle</h2>
+    <p>
+      À mesure que le parc s'agrandit, la question de la structure juridique peut se poser de nouveau. Une acquisition réalisée en nom propre peut ne plus être optimale fiscalement ou patrimonialent lorsque le nombre d'unités et les revenus générés augmentent.
+    </p>
+    <p>
+      La structuration juridique — SCI à l'IR, SCI à l'IS, holding, etc. — a des implications qui dépassent la gestion opérationnelle : transmission patrimoniale, optimisation fiscale, capacité d'emprunt future. Ces questions doivent être traitées avec un expert-comptable ou un conseiller fiscal avant de dépasser un certain seuil de patrimoine.
+    </p>
+
+    <CalloutBox type="legal">
+      La question de la structure juridique optimale est personnelle et évolue avec le profil patrimonial et fiscal de l'investisseur. Ce qui est pertinent pour un investisseur peut ne pas l'être pour un autre. Consultez un expert-comptable avant de modifier la structure d'un patrimoine existant ou d'en créer une nouvelle.
+    </CalloutBox>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      Structurer la gestion d'un parc de garages n'est pas une formalité réservée aux grands portefeuilles : c'est une condition de la maîtrise de son patrimoine. Un suivi rigoureux des baux, des loyers et des charges permet de détecter les problèmes tôt, d'optimiser les révisions, et de préparer les déclarations fiscales sans stress. Les outils importent moins que la régularité avec laquelle ils sont utilisés.
+    </CalloutBox>
+  </div>
+);
+
 // ── Page component ──────────────────────────────────────────────────────────────
 
 export default async function ArticlePage({ params }: Props) {
@@ -1823,6 +2309,38 @@ export default async function ArticlePage({ params }: Props) {
       { id: "criteres-de-choix", title: "Les critères structurants du choix", level: 2 },
       { id: "indispensable-professionnel", title: "Pourquoi ce choix nécessite un professionnel", level: 2 },
     ],
+    "financer-achat-lot-garages": [
+      { id: "banques-et-garages", title: "Comment les banques appréhendent ce type d'actif", level: 2 },
+      { id: "apport-attendu", title: "Le niveau d'apport généralement attendu", level: 2 },
+      { id: "capacite-emprunt", title: "La capacité d'emprunt et le calcul de la banque", level: 2 },
+      { id: "structure-acquisition", title: "La structure d'acquisition et son impact sur le financement", level: 2 },
+      { id: "negocier-conditions", title: "Négocier les conditions de crédit", level: 2 },
+      { id: "avant-de-solliciter", title: "Ce qu'il faut préparer avant de solliciter une banque", level: 2 },
+    ],
+    "lot-garages-occupe-ou-vacant": [
+      { id: "lot-occupe-avantages", title: "Lot occupé : les avantages", level: 2 },
+      { id: "lot-occupe-vigilance", title: "Lot occupé : les points de vigilance", level: 2 },
+      { id: "lot-vacant-avantages", title: "Lot vacant : les avantages", level: 2 },
+      { id: "lot-vacant-risques", title: "Lot vacant : les risques", level: 2 },
+      { id: "impact-prix", title: "L'impact sur le prix de négociation", level: 2 },
+      { id: "quelle-situation-preferer", title: "Quelle situation préférer ?", level: 2 },
+    ],
+    "acteurs-self-storage-france": [
+      { id: "qu-est-ce-que-self-storage", title: "Le self-storage professionnel : définition et positionnement", level: 2 },
+      { id: "grands-operateurs", title: "Les grands opérateurs présents en France", level: 2 },
+      { id: "acteurs-regionaux", title: "Les acteurs régionaux et indépendants", level: 2 },
+      { id: "modele-economique", title: "Le modèle économique du self-storage", level: 2 },
+      { id: "impact-marche-local", title: "L'impact sur les marchés locaux", level: 2 },
+      { id: "coexistence", title: "Coexistence avec les garages et boxes individuels", level: 2 },
+    ],
+    "structurer-gestion-plusieurs-unites-stockage": [
+      { id: "quand-structurer", title: "À partir de quand structurer sa gestion ?", level: 2 },
+      { id: "suivi-des-baux", title: "Le suivi des baux et des échéances", level: 2 },
+      { id: "suivi-financier", title: "Le suivi financier : loyers, charges et trésorerie", level: 2 },
+      { id: "outils-disponibles", title: "Les outils disponibles : tableurs, logiciels, applications", level: 2 },
+      { id: "externaliser", title: "Externaliser la gestion : quand et comment ?", level: 2 },
+      { id: "structure-juridique", title: "La question de la structure juridique à l'échelle", level: 2 },
+    ],
   };
   const tocItems = tocMap[slug] ?? [];
 
@@ -1923,6 +2441,10 @@ export default async function ArticlePage({ params }: Props) {
                     "charges-copropriete-garages-impact": chargesCoproprieteContent,
                     "gerer-impayes-espace-stockage": gererImpayesContent,
                     "nom-propre-societe-espaces-stockage": nomPropreSocieteContent,
+                    "financer-achat-lot-garages": financerAchatGaragesContent,
+                    "lot-garages-occupe-ou-vacant": lotOccupeOuVacantContent,
+                    "acteurs-self-storage-france": acteursSelfStorageContent,
+                    "structurer-gestion-plusieurs-unites-stockage": structurerGestionContent,
                   };
                   const renderContent = contentMap[slug];
                   return renderContent ? renderContent() : (

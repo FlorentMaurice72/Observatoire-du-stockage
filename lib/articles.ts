@@ -8,9 +8,58 @@ export interface Article {
   readingTime: number;
   featured?: boolean;
   content?: string;
+  tags?: string[];
 }
 
 export const articles: Article[] = [
+  {
+    slug: "structurer-gestion-plusieurs-unites-stockage",
+    title: "Structurer la gestion de plusieurs unités de stockage : outils et organisation",
+    excerpt:
+      "À partir d'un certain nombre d'unités, la gestion informelle d'un parc de garages ou de boxes montre ses limites. Baux, loyers, états des lieux, suivi des charges, déclarations fiscales : structurer son organisation permet de gagner en efficacité et de réduire les risques d'erreur ou d'oubli.",
+    category: "exploitation",
+    date: "2026-10-29",
+    author: "Observatoire du Stockage",
+    readingTime: 8,
+    featured: false,
+    tags: ["gestion", "organisation", "outils", "exploitation"],
+  },
+  {
+    slug: "acteurs-self-storage-france",
+    title: "Les acteurs du self-storage professionnel en France : tour d'horizon",
+    excerpt:
+      "Le secteur du self-storage professionnel en France regroupe des opérateurs de tailles très diverses — des grands groupes internationaux aux enseignes régionales indépendantes. Comprendre ce paysage concurrentiel est utile pour tout investisseur ou exploitant qui cherche à positionner son offre sur un marché local.",
+    category: "marche",
+    date: "2026-10-29",
+    author: "Observatoire du Stockage",
+    readingTime: 8,
+    featured: false,
+    tags: ["self-storage", "marché", "acteurs", "concurrence"],
+  },
+  {
+    slug: "lot-garages-occupe-ou-vacant",
+    title: "Lot de garages occupé ou vacant à l'achat : avantages et inconvénients",
+    excerpt:
+      "Acquérir un lot de garages déjà occupé ou le trouver entièrement vacant sont deux situations très différentes. Chacune présente ses avantages et ses risques propres — en termes de rendement immédiat, de négociation du prix, de gestion locative et de liberté d'action à l'entrée.",
+    category: "investissement",
+    date: "2026-10-29",
+    author: "Observatoire du Stockage",
+    readingTime: 8,
+    featured: false,
+    tags: ["acquisition", "occupation", "locataires", "stratégie"],
+  },
+  {
+    slug: "financer-achat-lot-garages",
+    title: "Financer l'achat d'un lot de garages : crédit, apport et structure — ce qu'il faut savoir",
+    excerpt:
+      "Le financement d'un lot de garages soulève des questions spécifiques que n'abordent pas les guides d'investissement résidentiel classiques. Entre la politique des banques vis-à-vis de ce type d'actif, le niveau d'apport attendu et le choix de la structure d'acquisition, plusieurs paramètres méritent une attention particulière avant de s'engager.",
+    category: "investissement",
+    date: "2026-10-29",
+    author: "Observatoire du Stockage",
+    readingTime: 9,
+    featured: false,
+    tags: ["financement", "crédit immobilier", "apport", "investissement"],
+  },
   {
     slug: "nom-propre-societe-espaces-stockage",
     title: "Acheter en nom propre ou en société pour des espaces de stockage : les questions à poser",
