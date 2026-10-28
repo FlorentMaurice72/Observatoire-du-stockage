@@ -1436,6 +1436,252 @@ export const villes: Ville[] = [
     ],
     zoneLimitrophe: ["Saint-Doulchard", "Bourges-Est", "Mehun-sur-Yèvre", "Vierzon"],
   },
+  {
+    slug: "toulon",
+    nom: "Toulon",
+    departement: "Var (83)",
+    region: "Provence-Alpes-Côte d'Azur",
+    population: "~172 000 hab. (ville), ~620 000 (métropole)",
+    metaTitle: "Marché des espaces de stockage à Toulon — garages, boxes, self-storage",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage à Toulon et dans l'agglomération varoise : demande, offre, prix observés, points de vigilance.",
+    intro:
+      "Toulon est le principal pôle urbain du Var. La présence de la Marine nationale génère une mobilité résidentielle spécifique, tandis que la densité du centre-ville crée une demande de stockage annexe pour les ménages en appartement.",
+    contexteUrbanistique:
+      "Toulon se caractérise par un parc de logements anciens en centre-ville, souvent sans garage privatif, et par une périphérie plus pavillonnaire. La présence d'une base militaire importante génère des flux de mobilité inhabituels. Les communes littorales voisines (La Seyne-sur-Mer, La Garde) offrent des marchés complémentaires.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande pour les garages et boxes est présente, notamment dans les quartiers centraux sans stationnement privé. Le marché présente une certaine saisonnalité liée au tourisme estival. La demande des professionnels et artisans est notable compte tenu du tissu économique local.",
+    },
+    offre: {
+      description:
+        "L'offre est composée de garages individuels et de boxes en copropriété dans les immeubles anciens. Quelques acteurs du self-storage sont présents sur l'agglomération, en particulier en périphérie.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 50 € et 110 € / mois selon secteur et taille",
+      note: "Données indicatives issues d'observations d'annonces. Le marché varois affiche des niveaux de prix relativement élevés par rapport à d'autres métropoles régionales.",
+    },
+    pointsVigilance: [
+      "Vérifier l'état des garages anciens (humidité, vétusté des portes)",
+      "Le marché peut être impacté par les départs et arrivées liés à la base militaire",
+      "Analyser la concurrence self-storage en périphérie avant acquisition",
+      "La saisonnalité touristique peut créer une demande artificielle sur certains secteurs",
+    ],
+    zoneLimitrophe: ["La Seyne-sur-Mer", "La Garde", "Hyères", "Six-Fours-les-Plages", "Ollioules"],
+  },
+  {
+    slug: "nimes",
+    nom: "Nîmes",
+    departement: "Gard (30)",
+    region: "Occitanie",
+    population: "~155 000 hab. (ville), ~290 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Nîmes — garages, boxes, self-storage",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage à Nîmes et dans l'agglomération gardoise : demande, offre, prix observés, points de vigilance.",
+    intro:
+      "Nîmes est une ville en développement démographique modéré, bénéficiant de sa position entre Montpellier et Marseille. Le marché des garages et boxes y est relativement accessible en termes de prix d'acquisition, avec une demande locative stable.",
+    contexteUrbanistique:
+      "Nîmes dispose d'un centre historique dense sans stationnement privé et de quartiers périphériques plus récents. La ville attire une population résidentielle qui travaille parfois à Montpellier ou en région, favorisant la mobilité et le besoin de stockage. L'axe Nîmes-Montpellier est un des plus dynamiques d'Occitanie.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande est présente dans les quartiers centraux et dans les zones résidentielles. Elle reste inférieure à celle observée dans les grandes métropoles, mais la relative abondance de l'offre l'équilibre. Les délais de relocation sont généralement raisonnables dans les secteurs attractifs.",
+    },
+    offre: {
+      description:
+        "L'offre de garages en copropriété est présente et les prix d'acquisition restent accessibles. La concurrence du self-storage professionnel est limitée à quelques acteurs en périphérie.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 40 € et 80 € / mois selon secteur",
+      note: "Données indicatives. Les niveaux de prix gardois restent inférieurs aux grandes métropoles, offrant des rendements bruts potentiellement plus élevés, à comparer aux prix d'acquisition.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative localisée avant acquisition",
+      "Analyser les perspectives démographiques de l'agglomération gardoise",
+      "Les prix d'acquisition bas peuvent masquer une faible tension locative",
+      "Anticiper l'impact de la chaleur estivale sur les conditions de stockage",
+    ],
+    zoneLimitrophe: ["Villeneuve-lès-Avignon", "Alès", "Montpellier (50 km)", "Uzès", "Marguerittes"],
+  },
+  {
+    slug: "saint-etienne",
+    nom: "Saint-Étienne",
+    departement: "Loire (42)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~174 000 hab. (ville), ~510 000 (métropole)",
+    metaTitle: "Marché des espaces de stockage à Saint-Étienne — garages, boxes, analyse",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage à Saint-Étienne et dans la Loire : demande, offre, prix observés, points de vigilance pour l'investisseur.",
+    intro:
+      "Saint-Étienne est une métropole en mutation, avec un parc immobilier ancien abondant et des prix d'acquisition parmi les plus bas des grandes villes françaises. Ce contexte crée une opportunité d'acquisition à faible coût, mais la demande locative y est plus fragile qu'en zone tendue.",
+    contexteUrbanistique:
+      "Le parc de logements stéphanois est caractérisé par des immeubles anciens avec des garages et caves souvent vétustes. La ville connaît une requalification urbaine progressive, mais des quartiers entiers restent en déclin démographique. La proximité de Lyon (~60 km) génère quelques flux pendulaires sans pour autant créer une tension locative comparable.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande locative pour les garages est présente mais modeste. La démographie en légère baisse de la ville pèse sur la tension locative. Les loyers sont bas, ce qui peut attirer une clientèle sensible au prix mais fragilise les perspectives de revalorisation. Des poches de demande subsistent dans les quartiers les plus peuplés.",
+    },
+    offre: {
+      description:
+        "L'offre est abondante, avec de nombreux garages en copropriété proposés à des prix très accessibles à l'acquisition. La concurrence du self-storage professionnel reste limitée. La vacance peut être significative dans certains secteurs.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 60 € / mois",
+      note: "Niveaux de loyers observés parmi les plus bas des grandes métropoles françaises. Le rendement brut apparent peut être élevé, mais le risque de vacance et la faible liquidité à la revente doivent être soigneusement évalués.",
+    },
+    pointsVigilance: [
+      "Risque de vacance locative plus élevé que dans les métropoles tendues",
+      "Faible liquidité à la revente dans certains secteurs",
+      "Vétusté du parc : prévoir des travaux de remise en état potentiellement significatifs",
+      "Analyser précisément le secteur cible : des micro-marchés existent au sein de l'agglomération",
+      "Ne pas se laisser séduire par des rendements bruts élevés sans vérifier la demande réelle",
+    ],
+    zoneLimitrophe: ["Firminy", "Le Chambon-Feugerolles", "Andrézieux-Bouthéon", "Roche-la-Molière", "Rive-de-Gier"],
+  },
+  {
+    slug: "le-havre",
+    nom: "Le Havre",
+    departement: "Seine-Maritime (76)",
+    region: "Normandie",
+    population: "~170 000 hab. (ville), ~270 000 (communauté urbaine)",
+    metaTitle: "Marché des espaces de stockage au Havre — garages, boxes, analyse",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage au Havre : demande, offre, prix observés, dynamique portuaire et points de vigilance.",
+    intro:
+      "Le Havre est le premier port de commerce français et une ville marquée par sa reconstruction d'après-guerre (classée UNESCO). Son tissu économique portuaire et industriel génère une demande spécifique de stockage, notamment de la part des entreprises et artisans liés à l'activité maritime.",
+    contexteUrbanistique:
+      "Le Havre présente une architecture d'après-guerre caractéristique avec des immeubles conçus avec des garages en rez-de-chaussée. Ce patrimoine génère une offre de garages structurée dans le tissu urbain. La ville est moins tendue que Rouen mais présente une demande portée par les actifs et les familles résidentes.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande est portée par les résidents des immeubles sans parking privatif et par les professionnels du port et des activités connexes. Le marché est stable mais pas particulièrement tendu. Les délais de relocation sont acceptables dans les quartiers bien situés.",
+    },
+    offre: {
+      description:
+        "L'offre de garages est structurée dans le parc immobilier d'après-guerre. Les prix d'acquisition sont modérés. La concurrence self-storage est limitée à quelques acteurs en périphérie.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 40 € et 80 € / mois selon secteur et état",
+      note: "Données indicatives. Le Havre présente des prix intermédiaires entre les grandes métropoles et les villes secondaires normandes.",
+    },
+    pointsVigilance: [
+      "État des garages d'après-guerre : vérifier l'humidité et la vétusté",
+      "La démographie havraise évolue modérément : analyser les tendances récentes",
+      "Évaluer le règlement de copropriété dans les immeubles classés UNESCO",
+      "Identifier les secteurs avec activité économique portuaire pour une demande professionnelle",
+    ],
+    zoneLimitrophe: ["Montivilliers", "Gonfreville-l'Orcher", "Harfleur", "Sainte-Adresse", "Octeville-sur-Mer"],
+  },
+  {
+    slug: "aix-en-provence",
+    nom: "Aix-en-Provence",
+    departement: "Bouches-du-Rhône (13)",
+    region: "Provence-Alpes-Côte d'Azur",
+    population: "~145 000 hab. (ville), ~550 000 (métropole Aix-Marseille)",
+    metaTitle: "Marché des espaces de stockage à Aix-en-Provence — garages, boxes, analyse",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage à Aix-en-Provence : demande, offre, prix observés et points de vigilance pour l'investisseur.",
+    intro:
+      "Aix-en-Provence est une ville universitaire et résidentielle à fort pouvoir d'achat, avec des prix immobiliers élevés. Le marché des garages et boxes y est dynamique, porté par une population aisée, étudiante et active, souvent en appartement.",
+    contexteUrbanistique:
+      "Aix-en-Provence se caractérise par un centre historique très dense, des quartiers résidentiels de standing et une forte population étudiante. Les appartements sans parking sont nombreux dans le centre et dans les résidences étudiantes. La métropole Aix-Marseille crée une interdépendance avec le marché marseillais.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande est soutenue grâce à une population dense, mobile et à revenus élevés. Les garages et boxes dans le centre-ville et les quartiers résidentiels trouvent preneurs rapidement. La demande étudiante est aussi présente, bien que plus orientée vers le stationnement que le stockage.",
+    },
+    offre: {
+      description:
+        "L'offre est tendue dans les secteurs centraux, avec des prix d'acquisition élevés. Quelques opérateurs de self-storage sont présents en périphérie de l'agglomération. Les garages en copropriété dans le centre historique sont rares et recherchés.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 80 € et 160 € / mois selon secteur et surface",
+      note: "Aix-en-Provence affiche parmi les niveaux de loyers observés les plus élevés hors Paris et Côte d'Azur. Les prix d'acquisition sont également élevés, ce qui peut comprimer les rendements bruts.",
+    },
+    pointsVigilance: [
+      "Prix d'acquisition élevés qui peuvent réduire le rendement brut",
+      "Vérifier soigneusement le règlement de copropriété en centre historique",
+      "La concurrence du self-storage en périphérie est croissante",
+      "Distinguer les garages avec usage auto (stationnement) et stockage pur",
+    ],
+    zoneLimitrophe: ["Vitrolles", "Gardanne", "Pertuis", "Bouc-Bel-Air", "Trets"],
+  },
+  {
+    slug: "annecy",
+    nom: "Annecy",
+    departement: "Haute-Savoie (74)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~130 000 hab. (ville), ~220 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Annecy — garages, boxes, self-storage",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage à Annecy : demande, offre, prix observés et points de vigilance pour l'investisseur.",
+    intro:
+      "Annecy est l'une des villes françaises les plus attractives, avec un marché immobilier sous forte tension. Les prix d'acquisition sont parmi les plus élevés de province, mais la demande locative pour les garages et boxes est structurellement élevée.",
+    contexteUrbanistique:
+      "Annecy et son agglomération concentrent une population à pouvoir d'achat élevé, attirée par la qualité de vie et la montagne. Le marché immobilier est très tendu : les appartements sans garage sont nombreux, et le stationnement est rare dans le centre. L'économie locale (industrie de précision, tourisme) est diversifiée.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande est très soutenue dans toute l'agglomération. Les garages se louent rapidement dans les secteurs résidentiels. La demande des entreprises et artisans est aussi significative. La rareté du foncier renforce structurellement la tension sur le marché des espaces annexes.",
+    },
+    offre: {
+      description:
+        "L'offre est limitée et les prix d'acquisition très élevés. La concurrence du self-storage est modérée, avec quelques acteurs présents. La rareté des biens disponibles entretient la tension.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 80 € et 180 € / mois selon secteur et taille",
+      note: "Annecy affiche parmi les niveaux de loyers les plus élevés de province. Les prix d'acquisition très élevés peuvent limiter les rendements bruts malgré des loyers importants.",
+    },
+    pointsVigilance: [
+      "Prix d'acquisition très élevés qui compriment les rendements",
+      "Marché peu liquide en termes de volume de transactions disponibles",
+      "Analyser l'usage saisonnier lié au tourisme de montagne",
+      "Vérifier la demande locative à l'année vs saisonnière",
+    ],
+    zoneLimitrophe: ["Cran-Gevrier", "Seynod", "Pringy", "Poisy", "Rumilly"],
+  },
+  {
+    slug: "valence",
+    nom: "Valence",
+    departement: "Drôme (26)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~66 000 hab. (ville), ~215 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Valence — garages, boxes, analyse",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage à Valence et dans la Drôme : demande, offre, prix observés et points de vigilance.",
+    intro:
+      "Valence est le principal pôle urbain du sillon rhodanien entre Lyon et Marseille. Sa situation de carrefour logistique et sa population en croissance modérée en font un marché de stockage intermédiaire, accessible à l'acquisition.",
+    contexteUrbanistique:
+      "Valence dispose d'un centre-ville avec des logements anciens sans garage intégré et d'une périphérie en développement. L'agglomération bénéficie de son positionnement sur l'autoroute A7 et de la présence de zones d'activité générant une demande professionnelle de stockage.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande est présente sans être tendue. Les quartiers centraux et les zones résidentielles proches des axes de transport présentent un marché actif. La demande des artisans et petits professionnels pour du stockage de matériel est notable.",
+    },
+    offre: {
+      description:
+        "L'offre de garages et boxes est disponible à des prix d'acquisition modérés. La concurrence du self-storage professionnel est limitée. Le marché reste accessible pour des investisseurs avec des budgets intermédiaires.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 40 € et 80 € / mois",
+      note: "Données indicatives. Valence offre des conditions d'investissement intermédiaires entre les grandes métropoles et les petites villes, avec un potentiel de rendement brut correct.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative dans le secteur précis ciblé",
+      "Analyser la concurrence locale avant acquisition",
+      "Anticiper l'évolution démographique de l'agglomération valentinoise",
+      "Évaluer la proximité avec des zones d'activité pour capter la demande professionnelle",
+    ],
+    zoneLimitrophe: ["Romans-sur-Isère", "Bourg-lès-Valence", "Guilherand-Granges", "Montélimar"],
+  },
 ];
 
 export function getVilleBySlug(slug: string): Ville | undefined {
