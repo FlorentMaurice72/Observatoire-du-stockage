@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import NewsletterBlock from "@/components/ui/NewsletterBlock";
 
 export const metadata: Metadata = {
@@ -85,8 +86,14 @@ export default function AProposPage() {
           <h2 className="text-xl font-bold text-[#1a1a2e] mb-8">Le fondateur</h2>
           <div className="bg-white rounded-2xl border border-slate-100 shadow-sm p-6 md:p-8">
             <div className="flex items-start gap-5">
-              <div className="w-14 h-14 rounded-full bg-[#1e3a5f] flex items-center justify-center text-white text-xl font-bold shrink-0">
-                FM
+              <div className="w-20 h-20 rounded-full overflow-hidden shrink-0 border-2 border-slate-100">
+                <Image
+                  src="/florent-maurice.jpg"
+                  alt="Florent Maurice, fondateur de l'Observatoire du Stockage"
+                  width={80}
+                  height={80}
+                  className="w-full h-full object-cover object-top"
+                />
               </div>
               <div className="flex-1">
                 <h3 className="font-bold text-[#1a1a2e] text-lg">Florent Maurice</h3>
