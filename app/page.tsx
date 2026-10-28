@@ -224,14 +224,12 @@ export default function HomePage() {
                   detail: "Tous les contenus éditoriaux sont accessibles sans inscription",
                 },
               ].map((stat) => (
-                <div key={stat.label} className="bg-white rounded-xl border border-slate-100 p-5 shadow-sm flex items-start gap-4">
-                  <div className="shrink-0 w-16 text-right">
+                <div key={stat.label} className="bg-white rounded-xl border border-slate-100 p-5 shadow-sm">
+                  <div className="flex items-baseline gap-2 mb-1">
                     <span className="text-lg font-bold text-[#1e3a5f]">{stat.value}</span>
+                    <span className="text-xs font-semibold text-slate-500 uppercase tracking-wide">{stat.label}</span>
                   </div>
-                  <div className="border-l border-slate-100 pl-4">
-                    <div className="text-sm font-semibold text-slate-800">{stat.label}</div>
-                    <div className="text-xs text-slate-500 mt-0.5 leading-relaxed">{stat.detail}</div>
-                  </div>
+                  <p className="text-xs text-slate-500 leading-relaxed">{stat.detail}</p>
                 </div>
               ))}
             </div>
