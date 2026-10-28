@@ -35,7 +35,8 @@ const outils: { icon: string; title: string; description: string; features: stri
     description:
       "Un tableau de bord pour suivre vos baux, loyers, taux d'occupation et dépenses par bien ou par lot.",
     features: ["Suivi des baux et échéances", "Tableau de taux d'occupation", "Synthèse des flux"],
-    status: "En développement",
+    status: "Disponible",
+    href: "/outils/suivi-locatif",
   },
   {
     icon: "📐",
