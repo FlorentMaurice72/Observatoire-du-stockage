@@ -107,7 +107,7 @@ export default function MarchePage() {
             description="Demande locative, offre, niveaux de prix observés et points de vigilance : une analyse par grande métropole."
           />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {villes.map((v) => {
+            {[...villes].sort((a, b) => a.nom.localeCompare(b.nom, "fr")).map((v) => {
               const niveauColors: Record<string, string> = {
                 forte: "bg-green-50 text-green-700 border-green-100",
                 moderee: "bg-amber-50 text-amber-700 border-amber-100",

@@ -13,6 +13,102 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "diagnostic-performance-energetique-garage",
+    title: "DPE et diagnostics immobiliers pour un garage : ce qui s'applique",
+    excerpt:
+      "Les obligations de diagnostic immobilier s'appliquent différemment selon la nature du bien. Pour un garage ou un box de stockage, certaines règles diffèrent de celles applicables aux logements. Tour d'horizon de ce qui est obligatoire, de ce qui est recommandé et de ce que l'acheteur ou le bailleur doit savoir.",
+    category: "reglementation",
+    date: "2026-12-23",
+    author: "Observatoire du Stockage",
+    readingTime: 7,
+    featured: false,
+    tags: ["DPE", "diagnostics", "réglementation", "vente", "location"],
+  },
+  {
+    slug: "garage-bail-commercial-ou-civil",
+    title: "Garage loué à un professionnel : bail commercial ou contrat civil ?",
+    excerpt:
+      "Lorsqu'un garage ou un espace de stockage est loué à un professionnel ou à une entreprise, la question du régime contractuel applicable est déterminante. Bail commercial, contrat de droit commun ou convention de mise à disposition : les régimes ne sont pas équivalents et peuvent engager le bailleur de façon très différente.",
+    category: "reglementation",
+    date: "2026-12-16",
+    author: "Observatoire du Stockage",
+    readingTime: 9,
+    featured: false,
+    tags: ["bail commercial", "contrat", "professionnel", "réglementation"],
+  },
+  {
+    slug: "augmenter-loyer-garage",
+    title: "Augmenter le loyer d'un garage : règles, timing et méthode",
+    excerpt:
+      "La révision du loyer d'un espace de stockage est une démarche qui doit respecter certaines conditions — contractuelles et de marché. Entre l'indexation contractuelle, la renegociation à l'amiable et le repositionnement lors d'un changement de locataire, les leviers diffèrent selon les situations.",
+    category: "exploitation",
+    date: "2026-12-09",
+    author: "Observatoire du Stockage",
+    readingTime: 7,
+    featured: false,
+    tags: ["loyer", "révision", "indexation", "exploitation"],
+  },
+  {
+    slug: "negocier-prix-achat-lot-garages",
+    title: "Négocier le prix d'un lot de garages : méthode et leviers",
+    excerpt:
+      "La négociation du prix d'un lot de garages repose sur une préparation rigoureuse et la capacité à objectiver les points faibles du bien ou de la situation locative. Comprendre les motivations du vendeur et identifier les marges de manœuvre réelles permet de construire une offre argumentée.",
+    category: "investissement",
+    date: "2026-12-02",
+    author: "Observatoire du Stockage",
+    readingTime: 8,
+    featured: false,
+    tags: ["négociation", "prix", "acquisition", "investissement"],
+  },
+  {
+    slug: "tva-location-garage",
+    title: "TVA et location de garage : quand s'applique-t-elle ?",
+    excerpt:
+      "La location d'un espace de stockage est, par principe, exonérée de TVA. Mais cette règle connaît des exceptions importantes selon la nature de la location, le profil du locataire et les options fiscales exercées par le bailleur. Un point de vigilance pour tout propriétaire qui souhaite optimiser sa situation fiscale.",
+    category: "reglementation",
+    date: "2026-11-25",
+    author: "Observatoire du Stockage",
+    readingTime: 8,
+    featured: false,
+    tags: ["TVA", "fiscalité", "réglementation", "option TVA"],
+  },
+  {
+    slug: "investir-garage-zone-rurale",
+    title: "Investir dans des garages en zone rurale ou périurbaine : spécificités et précautions",
+    excerpt:
+      "Les garages et espaces de stockage en zone rurale ou périurbaine présentent des profils de risque et d'opportunité très différents de ceux des marchés urbains denses. Les prix d'acquisition y sont souvent plus accessibles, mais la demande locative peut être plus fragile et la liquidité à la revente plus incertaine.",
+    category: "investissement",
+    date: "2026-11-18",
+    author: "Observatoire du Stockage",
+    readingTime: 8,
+    featured: false,
+    tags: ["zone rurale", "périurbain", "demande locative", "risque"],
+  },
+  {
+    slug: "travaux-garage-loue-responsabilite",
+    title: "Travaux dans un garage loué : qui paie, qui décide ?",
+    excerpt:
+      "La question des travaux dans un espace de stockage loué soulève des interrogations pratiques et juridiques que ne tranche pas un texte spécifique. En l'absence de statut locatif dédié aux garages, c'est le contrat et le droit commun qui fixent les règles — avec une marge de négociation importante.",
+    category: "reglementation",
+    date: "2026-11-11",
+    author: "Observatoire du Stockage",
+    readingTime: 7,
+    featured: false,
+    tags: ["travaux", "réparations", "responsabilité", "bailleur", "locataire"],
+  },
+  {
+    slug: "prix-garages-donnees-dvf",
+    title: "Prix des garages en France : ce que révèlent les données DVF",
+    excerpt:
+      "Les Demandes de valeurs foncières (DVF) publiées par la Direction générale des finances publiques offrent un accès partiel aux transactions immobilières enregistrées en France. Pour les garages et espaces de stockage, ces données permettent d'observer des tendances de prix par zone géographique — avec des limites méthodologiques à bien comprendre.",
+    category: "marche",
+    date: "2026-11-04",
+    author: "Observatoire du Stockage",
+    readingTime: 8,
+    featured: false,
+    tags: ["DVF", "prix", "transactions", "données", "marché"],
+  },
+  {
     slug: "structurer-gestion-plusieurs-unites-stockage",
     title: "Structurer la gestion de plusieurs unités de stockage : outils et organisation",
     excerpt:

@@ -6,6 +6,7 @@ import NewsletterBlock from "@/components/ui/NewsletterBlock";
 import CalloutBox from "@/components/ui/CalloutBox";
 import EbookLeadMagnet from "@/components/ui/EbookLeadMagnet";
 import { getArticlesByCategory } from "@/lib/articles";
+import { villes } from "@/lib/villes";
 
 export const metadata: Metadata = {
   title: "Investir dans les espaces de stockage — boxs, garages, entrepôts",
@@ -223,6 +224,34 @@ export default function InvestirPage() {
               </Link>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Marchés locaux */}
+      <section className="bg-[#f8f9fa] py-10 border-b border-slate-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between mb-5">
+            <h2 className="text-lg font-bold text-[#1a1a2e]">Analyses locales par ville</h2>
+            <Link href="/marche" className="text-xs font-semibold text-blue-700 hover:underline">
+              Voir toutes les villes →
+            </Link>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2">
+            {[...villes].sort((a, b) => a.nom.localeCompare(b.nom, "fr")).slice(0, 20).map((v) => {
+              const niveauColors: Record<string, string> = {
+                forte: "text-green-700",
+                moderee: "text-amber-700",
+                faible: "text-red-600",
+              };
+              return (
+                <Link key={v.slug} href={`/marche/${v.slug}`} className="bg-white border border-slate-100 hover:border-blue-200 rounded-lg px-3 py-2.5 flex items-center justify-between gap-1 transition-colors group">
+                  <span className="text-xs font-medium text-slate-700 group-hover:text-[#1e3a5f] truncate">{v.nom}</span>
+                  <span className={`text-xs shrink-0 ${niveauColors[v.demande.niveau]}`}>●</span>
+                </Link>
+              );
+            })}
+          </div>
+          <p className="mt-3 text-xs text-slate-400">● Forte &nbsp;● Modérée &nbsp;● Faible — niveau de demande locative observé</p>
         </div>
       </section>
 

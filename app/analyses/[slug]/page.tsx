@@ -2192,6 +2192,664 @@ const structurerGestionContent = () => (
   </div>
 );
 
+const prixGaragesDonneesDvfContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      Les Demandes de valeurs foncières (DVF) constituent la principale source publique de données sur les transactions immobilières en France. Pour les garages et espaces de stockage, elles permettent d'observer des tendances géographiques de prix — à condition de comprendre leurs limites méthodologiques importantes.
+    </p>
+
+    <div className="my-8 bg-[#f8f9fa] rounded-xl border border-slate-100 p-6 flex items-center justify-center">
+      <svg width="100%" height="160" viewBox="0 0 520 160" className="max-w-lg">
+        <rect x="20" y="20" width="100" height="120" rx="6" fill="#1e3a5f" opacity="0.12" stroke="#1e3a5f" strokeWidth="1"/>
+        <text x="70" y="130" textAnchor="middle" fontSize="9" fill="#1e3a5f" fontFamily="sans-serif">Direction générale</text>
+        <text x="70" y="142" textAnchor="middle" fontSize="9" fill="#1e3a5f" fontFamily="sans-serif">des Finances publiques</text>
+        <rect x="160" y="40" width="90" height="80" rx="6" fill="#3b82f6" opacity="0.15" stroke="#3b82f6" strokeWidth="1"/>
+        <text x="205" y="85" textAnchor="middle" fontSize="10" fill="#1d4ed8" fontFamily="sans-serif" fontWeight="600">Base DVF</text>
+        <text x="205" y="100" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">data.gouv.fr</text>
+        <rect x="300" y="40" width="90" height="35" rx="5" fill="#22c55e" opacity="0.12" stroke="#22c55e" strokeWidth="1"/>
+        <text x="345" y="62" textAnchor="middle" fontSize="9" fill="#166534" fontFamily="sans-serif">Garages</text>
+        <rect x="300" y="85" width="90" height="35" rx="5" fill="#f59e0b" opacity="0.15" stroke="#f59e0b" strokeWidth="1"/>
+        <text x="345" y="107" textAnchor="middle" fontSize="9" fill="#92400e" fontFamily="sans-serif">Stationnement</text>
+        <rect x="410" y="40" width="90" height="80" rx="6" fill="#e2e8f0" stroke="#94a3b8" strokeWidth="1" strokeDasharray="4,2"/>
+        <text x="455" y="78" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Données</text>
+        <text x="455" y="90" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">partielles</text>
+        <path d="M122 80 L158 80" stroke="#94a3b8" strokeWidth="1.5" markerEnd="url(#a)"/>
+        <path d="M252 60 L298 60" stroke="#94a3b8" strokeWidth="1.5"/>
+        <path d="M252 100 L298 100" stroke="#94a3b8" strokeWidth="1.5"/>
+        <path d="M392 80 L408 80" stroke="#94a3b8" strokeWidth="1.5"/>
+      </svg>
+    </div>
+
+    <h2 id="qu-est-ce-que-dvf">Qu'est-ce que la base DVF ?</h2>
+    <p>
+      Les Demandes de valeurs foncières (DVF) sont les actes notariés de mutation immobilière transmis à l'administration fiscale. Depuis 2019, ces données sont accessibles au public via le portail data.gouv.fr et via le service Patrim de l'administration fiscale (accessible aux particuliers pour leurs propres recherches).
+    </p>
+    <p>
+      La base recense les mutations à titre onéreux (ventes) de biens immobiliers et fonciers intervenues en France sur les cinq dernières années environ. Elle inclut les appartements, maisons, locaux commerciaux — et, partiellement, les dépendances comme les garages et places de stationnement.
+    </p>
+
+    <CalloutBox type="vigilance">
+      La base DVF ne couvre pas l'ensemble du territoire français. L'Alsace, la Moselle et Mayotte disposent de systèmes de publicité foncière distincts (livre foncier) et ne sont pas inclus dans DVF.
+    </CalloutBox>
+
+    <h2 id="garages-dans-dvf">Les garages dans la base DVF</h2>
+    <p>
+      Les transactions sur des garages, boxes, caves et places de stationnement sont répertoriées dans la base DVF sous des typologies spécifiques. Cependant, la qualité et l'exhaustivité de ces données présentent plusieurs limites importantes pour l'analyse du marché.
+    </p>
+    <p>
+      <strong>La fragmentation des ventes en lot.</strong> Un lot de dix garages vendu en une seule transaction peut apparaître comme une seule ligne dans la base, avec un prix global qui ne reflète pas nécessairement un prix unitaire cohérent avec le marché.
+    </p>
+    <p>
+      <strong>La classification imparfaite des biens.</strong> Selon la façon dont le notaire a rédigé l'acte, un même type de bien peut être classé différemment (dépendance, local industriel, box, parking). Cette hétérogénéité complique les comparaisons.
+    </p>
+    <p>
+      <strong>L'absence de données qualitatives.</strong> La base DVF ne renseigne pas sur l'état du bien, sa surface exacte dans tous les cas, son accessibilité ou sa configuration. Deux garages au même prix peuvent présenter des caractéristiques très différentes.
+    </p>
+
+    <h2 id="ce-que-revele-dvf">Ce que révèlent les données : tendances observables</h2>
+    <p>
+      Malgré leurs limites, les données DVF permettent d'observer certaines tendances géographiques sur le marché des garages et espaces de stockage.
+    </p>
+    <p>
+      <strong>La concentration des transactions dans les zones urbaines denses.</strong> L'essentiel des mutations sur des garages enregistrées dans DVF se concentre dans les grandes agglomérations, où le marché est plus actif et les transactions plus fréquentes. En zone rurale, le volume de données est souvent insuffisant pour être statistiquement représentatif.
+    </p>
+    <p>
+      <strong>Des écarts de prix significatifs selon la géographie.</strong> Les observations disponibles confirment ce que l'analyse qualitative des marchés locaux suggère : les écarts de prix entre un garage en centre de Paris ou Nice et un garage en périphérie d'une ville de taille moyenne peuvent être considérables.
+    </p>
+    <p>
+      <strong>Une activité transactionnelle qui reflète celle du marché résidentiel.</strong> Les volumes de transactions sur les garages tendent à suivre globalement la tendance du marché immobilier résidentiel, bien que les garages présentent leur propre dynamique avec un marché moins profond et plus fragmenté.
+    </p>
+
+    <h2 id="comment-utiliser-dvf">Comment utiliser DVF dans une analyse d'acquisition ?</h2>
+    <p>
+      Dans le cadre d'une analyse préalable à une acquisition, les données DVF peuvent apporter une information utile à condition d'être utilisées avec méthode.
+    </p>
+    <ul>
+      <li><strong>Délimiter une zone géographique précise</strong> : chercher les transactions dans un rayon cohérent avec le bien étudié, et sur une période récente (12 à 24 mois).</li>
+      <li><strong>Filtrer par type de bien</strong> : croiser plusieurs typologies (garage, dépendance, parking) pour obtenir un panel suffisant.</li>
+      <li><strong>Croiser avec d'autres sources</strong> : les prix de vente observés sur DVF sont à compléter par l'observation des annonces actives sur les plateformes immobilières et par des échanges avec des agents locaux.</li>
+      <li><strong>Utiliser les données comme ordre de grandeur</strong>, pas comme référence certifiée. La base DVF donne une indication de fourchette, pas un prix de marché certifié.</li>
+    </ul>
+
+    <div className="mt-8 pt-6 border-t border-slate-100">
+      <h3 className="text-sm font-bold text-slate-700 mb-3">Sources et références</h3>
+      <ul className="space-y-1">
+        <li className="text-xs text-slate-500">→ data.gouv.fr — Base Demandes de valeurs foncières (DVF open data)</li>
+        <li className="text-xs text-slate-500">→ impots.gouv.fr — Service Patrim (consultation personnelle des données DVF)</li>
+        <li className="text-xs text-slate-500">→ cadastre.gouv.fr — Données cadastrales complémentaires</li>
+      </ul>
+    </div>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      La base DVF est un outil utile mais imparfait pour analyser le marché des garages. Elle permet d'observer des tendances géographiques de prix et des volumes de transaction, sans constituer une référence certifiée. Ses limites — transactions en lot, classification hétérogène, absence de données qualitatives, exclusion de l'Alsace-Moselle — imposent de la croiser systématiquement avec d'autres sources avant toute décision d'investissement.
+    </CalloutBox>
+  </div>
+);
+
+const travauxGarageLoueResponsabiliteContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      En l'absence d'un statut locatif spécifique aux garages, la question des travaux et des réparations dans un espace de stockage loué est régie par le droit commun et, surtout, par le contrat de location. C'est ce que les parties ont stipulé qui prime — d'où l'importance d'un contrat bien rédigé.
+    </p>
+
+    <div className="my-8 bg-[#f8f9fa] rounded-xl border border-slate-100 p-6 flex items-center justify-center">
+      <svg width="100%" height="160" viewBox="0 0 520 160" className="max-w-lg">
+        <rect x="30" y="30" width="200" height="100" rx="8" fill="#1e3a5f" opacity="0.08" stroke="#1e3a5f" strokeWidth="1.5"/>
+        <text x="130" y="75" textAnchor="middle" fontSize="11" fill="#1e3a5f" fontFamily="sans-serif" fontWeight="600">Bailleur</text>
+        <text x="130" y="92" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Grosses réparations</text>
+        <text x="130" y="106" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">(structure, toiture…)</text>
+        <rect x="290" y="30" width="200" height="100" rx="8" fill="#3b82f6" opacity="0.08" stroke="#3b82f6" strokeWidth="1.5"/>
+        <text x="390" y="75" textAnchor="middle" fontSize="11" fill="#1d4ed8" fontFamily="sans-serif" fontWeight="600">Locataire</text>
+        <text x="390" y="92" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Entretien courant</text>
+        <text x="390" y="106" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">(nettoyage, petites réparations)</text>
+        <line x1="232" y1="80" x2="288" y2="80" stroke="#94a3b8" strokeWidth="1.5" strokeDasharray="4,2"/>
+        <text x="260" y="74" textAnchor="middle" fontSize="9" fill="#94a3b8" fontFamily="sans-serif">Contrat</text>
+      </svg>
+    </div>
+
+    <h2 id="principe-general">Le principe général : le droit commun s'applique</h2>
+    <p>
+      La location d'un garage ou d'un espace de stockage ne relève d'aucun statut spécifique — ni la loi du 6 juillet 1989 sur les logements, ni le statut des baux commerciaux ne s'appliquent en principe à ces biens loués à des particuliers à des fins de stockage. C'est donc le droit commun du louage de choses, issu du Code civil (articles 1709 et suivants), qui constitue le cadre de référence.
+    </p>
+    <p>
+      Ce régime est à la fois plus souple et plus incertain que les statuts locatifs spécifiques : il laisse une large place à la liberté contractuelle, ce qui signifie que le contrat signé entre bailleur et locataire prévaut sur les interprétations générales.
+    </p>
+
+    <h2 id="obligation-bailleur">Les obligations du bailleur</h2>
+    <p>
+      En droit commun, le bailleur est tenu de deux obligations principales en matière de travaux :
+    </p>
+    <ul>
+      <li><strong>Délivrer un bien en bon état.</strong> À la remise des clés, le garage doit être dans un état compatible avec l'usage prévu. Une toiture qui fuit, une porte motorisée hors d'usage ou un sol dégradé peuvent constituer un défaut de délivrance si cet état était préexistant à l'entrée du locataire.</li>
+      <li><strong>Assurer la jouissance paisible.</strong> Le bailleur est tenu d'effectuer les réparations nécessaires au maintien de la chose en état de servir à l'usage pour lequel elle a été louée (article 1719 du Code civil). Cela couvre en principe les grosses réparations : structure, toiture, fermeture principale.</li>
+    </ul>
+
+    <CalloutBox type="legal">
+      Le Code civil distingue classiquement les "grosses réparations" (à la charge du bailleur) des "menues réparations locatives" (à la charge du locataire). Cette distinction, issue de l'article 1754, n'est pas définie précisément et donne lieu à des interprétations variables selon les contrats et les juridictions.
+    </CalloutBox>
+
+    <h2 id="obligation-locataire">Les obligations du locataire</h2>
+    <p>
+      Le locataire est tenu, en droit commun, de l'entretien courant du bien et des menues réparations locatives. Dans le contexte d'un garage, cela recouvre typiquement le nettoyage, l'entretien du mécanisme de porte s'il en est responsable, et la réparation des dommages qu'il a causés.
+    </p>
+    <p>
+      Il est responsable des dégradations survenues pendant la location, sauf s'il peut établir qu'elles résultent d'un vice de construction, d'un cas fortuit ou d'une force majeure.
+    </p>
+
+    <h2 id="role-du-contrat">Le rôle central du contrat</h2>
+    <p>
+      En pratique, c'est la rédaction du contrat de location qui fixe le partage des responsabilités de façon précise et opposable. Un contrat bien rédigé peut notamment :
+    </p>
+    <ul>
+      <li>Lister les équipements présents et leur état à l'entrée (état des lieux détaillé) ;</li>
+      <li>Préciser qui prend en charge l'entretien de la porte motorisée, du système d'éclairage, du portail d'accès ;</li>
+      <li>Exclure expressément certains travaux de la charge du locataire (ravalement, étanchéité) ;</li>
+      <li>Définir la procédure à suivre en cas de dommage ou de besoin de réparation.</li>
+    </ul>
+
+    <CalloutBox type="vigilance">
+      L'absence d'état des lieux contradictoire à l'entrée rend très difficile toute imputation de dégradation au locataire en cas de litige. C'est une pièce essentielle, même pour un bien de faible valeur.
+    </CalloutBox>
+
+    <h2 id="travaux-amelioration">Les travaux d'amélioration</h2>
+    <p>
+      Si le locataire souhaite réaliser des travaux d'amélioration dans l'espace loué — installer une étagère fixe, poser du carrelage, ajouter un éclairage — le principe est qu'il doit obtenir l'accord du bailleur. En l'absence d'accord contractuel préalable, les travaux réalisés sans autorisation peuvent être source de litige au moment du départ.
+    </p>
+    <p>
+      Le contrat devrait préciser le sort des aménagements à la fin du bail : remise en état à la charge du locataire, conservation des améliorations sans indemnité, ou indemnisation partielle à convenir.
+    </p>
+
+    <div className="mt-8 pt-6 border-t border-slate-100">
+      <h3 className="text-sm font-bold text-slate-700 mb-3">Sources et références</h3>
+      <ul className="space-y-1">
+        <li className="text-xs text-slate-500">→ Legifrance.gouv.fr — Code civil, art. 1719 à 1724 (obligations du bailleur)</li>
+        <li className="text-xs text-slate-500">→ Legifrance.gouv.fr — Code civil, art. 1754 (réparations locatives)</li>
+        <li className="text-xs text-slate-500">→ Service-public.fr — Location d'un garage ou d'un parking</li>
+      </ul>
+    </div>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      En l'absence de statut locatif spécifique, les travaux dans un garage loué sont régis par le droit commun et, surtout, par le contrat. Le bailleur est responsable des grosses réparations et de la délivrance du bien en bon état ; le locataire prend en charge l'entretien courant et les dégradations qu'il a causées. Un contrat bien rédigé et un état des lieux soigné permettent de prévenir l'essentiel des litiges.
+    </CalloutBox>
+  </div>
+);
+
+const investirGarageZoneRuraleContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      Les garages et espaces de stockage en zone rurale ou périurbaine affichent souvent des prix d'acquisition bien inférieurs à ceux des métropoles. Cette accessibilité peut sembler attractive, mais elle ne reflète pas nécessairement un meilleur rendement : la demande locative y est structurellement plus fragile et la liquidité à la revente, plus incertaine.
+    </p>
+
+    <div className="my-8 bg-[#f8f9fa] rounded-xl border border-slate-100 p-6 flex items-center justify-center">
+      <svg width="100%" height="160" viewBox="0 0 520 160" className="max-w-lg">
+        <rect x="30" y="30" width="140" height="100" rx="8" fill="#1e3a5f" opacity="0.12" stroke="#1e3a5f" strokeWidth="1.5"/>
+        <text x="100" y="72" textAnchor="middle" fontSize="11" fill="#1e3a5f" fontFamily="sans-serif" fontWeight="600">Urbain dense</text>
+        <text x="100" y="90" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Prix élevés</text>
+        <text x="100" y="105" textAnchor="middle" fontSize="9" fill="#22c55e" fontFamily="sans-serif">Demande forte</text>
+        <rect x="190" y="50" width="140" height="80" rx="8" fill="#f59e0b" opacity="0.12" stroke="#f59e0b" strokeWidth="1.5"/>
+        <text x="260" y="87" textAnchor="middle" fontSize="11" fill="#92400e" fontFamily="sans-serif" fontWeight="600">Périurbain</text>
+        <text x="260" y="105" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">À analyser cas par cas</text>
+        <rect x="350" y="60" width="140" height="70" rx="8" fill="#e2e8f0" stroke="#94a3b8" strokeWidth="1.5"/>
+        <text x="420" y="93" textAnchor="middle" fontSize="11" fill="#475569" fontFamily="sans-serif" fontWeight="600">Rural</text>
+        <text x="420" y="110" textAnchor="middle" fontSize="9" fill="#94a3b8" fontFamily="sans-serif">Demande incertaine</text>
+      </svg>
+    </div>
+
+    <h2 id="atouts-apparents">Les atouts apparents : prix et rendement brut</h2>
+    <p>
+      Les annonces de garages ou de lots de boxes en zone rurale ou dans les petites villes affichent régulièrement des rendements bruts annoncés supérieurs à ceux des grandes métropoles. Cette observation est réelle : le prix d'acquisition est plus bas, et les loyers observés ne diminuent pas dans la même proportion.
+    </p>
+    <p>
+      Cette mécanique peut attirer des investisseurs à la recherche d'un ticket d'entrée accessible et d'un flux de trésorerie positif rapide. Avant de s'en satisfaire, il est nécessaire d'examiner ce que ces chiffres masquent réellement.
+    </p>
+
+    <h2 id="fragilite-demande">La fragilité de la demande locative en zone peu dense</h2>
+    <p>
+      La demande locative pour des espaces de stockage est étroitement liée à la densité de population, à la mobilité résidentielle et au tissu économique local. Ces trois facteurs sont structurellement plus faibles en zone rurale :
+    </p>
+    <ul>
+      <li><strong>Population moins dense.</strong> Moins de ménages dans un rayon géographique donné signifie mécaniquement moins de demandeurs potentiels.</li>
+      <li><strong>Structure du logement différente.</strong> En zone rurale, la majorité des habitants disposent d'un logement individuel avec garage ou dépendance. Le besoin de stockage externe est donc moins pressant.</li>
+      <li><strong>Tissu économique limité.</strong> Les artisans, TPE et petits commerçants qui constituent une part importante de la demande de stockage en milieu urbain sont moins présents.</li>
+    </ul>
+
+    <CalloutBox type="vigilance">
+      Un lot de garages occupé au moment de l'achat peut donner l'impression d'une demande existante. La vraie question est : quelle sera la vitesse de relocation si un locataire part ? En zone peu dense, ce délai peut être significativement plus long qu'en milieu urbain.
+    </CalloutBox>
+
+    <h2 id="liquidite-revente">La liquidité et la revente</h2>
+    <p>
+      Investir dans des garages en zone rurale signifie souvent investir dans un actif qui intéressera un nombre limité d'acheteurs le jour de la revente. Le marché des investisseurs actifs sur ce type de bien est concentré dans les métropoles ; les marchés ruraux sont plus difficiles à animer.
+    </p>
+    <p>
+      Cette faible liquidité ne constitue pas nécessairement un problème pour un investisseur à long terme qui n'a pas besoin de revendre rapidement. Elle devient un risque majeur en cas de besoin de liquidités imprévu ou d'évolution de la situation personnelle.
+    </p>
+
+    <h2 id="types-demande-rural">Les types de demande qui persistent en zone rurale</h2>
+    <p>
+      Certains profils de locataires sont présents même en zone peu dense et peuvent constituer une demande structurelle plus stable :
+    </p>
+    <ul>
+      <li>Les artisans et agriculteurs cherchant un espace de stockage de matériaux ou d'équipements ;</li>
+      <li>Les ménages en transition (déménagement, succession, travaux) ;</li>
+      <li>Les résidents secondaires cherchant un stockage sécurisé pour du mobilier ou des équipements de loisir ;</li>
+      <li>Les petites entreprises locales sans entrepôt propre.</li>
+    </ul>
+
+    <h2 id="precautions-avant-achat">Précautions spécifiques avant d'investir</h2>
+    <p>
+      Si, après une analyse rigoureuse, un projet en zone rurale ou périurbaine reste envisageable, certaines précautions supplémentaires s'imposent :
+    </p>
+    <ul>
+      <li>Vérifier la demande locative réelle en publiant une annonce test avant de signer ;</li>
+      <li>Analyser les délais de relocation des biens similaires dans la zone ;</li>
+      <li>S'assurer que le prix d'acquisition intègre une prime de risque pour la vacance plus probable ;</li>
+      <li>Évaluer la situation du bien au regard des dynamiques démographiques locales (déclin ou croissance).</li>
+    </ul>
+
+    <div className="mt-8 pt-6 border-t border-slate-100">
+      <h3 className="text-sm font-bold text-slate-700 mb-3">Sources et références</h3>
+      <ul className="space-y-1">
+        <li className="text-xs text-slate-500">→ INSEE.fr — Données démographiques par commune et évolutions</li>
+        <li className="text-xs text-slate-500">→ Observatoire.ville.gouv.fr — Dynamiques de l'urbain et du périurbain</li>
+      </ul>
+    </div>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      Les garages en zone rurale offrent des prix d'acquisition accessibles mais une demande locative structurellement plus fragile. La liquidité à la revente est limitée et le risque de vacance prolongée est plus élevé. Avant tout engagement, vérifier la demande réelle sur le terrain — et non seulement auprès du vendeur — est indispensable. Ce type d'investissement peut avoir du sens pour certains profils d'investisseurs, mais pas comme substitut à une analyse de marché rigoureuse.
+    </CalloutBox>
+  </div>
+);
+
+const tvaLocationGarageContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      La location d'un espace de stockage est exonérée de TVA par défaut — mais cette règle connaît des exceptions. Selon la nature du locataire, la configuration du bien ou l'option fiscale exercée par le bailleur, la TVA peut s'appliquer et modifier significativement l'économie d'une opération.
+    </p>
+
+    <div className="my-8 bg-[#f8f9fa] rounded-xl border border-slate-100 p-6 flex items-center justify-center">
+      <svg width="100%" height="160" viewBox="0 0 520 160" className="max-w-lg">
+        <rect x="30" y="40" width="200" height="80" rx="8" fill="#22c55e" opacity="0.12" stroke="#22c55e" strokeWidth="1.5"/>
+        <text x="130" y="78" textAnchor="middle" fontSize="11" fill="#166534" fontFamily="sans-serif" fontWeight="600">Exonéré de TVA</text>
+        <text x="130" y="96" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Principe général</text>
+        <text x="130" y="110" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">location à des particuliers</text>
+        <rect x="290" y="40" width="200" height="80" rx="8" fill="#3b82f6" opacity="0.12" stroke="#3b82f6" strokeWidth="1.5"/>
+        <text x="390" y="78" textAnchor="middle" fontSize="11" fill="#1d4ed8" fontFamily="sans-serif" fontWeight="600">TVA applicable</text>
+        <text x="390" y="96" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Option TVA exercée ou</text>
+        <text x="390" y="110" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">location avec services</text>
+      </svg>
+    </div>
+
+    <h2 id="principe-exoneration">Le principe : l'exonération de TVA</h2>
+    <p>
+      Conformément à l'article 261 D du Code général des impôts, la location de locaux nus (sans équipement ni service) à usage autre qu'habitation est en principe exonérée de TVA. Cette exonération couvre la grande majorité des locations de garages, boxes et caves à des particuliers.
+    </p>
+    <p>
+      Pour le propriétaire bailleur, cette exonération signifie qu'il n'a pas à facturer la TVA sur ses loyers, mais qu'il ne peut pas non plus récupérer la TVA qu'il supporte sur ses dépenses (travaux, frais de gestion).
+    </p>
+
+    <CalloutBox type="legal">
+      Ces informations sont générales et ne constituent pas un conseil fiscal. La TVA applicable à une opération immobilière spécifique dépend de nombreux paramètres. Consultez un expert-comptable ou un conseiller fiscal avant de prendre une décision.
+    </CalloutBox>
+
+    <h2 id="cas-tva-applicable">Les cas où la TVA peut s'appliquer</h2>
+    <p>
+      Plusieurs situations peuvent conduire à l'application de la TVA sur une location d'espace de stockage :
+    </p>
+    <p>
+      <strong>L'option pour l'assujettissement à la TVA.</strong> Un bailleur assujetti à la TVA pour d'autres activités peut, dans certains cas, opter pour l'assujettissement de ses locations à des professionnels. Cette option, une fois exercée, s'applique pour une durée minimale et ne peut pas être librement révoquée.
+    </p>
+    <p>
+      <strong>La location avec services complémentaires.</strong> Si la location est assortie de prestations de services significatives (gardiennage, manutention, gestion de stocks), l'ensemble de l'opération peut être requalifié en prestation de services soumise à TVA plutôt qu'en simple location.
+    </p>
+    <p>
+      <strong>La location dans le cadre d'un bail commercial.</strong> Lorsqu'un espace de stockage est loué à un professionnel dans le cadre d'un bail commercial, les règles TVA applicables peuvent différer selon les circonstances.
+    </p>
+
+    <h2 id="impact-sur-loyers">L'impact de la TVA sur les loyers et la rentabilité</h2>
+    <p>
+      Si la TVA s'applique, deux scénarios sont possibles selon le profil du locataire :
+    </p>
+    <ul>
+      <li><strong>Locataire assujetti à la TVA :</strong> il peut récupérer la TVA payée sur son loyer, ce qui rend l'option TVA neutre pour lui. Le bailleur, de son côté, peut récupérer la TVA sur ses charges.</li>
+      <li><strong>Locataire non assujetti (particulier) :</strong> la TVA constitue un coût définitif pour lui, ce qui peut rendre le bien moins attractif si le loyer TTCdevient significativement plus élevé.</li>
+    </ul>
+
+    <h2 id="point-vigilance-acquisition">Point de vigilance lors d'une acquisition</h2>
+    <p>
+      Lors de l'achat d'un bien ayant fait l'objet d'une option TVA, l'acquéreur doit être attentif aux obligations de régularisation éventuelles. Une TVA récupérée sur les travaux par le vendeur peut donner lieu à une régularisation si le bien change de régime fiscal dans les années suivant l'exercice de l'option.
+    </p>
+
+    <div className="mt-8 pt-6 border-t border-slate-100">
+      <h3 className="text-sm font-bold text-slate-700 mb-3">Sources et références</h3>
+      <ul className="space-y-1">
+        <li className="text-xs text-slate-500">→ Legifrance.gouv.fr — Code général des impôts, art. 261 D (exonérations TVA)</li>
+        <li className="text-xs text-slate-500">→ BOFIP — BOI-TVA-CHAMP-10-10-50 (locations immobilières et TVA)</li>
+        <li className="text-xs text-slate-500">→ impots.gouv.fr — Régime TVA applicable aux locations immobilières</li>
+      </ul>
+    </div>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      La location d'un garage à un particulier est par défaut exonérée de TVA. Cette exonération peut céder dans certaines configurations : option exercée par le bailleur, location avec services complémentaires, ou location dans un cadre commercial spécifique. Les conséquences diffèrent selon que le locataire est lui-même assujetti à la TVA ou non. Pour toute situation non standard, l'avis d'un professionnel fiscal est indispensable.
+    </CalloutBox>
+  </div>
+);
+
+const negocierPrixAchatLotGaragesContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      Négocier le prix d'un lot de garages n'est pas une démarche improvisée. Elle repose sur une préparation rigoureuse, une connaissance des références de marché et la capacité à identifier les leviers objectifs qui justifient une offre inférieure au prix demandé.
+    </p>
+
+    <div className="my-8 bg-[#f8f9fa] rounded-xl border border-slate-100 p-6 flex items-center justify-center">
+      <svg width="100%" height="160" viewBox="0 0 520 160" className="max-w-lg">
+        <rect x="30" y="50" width="130" height="60" rx="6" fill="#1e3a5f" opacity="0.12" stroke="#1e3a5f" strokeWidth="1.5"/>
+        <text x="95" y="85" textAnchor="middle" fontSize="11" fill="#1e3a5f" fontFamily="sans-serif" fontWeight="600">Prix demandé</text>
+        <rect x="360" y="50" width="130" height="60" rx="6" fill="#22c55e" opacity="0.12" stroke="#22c55e" strokeWidth="1.5"/>
+        <text x="425" y="85" textAnchor="middle" fontSize="11" fill="#166534" fontFamily="sans-serif" fontWeight="600">Prix négocié</text>
+        <path d="M162 80 L358 80" stroke="#94a3b8" strokeWidth="2" strokeDasharray="5,3"/>
+        <rect x="210" y="55" width="100" height="50" rx="6" fill="#f59e0b" opacity="0.15" stroke="#f59e0b" strokeWidth="1.5"/>
+        <text x="260" y="83" textAnchor="middle" fontSize="9" fill="#92400e" fontFamily="sans-serif" fontWeight="600">Leviers</text>
+        <text x="260" y="96" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">État, vacance, travaux</text>
+      </svg>
+    </div>
+
+    <h2 id="preparer-negociation">Préparer la négociation : connaître la valeur du bien</h2>
+    <p>
+      La négociation commence bien avant la première rencontre avec le vendeur. Elle suppose d'avoir construit une estimation indépendante de la valeur du bien, fondée sur des données objectives : références de transactions comparables (DVF, annonces vendues), niveau des loyers pratiqués, charges existantes et travaux à prévoir.
+    </p>
+    <p>
+      Cette estimation permet de déterminer un prix d'offre argumenté et de ne pas se laisser ancrer par le prix affiché. Un prix demandé n'est pas un prix de marché : il reflète les attentes du vendeur et, souvent, une marge de négociation.
+    </p>
+
+    <h2 id="leviers-negociation">Les leviers de négociation</h2>
+    <p>
+      Plusieurs éléments objectifs peuvent justifier une offre inférieure au prix demandé :
+    </p>
+    <ul>
+      <li><strong>L'état du bâti.</strong> Des travaux de toiture, une reprise d'étanchéité ou une porte motorisée à remplacer sont des dépenses identifiables qui réduisent la valeur nette de l'investissement. Ils se chiffrent et se déduisent.</li>
+      <li><strong>La vacance locative.</strong> Un lot partiellement inoccupé génère moins de revenus immédiats. La période de relocation et le loyer du marché permettent de calculer le manque à gagner et de l'intégrer dans l'offre.</li>
+      <li><strong>Des loyers sous le marché.</strong> Des baux anciens avec des loyers faibles ne peuvent pas toujours être révisés immédiatement. L'écart entre le loyer en place et le loyer de marché constitue un coût d'opportunité chiffrable.</li>
+      <li><strong>Des charges élevées.</strong> Un appel de fonds de copropriété imminent ou un fonds de travaux important réduit la rentabilité nette de l'opération.</li>
+      <li><strong>La durée de mise en vente.</strong> Un bien en vente depuis longtemps sans preneur suggère que le prix est inadapté au marché ou que le bien présente des défauts.</li>
+    </ul>
+
+    <CalloutBox type="retenir">
+      Présenter une offre écrite argumentée, avec les éléments chiffrés qui la justifient, est souvent plus efficace qu'une négociation verbale. Elle démontre la sériosité de l'acheteur et oblige le vendeur à répondre sur le fond.
+    </CalloutBox>
+
+    <h2 id="motivation-vendeur">Comprendre la motivation du vendeur</h2>
+    <p>
+      La marge de négociation dépend aussi de la situation personnelle et des motivations du vendeur. Un vendeur pressé (succession, liquidité, déménagement) sera plus enclin à accepter une offre basse qu'un propriétaire qui vend sans urgence et peut attendre un meilleur acheteur.
+    </p>
+    <p>
+      Quelques questions à poser indirectement lors des visites ou échanges peuvent aider à comprendre le contexte : depuis combien de temps le bien est-il en vente ? Y a-t-il eu des offres ? Le vendeur est-il propriétaire depuis longtemps ?
+    </p>
+
+    <h2 id="erreurs-a-eviter">Les erreurs à éviter</h2>
+    <ul>
+      <li>Formuler une offre trop basse sans argumentation, qui peut être perçue comme une insulte et bloquer la négociation ;</li>
+      <li>S'ancrer sur le rendement espéré plutôt que sur la valeur réelle du bien ;</li>
+      <li>Négliger les conditions autres que le prix (délai de réalisation, clause de séquestre, conditions suspensives) qui peuvent avoir autant de valeur que quelques milliers d'euros sur le prix ;</li>
+      <li>Montrer trop d'enthousiasme lors des visites, ce qui affaiblit la position de négociation.</li>
+    </ul>
+
+    <div className="mt-8 pt-6 border-t border-slate-100">
+      <h3 className="text-sm font-bold text-slate-700 mb-3">Outils utiles</h3>
+      <ul className="space-y-1">
+        <li className="text-xs text-slate-500">→ Notre calculateur de rentabilité pour chiffrer les scénarios avant offre</li>
+        <li className="text-xs text-slate-500">→ La checklist d'acquisition pour identifier les points de vigilance</li>
+        <li className="text-xs text-slate-500">→ data.gouv.fr — Base DVF pour les références de transactions</li>
+      </ul>
+    </div>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      Une négociation réussie repose sur une estimation indépendante de la valeur du bien, une identification précise des leviers objectifs (état, vacance, charges) et la compréhension des motivations du vendeur. Une offre argumentée et chiffrée est plus convaincante qu'une demande de remise sans justification. Les conditions du compromis (délai, séquestre) ont aussi une valeur négociable à ne pas négliger.
+    </CalloutBox>
+  </div>
+);
+
+const augmenterLoyerGarageContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      Réviser à la hausse le loyer d'un espace de stockage est possible, mais encadré par les conditions du contrat et les règles du droit commun. Les leviers diffèrent selon que l'on cherche à indexer un loyer existant, à renegocier avec un locataire en place, ou à repositionner le bien lors d'un renouvellement de bail.
+    </p>
+
+    <div className="my-8 bg-[#f8f9fa] rounded-xl border border-slate-100 p-6 flex items-center justify-center">
+      <svg width="100%" height="160" viewBox="0 0 520 160" className="max-w-lg">
+        <rect x="30" y="40" width="130" height="80" rx="8" fill="#1e3a5f" opacity="0.10" stroke="#1e3a5f" strokeWidth="1.5"/>
+        <text x="95" y="80" textAnchor="middle" fontSize="10" fill="#1e3a5f" fontFamily="sans-serif" fontWeight="600">Indexation</text>
+        <text x="95" y="96" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Clause contractuelle</text>
+        <text x="95" y="110" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">IRL ou ICC</text>
+        <rect x="195" y="40" width="130" height="80" rx="8" fill="#3b82f6" opacity="0.10" stroke="#3b82f6" strokeWidth="1.5"/>
+        <text x="260" y="80" textAnchor="middle" fontSize="10" fill="#1d4ed8" fontFamily="sans-serif" fontWeight="600">Renégociation</text>
+        <text x="260" y="96" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Accord amiable</text>
+        <text x="260" y="110" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">pendant le bail</text>
+        <rect x="360" y="40" width="130" height="80" rx="8" fill="#22c55e" opacity="0.10" stroke="#22c55e" strokeWidth="1.5"/>
+        <text x="425" y="80" textAnchor="middle" fontSize="10" fill="#166534" fontFamily="sans-serif" fontWeight="600">Renouvellement</text>
+        <text x="425" y="96" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Changement de locataire</text>
+        <text x="425" y="110" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">ou fin de bail</text>
+      </svg>
+    </div>
+
+    <h2 id="indexation-contractuelle">L'indexation contractuelle : le levier le plus simple</h2>
+    <p>
+      Si le contrat de location prévoit une clause d'indexation du loyer, le bailleur peut réviser le loyer chaque année sans avoir à négocier avec le locataire. La révision est automatique, à condition de respecter la périodicité et l'indice prévu.
+    </p>
+    <p>
+      Pour les locaux à usage de stockage loués à des particuliers, l'indice le plus fréquemment utilisé est l'Indice de Référence des Loyers (IRL), publié chaque trimestre par l'INSEE. Pour des locations à des professionnels, l'Indice des Loyers Commerciaux (ILC) ou l'Indice des Loyers des Activités Tertiaires (ILAT) peuvent être référencés.
+    </p>
+
+    <CalloutBox type="vigilance">
+      Si le contrat ne prévoit pas de clause d'indexation, le loyer ne peut pas être révisé unilatéralement. Toute modification doit faire l'objet d'un avenant signé par les deux parties.
+    </CalloutBox>
+
+    <h2 id="renegociation-amiable">La renégociation amiable en cours de bail</h2>
+    <p>
+      Si le loyer en place est significativement en dessous du marché et qu'aucune clause d'indexation ne permet de le corriger, la renégociation amiable est possible. Elle repose sur un accord entre le bailleur et le locataire, formalisé par un avenant au contrat.
+    </p>
+    <p>
+      Cette démarche demande de la méthode :
+    </p>
+    <ul>
+      <li>Préparer un argumentaire fondé sur les loyers observés pour des biens comparables dans la zone ;</li>
+      <li>Proposer une augmentation progressive plutôt qu'un rattrapage immédiat, pour faciliter l'accord ;</li>
+      <li>Présenter la démarche comme une mise en cohérence avec le marché, pas comme une contrainte arbitraire.</li>
+    </ul>
+
+    <h2 id="changement-locataire">Le levier le plus efficace : le changement de locataire</h2>
+    <p>
+      Le changement de locataire constitue l'opportunité naturelle de repositionner le loyer au niveau du marché. Lors d'un départ, le bailleur est libre de fixer un nouveau loyer sans contrainte de lien avec l'ancien.
+    </p>
+    <p>
+      C'est pourquoi la politique de loyer lors de la mise en location initiale a des conséquences durables : un loyer initialement trop bas est difficile à corriger tant que le locataire reste en place, surtout si le contrat ne prévoit pas d'indexation.
+    </p>
+
+    <h2 id="erreurs-a-eviter">Les erreurs à éviter</h2>
+    <ul>
+      <li>Réviser le loyer sans base contractuelle ou accord du locataire : c'est juridiquement sans effet et peut créer un contentieux ;</li>
+      <li>Confondre la révision d'un loyer sous-évalué avec une augmentation arbitraire ;</li>
+      <li>Ignorer la réaction probable du locataire : une augmentation trop brutale peut provoquer un départ et une période de vacance.</li>
+    </ul>
+
+    <div className="mt-8 pt-6 border-t border-slate-100">
+      <h3 className="text-sm font-bold text-slate-700 mb-3">Sources et références</h3>
+      <ul className="space-y-1">
+        <li className="text-xs text-slate-500">→ INSEE.fr — Indice de Référence des Loyers (IRL), publication trimestrielle</li>
+        <li className="text-xs text-slate-500">→ Legifrance.gouv.fr — Code civil, art. 1709 et suivants (louage)</li>
+      </ul>
+    </div>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      L'augmentation du loyer d'un garage repose sur trois leviers selon la situation : l'indexation contractuelle (si une clause le prévoit), la renégociation amiable avec un avenant (si le locataire est d'accord) et le repositionnement lors d'un changement de locataire (le levier le plus libre). En l'absence de clause contractuelle, aucune révision unilatérale n'est possible. La prévention passe par une clause d'indexation bien rédigée dès la signature du contrat initial.
+    </CalloutBox>
+  </div>
+);
+
+const garageBailCommercialOuCivilContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      Lorsqu'un garage ou un espace de stockage est loué à un professionnel ou une entreprise, le régime juridique applicable n'est pas automatique. Le statut des baux commerciaux peut s'appliquer dans certains cas, avec des conséquences très différentes de celles d'un simple contrat civil — notamment en matière de durée, de droit au renouvellement et de loyer.
+    </p>
+
+    <div className="my-8 bg-[#f8f9fa] rounded-xl border border-slate-100 p-6 flex items-center justify-center">
+      <svg width="100%" height="160" viewBox="0 0 520 160" className="max-w-lg">
+        <rect x="30" y="40" width="200" height="80" rx="8" fill="#1e3a5f" opacity="0.10" stroke="#1e3a5f" strokeWidth="1.5"/>
+        <text x="130" y="75" textAnchor="middle" fontSize="11" fill="#1e3a5f" fontFamily="sans-serif" fontWeight="600">Bail commercial</text>
+        <text x="130" y="92" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Droit au renouvellement</text>
+        <text x="130" y="106" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Durée min. 9 ans</text>
+        <rect x="290" y="40" width="200" height="80" rx="8" fill="#3b82f6" opacity="0.10" stroke="#3b82f6" strokeWidth="1.5"/>
+        <text x="390" y="75" textAnchor="middle" fontSize="11" fill="#1d4ed8" fontFamily="sans-serif" fontWeight="600">Contrat civil</text>
+        <text x="390" y="92" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Plus de liberté contractuelle</text>
+        <text x="390" y="106" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Pas de droit au renouvellement</text>
+      </svg>
+    </div>
+
+    <h2 id="conditions-bail-commercial">Conditions d'application du bail commercial</h2>
+    <p>
+      Le statut des baux commerciaux, régi par les articles L. 145-1 et suivants du Code de commerce, s'applique lorsque trois conditions cumulatives sont réunies :
+    </p>
+    <ul>
+      <li>Le locataire est un commerçant, artisan ou industriel ;</li>
+      <li>Il est immatriculé au Registre du Commerce et des Sociétés (RCS) ou au Répertoire des Métiers ;</li>
+      <li>L'espace est affecté à l'exploitation du fonds de commerce ou artisanal.</li>
+    </ul>
+    <p>
+      Pour un garage loué à un particulier qui utilise l'espace à titre personnel, ou à un professionnel libéral non commerçant, le statut des baux commerciaux ne s'applique pas en principe.
+    </p>
+
+    <CalloutBox type="legal">
+      La qualification du régime applicable dépend des circonstances réelles de la location, pas uniquement de la rédaction du contrat. Un juge peut requalifier un contrat de droit commun en bail commercial si les conditions légales sont réunies dans les faits. Consultez un avocat ou un notaire pour toute situation impliquant un locataire professionnel.
+    </CalloutBox>
+
+    <h2 id="consequences-bail-commercial">Les conséquences d'un bail commercial</h2>
+    <p>
+      Si le statut des baux commerciaux s'applique, ses implications sont importantes pour le bailleur :
+    </p>
+    <ul>
+      <li><strong>Durée minimale de 9 ans.</strong> Le bail est conclu pour une durée minimale de 9 ans, avec possibilité pour le locataire de donner congé à chaque échéance triennale.</li>
+      <li><strong>Droit au renouvellement.</strong> Le locataire a un droit au renouvellement du bail à son échéance. Si le bailleur refuse, il doit en principe verser une indemnité d'éviction.</li>
+      <li><strong>Révision légale du loyer encadrée.</strong> La révision du loyer suit des règles spécifiques, encadrées par le Code de commerce.</li>
+    </ul>
+
+    <h2 id="contrat-civil-professionnel">Le contrat civil avec un professionnel</h2>
+    <p>
+      Lorsqu'un professionnel loue un garage à des fins qui n'affectent pas son fonds de commerce — par exemple, un artisan qui stocke du matériel personnel mais n'exploite pas son activité à partir du garage — le statut des baux commerciaux peut ne pas s'appliquer.
+    </p>
+    <p>
+      Dans ce cas, un contrat de droit commun (issu du Code civil) peut être utilisé. Il offre davantage de liberté contractuelle, notamment sur la durée, le préavis et les conditions de révision du loyer.
+    </p>
+
+    <h2 id="importance-redaction">L'importance de la rédaction du contrat</h2>
+    <p>
+      La rédaction du contrat est déterminante pour éviter une requalification en bail commercial involontaire. Il convient notamment :
+    </p>
+    <ul>
+      <li>De préciser explicitement l'usage du local (stockage de biens personnels, non-affectation à un fonds de commerce) ;</li>
+      <li>De ne pas mentionner de destination commerciale ou artisanale pour le local ;</li>
+      <li>De s'assurer que le locataire ne développera pas d'activité visible depuis le local (panneau, accueil de clients).</li>
+    </ul>
+
+    <div className="mt-8 pt-6 border-t border-slate-100">
+      <h3 className="text-sm font-bold text-slate-700 mb-3">Sources et références</h3>
+      <ul className="space-y-1">
+        <li className="text-xs text-slate-500">→ Legifrance.gouv.fr — Code de commerce, art. L. 145-1 et suivants (baux commerciaux)</li>
+        <li className="text-xs text-slate-500">→ Legifrance.gouv.fr — Code civil, art. 1709 et suivants (louage de choses)</li>
+      </ul>
+    </div>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      Le statut des baux commerciaux s'applique à un garage loué à un commerçant ou artisan lorsque le local est affecté à l'exploitation de son fonds. Ses conséquences — durée de 9 ans, droit au renouvellement, indemnité d'éviction — sont significativement différentes d'un contrat civil. Si vous envisagez de louer à un professionnel, la rédaction du contrat et la qualification du régime applicable doivent faire l'objet d'une analyse juridique préalable.
+    </CalloutBox>
+  </div>
+);
+
+const diagnosticPerformanceEnergetiqueGarageContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      Les obligations de diagnostic immobilier s'appliquent différemment selon la nature du bien. Pour un garage ou un box de stockage, certaines règles diffèrent de celles applicables aux logements — et certains diagnostics obligatoires pour les habitations ne le sont pas pour ces biens.
+    </p>
+
+    <div className="my-8 bg-[#f8f9fa] rounded-xl border border-slate-100 p-6 flex items-center justify-center">
+      <svg width="100%" height="160" viewBox="0 0 520 160" className="max-w-lg">
+        <rect x="30" y="30" width="140" height="100" rx="8" fill="#22c55e" opacity="0.12" stroke="#22c55e" strokeWidth="1.5"/>
+        <text x="100" y="68" textAnchor="middle" fontSize="10" fill="#166534" fontFamily="sans-serif" fontWeight="600">Obligatoires</text>
+        <text x="100" y="84" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Amiante (si avant 1997)</text>
+        <text x="100" y="98" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">ERP (zone définie)</text>
+        <text x="100" y="112" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Loi Carrez (copro.)</text>
+        <rect x="195" y="50" width="130" height="70" rx="8" fill="#f59e0b" opacity="0.12" stroke="#f59e0b" strokeWidth="1.5"/>
+        <text x="260" y="85" textAnchor="middle" fontSize="10" fill="#92400e" fontFamily="sans-serif" fontWeight="600">Non obligatoires</text>
+        <text x="260" y="100" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">DPE, plomb, électricité</text>
+        <rect x="350" y="40" width="140" height="80" rx="8" fill="#e2e8f0" stroke="#94a3b8" strokeWidth="1.5"/>
+        <text x="420" y="75" textAnchor="middle" fontSize="10" fill="#475569" fontFamily="sans-serif" fontWeight="600">Recommandés</text>
+        <text x="420" y="90" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">État général documenté</text>
+        <text x="420" y="104" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">pour sécurité juridique</text>
+      </svg>
+    </div>
+
+    <h2 id="dpe-garage">Le DPE : non obligatoire pour les garages</h2>
+    <p>
+      Le Diagnostic de Performance Énergétique (DPE) est obligatoire pour les logements à la vente ou à la location. Pour un garage ou un box de stockage, le DPE n'est pas obligatoire, car ces biens ne sont pas destinés à l'habitation.
+    </p>
+    <p>
+      Cette règle s'applique même si le garage est vendu ou loué séparément d'un logement principal. Un box ou un garage vendu seul, sans logement attenant, n'entre pas dans le champ d'application des obligations DPE.
+    </p>
+
+    <h2 id="diagnostic-amiante">Le diagnostic amiante : attention aux bâtiments anciens</h2>
+    <p>
+      Pour les bâtiments dont le permis de construire a été déposé avant le 1er juillet 1997, un état d'amiante est obligatoire dans le cadre d'une vente. Cette obligation s'applique à tout immeuble bâti, y compris les garages et locaux de stockage situés dans ces bâtiments.
+    </p>
+    <p>
+      Si l'état d'amiante fait apparaître des matériaux contenant de l'amiante, des obligations complémentaires (surveillance, travaux) peuvent s'imposer selon l'état de conservation des matériaux. Ce point mérite une attention particulière lors de l'acquisition d'un lot de garages dans un immeuble ancien.
+    </p>
+
+    <CalloutBox type="vigilance">
+      L'absence de diagnostic amiante lors d'une vente concernée constitue un manquement susceptible d'engager la responsabilité du vendeur. L'acquéreur peut invoquer un vice caché si de l'amiante est découvert ultérieurement dans un état dégradé.
+    </CalloutBox>
+
+    <h2 id="erp-zones-risques">L'état des risques et pollutions (ERP)</h2>
+    <p>
+      L'état des risques et pollutions (ERP) doit être fourni lors de toute vente ou location d'un bien immobilier situé dans une zone couverte par un plan de prévention des risques naturels, miniers ou technologiques. Cette obligation s'applique également aux garages et espaces de stockage dans les zones concernées.
+    </p>
+    <p>
+      Il est possible de vérifier si un bien est situé dans une zone concernée via le portail georisques.gouv.fr, accessible gratuitement.
+    </p>
+
+    <h2 id="loi-carrez">La loi Carrez en copropriété</h2>
+    <p>
+      La loi Carrez impose de mentionner la superficie privative dans tout acte de vente d'un lot en copropriété. Cette obligation s'applique aux garages vendus en copropriété, à partir d'une surface de 8 m² de plancher.
+    </p>
+    <p>
+      Le mesurage Carrez doit être effectué par un professionnel habilité et figure dans l'acte de vente. Une surface erronée peut donner lieu à une action en réduction du prix dans l'année suivant la signature.
+    </p>
+
+    <h2 id="ce-qui-ne-sapplique-pas">Ce qui ne s'applique généralement pas aux garages</h2>
+    <p>
+      Plusieurs diagnostics obligatoires pour les logements ne s'appliquent pas (ou pas dans les mêmes conditions) aux garages et espaces de stockage :
+    </p>
+    <ul>
+      <li>Le diagnostic plomb (CREP) : applicable aux logements avant 1949, pas aux garages indépendants ;</li>
+      <li>Le diagnostic électricité : applicable aux logements avec installation de plus de 15 ans, pas aux garages ;</li>
+      <li>Le diagnostic gaz : applicable aux logements, pas aux garages ;</li>
+      <li>Le DPE : non obligatoire pour les locaux non destinés à l'habitation.</li>
+    </ul>
+
+    <div className="mt-8 pt-6 border-t border-slate-100">
+      <h3 className="text-sm font-bold text-slate-700 mb-3">Sources et références</h3>
+      <ul className="space-y-1">
+        <li className="text-xs text-slate-500">→ Service-public.fr — Diagnostics immobiliers obligatoires lors d'une vente</li>
+        <li className="text-xs text-slate-500">→ georisques.gouv.fr — Vérification des zones ERP</li>
+        <li className="text-xs text-slate-500">→ Legifrance.gouv.fr — Loi n°96-1107 du 18 décembre 1996 (loi Carrez)</li>
+        <li className="text-xs text-slate-500">→ Legifrance.gouv.fr — Code de la santé publique, art. R1334-14 (amiante)</li>
+      </ul>
+    </div>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      Le DPE n'est pas obligatoire pour un garage ou un box de stockage. En revanche, le diagnostic amiante s'impose pour les bâtiments construits avant 1997, l'état des risques (ERP) dans les zones concernées, et la loi Carrez pour les lots en copropriété. Les diagnostics spécifiques aux logements (plomb, électricité, gaz) ne s'appliquent pas aux garages indépendants. Avant toute transaction, vérifiez les obligations applicables avec un diagnostiqueur certifié.
+    </CalloutBox>
+  </div>
+);
+
 // ── Page component ──────────────────────────────────────────────────────────────
 
 export default async function ArticlePage({ params }: Props) {
