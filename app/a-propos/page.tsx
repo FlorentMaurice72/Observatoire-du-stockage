@@ -92,7 +92,7 @@ export default function AProposPage() {
                   alt="Florent Maurice, fondateur de l'Observatoire du Stockage"
                   width={80}
                   height={80}
-                  className="w-full h-full object-cover [object-position:50%_60%]"
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
               <div className="flex-1">
