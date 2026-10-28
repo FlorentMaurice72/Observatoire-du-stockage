@@ -52,7 +52,8 @@ const outils: { icon: string; title: string; description: string; features: stri
     description:
       "Une trame de contrat de location avec annotations sur les clauses essentielles et les points à adapter selon le contexte.",
     features: ["Clauses essentielles annotées", "Points de vigilance", "À adapter par un professionnel"],
-    status: "À venir",
+    status: "Disponible",
+    href: "/outils/modele-contrat-commente",
   },
   {
     icon: "🗺️",
