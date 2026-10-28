@@ -3,9 +3,10 @@ import Link from "next/link";
 import NewsletterBlock from "@/components/ui/NewsletterBlock";
 
 export const metadata: Metadata = {
-  title: "À propos",
+  title: "À propos — Florent Maurice, fondateur de l'Observatoire du Stockage",
+  alternates: { canonical: "https://observatoire-du-stockage.fr/a-propos" },
   description:
-    "Découvrez la mission, la ligne éditoriale et les valeurs de l'Observatoire du Stockage, média francophone de référence sur le marché des espaces de stockage.",
+    "L'Observatoire du Stockage est fondé par Florent Maurice, investisseur en garages et boxes depuis 2019. Découvrez la mission, la ligne éditoriale et les valeurs du site.",
 };
 
 const valeurs = [
@@ -60,6 +61,7 @@ const ligneEditoriale = [
 export default function AProposPage() {
   return (
     <>
+      {/* Header */}
       <section className="bg-white border-b border-slate-100 py-12 md:py-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
           <span className="text-xs font-semibold uppercase tracking-widest text-blue-700 bg-blue-50 border border-blue-100 px-3 py-1 rounded-full">
@@ -77,31 +79,78 @@ export default function AProposPage() {
         </div>
       </section>
 
-      {/* Mission */}
-      <section className="bg-[#f8f9fa] py-12 border-b border-slate-100">
+      {/* Fondateur */}
+      <section className="bg-[#f8f9fa] py-12 md:py-16 border-b border-slate-100">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
-          <h2 className="text-xl font-bold text-[#1a1a2e] mb-6">Notre mission</h2>
+          <h2 className="text-xl font-bold text-[#1a1a2e] mb-8">Le fondateur</h2>
+          <div className="bg-white rounded-2xl border border-slate-100 shadow-sm p-6 md:p-8">
+            <div className="flex items-start gap-5">
+              <div className="w-14 h-14 rounded-full bg-[#1e3a5f] flex items-center justify-center text-white text-xl font-bold shrink-0">
+                FM
+              </div>
+              <div className="flex-1">
+                <h3 className="font-bold text-[#1a1a2e] text-lg">Florent Maurice</h3>
+                <p className="text-sm text-slate-500 mb-4">Fondateur de l'Observatoire du Stockage · Investisseur depuis 2019</p>
+                <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
+                  <p>
+                    Entrepreneur depuis 2019, j'ai choisi de réinvestir les bénéfices de mon activité dans l'immobilier — à travers une SCI — en me concentrant sur un actif que peu d'investisseurs regardaient sérieusement à l'époque : les garages et boxes en région.
+                  </p>
+                  <p>
+                    Ce que j'ai découvert en me lançant, c'est l'absence quasi-totale de ressources fiables sur ce marché. Des forums, des témoignages, des promesses — mais peu d'analyses rigoureuses, peu de méthode, peu de mise en garde honnête sur les risques réels.
+                  </p>
+                  <p>
+                    L'Observatoire du Stockage est la ressource que j'aurais voulu avoir quand j'ai commencé. Elle s'adresse autant aux investisseurs qui démarrent qu'à ceux qui cherchent à affiner leur approche — avec une exigence constante : zéro chiffre inventé, zéro promesse de rendement.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-6 pt-6 border-t border-slate-100 flex flex-col sm:flex-row gap-3">
+              <Link
+                href="/ebook"
+                className="inline-flex items-center gap-2 bg-[#1e3a5f] text-white font-semibold text-sm px-5 py-2.5 rounded-lg hover:bg-[#162d4a] transition-colors"
+              >
+                Lire l'ebook gratuit
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+              <Link
+                href="/contact"
+                className="inline-flex items-center gap-2 border border-slate-200 text-slate-700 font-semibold text-sm px-5 py-2.5 rounded-lg hover:border-slate-300 transition-colors"
+              >
+                Me contacter
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Mission */}
+      <section className="bg-white py-12 border-b border-slate-100">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6">
+          <h2 className="text-xl font-bold text-[#1a1a2e] mb-6">La mission</h2>
           <div className="space-y-4 text-slate-600 leading-relaxed">
             <p>
               Produire des analyses sérieuses, des guides pratiques et des ressources utiles pour comprendre le marché français du stockage — boxs individuels, garages, entrepôts, containers, self-storage — et prendre des décisions éclairées dans ce secteur.
             </p>
             <p>
-              Notre audience principale : les investisseurs particuliers qui envisagent d'acquérir des espaces de stockage, les propriétaires qui cherchent à optimiser leur exploitation, les professionnels qui souhaitent suivre les évolutions du marché.
+              L'audience principale : les investisseurs particuliers qui envisagent d'acquérir des espaces de stockage, les propriétaires qui cherchent à optimiser leur exploitation, les professionnels qui souhaitent suivre les évolutions du marché.
             </p>
             <p>
-              Nous ne vendons pas de formations, de listes de biens ou de promesses de rendement. Nous publions des contenus éditoriaux rigoureux, accessibles et honnêtes.
+              L'Observatoire ne vend pas de formations, de listes de biens ou de promesses de rendement. Il publie des contenus éditoriaux rigoureux, accessibles et honnêtes.
             </p>
           </div>
         </div>
       </section>
 
       {/* Valeurs */}
-      <section className="bg-white py-12 md:py-16 border-b border-slate-100">
+      <section className="bg-[#f8f9fa] py-12 md:py-16 border-b border-slate-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-xl font-bold text-[#1a1a2e] mb-8 text-center">Nos valeurs éditoriales</h2>
+          <h2 className="text-xl font-bold text-[#1a1a2e] mb-8 text-center">Les valeurs éditoriales</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {valeurs.map((v) => (
-              <div key={v.title} className="bg-[#f8f9fa] rounded-xl border border-slate-100 p-6">
+              <div key={v.title} className="bg-white rounded-xl border border-slate-100 p-6">
                 <div className="text-2xl mb-3">{v.icon}</div>
                 <h3 className="font-bold text-[#1a1a2e] text-base mb-2">{v.title}</h3>
                 <p className="text-sm text-slate-600 leading-relaxed">{v.description}</p>
@@ -112,12 +161,12 @@ export default function AProposPage() {
       </section>
 
       {/* Ligne éditoriale */}
-      <section className="bg-[#f8f9fa] py-12 border-b border-slate-100">
+      <section className="bg-white py-12 border-b border-slate-100">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
-          <h2 className="text-xl font-bold text-[#1a1a2e] mb-6">Notre ligne éditoriale en pratique</h2>
+          <h2 className="text-xl font-bold text-[#1a1a2e] mb-6">La ligne éditoriale en pratique</h2>
           <ul className="space-y-3">
             {ligneEditoriale.map((item) => (
-              <li key={item} className="flex items-start gap-3 text-sm text-slate-700 bg-white rounded-lg border border-slate-100 px-4 py-3">
+              <li key={item} className="flex items-start gap-3 text-sm text-slate-700 bg-[#f8f9fa] rounded-lg border border-slate-100 px-4 py-3">
                 <span className="text-blue-500 mt-0.5 shrink-0">→</span>
                 {item}
               </li>
@@ -132,22 +181,6 @@ export default function AProposPage() {
           <p className="text-sm text-amber-800 leading-relaxed">
             <strong>Avertissement général :</strong> Les contenus publiés par l'Observatoire du Stockage sont à caractère informatif et éducatif uniquement. Ils ne constituent pas des conseils en investissement, juridiques ou fiscaux. L'Observatoire ne garantit pas l'exactitude ou l'exhaustivité de l'information publiée. Tout investissement comporte des risques. Consultez un professionnel qualifié avant toute décision.
           </p>
-        </div>
-      </section>
-
-      {/* Contact */}
-      <section className="bg-white py-12 border-b border-slate-100">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
-          <h2 className="text-xl font-bold text-[#1a1a2e] mb-3">Vous souhaitez contribuer ?</h2>
-          <p className="text-slate-600 text-sm leading-relaxed mb-6">
-            Vous êtes propriétaire, exploitant ou professionnel du secteur et souhaitez partager votre expérience ou proposer un sujet ? N'hésitez pas à nous contacter.
-          </p>
-          <Link
-            href="/contact"
-            className="inline-flex items-center gap-2 bg-[#1e3a5f] text-white font-semibold text-sm px-5 py-2.5 rounded-lg hover:bg-[#162d4a] transition-colors"
-          >
-            Nous contacter
-          </Link>
         </div>
       </section>
 
