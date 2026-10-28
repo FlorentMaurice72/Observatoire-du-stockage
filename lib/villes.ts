@@ -732,6 +732,358 @@ export const villes: Ville[] = [
     ],
     zoneLimitrophe: ["Chamalières", "Cournon-d'Auvergne", "Aubière", "Beaumont", "Royat"],
   },
+
+  // ── Autres préfectures ────────────────────────────────────────────────────
+  {
+    slug: "rouen",
+    nom: "Rouen",
+    departement: "Seine-Maritime (76)",
+    region: "Normandie",
+    population: "~115 000 hab. (ville), ~490 000 (métropole)",
+    metaTitle: "Marché des espaces de stockage à Rouen — garages, boxes, self-storage",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage à Rouen et dans la métropole rouennaise : demande, offre, prix observés, points de vigilance.",
+    intro:
+      "Rouen est la capitale normande, à une heure de Paris, avec un tissu économique diversifié (industrie, logistique, services). Sa situation de ville-portail entre Paris et la Manche génère une mobilité résidentielle active et une demande de stockage structurelle.",
+    contexteUrbanistique:
+      "Rouen dispose d'un parc immobilier varié, du centre historique à rive droite aux quartiers résidentiels de la rive gauche (Sotteville-lès-Rouen, Saint-Étienne-du-Rouvray). Les copropriétés des années 1960-1980 concentrent une part significative de l'offre en garages.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande est portée par une population étudiante notable (environ 35 000 étudiants à l'Université de Rouen), des actifs liés aux zones industrielles de la Seine et des navetteurs parisiens. La rotation locative est régulière.",
+    },
+    offre: {
+      description:
+        "L'offre est présente dans les copropriétés et pavillons de la première couronne. Le self-storage reste peu développé dans l'agglomération.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 45 € et 100 € / mois selon la localisation",
+      note: "Prix observés sur annonces, indicatifs uniquement.",
+    },
+    pointsVigilance: [
+      "Analyser les risques industriels (présence de sites SEVESO dans la vallée de la Seine)",
+      "Vérifier les zones inondables (Seine) qui concernent certains secteurs bas",
+      "Évaluer la demande par rive (droite vs gauche) qui présentent des dynamiques différentes",
+      "Tenir compte de la taille intermédiaire du marché pour l'évaluation de la liquidité",
+    ],
+    zoneLimitrophe: ["Sotteville-lès-Rouen", "Saint-Étienne-du-Rouvray", "Le Petit-Quevilly", "Bois-Guillaume", "Mont-Saint-Aignan"],
+  },
+  {
+    slug: "amiens",
+    nom: "Amiens",
+    departement: "Somme (80)",
+    region: "Hauts-de-France",
+    population: "~135 000 hab. (ville), ~180 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Amiens — garages, boxes, self-storage",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage à Amiens et dans l'agglomération amiénoise : demande, offre, prix observés, points de vigilance.",
+    intro:
+      "Amiens est la préfecture de la Somme et capitale de la Picardie, à 1h15 de Paris. Ville universitaire à économie mixte (industrie, services, logistique), elle présente un marché de stockage de taille modeste mais avec une demande régulière portée par sa population étudiante.",
+    contexteUrbanistique:
+      "Le parc immobilier amiénois comprend un centre historique dense autour de la cathédrale, des quartiers résidentiels en première couronne et des zones pavillonnaires en périphérie. Les copropriétés des années 1960-1980 concentrent l'essentiel de l'offre en garages.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande est portée par environ 30 000 étudiants (Université Picardie Jules Verne), un tissu industriel et logistique actif, et des ménages locataires en centre-ville. La proximité de Paris attire également des actifs en mobilité.",
+    },
+    offre: {
+      description:
+        "L'offre en garages et boxes est correcte dans les copropriétés. Les acteurs du self-storage sont peu présents dans l'agglomération.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 35 € et 85 € / mois selon la localisation",
+      note: "Prix observés sur annonces, indicatifs uniquement.",
+    },
+    pointsVigilance: [
+      "Analyser la demande réelle avant acquisition dans un marché de taille modeste",
+      "Vérifier les zones inondables (Somme) qui concernent certains secteurs bas",
+      "Tenir compte de la relative fragilité économique de certains quartiers",
+      "Évaluer la liquidité potentielle dans un marché aux acheteurs peu nombreux",
+    ],
+    zoneLimitrophe: ["Longueau", "Rivery", "Glisy", "Camon", "Dury"],
+  },
+  {
+    slug: "poitiers",
+    nom: "Poitiers",
+    departement: "Vienne (86)",
+    region: "Nouvelle-Aquitaine",
+    population: "~90 000 hab. (ville), ~140 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Poitiers — garages, boxes, self-storage",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage à Poitiers et dans l'agglomération poitevine : demande, offre, prix observés, points de vigilance.",
+    intro:
+      "Poitiers est une ville universitaire sur l'axe Paris-Bordeaux, préfecture de la Vienne. Sa forte proportion d'étudiants par rapport à sa population totale génère une demande de stockage saisonnière importante, dans un marché de taille modeste.",
+    contexteUrbanistique:
+      "Poitiers est construite sur un plateau dominant la Clain, avec un centre historique dense et des campus universitaires intégrés à la ville. Les quartiers résidentiels en périphérie (Trois-Cités, Gibauderie) concentrent une partie de l'offre locative.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande est très fortement marquée par la présence universitaire (environ 30 000 étudiants pour 90 000 habitants, soit un ratio parmi les plus élevés de France). Cette demande est saisonnière et génère une forte rotation locative. La demande de la part des actifs permanents est plus limitée.",
+    },
+    offre: {
+      description:
+        "L'offre en garages est présente mais le marché est peu profond. Les acteurs du self-storage sont absents ou marginaux dans l'agglomération.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 30 € et 75 € / mois selon la localisation",
+      note: "Prix observés sur annonces, indicatifs uniquement. Le marché est peu fourni en annonces.",
+    },
+    pointsVigilance: [
+      "La forte dépendance universitaire implique une analyse de la stabilité de la demande à long terme",
+      "Évaluer la liquidité dans un marché de petite taille",
+      "Vérifier la cohérence prix d'acquisition / loyer dans un marché aux prix modérés",
+      "Analyser la demande hors saison universitaire (été) pour évaluer la vacance potentielle",
+    ],
+    zoneLimitrophe: ["Buxerolles", "Chasseneuil-du-Poitou", "Mignaloux-Beauvoir", "Saint-Benoît", "Biard"],
+  },
+  {
+    slug: "limoges",
+    nom: "Limoges",
+    departement: "Haute-Vienne (87)",
+    region: "Nouvelle-Aquitaine",
+    population: "~130 000 hab. (ville), ~210 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Limoges — garages, boxes, self-storage",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage à Limoges et dans l'agglomération limougeaude : demande, offre, prix observés, points de vigilance.",
+    intro:
+      "Limoges est la préfecture de la Haute-Vienne, ville industrielle en reconversion économique, avec un marché immobilier peu tendu par rapport aux grandes métropoles. Les prix d'acquisition y sont généralement accessibles, ce qui peut attirer des investisseurs cherchant des rendements bruts plus élevés.",
+    contexteUrbanistique:
+      "Limoges dispose d'un parc immobilier important relativement à sa population, avec des prix de transaction parmi les plus bas des préfectures françaises. Le marché locatif résidentiel est peu tendu, ce qui se répercute sur les espaces de stockage.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande est portée par une population étudiante (environ 18 000 étudiants), un tissu de PME/artisans héritier de l'industrie de la porcelaine et de la chaussure, et des ménages locataires en centre-ville. La demande est régulière mais le marché est peu profond.",
+    },
+    offre: {
+      description:
+        "L'offre en garages et boxes est bien présente dans les copropriétés, à des prix d'acquisition généralement accessibles. Le self-storage est absent ou très marginal.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 30 € et 75 € / mois selon la localisation",
+      note: "Prix observés sur annonces, indicatifs uniquement.",
+    },
+    pointsVigilance: [
+      "Analyser la profondeur réelle du marché locatif avant acquisition",
+      "Tenir compte de la relative faiblesse démographique qui pèse sur la demande à long terme",
+      "Évaluer la liquidité à la revente dans un marché peu actif",
+      "Vérifier la cohérence entre rendement brut apparent et risques réels (vacance, travaux)",
+    ],
+    zoneLimitrophe: ["Isle", "Panazol", "Couzeix", "Feytiat", "Aixe-sur-Vienne"],
+  },
+  {
+    slug: "pau",
+    nom: "Pau",
+    departement: "Pyrénées-Atlantiques (64)",
+    region: "Nouvelle-Aquitaine",
+    population: "~80 000 hab. (ville), ~260 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Pau — garages, boxes, self-storage",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage à Pau et dans l'agglomération paloise : demande, offre, prix observés, points de vigilance.",
+    intro:
+      "Pau est la préfecture des Pyrénées-Atlantiques, ville universitaire et administrative avec une économie liée aux services, à l'aéronautique (Safran, Turbomeca) et au tourisme pyrénéen. Son marché de stockage est de taille modeste mais présente une demande régulière.",
+    contexteUrbanistique:
+      "Pau est construite sur un promontoire dominant le gave de Pau, avec un centre-ville dense et des quartiers résidentiels en périphérie (Jurançon, Billère, Lescar). Le parc locatif est significatif dans les quartiers centraux et en première couronne.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande est portée par environ 15 000 étudiants (Université de Pau et des Pays de l'Adour), un tissu industriel aéronautique stable et des ménages locataires en centre-ville. La demande touristique peut générer des besoins de stockage saisonniers.",
+    },
+    offre: {
+      description:
+        "L'offre en garages est présente dans les copropriétés et les lotissements de la première couronne. Le self-storage est peu ou pas présent dans l'agglomération.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 35 € et 80 € / mois selon la localisation",
+      note: "Prix observés sur annonces, indicatifs uniquement.",
+    },
+    pointsVigilance: [
+      "Analyser la demande par secteur dans une agglomération aux dynamiques hétérogènes",
+      "Vérifier la liquidité potentielle dans un marché de petite taille",
+      "Tenir compte de l'accessibilité (relief, dénivelés) pour certains biens",
+      "Évaluer la cohérence prix d'acquisition / loyer avant engagement",
+    ],
+    zoneLimitrophe: ["Billère", "Lescar", "Jurançon", "Bizanos", "Lons"],
+  },
+  {
+    slug: "brest",
+    nom: "Brest",
+    departement: "Finistère (29)",
+    region: "Bretagne",
+    population: "~140 000 hab. (ville), ~320 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Brest — garages, boxes, self-storage",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage à Brest et dans la métropole brestoise : demande, offre, prix observés, points de vigilance.",
+    intro:
+      "Brest est la deuxième ville de Bretagne, port militaire et ville universitaire, avec une économie marquée par la Défense, les technologies marines et les services. Son marché immobilier est accessible et présente une demande de stockage régulière portée par une population étudiante et des ménages locataires stables.",
+    contexteUrbanistique:
+      "Brest a été largement reconstruite après-guerre, ce qui confère à son bâti un caractère relativement homogène des années 1950-1970. Le centre-ville et les quartiers périphériques (Lambézellec, Saint-Pierre-Quilbignon, Guipavas) concentrent l'essentiel de l'offre locative.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande est portée par environ 25 000 étudiants (UBO, ENSTA, Télécom Bretagne), un tissu de militaires et civils de la Défense nationale, et des ménages locataires permanents. La demande est stable et régulière.",
+    },
+    offre: {
+      description:
+        "L'offre en garages est bien présente dans les copropriétés des années 1950-1980. Les acteurs du self-storage sont peu développés dans l'agglomération.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 40 € et 90 € / mois selon la localisation",
+      note: "Prix observés sur annonces, indicatifs uniquement.",
+    },
+    pointsVigilance: [
+      "Analyser l'état du bâti (construction d'après-guerre, qualité variable selon les opérations)",
+      "Vérifier l'exposition au risque météorologique (tempêtes, humidité) pour les biens en rez-de-chaussée ou sous-sol",
+      "Tenir compte de la dépendance à la Défense nationale pour évaluer la stabilité de la demande",
+      "Évaluer la liquidité dans un marché géographiquement isolé en pointe de la Bretagne",
+    ],
+    zoneLimitrophe: ["Guipavas", "Le Relecq-Kerhuon", "Plouzané", "Saint-Renan", "Plougastel-Daoulas"],
+  },
+  {
+    slug: "perpignan",
+    nom: "Perpignan",
+    departement: "Pyrénées-Orientales (66)",
+    region: "Occitanie",
+    population: "~120 000 hab. (ville), ~200 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Perpignan — garages, boxes, self-storage",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage à Perpignan et dans l'agglomération perpignanaise : demande, offre, prix observés, points de vigilance.",
+    intro:
+      "Perpignan est la préfecture des Pyrénées-Orientales, ville méditerranéenne frontalière de l'Espagne. Son marché immobilier est accessible avec des prix d'acquisition parmi les plus bas des grandes villes du sud, mais la demande locative présente des fragilités structurelles.",
+    contexteUrbanistique:
+      "Perpignan présente un tissu urbain dense en centre-ville et des quartiers résidentiels en extension. Le marché locatif est marqué par un taux de pauvreté élevé et une rotation rapide dans certains secteurs. Les quartiers périphériques (Saint-Estève, Cabestany, Canet-en-Roussillon) offrent des dynamiques plus stables.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande de stockage est portée par des ménages locataires, des artisans et des petits commerçants. L'attractivité touristique (proximité des plages, frontière espagnole) génère une demande saisonnière. La prudence s'impose sur les secteurs à forte vacance résidentielle.",
+    },
+    offre: {
+      description:
+        "L'offre en garages est présente, avec des prix d'acquisition accessibles. Les acteurs du self-storage sont peu implantés dans l'agglomération.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 35 € et 85 € / mois selon la localisation",
+      note: "Prix observés sur annonces, indicatifs uniquement.",
+    },
+    pointsVigilance: [
+      "Analyser soigneusement la demande réelle par secteur avant acquisition",
+      "Tenir compte des disparités socio-économiques entre quartiers qui influencent la demande",
+      "Évaluer le risque de vacance dans les secteurs les plus fragilisés",
+      "Vérifier la liquidité à la revente dans un marché aux acheteurs peu nombreux",
+    ],
+    zoneLimitrophe: ["Saint-Estève", "Cabestany", "Rivesaltes", "Canet-en-Roussillon", "Thuir"],
+  },
+  {
+    slug: "metz",
+    nom: "Metz",
+    departement: "Moselle (57)",
+    region: "Grand Est",
+    population: "~115 000 hab. (ville), ~390 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Metz — garages, boxes, self-storage",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage à Metz et dans l'agglomération messine : demande, offre, prix observés, points de vigilance.",
+    intro:
+      "Metz est la préfecture de la Moselle, ville d'art et d'histoire à la croisée des axes européens (France, Allemagne, Luxembourg). Sa proximité avec le Luxembourg génère une demande de logements et de stockage portée par des travailleurs frontaliers.",
+    contexteUrbanistique:
+      "Metz dispose d'un centre historique préservé et de quartiers résidentiels en première couronne (Borny, Queuleu, Magny). La proximité du Luxembourg attire des ménages qui cherchent à se loger en France tout en travaillant au Grand-Duché, créant une pression locative spécifique.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande est soutenue par les travailleurs frontaliers (Luxembourg à 60 km), une population étudiante de l'Université de Lorraine, et un tissu administratif important. Le marché bénéficie d'une relative stabilité liée à l'emploi frontalier.",
+    },
+    offre: {
+      description:
+        "L'offre en garages et boxes est bien distribuée dans les copropriétés des quartiers résidentiels. Le self-storage est peu développé dans l'agglomération.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 50 € et 110 € / mois selon la localisation",
+      note: "Prix observés sur annonces, indicatifs uniquement.",
+    },
+    pointsVigilance: [
+      "Analyser l'impact de la proximité luxembourgeoise sur les prix d'acquisition (effet de report potentiel)",
+      "Tenir compte des dynamiques propres à la métropole Metz-Nancy-Thionville",
+      "Vérifier l'état du bâti dans les grands ensembles des années 1960-1970",
+      "Évaluer la cohérence loyers / prix dans un marché influencé par les salaires luxembourgeois",
+    ],
+    zoneLimitrophe: ["Woippy", "Montigny-lès-Metz", "Moulins-lès-Metz", "Plappeville", "Longeville-lès-Metz"],
+  },
+  {
+    slug: "nancy",
+    nom: "Nancy",
+    departement: "Meurthe-et-Moselle (54)",
+    region: "Grand Est",
+    population: "~105 000 hab. (ville), ~430 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Nancy — garages, boxes, self-storage",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage à Nancy et dans la métropole nancéienne : demande, offre, prix observés, points de vigilance.",
+    intro:
+      "Nancy est la métropole lorraine par excellence, ville universitaire et culturelle (place Stanislas), avec un marché résidentiel relativement tendu pour une ville de sa taille. La forte présence étudiante et un tissu tertiaire actif génèrent une demande de stockage régulière.",
+    contexteUrbanistique:
+      "Nancy dispose d'un tissu urbain dense avec un centre historique valorisé et des quartiers résidentiels en première couronne (Laxou, Vandœuvre-lès-Nancy, Essey-lès-Nancy). La ville fait partie de la métropole du Grand Nancy, qui regroupe plusieurs communes aux dynamiques locatives distinctes.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande est portée par environ 50 000 étudiants (l'une des plus fortes concentrations estudiantines de France en proportion), un tissu de services et d'administrations et des ménages locataires nombreux. La rotation locative est élevée dans les quartiers étudiants.",
+    },
+    offre: {
+      description:
+        "L'offre en garages et boxes est bien présente dans les copropriétés. Les acteurs du self-storage sont peu présents dans l'agglomération.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 45 € et 100 € / mois selon la localisation",
+      note: "Prix observés sur annonces, indicatifs uniquement.",
+    },
+    pointsVigilance: [
+      "Distinguer les dynamiques entre Nancy-centre et les communes périphériques de la métropole",
+      "Analyser la saisonnalité de la demande liée au calendrier universitaire",
+      "Vérifier l'état des copropriétés dans les grands ensembles des années 1960-1980",
+      "Tenir compte de la concurrence avec Metz (45 km) dans un marché lorrain interconnecté",
+    ],
+    zoneLimitrophe: ["Laxou", "Vandœuvre-lès-Nancy", "Essey-lès-Nancy", "Villers-lès-Nancy", "Maxéville"],
+  },
+  {
+    slug: "besancon",
+    nom: "Besançon",
+    departement: "Doubs (25)",
+    region: "Bourgogne-Franche-Comté",
+    population: "~115 000 hab. (ville), ~180 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Besançon — garages, boxes, self-storage",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage à Besançon et dans l'agglomération bisontine : demande, offre, prix observés, points de vigilance.",
+    intro:
+      "Besançon est la préfecture du Doubs, ville universitaire frontalière de la Suisse. Sa position géographique particulière (boucle du Doubs, forteresse Vauban) et sa proximité avec la Suisse influencent ses dynamiques résidentielles et sa demande de stockage.",
+    contexteUrbanistique:
+      "Besançon est construite dans un méandre du Doubs, ce qui contraint son développement spatial. Le centre-ville historique est dense, les quartiers périphériques (Planoise, Clairs-Soleils, Palente) concentrent une part importante du parc locatif.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande est portée par environ 25 000 étudiants (Université de Franche-Comté), des travailleurs frontaliers avec la Suisse voisine, et un tissu industriel horloger en reconversion. La demande est régulière sans être sous forte tension.",
+    },
+    offre: {
+      description:
+        "L'offre en garages est présente dans les copropriétés des quartiers résidentiels. Le self-storage est peu ou pas développé dans l'agglomération.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 40 € et 90 € / mois selon la localisation",
+      note: "Prix observés sur annonces, indicatifs uniquement.",
+    },
+    pointsVigilance: [
+      "Vérifier les risques inondation (Doubs) qui concernent certains secteurs bas de la ville",
+      "Analyser la demande par quartier (centre historique vs grands ensembles périphériques)",
+      "Tenir compte de la géographie contrainte pour l'accessibilité des biens",
+      "Évaluer la stabilité de la demande frontalière dans un contexte économique suisse variable",
+    ],
+    zoneLimitrophe: ["Thise", "Ecole-Valentin", "Beure", "Chalezeule", "Marchaux"],
+  },
 ];
 
 export function getVilleBySlug(slug: string): Ville | undefined {
