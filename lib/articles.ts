@@ -12,6 +12,46 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "nom-propre-societe-espaces-stockage",
+    title: "Acheter en nom propre ou en société pour des espaces de stockage : les questions à poser",
+    excerpt:
+      "La structure de détention d'un bien immobilier a des conséquences fiscales, patrimoniales et pratiques significatives. Entre l'acquisition en nom propre, la SCI à l'IR et la société à l'IS, les différences sont substantielles — et dépendent étroitement de la situation personnelle de l'investisseur.",
+    category: "investissement",
+    date: "2026-12-15",
+    author: "Observatoire du Stockage",
+    readingTime: 10,
+  },
+  {
+    slug: "gerer-impayes-espace-stockage",
+    title: "Gérer les impayés sur un espace de stockage : procédures et bonnes pratiques",
+    excerpt:
+      "Un impayé de loyer est une situation que tout bailleur peut rencontrer. Sur les espaces de stockage, les procédures applicables dépendent du type de contrat. Connaître les étapes légales et les bonnes pratiques préventives permet de limiter les pertes et de réagir avec méthode.",
+    category: "exploitation",
+    date: "2026-12-08",
+    author: "Observatoire du Stockage",
+    readingTime: 9,
+  },
+  {
+    slug: "charges-copropriete-garages-impact",
+    title: "Charges de copropriété sur les garages : comprendre les postes et leur impact sur la rentabilité",
+    excerpt:
+      "Les charges de copropriété sont un poste souvent sous-estimé dans l'analyse de rentabilité d'un lot de garages. Leur nature, leur niveau et leur évolution dans le temps peuvent modifier significativement le rendement net d'une opération.",
+    category: "rentabilite",
+    date: "2026-12-01",
+    author: "Observatoire du Stockage",
+    readingTime: 8,
+  },
+  {
+    slug: "reglement-copropriete-espace-stockage",
+    title: "Que vérifier dans un règlement de copropriété avant d'acheter un espace de stockage ?",
+    excerpt:
+      "Le règlement de copropriété est un document contractuel qui s'impose à tous les copropriétaires. Avant d'acquérir un espace de stockage dans une copropriété, son analyse minutieuse permet d'identifier des contraintes invisibles au premier regard — et parfois déterminantes pour l'exploitation.",
+    category: "investissement",
+    date: "2026-11-24",
+    author: "Observatoire du Stockage",
+    readingTime: 9,
+  },
+  {
     slug: "evaluer-demande-locative-espace-stockage",
     title: "Comment évaluer la demande locative avant d'acheter un espace de stockage ?",
     excerpt:

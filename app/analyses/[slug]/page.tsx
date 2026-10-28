@@ -1165,6 +1165,547 @@ const evaluerDemandeLocativeContent = () => (
   </div>
 );
 
+const reglementCoproprieteContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      Le règlement de copropriété n'est pas un simple document administratif. C'est un acte juridique qui définit les droits et obligations de chaque copropriétaire, encadre l'usage des lots privatifs, organise la répartition des charges et détermine les conditions de fonctionnement de la copropriété. Pour un investisseur, ne pas le lire avant d'acquérir, c'est s'engager les yeux fermés.
+    </p>
+
+    <div className="my-8 bg-[#f8f9fa] rounded-xl border border-slate-100 p-6 flex items-center justify-center">
+      <svg width="100%" height="200" viewBox="0 0 520 200" className="max-w-lg">
+        <rect x="180" y="10" width="160" height="180" rx="6" fill="#e8eef5" stroke="#1e3a5f" strokeWidth="1.5"/>
+        <rect x="190" y="25" width="140" height="30" rx="4" fill="#1e3a5f" opacity="0.12"/>
+        <text x="260" y="45" textAnchor="middle" fontSize="10" fill="#1e3a5f" fontFamily="sans-serif" fontWeight="600">Parties communes</text>
+        <rect x="190" y="65" width="60" height="50" rx="4" fill="#3b82f6" opacity="0.15" stroke="#3b82f6" strokeWidth="1"/>
+        <text x="220" y="88" textAnchor="middle" fontSize="9" fill="#1d4ed8" fontFamily="sans-serif">Lot 1</text>
+        <text x="220" y="100" textAnchor="middle" fontSize="8" fill="#94a3b8" fontFamily="sans-serif">Privé</text>
+        <rect x="260" y="65" width="60" height="50" rx="4" fill="#3b82f6" opacity="0.15" stroke="#3b82f6" strokeWidth="1"/>
+        <text x="290" y="88" textAnchor="middle" fontSize="9" fill="#1d4ed8" fontFamily="sans-serif">Lot 2</text>
+        <text x="290" y="100" textAnchor="middle" fontSize="8" fill="#94a3b8" fontFamily="sans-serif">Privé</text>
+        <rect x="190" y="125" width="130" height="50" rx="4" fill="#22c55e" opacity="0.12" stroke="#22c55e" strokeWidth="1"/>
+        <text x="255" y="153" textAnchor="middle" fontSize="9" fill="#166534" fontFamily="sans-serif">Accès véhicule — usage commun</text>
+        <text x="50" y="95" fontSize="9" fill="#94a3b8" fontFamily="sans-serif">Usage autorisé</text>
+        <text x="50" y="108" fontSize="9" fill="#94a3b8" fontFamily="sans-serif">→ à vérifier</text>
+        <line x1="125" y1="103" x2="185" y2="90" stroke="#94a3b8" strokeWidth="1" strokeDasharray="3,2"/>
+        <text x="355" y="95" fontSize="9" fill="#94a3b8" fontFamily="sans-serif">Tantièmes</text>
+        <text x="355" y="108" fontSize="9" fill="#94a3b8" fontFamily="sans-serif">→ charges</text>
+        <line x1="352" y1="103" x2="335" y2="90" stroke="#94a3b8" strokeWidth="1" strokeDasharray="3,2"/>
+      </svg>
+    </div>
+
+    <h2 id="role-reglement">Le rôle du règlement de copropriété</h2>
+    <p>
+      Institué par la loi du 10 juillet 1965 et son décret d'application du 17 mars 1967, le règlement de copropriété est le document fondateur qui régit la vie de toute copropriété. Il détermine la destination de l'immeuble, fixe les conditions d'utilisation de chaque lot privatif et des parties communes, et précise les règles de répartition des charges entre copropriétaires.
+    </p>
+    <p>
+      Ce document s'impose à tous les copropriétaires successifs : en acquérant un lot, le nouveau propriétaire est automatiquement lié par le règlement en vigueur, même s'il n'en a pas pris connaissance. Cette opposabilité automatique est une raison majeure de procéder à sa lecture attentive avant toute décision d'achat.
+    </p>
+    <p>
+      Le règlement est complété par l'état descriptif de division, qui liste précisément tous les lots de la copropriété, leurs références cadastrales et leurs tantièmes. Ces deux documents forment un ensemble indissociable que le vendeur est tenu de remettre à l'acquéreur avant la signature du compromis, conformément aux dispositions de la loi ALUR (loi n° 2014-366 du 24 mars 2014).
+    </p>
+
+    <CalloutBox type="legal">
+      Le règlement de copropriété et l'état descriptif de division font partie des documents obligatoires que le vendeur doit remettre à l'acquéreur avant la signature du compromis de vente, en application des articles L. 721-1 et suivants du Code de la construction et de l'habitation. Votre notaire vérifiera la complétude de cette remise.
+    </CalloutBox>
+
+    <h2 id="usage-autorise">L'usage autorisé du local : première vérification clé</h2>
+    <p>
+      La clause la plus déterminante pour un investisseur est celle qui définit la destination autorisée du lot. Le règlement de copropriété fixe la destination générale de l'immeuble — résidentielle, commerciale, mixte — et peut préciser, lot par lot, l'usage auquel chaque local est destiné.
+    </p>
+    <p>
+      Un lot désigné comme "garage" peut autoriser le stationnement de véhicules mais interdire ou limiter l'usage comme espace de stockage commercial. À l'inverse, un lot désigné comme "local de rangement" ou "cave" peut interdire l'accès à des véhicules ou tout usage professionnel.
+    </p>
+    <p>
+      Ces distinctions ne sont pas anodines. Un propriétaire qui louerait un garage pour un usage non autorisé par le règlement de copropriété s'exposerait à une mise en demeure par le syndic, voire à une action en justice de la copropriété pour trouble de jouissance.
+    </p>
+    <p>
+      Concrètement, il faut s'assurer que l'usage envisagé — location à un particulier pour stockage, location à un artisan pour ses matériaux, usage mixte stationnement et stockage — est bien compatible avec la destination du lot telle qu'elle est définie dans le règlement.
+    </p>
+
+    <CalloutBox type="vigilance">
+      Ne vous contentez pas de la description verbale du vendeur ou de l'agent sur l'usage autorisé. Lisez directement la clause de destination du lot dans le règlement de copropriété, et demandez à votre notaire de confirmer l'interprétation applicable à votre projet d'exploitation.
+    </CalloutBox>
+
+    <h2 id="restrictions-locatives">Les restrictions à la mise en location</h2>
+    <p>
+      Certains règlements de copropriété contiennent des clauses qui encadrent ou limitent la mise en location des lots privatifs. Ces clauses sont licites dans la mesure où elles ne constituent pas une interdiction absolue de louer — ce qui serait contraire au droit de propriété — mais peuvent imposer des conditions spécifiques.
+    </p>
+    <p>
+      Les restrictions les plus fréquemment rencontrées incluent :
+    </p>
+    <ul>
+      <li><strong>L'obligation d'information du syndic</strong> en cas de changement de locataire ou de mise en location d'un lot jusqu'alors occupé par le propriétaire ;</li>
+      <li><strong>L'interdiction de sous-louer</strong> le lot ou de le mettre à disposition à titre onéreux pour des durées très courtes ;</li>
+      <li><strong>Des restrictions sur le profil des locataires</strong> — professionnels exclusivement, particuliers exclusivement, exclusion de certaines activités jugées incompatibles avec la destination de l'immeuble ;</li>
+      <li><strong>Des clauses de bon voisinage</strong> imposant des horaires d'accès ou des niveaux sonores, pouvant contraindre l'exploitation si les locataires ont besoin d'un accès permanent ou de livraisons fréquentes.</li>
+    </ul>
+    <p>
+      Ces restrictions peuvent sembler secondaires lors de l'acquisition, mais elles peuvent devenir des obstacles opérationnels réels une fois le bien mis en location.
+    </p>
+
+    <h2 id="charges-et-repartition">La répartition des charges et les tantièmes</h2>
+    <p>
+      Le règlement de copropriété fixe les tantièmes de chaque lot, c'est-à-dire la quote-part de parties communes attachée à chaque lot privatif. Ces tantièmes déterminent la répartition des charges de copropriété entre copropriétaires.
+    </p>
+    <p>
+      Pour un lot de garages, les tantièmes sont généralement faibles — les lots de petite surface, sans cave ni annexe, contribuent moins aux charges que les appartements. Cette caractéristique est favorable au bailleur, mais il faut vérifier que les tantièmes correspondent bien à la configuration réelle du lot et n'ont pas été établis de manière défavorable lors de la constitution de la copropriété.
+    </p>
+    <p>
+      Le règlement peut prévoir plusieurs catégories de charges — charges générales et charges spéciales — avec des clés de répartition différentes. Les charges d'ascenseur, par exemple, peuvent être réparties selon un coefficient de quote-part différent des charges générales. Pour des lots situés au niveau du sol, certaines charges peuvent être exclues de la répartition.
+    </p>
+    <p>
+      Il est utile de vérifier, à partir des appels de charges des deux à trois dernières années, si le montant réellement appelé au titre du lot est cohérent avec les tantièmes et avec la clé de répartition prévue au règlement. Des anomalies peuvent signaler des erreurs dans l'application du règlement ou des charges imputées à tort.
+    </p>
+
+    <CalloutBox type="retenir">
+      Des tantièmes faibles ne signifient pas des charges nulles. Même avec une quote-part réduite, les charges de copropriété peuvent peser sur la rentabilité si le niveau global des charges de la copropriété est élevé. C'est le montant absolu annuel qui compte dans le calcul de rentabilité nette, pas le ratio de tantièmes.
+    </CalloutBox>
+
+    <h2 id="travaux-et-ag">Travaux votés et fonds de réserve</h2>
+    <p>
+      Le règlement de copropriété fixe les règles de majorité pour le vote des travaux en assemblée générale. Il est important de comprendre que des travaux votés mais non encore réalisés au moment de la vente restent à la charge du vendeur ou de l'acquéreur selon les dispositions du compromis et la date du vote.
+    </p>
+    <p>
+      Les travaux votés lors d'une assemblée générale antérieure à la promesse de vente sont en principe à la charge du vendeur pour les appels de fonds antérieurs à la signature, et à la charge de l'acquéreur pour les appels de fonds postérieurs. La rédaction du compromis doit préciser ces conditions. Une négligence sur ce point peut conduire l'acquéreur à supporter des charges inattendues dans les mois suivant l'acquisition.
+    </p>
+    <p>
+      Depuis la loi ALUR, toute copropriété doit constituer un fonds de travaux alimenté par des cotisations annuelles des copropriétaires (articles 14-2 de la loi du 10 juillet 1965). L'état de ce fonds — son niveau, son objectif et les travaux envisagés — renseigne sur la santé financière de la copropriété et les dépenses prévisibles à moyen terme.
+    </p>
+
+    <h2 id="points-vigilance-pratiques">Les points de vigilance pratiques</h2>
+    <p>
+      À titre de synthèse, voici les points à vérifier systématiquement dans le règlement de copropriété avant toute décision d'acquisition :
+    </p>
+    <ul>
+      <li>La destination du lot dans l'état descriptif de division : garage, parking, local de rangement, cave — et les usages autorisés associés ;</li>
+      <li>L'existence de clauses limitant la mise en location ou imposant des conditions spécifiques aux locataires ;</li>
+      <li>Les clauses relatives aux accès — horaires, modalités d'ouverture, présence d'un gardien — susceptibles de contraindre l'exploitation ;</li>
+      <li>La répartition des charges et les tantièmes du lot, à comparer avec les appels de charges réels des dernières années ;</li>
+      <li>Les travaux votés en assemblée générale et non encore réalisés ou non encore appelés ;</li>
+      <li>Le niveau du fonds de travaux et les travaux envisagés à moyen terme ;</li>
+      <li>Les éventuelles servitudes grevant le lot ou les parties communes qui lui sont attachées.</li>
+    </ul>
+
+    <div className="mt-8 pt-6 border-t border-slate-100">
+      <h3 className="text-sm font-bold text-slate-700 mb-3">Sources et références</h3>
+      <ul className="space-y-1">
+        <li className="text-xs text-slate-500">→ Legifrance.gouv.fr — Loi n° 65-557 du 10 juillet 1965 (statut de la copropriété)</li>
+        <li className="text-xs text-slate-500">→ Legifrance.gouv.fr — Décret n° 67-223 du 17 mars 1967 (application de la loi de 1965)</li>
+        <li className="text-xs text-slate-500">→ Legifrance.gouv.fr — Code de la construction et de l'habitation, art. L. 721-1 et s. (documents à remettre à l'acquéreur)</li>
+        <li className="text-xs text-slate-500">→ Service-public.fr — Copropriété : règlement et état descriptif de division</li>
+      </ul>
+    </div>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      Le règlement de copropriété conditionne directement l'exploitation d'un espace de stockage acquis dans une copropriété. Vérifier la destination autorisée du lot, les restrictions à la mise en location, la répartition des charges et les travaux votés est indispensable avant toute décision. Ce document, transmis obligatoirement par le vendeur avant le compromis, mérite une lecture attentive — et si besoin, une interprétation par votre notaire.
+    </CalloutBox>
+  </div>
+);
+
+const chargesCoproprieteContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      Dans l'analyse de rentabilité d'un lot de garages, les charges de copropriété sont souvent le poste le plus sous-estimé. On retient le loyer, on calcule un rendement brut séduisant — et on oublie que les charges peuvent représenter une part significative du loyer annuel, modifiant profondément le rendement net réel.
+    </p>
+
+    <div className="my-8 bg-[#f8f9fa] rounded-xl border border-slate-100 p-6 flex items-center justify-center">
+      <svg width="100%" height="180" viewBox="0 0 480 180" className="max-w-lg">
+        <rect x="30" y="30" width="80" height="120" rx="4" fill="#1e3a5f" opacity="0.85"/>
+        <text x="70" y="100" textAnchor="middle" fontSize="10" fill="white" fontFamily="sans-serif" fontWeight="600">Loyer</text>
+        <text x="70" y="113" textAnchor="middle" fontSize="9" fill="#93c5fd" fontFamily="sans-serif">brut</text>
+        <rect x="150" y="70" width="80" height="80" rx="4" fill="#f59e0b" opacity="0.8"/>
+        <text x="190" y="115" textAnchor="middle" fontSize="10" fill="white" fontFamily="sans-serif" fontWeight="600">Charges</text>
+        <text x="190" y="128" textAnchor="middle" fontSize="9" fill="#fef3c7" fontFamily="sans-serif">copro</text>
+        <rect x="270" y="55" width="80" height="95" rx="4" fill="#94a3b8" opacity="0.7"/>
+        <text x="310" y="103" textAnchor="middle" fontSize="10" fill="white" fontFamily="sans-serif" fontWeight="600">Autres</text>
+        <text x="310" y="116" textAnchor="middle" fontSize="9" fill="#e2e8f0" fontFamily="sans-serif">charges</text>
+        <rect x="390" y="90" width="60" height="60" rx="4" fill="#22c55e" opacity="0.8"/>
+        <text x="420" y="123" textAnchor="middle" fontSize="10" fill="white" fontFamily="sans-serif" fontWeight="600">Net</text>
+        <text x="70" y="165" textAnchor="middle" fontSize="8" fill="#94a3b8" fontFamily="sans-serif">100 %</text>
+        <text x="190" y="165" textAnchor="middle" fontSize="8" fill="#94a3b8" fontFamily="sans-serif">variable</text>
+        <text x="310" y="165" textAnchor="middle" fontSize="8" fill="#94a3b8" fontFamily="sans-serif">variable</text>
+        <text x="420" y="165" textAnchor="middle" fontSize="8" fill="#94a3b8" fontFamily="sans-serif">résidu</text>
+      </svg>
+    </div>
+
+    <h2 id="nature-charges">La nature des charges de copropriété</h2>
+    <p>
+      Les charges de copropriété recouvrent l'ensemble des dépenses engagées pour l'administration, la conservation et l'entretien des parties communes de l'immeuble. Elles se distinguent des dépenses liées aux parties privatives, qui restent à la charge exclusive de chaque copropriétaire.
+    </p>
+    <p>
+      La loi du 10 juillet 1965 distingue deux catégories principales de charges. Les <strong>charges générales</strong> sont celles qui bénéficient à l'ensemble des copropriétaires : administration générale, entretien des parties communes, assurance de l'immeuble, honoraires du syndic. Les <strong>charges spéciales</strong> concernent les services ou équipements dont seuls certains copropriétaires bénéficient : ascenseur, gardiennage, chauffage collectif, espaces verts propres à un bâtiment.
+    </p>
+    <p>
+      Pour un lot de garages situé en rez-de-chaussée ou en sous-sol, la part de charges spéciales est souvent réduite — l'absence d'ascenseur, de chauffage collectif ou de gardiennage propre à cet espace limite les postes facturables. Mais les charges générales restent dues, et leur niveau dépend de la structure globale de la copropriété.
+    </p>
+
+    <h2 id="charges-courantes">Les charges courantes : entretien et gestion</h2>
+    <p>
+      Les charges courantes sont celles qui se répètent d'année en année et peuvent être anticipées avec une relative fiabilité. Elles incluent principalement :
+    </p>
+    <ul>
+      <li>Les honoraires du syndic (professionnel ou bénévole), qui constituent souvent le poste le plus important dans les petites copropriétés ;</li>
+      <li>Les primes d'assurance de l'immeuble, couvrant a minima la responsabilité civile et les dommages aux parties communes ;</li>
+      <li>Les contrats de maintenance des équipements collectifs (portails automatiques, éclairage des parties communes, systèmes de sécurité) ;</li>
+      <li>Les frais de nettoyage et d'entretien des allées et espaces communs ;</li>
+      <li>Les frais de gestion bancaire du syndicat.</li>
+    </ul>
+    <p>
+      Le niveau de ces charges varie considérablement selon la taille de la copropriété, sa localisation, son ancienneté et le niveau de service qu'elle offre. Pour s'en faire une idée précise, il faut analyser les relevés de charges des deux à trois dernières années, disponibles dans les documents transmis par le vendeur.
+    </p>
+
+    <CalloutBox type="retenir">
+      Demandez systématiquement les relevés de charges des trois dernières années, pas seulement le dernier. Cela permet d'identifier les tendances — des charges en hausse régulière peuvent signaler une copropriété mal gérée ou des équipements vieillissants — et les postes exceptionnels qui ne doivent pas être pris en compte dans les charges courantes prévisionnelles.
+    </CalloutBox>
+
+    <h2 id="charges-exceptionnelles">Les charges exceptionnelles et travaux votés</h2>
+    <p>
+      En complément des charges courantes, les copropriétés votent régulièrement des travaux en assemblée générale. Ces dépenses exceptionnelles — ravalement de façade, réfection de toiture, mise aux normes électriques, travaux d'accessibilité — peuvent représenter des montants significatifs et s'ajoutent aux charges courantes lors de leur appel.
+    </p>
+    <p>
+      Ces travaux sont décidés à des majorités variables selon leur nature (article 25, article 24 ou article 26 de la loi du 10 juillet 1965). Une fois votés, ils s'imposent à tous les copropriétaires, y compris à celui qui a voté contre.
+    </p>
+    <p>
+      Avant d'acquérir, il faut identifier :
+    </p>
+    <ul>
+      <li>Les travaux déjà votés et dont tout ou partie des appels de fonds interviendront après l'acquisition ;</li>
+      <li>Les travaux discutés informellement ou mis à l'ordre du jour des prochaines assemblées ;</li>
+      <li>L'état général du bâtiment, qui conditionne la probabilité de travaux importants à moyen terme.</li>
+    </ul>
+
+    <CalloutBox type="vigilance">
+      Un lot présenté avec un rendement brut attractif peut devenir moins intéressant si des travaux importants sont votés dans les mois suivant l'acquisition. La lecture des procès-verbaux des trois dernières assemblées générales est indispensable pour détecter ces situations.
+    </CalloutBox>
+
+    <h2 id="fonds-travaux">Le fonds de travaux obligatoire (loi ALUR)</h2>
+    <p>
+      Depuis la loi ALUR du 24 mars 2014, tout syndicat de copropriétaires est tenu de constituer un fonds de travaux destiné à financer les dépenses de conservation et d'entretien prévisibles à moyen terme (article 14-2 de la loi du 10 juillet 1965). Ce fonds est alimenté par des cotisations annuelles de l'ensemble des copropriétaires.
+    </p>
+    <p>
+      La cotisation minimale est fixée à 5 % du budget prévisionnel annuel de la copropriété, sauf vote d'un montant supérieur par l'assemblée générale. Ce fonds est attaché au lot et non à la personne du copropriétaire : en cas de vente, les sommes versées par le vendeur restent acquises à la copropriété et ne peuvent être remboursées au vendeur.
+    </p>
+    <p>
+      Un fonds de travaux bien doté est un signal positif sur la santé financière de la copropriété. Un fonds insuffisant ou inexistant peut annoncer des appels de fonds exceptionnels dans les prochaines années.
+    </p>
+
+    <h2 id="impact-rentabilite">L'impact sur la rentabilité nette : un calcul illustratif</h2>
+    <p>
+      Pour illustrer l'impact des charges de copropriété, voici un raisonnement avec des hypothèses entièrement fictives, à ne pas appliquer directement à un projet réel. Supposons un lot de garages générant un loyer annuel brut de 3 000 (quelle qu'en soit l'unité). La rentabilité brute est calculée en divisant ce loyer par le prix d'acquisition total.
+    </p>
+    <p>
+      Si les charges de copropriété annuelles s'élèvent à 400 — soit environ 13 % du loyer brut — et que les autres charges (taxe foncière, assurance PNO, frais de gestion éventuels) représentent 500 supplémentaires, le revenu net avant fiscalité tombe à 2 100, soit 30 % de moins que le loyer brut. Sur la même base de prix d'achat, la rentabilité nette est donc significativement inférieure à la rentabilité brute.
+    </p>
+    <p>
+      Ce raisonnement illustratif montre que la rentabilité brute ne peut pas servir de critère unique de comparaison entre deux biens. Des charges de copropriété élevées peuvent effacer entièrement l'avantage apparent d'un loyer brut supérieur.
+    </p>
+
+    <CalloutBox type="retenir">
+      La rentabilité nette avant fiscalité — calculée après déduction de toutes les charges réelles — est le ratio pertinent pour comparer des projets entre eux. La rentabilité brute est un indicateur de départ utile, mais insuffisant pour une décision d'investissement éclairée.
+    </CalloutBox>
+
+    <h2 id="analyser-avant-achat">Comment analyser les charges avant l'achat</h2>
+    <p>
+      L'analyse des charges de copropriété doit s'appuyer sur les documents transmis par le vendeur. Plusieurs démarches concrètes permettent d'obtenir une image fiable :
+    </p>
+    <ul>
+      <li><strong>Lire les relevés de charges des trois dernières années</strong> en distinguant les charges courantes des appels exceptionnels liés à des travaux ;</li>
+      <li><strong>Identifier le montant annuel moyen</strong> sur la période, en excluant les postes exceptionnels non récurrents ;</li>
+      <li><strong>Consulter les procès-verbaux des assemblées générales</strong> pour identifier les travaux votés ou envisagés ;</li>
+      <li><strong>Vérifier le montant du fonds de travaux</strong> et sa progression sur les dernières années ;</li>
+      <li><strong>Obtenir l'état daté</strong>, document fourni par le syndic à la demande du vendeur, qui récapitule la situation financière du lot vis-à-vis de la copropriété — impayés éventuels, avances, appels de fonds en cours.</li>
+    </ul>
+
+    <div className="mt-8 pt-6 border-t border-slate-100">
+      <h3 className="text-sm font-bold text-slate-700 mb-3">Sources et références</h3>
+      <ul className="space-y-1">
+        <li className="text-xs text-slate-500">→ Legifrance.gouv.fr — Loi n° 65-557 du 10 juillet 1965, art. 10 (charges de copropriété), art. 14-2 (fonds de travaux)</li>
+        <li className="text-xs text-slate-500">→ Service-public.fr — Charges de copropriété : calcul et répartition</li>
+        <li className="text-xs text-slate-500">→ Service-public.fr — État daté lors d'une vente en copropriété</li>
+        <li className="text-xs text-slate-500">→ BOFIP (bofip.impots.gouv.fr) — BOI-RFPI-BASE-20-40 (charges déductibles des revenus fonciers)</li>
+      </ul>
+    </div>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      Les charges de copropriété sont un poste structurel à intégrer dans tout calcul de rentabilité nette. Elles varient selon la taille et la qualité de la copropriété, et peuvent être significativement augmentées par des travaux votés ou prévisibles. Analyser les relevés des trois dernières années, consulter les procès-verbaux d'assemblée et vérifier l'état daté sont les étapes indispensables pour estimer avec réalisme le poids de ce poste dans l'exploitation future.
+    </CalloutBox>
+  </div>
+);
+
+const gererImpayesContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      Un impayé de loyer, même modeste, peut rapidement déstabiliser l'équilibre financier d'un investissement dans des espaces de stockage. Sur ce type de bien, les montants en jeu sont souvent limités, mais les coûts de procédure et les délais légaux peuvent dépasser la valeur du loyer réclamé. La prévention reste la première ligne de défense — et la connaissance des procédures, la seconde.
+    </p>
+
+    <div className="my-8 bg-[#f8f9fa] rounded-xl border border-slate-100 p-6 flex items-center justify-center">
+      <svg width="100%" height="140" viewBox="0 0 560 140" className="max-w-2xl">
+        <circle cx="60" cy="70" r="22" fill="#f59e0b" opacity="0.2" stroke="#f59e0b" strokeWidth="1.5"/>
+        <text x="60" y="68" textAnchor="middle" fontSize="8" fill="#92400e" fontFamily="sans-serif" fontWeight="600">Impayé</text>
+        <text x="60" y="79" textAnchor="middle" fontSize="8" fill="#92400e" fontFamily="sans-serif">détecté</text>
+        <line x1="84" y1="70" x2="106" y2="70" stroke="#94a3b8" strokeWidth="1.5" markerEnd="url(#arr)"/>
+        <circle cx="130" cy="70" r="22" fill="#f59e0b" opacity="0.3" stroke="#f59e0b" strokeWidth="1.5"/>
+        <text x="130" y="68" textAnchor="middle" fontSize="8" fill="#92400e" fontFamily="sans-serif" fontWeight="600">Relance</text>
+        <text x="130" y="79" textAnchor="middle" fontSize="8" fill="#92400e" fontFamily="sans-serif">amiable</text>
+        <line x1="154" y1="70" x2="176" y2="70" stroke="#94a3b8" strokeWidth="1.5"/>
+        <circle cx="200" cy="70" r="22" fill="#ef4444" opacity="0.15" stroke="#ef4444" strokeWidth="1.5"/>
+        <text x="200" y="68" textAnchor="middle" fontSize="8" fill="#991b1b" fontFamily="sans-serif" fontWeight="600">Mise en</text>
+        <text x="200" y="79" textAnchor="middle" fontSize="8" fill="#991b1b" fontFamily="sans-serif">demeure</text>
+        <line x1="224" y1="70" x2="246" y2="70" stroke="#94a3b8" strokeWidth="1.5"/>
+        <circle cx="270" cy="70" r="22" fill="#ef4444" opacity="0.25" stroke="#ef4444" strokeWidth="1.5"/>
+        <text x="270" y="68" textAnchor="middle" fontSize="8" fill="#991b1b" fontFamily="sans-serif" fontWeight="600">Procédure</text>
+        <text x="270" y="79" textAnchor="middle" fontSize="8" fill="#991b1b" fontFamily="sans-serif">judiciaire</text>
+        <line x1="294" y1="70" x2="316" y2="70" stroke="#94a3b8" strokeWidth="1.5"/>
+        <circle cx="340" cy="70" r="22" fill="#1e3a5f" opacity="0.15" stroke="#1e3a5f" strokeWidth="1.5"/>
+        <text x="340" y="68" textAnchor="middle" fontSize="8" fill="#1e3a5f" fontFamily="sans-serif" fontWeight="600">Titre</text>
+        <text x="340" y="79" textAnchor="middle" fontSize="8" fill="#1e3a5f" fontFamily="sans-serif">exécutoire</text>
+        <line x1="364" y1="70" x2="386" y2="70" stroke="#94a3b8" strokeWidth="1.5"/>
+        <circle cx="410" cy="70" r="22" fill="#22c55e" opacity="0.2" stroke="#22c55e" strokeWidth="1.5"/>
+        <text x="410" y="68" textAnchor="middle" fontSize="8" fill="#166534" fontFamily="sans-serif" fontWeight="600">Reprise</text>
+        <text x="410" y="79" textAnchor="middle" fontSize="8" fill="#166534" fontFamily="sans-serif">des lieux</text>
+      </svg>
+    </div>
+
+    <h2 id="prevention-avant-tout">La prévention : première ligne de défense</h2>
+    <p>
+      La gestion des impayés commence bien avant le premier loyer non réglé. Plusieurs pratiques préventives permettent de limiter significativement le risque d'impayé et, lorsqu'il survient, d'en réduire l'ampleur.
+    </p>
+    <p>
+      <strong>La sélection rigoureuse du locataire.</strong> Vérifier l'identité du candidat, s'assurer de la cohérence entre l'usage déclaré et le profil présenté, et obtenir des informations de contact fiables constituent le minimum. Pour les locations à des professionnels ou artisans, vérifier l'existence légale de l'entreprise via le registre SIRENE (annuaire-entreprises.data.gouv.fr) apporte une information utile sur la viabilité du locataire.
+    </p>
+    <p>
+      <strong>Le contrat écrit avec clause de dépôt de garantie.</strong> Un contrat de location formalisé par écrit, prévoyant un dépôt de garantie d'un à deux mois de loyer, est indispensable. Le dépôt de garantie ne couvre pas entièrement le risque d'impayé prolongé, mais il offre une première protection et incite le locataire à maintenir ses paiements pour en obtenir la restitution à son départ.
+    </p>
+    <p>
+      <strong>Le suivi régulier des paiements.</strong> Une vérification mensuelle des encaissements permet de détecter un retard dès le premier mois. Un impayé traité rapidement — avant qu'il ne s'accumule sur plusieurs mois — est toujours plus facile à résoudre qu'une dette locative ancienne.
+    </p>
+
+    <CalloutBox type="retenir">
+      Un dépôt de garantie d'un mois de loyer protège partiellement contre un impayé court. Il ne protège pas contre une dette locative de plusieurs mois. La prévention la plus efficace reste la sélection sérieuse du locataire et le suivi attentif des paiements.
+    </CalloutBox>
+
+    <h2 id="premier-impaye">Réagir au premier impayé</h2>
+    <p>
+      Dès qu'un loyer n'est pas réglé à l'échéance prévue, il est conseillé de prendre contact avec le locataire rapidement — par téléphone ou par message — pour en comprendre la cause. Un retard de quelques jours résulte souvent d'un oubli ou d'un problème technique de virement, et se règle sans formalité.
+    </p>
+    <p>
+      Si le locataire ne répond pas ou si le paiement n'intervient pas dans un délai raisonnable, il convient de passer à une relance formelle par écrit. Un courrier simple ou un email daté, rappelant le montant dû et demandant le règlement dans un délai précis, constitue un premier niveau de formalisation.
+    </p>
+    <p>
+      Cette étape est importante non seulement pour le dialogue avec le locataire, mais aussi pour constituer un dossier en cas de procédure ultérieure. Un historique documenté des relances démontre la bonne foi du bailleur et la mise en œuvre de démarches préalables à toute action judiciaire.
+    </p>
+
+    <h2 id="mise-en-demeure">La mise en demeure : étape formelle</h2>
+    <p>
+      Si la relance amiable ne produit pas d'effet, l'étape suivante est la mise en demeure par lettre recommandée avec accusé de réception. Ce courrier formel constitue le locataire en demeure de payer, au sens des articles 1344 et suivants du Code civil.
+    </p>
+    <p>
+      La mise en demeure doit indiquer précisément la somme réclamée (loyers impayés, avec les mois concernés), la date à partir de laquelle le retard est constaté, et le délai accordé pour régulariser la situation. Elle marque le point de départ des intérêts de retard éventuels et constitue une pièce essentielle du dossier judiciaire si la procédure se poursuit.
+    </p>
+    <p>
+      À ce stade, il peut être utile de consulter un avocat spécialisé en droit immobilier ou en droit des baux pour vérifier la pertinence des démarches et anticiper les étapes suivantes.
+    </p>
+
+    <CalloutBox type="legal">
+      La mise en demeure n'est pas une obligation légale préalable à toute action judiciaire dans les baux de droit commun, mais elle constitue une pratique recommandée qui démontre la bonne foi du bailleur et renforce le dossier. Consultez un avocat pour adapter la démarche à votre situation spécifique.
+    </CalloutBox>
+
+    <h2 id="procedures-judiciaires">Les procédures judiciaires applicables</h2>
+    <p>
+      Si le locataire ne régularise pas sa situation malgré la mise en demeure, plusieurs voies judiciaires peuvent être envisagées. Le choix dépend du montant en jeu, du type de contrat (droit commun ou bail commercial) et de l'objectif poursuivi (recouvrement de la créance, résiliation du bail, expulsion).
+    </p>
+    <p>
+      <strong>L'injonction de payer</strong> (articles 1405 et suivants du Code de procédure civile) est une procédure simplifiée permettant d'obtenir rapidement un titre exécutoire pour le recouvrement d'une créance non contestée. Elle est initiée par une requête présentée au tribunal judiciaire compétent, sans audience contradictoire dans un premier temps. Si le juge fait droit à la demande, une ordonnance est rendue et signifiée au débiteur. En l'absence d'opposition dans le délai imparti (un mois à compter de la signification), l'ordonnance devient un titre exécutoire permettant de saisir les biens ou les revenus du débiteur.
+    </p>
+    <p>
+      <strong>L'action en résiliation du bail</strong> peut être engagée parallèlement ou séparément, devant le tribunal judiciaire, pour obtenir la résiliation judiciaire du contrat de location pour non-paiement du loyer. Elle nécessite une audience contradictoire et aboutit, en cas de succès, à un jugement ordonnant la résiliation et, le cas échéant, l'expulsion du locataire.
+    </p>
+    <p>
+      Pour les baux commerciaux (locataires professionnels dont l'activité est exercée dans les lieux loués), des règles spécifiques s'appliquent, notamment en matière de résiliation et d'expulsion. Le recours à un avocat spécialisé est indispensable dans ce cas.
+    </p>
+
+    <CalloutBox type="vigilance">
+      Les procédures judiciaires sont longues et coûteuses. Pour des espaces de stockage dont le loyer mensuel est modeste, le coût d'une procédure complète peut dépasser la valeur de la créance réclamée. Évaluez l'opportunité économique d'une procédure avant de l'engager, en tenant compte des honoraires d'avocat, des frais d'huissier et des délais prévisibles.
+    </CalloutBox>
+
+    <h2 id="delais-et-couts">Délais et coûts à anticiper</h2>
+    <p>
+      Les délais judiciaires varient selon les juridictions, le niveau de charge des tribunaux et la complexité de la situation. Il serait trompeur d'avancer des chiffres précis qui ne reflèteraient pas la diversité des situations réelles. Ce qu'il faut retenir :
+    </p>
+    <ul>
+      <li>Une procédure d'injonction de payer non contestée peut aboutir à un titre exécutoire en quelques semaines à quelques mois ;</li>
+      <li>Une procédure contradictoire (audience avec les deux parties) implique des délais plus longs, qui dépendent du rôle d'audience du tribunal ;</li>
+      <li>Une expulsion, si elle est nécessaire, requiert un jugement d'expulsion, puis son exécution par un huissier, et respecte des délais légaux stricts (notamment l'interdiction d'expulsion pendant la trêve hivernale, du 1er novembre au 31 mars).</li>
+    </ul>
+    <p>
+      Les coûts comprennent les honoraires d'avocat (variables selon les barreaux et les modes de facturation), les frais d'huissier pour la signification des actes, et les éventuels frais de justice. Certains contrats d'assurance propriétaire non occupant ou de garantie des loyers impayés (GLI) couvrent tout ou partie de ces frais — c'est un point à vérifier lors de la souscription.
+    </p>
+
+    <h2 id="reprise-des-lieux">La reprise des lieux après départ du locataire</h2>
+    <p>
+      Lorsque le locataire quitte les lieux — qu'il s'agisse d'un départ volontaire ou d'une expulsion — plusieurs formalités s'imposent avant de remettre l'espace en location.
+    </p>
+    <p>
+      Un état des lieux de sortie contradictoire, réalisé en présence du locataire ou de son représentant, permet de documenter l'état du bien à son départ et de comparer avec l'état des lieux d'entrée. Cet état des lieux est indispensable pour justifier une éventuelle retenue sur le dépôt de garantie.
+    </p>
+    <p>
+      Les articles 1731 et suivants du Code civil précisent les règles applicables en matière de restitution du dépôt de garantie et de charges imputables au locataire. Si aucun état des lieux n'a été réalisé à l'entrée, le locataire est présumé avoir reçu le logement en bon état — ce qui limite les possibilités de retenue.
+    </p>
+    <p>
+      Le dépôt de garantie ne peut être retenu qu'à hauteur des dommages réellement constatés et justifiés. Toute retenue abusive expose le bailleur à une action du locataire et à des dommages-intérêts.
+    </p>
+
+    <div className="mt-8 pt-6 border-t border-slate-100">
+      <h3 className="text-sm font-bold text-slate-700 mb-3">Sources et références</h3>
+      <ul className="space-y-1">
+        <li className="text-xs text-slate-500">→ Legifrance.gouv.fr — Code civil, art. 1344 et s. (mise en demeure), art. 1728 (obligations du locataire), art. 1731 (état des lieux)</li>
+        <li className="text-xs text-slate-500">→ Legifrance.gouv.fr — Code de procédure civile, art. 1405 et s. (injonction de payer)</li>
+        <li className="text-xs text-slate-500">→ Service-public.fr — Impayés de loyer : démarches du propriétaire</li>
+        <li className="text-xs text-slate-500">→ Service-public.fr — Trêve hivernale : règles d'expulsion</li>
+      </ul>
+    </div>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      La gestion des impayés sur les espaces de stockage suit les règles du droit commun des baux. La prévention — sélection rigoureuse, contrat écrit, dépôt de garantie, suivi mensuel — reste la stratégie la plus efficace et la moins coûteuse. En cas d'impayé, la réaction rapide (relance amiable, mise en demeure, procédure judiciaire) limite l'accumulation de la dette. Les procédures judiciaires peuvent être longues et coûteuses par rapport aux montants en jeu sur des petites unités — leur opportunité économique mérite d'être évaluée au cas par cas, idéalement avec l'avis d'un professionnel.
+    </CalloutBox>
+  </div>
+);
+
+const nomPropreSocieteContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      La question de la structure de détention est l'une des premières que pose un investisseur avant d'acquérir des espaces de stockage. Nom propre, SCI à l'IR, SCI à l'IS, société commerciale : chaque option a des conséquences fiscales, patrimoniales et pratiques distinctes. Aucune n'est universellement meilleure — tout dépend de la situation personnelle, des objectifs et du volume de l'investissement.
+    </p>
+
+    <div className="my-8 bg-[#f8f9fa] rounded-xl border border-slate-100 p-6 flex items-center justify-center">
+      <svg width="100%" height="180" viewBox="0 0 560 180" className="max-w-2xl">
+        <rect x="10" y="20" width="120" height="130" rx="6" fill="#1e3a5f" opacity="0.08" stroke="#1e3a5f" strokeWidth="1.5"/>
+        <text x="70" y="42" textAnchor="middle" fontSize="10" fill="#1e3a5f" fontFamily="sans-serif" fontWeight="700">Nom propre</text>
+        <text x="70" y="62" textAnchor="middle" fontSize="8.5" fill="#475569" fontFamily="sans-serif">IR — revenus fonciers</text>
+        <text x="70" y="78" textAnchor="middle" fontSize="8.5" fill="#475569" fontFamily="sans-serif">Simple à constituer</text>
+        <text x="70" y="94" textAnchor="middle" fontSize="8.5" fill="#475569" fontFamily="sans-serif">Patrimoine mélangé</text>
+        <text x="70" y="110" textAnchor="middle" fontSize="8.5" fill="#475569" fontFamily="sans-serif">Succession directe</text>
+        <rect x="145" y="20" width="120" height="130" rx="6" fill="#3b82f6" opacity="0.08" stroke="#3b82f6" strokeWidth="1.5"/>
+        <text x="205" y="42" textAnchor="middle" fontSize="10" fill="#1d4ed8" fontFamily="sans-serif" fontWeight="700">SCI à l'IR</text>
+        <text x="205" y="62" textAnchor="middle" fontSize="8.5" fill="#475569" fontFamily="sans-serif">IR — transparence fiscale</text>
+        <text x="205" y="78" textAnchor="middle" fontSize="8.5" fill="#475569" fontFamily="sans-serif">Multi-associés possible</text>
+        <text x="205" y="94" textAnchor="middle" fontSize="8.5" fill="#475569" fontFamily="sans-serif">Gestion parts facilitée</text>
+        <text x="205" y="110" textAnchor="middle" fontSize="8.5" fill="#475569" fontFamily="sans-serif">Comptabilité requise</text>
+        <rect x="280" y="20" width="120" height="130" rx="6" fill="#8b5cf6" opacity="0.08" stroke="#8b5cf6" strokeWidth="1.5"/>
+        <text x="340" y="42" textAnchor="middle" fontSize="10" fill="#6d28d9" fontFamily="sans-serif" fontWeight="700">SCI à l'IS</text>
+        <text x="340" y="62" textAnchor="middle" fontSize="8.5" fill="#475569" fontFamily="sans-serif">IS — amortissement possible</text>
+        <text x="340" y="78" textAnchor="middle" fontSize="8.5" fill="#475569" fontFamily="sans-serif">Plus-value différente</text>
+        <text x="340" y="94" textAnchor="middle" fontSize="8.5" fill="#475569" fontFamily="sans-serif">Séparation patrimoniale</text>
+        <text x="340" y="110" textAnchor="middle" fontSize="8.5" fill="#475569" fontFamily="sans-serif">Dividendes taxés</text>
+        <rect x="415" y="20" width="130" height="130" rx="6" fill="#22c55e" opacity="0.08" stroke="#22c55e" strokeWidth="1.5"/>
+        <text x="480" y="42" textAnchor="middle" fontSize="10" fill="#166534" fontFamily="sans-serif" fontWeight="700">Société commerciale</text>
+        <text x="480" y="58" textAnchor="middle" fontSize="8.5" fill="#166534" fontFamily="sans-serif">(SARL, SAS)</text>
+        <text x="480" y="78" textAnchor="middle" fontSize="8.5" fill="#475569" fontFamily="sans-serif">IS — activité commerciale</text>
+        <text x="480" y="94" textAnchor="middle" fontSize="8.5" fill="#475569" fontFamily="sans-serif">Protection du patrimoine</text>
+        <text x="480" y="110" textAnchor="middle" fontSize="8.5" fill="#475569" fontFamily="sans-serif">Obligations comptables</text>
+      </svg>
+    </div>
+
+    <CalloutBox type="legal">
+      Les éléments présentés dans cet article sont à caractère informatif et pédagogique. La fiscalité et le droit des sociétés évoluent régulièrement. Les taux, seuils et régimes mentionnés sont susceptibles de changer. Consultez impérativement un expert-comptable, un avocat fiscaliste ou un notaire avant toute décision de structure de détention.
+    </CalloutBox>
+
+    <h2 id="nom-propre">L'acquisition en nom propre</h2>
+    <p>
+      L'acquisition en nom propre est la forme la plus simple et la plus directe. L'investisseur achète le bien en tant que personne physique, sans interposition de structure. Les revenus locatifs sont imposés à l'impôt sur le revenu dans la catégorie des revenus fonciers (articles 14 et suivants du Code général des impôts).
+    </p>
+    <p>
+      Le régime microfoncier s'applique lorsque les revenus fonciers bruts ne dépassent pas un certain seuil fixé par la loi (à vérifier car susceptible d'évoluer). Il prévoit un abattement forfaitaire représentatif des charges. Le régime réel permet de déduire les charges réelles : intérêts d'emprunt, charges de copropriété, taxe foncière, assurance, frais de gestion, travaux d'entretien et de réparation. Le choix entre les deux régimes dépend du niveau effectif des charges.
+    </p>
+    <p>
+      Les avantages de l'acquisition en nom propre incluent la simplicité de constitution (pas de société à créer, pas de statuts à rédiger), l'absence d'obligations comptables spécifiques, et la disponibilité directe des revenus sans distribution.
+    </p>
+    <p>
+      Parmi les points à avoir en tête : les revenus s'ajoutent aux autres revenus du foyer fiscal et sont imposés au taux marginal applicable, les prélèvements sociaux s'appliquent aux revenus nets, et le bien entre dans l'assiette successorale du propriétaire dans les conditions du droit commun.
+    </p>
+
+    <h2 id="sci-ir">La SCI à l'impôt sur le revenu</h2>
+    <p>
+      La Société Civile Immobilière (SCI) est une société de droit civil constituée pour détenir et gérer un ou plusieurs biens immobiliers. Par défaut, elle est soumise à l'impôt sur le revenu selon le régime de la transparence fiscale : la société n'est pas elle-même imposée ; les bénéfices sont imposés directement entre les mains des associés, proportionnellement à leurs parts.
+    </p>
+    <p>
+      La SCI à l'IR présente plusieurs intérêts pratiques pour les investisseurs souhaitant associer plusieurs personnes (conjoints, membres d'une famille, associés) : elle facilite la gestion des parts, organise la répartition des revenus et des charges entre associés, et peut simplifier la transmission du patrimoine par donations de parts.
+    </p>
+    <p>
+      Du point de vue fiscal, les revenus sont traités comme des revenus fonciers pour chaque associé, avec les mêmes règles que l'acquisition en nom propre. Les déficits fonciers éventuels peuvent être imputés sur le revenu global des associés, dans les limites prévues par la loi.
+    </p>
+    <p>
+      La SCI impose des obligations formelles : rédaction de statuts, immatriculation, tenue d'une assemblée annuelle, comptabilité à minima. Ces obligations ont un coût et une complexité de gestion supérieurs à l'acquisition en nom propre.
+    </p>
+
+    <CalloutBox type="vigilance">
+      Une SCI mal gérée — absence de comptabilité, confusion entre patrimoine personnel et patrimoniale social, non-respect des formalités — peut être remise en cause par l'administration fiscale ou les créanciers. La constitution d'une SCI doit s'accompagner d'une gestion rigoureuse et d'un accompagnement professionnel.
+    </CalloutBox>
+
+    <h2 id="sci-is">La SCI à l'impôt sur les sociétés</h2>
+    <p>
+      Une SCI peut opter pour l'impôt sur les sociétés (IS). Cette option est en principe irrévocable. Elle modifie profondément le régime fiscal de la société et de ses associés.
+    </p>
+    <p>
+      Sous le régime de l'IS, la société est imposée sur ses bénéfices à un taux d'impôt sur les sociétés (à vérifier selon la législation en vigueur). Elle peut pratiquer l'amortissement comptable des biens immobiliers — ce qui réduit le résultat imposable pendant la durée d'amortissement — et déduire un périmètre de charges plus large qu'au régime foncier.
+    </p>
+    <p>
+      En contrepartie, les dividendes versés aux associés sont soumis à une double imposition : une première fois au niveau de la société (IS), une seconde fois au niveau des associés lors de la distribution (prélèvement forfaitaire unique ou barème de l'IR sur la part imposable des dividendes).
+    </p>
+    <p>
+      Par ailleurs, lors de la cession d'un bien, la plus-value est calculée sur la valeur nette comptable du bien — qui a été amortie au fil des années — et non sur le prix d'acquisition initial. Cela peut générer une plus-value imposable significativement plus élevée qu'au régime des particuliers, où la plus-value immobilière bénéficie d'abattements progressifs selon la durée de détention.
+    </p>
+
+    <h2 id="sarl-sas">Les sociétés commerciales (SARL, SAS)</h2>
+    <p>
+      Des investisseurs choisissent parfois des formes sociales commerciales — Société à Responsabilité Limitée (SARL) ou Société par Actions Simplifiée (SAS) — pour détenir des espaces de stockage. Cette option est principalement envisageable lorsque l'activité immobilière s'inscrit dans un cadre plus large (activité de self-storage exploitée directement, location meublée professionnelle, développement d'un patrimoine à l'IS dans une holding).
+    </p>
+    <p>
+      Ces structures offrent une séparation juridique claire entre le patrimoine personnel des associés et le patrimoine social, sous réserve d'une gestion conforme. Elles sont soumises à l'IS, avec les mêmes avantages et inconvénients qu'une SCI à l'IS.
+    </p>
+    <p>
+      Pour une détention patrimoniale simple de garages ou de boxes, ces structures apportent peu d'avantages supplémentaires par rapport à une SCI et comportent des obligations réglementaires et comptables comparables.
+    </p>
+
+    <h2 id="criteres-de-choix">Les critères structurants du choix</h2>
+    <p>
+      Sans pouvoir préconiser une structure universellement adaptée — ce qui dépend de chaque situation personnelle — plusieurs questions permettent d'orienter la réflexion :
+    </p>
+    <ul>
+      <li><strong>Quel est le taux marginal d'imposition à l'IR ?</strong> Plus il est élevé, plus l'option IS peut sembler intéressante à court terme — mais la double imposition des distributions doit être intégrée dans le calcul.</li>
+      <li><strong>Y a-t-il plusieurs investisseurs ou un projet de transmission ?</strong> La SCI facilite la répartition des parts entre associés et la donation progressive à des héritiers.</li>
+      <li><strong>Quel est l'horizon de détention ?</strong> Un bien destiné à être revendu à moyen terme peut être pénalisé fiscalement sous le régime IS en raison de la plus-value calculée sur la valeur nette comptable amortie.</li>
+      <li><strong>Y a-t-il un projet d'emprunt ?</strong> Certains établissements bancaires peuvent avoir des conditions différentes selon la structure de l'emprunteur.</li>
+      <li><strong>Quelle est la complexité acceptable ?</strong> La constitution et la gestion d'une société impliquent des coûts fixes (expert-comptable, frais de constitution, obligations déclaratives) qui ne se justifient pas pour un investissement de faible volume.</li>
+    </ul>
+
+    <h2 id="indispensable-professionnel">Pourquoi ce choix nécessite un professionnel</h2>
+    <p>
+      Le choix de la structure de détention est l'une des décisions les plus techniques et les plus personnelles en matière d'investissement immobilier. Les paramètres à prendre en compte — situation fiscale personnelle, revenus du foyer, objectifs patrimoniaux, horizon de cession, projets de transmission — varient d'un investisseur à l'autre et évoluent dans le temps.
+    </p>
+    <p>
+      La fiscalité immobilière et le droit des sociétés sont des domaines en constante évolution. Les taux d'imposition, les seuils des régimes, les abattements applicables aux plus-values et les règles de déductibilité sont susceptibles de changer à chaque loi de finances. Une stratégie fiscalement optimale aujourd'hui peut ne plus l'être dans cinq ans.
+    </p>
+    <p>
+      Enfin, les interactions entre les différentes options — régime fiscal, droit successoral, régime matrimonial, détention indivise — créent des combinaisons dont les effets ne sont pas intuitifs et nécessitent une analyse croisée que seul un professionnel qualifié peut conduire de manière fiable.
+    </p>
+
+    <div className="mt-8 pt-6 border-t border-slate-100">
+      <h3 className="text-sm font-bold text-slate-700 mb-3">Sources et références</h3>
+      <ul className="space-y-1">
+        <li className="text-xs text-slate-500">→ Legifrance.gouv.fr — Code général des impôts, art. 14 et s. (revenus fonciers), art. 238 bis K (SCI à l'IS)</li>
+        <li className="text-xs text-slate-500">→ BOFIP (bofip.impots.gouv.fr) — BOI-RFPI (revenus fonciers — régime général)</li>
+        <li className="text-xs text-slate-500">→ Impots.gouv.fr — Revenus fonciers : microfoncier et régime réel</li>
+        <li className="text-xs text-slate-500">→ Service-public.fr — Société civile immobilière (SCI) : constitution et fonctionnement</li>
+      </ul>
+    </div>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      Le choix entre nom propre, SCI à l'IR, SCI à l'IS et société commerciale est une décision structurante qui dépend de la situation personnelle de l'investisseur, de ses objectifs et de son horizon de détention. Il n'existe pas de structure universellement optimale. Ce choix doit être fait avec l'accompagnement d'un expert-comptable ou d'un conseiller fiscal, avant l'acquisition, car certaines options sont difficiles à modifier après coup. La complexité et le coût de gestion d'une structure juridique doivent être mis en regard du volume et de la rentabilité de l'investissement envisagé.
+    </CalloutBox>
+  </div>
+);
+
 // ── Page component ──────────────────────────────────────────────────────────────
 
 export default async function ArticlePage({ params }: Props) {
@@ -1249,6 +1790,38 @@ export default async function ArticlePage({ params }: Props) {
       { id: "annonces-en-ligne", title: "Lire les annonces en ligne", level: 2 },
       { id: "echanger-localement", title: "Échanger avec les acteurs locaux", level: 2 },
       { id: "limites-analyse", title: "Les limites de l'analyse préliminaire", level: 2 },
+    ],
+    "reglement-copropriete-espace-stockage": [
+      { id: "role-reglement", title: "Le rôle du règlement de copropriété", level: 2 },
+      { id: "usage-autorise", title: "L'usage autorisé du local", level: 2 },
+      { id: "restrictions-locatives", title: "Les restrictions à la mise en location", level: 2 },
+      { id: "charges-et-repartition", title: "La répartition des charges et tantièmes", level: 2 },
+      { id: "travaux-et-ag", title: "Travaux votés et fonds de réserve", level: 2 },
+      { id: "points-vigilance-pratiques", title: "Les points de vigilance pratiques", level: 2 },
+    ],
+    "charges-copropriete-garages-impact": [
+      { id: "nature-charges", title: "La nature des charges de copropriété", level: 2 },
+      { id: "charges-courantes", title: "Les charges courantes", level: 2 },
+      { id: "charges-exceptionnelles", title: "Les charges exceptionnelles et travaux votés", level: 2 },
+      { id: "fonds-travaux", title: "Le fonds de travaux obligatoire (loi ALUR)", level: 2 },
+      { id: "impact-rentabilite", title: "L'impact sur la rentabilité nette", level: 2 },
+      { id: "analyser-avant-achat", title: "Comment analyser les charges avant l'achat", level: 2 },
+    ],
+    "gerer-impayes-espace-stockage": [
+      { id: "prevention-avant-tout", title: "La prévention : première ligne de défense", level: 2 },
+      { id: "premier-impaye", title: "Réagir au premier impayé", level: 2 },
+      { id: "mise-en-demeure", title: "La mise en demeure", level: 2 },
+      { id: "procedures-judiciaires", title: "Les procédures judiciaires applicables", level: 2 },
+      { id: "delais-et-couts", title: "Délais et coûts à anticiper", level: 2 },
+      { id: "reprise-des-lieux", title: "La reprise des lieux", level: 2 },
+    ],
+    "nom-propre-societe-espaces-stockage": [
+      { id: "nom-propre", title: "L'acquisition en nom propre", level: 2 },
+      { id: "sci-ir", title: "La SCI à l'impôt sur le revenu", level: 2 },
+      { id: "sci-is", title: "La SCI à l'impôt sur les sociétés", level: 2 },
+      { id: "sarl-sas", title: "Les sociétés commerciales (SARL, SAS)", level: 2 },
+      { id: "criteres-de-choix", title: "Les critères structurants du choix", level: 2 },
+      { id: "indispensable-professionnel", title: "Pourquoi ce choix nécessite un professionnel", level: 2 },
     ],
   };
   const tocItems = tocMap[slug] ?? [];
@@ -1346,6 +1919,10 @@ export default async function ArticlePage({ params }: Props) {
                     "assurance-pno-espace-stockage": assurancePnoContent,
                     "mise-en-location-espace-stockage-ligne": miseEnLocationLigneContent,
                     "evaluer-demande-locative-espace-stockage": evaluerDemandeLocativeContent,
+                    "reglement-copropriete-espace-stockage": reglementCoproprieteContent,
+                    "charges-copropriete-garages-impact": chargesCoproprieteContent,
+                    "gerer-impayes-espace-stockage": gererImpayesContent,
+                    "nom-propre-societe-espaces-stockage": nomPropreSocieteContent,
                   };
                   const renderContent = contentMap[slug];
                   return renderContent ? renderContent() : (
