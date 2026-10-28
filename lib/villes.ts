@@ -380,6 +380,358 @@ export const villes: Ville[] = [
     ],
     zoneLimitrophe: ["Cesson-Sévigné", "Bruz", "Saint-Jacques-de-la-Lande", "Betton", "Acigné"],
   },
+
+  // ── Villes moyennes ───────────────────────────────────────────────────────
+  {
+    slug: "le-mans",
+    nom: "Le Mans",
+    departement: "Sarthe (72)",
+    region: "Pays de la Loire",
+    population: "~145 000 hab. (ville), ~215 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage au Mans — garages, boxes, self-storage",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage au Mans et dans l'agglomération sarthoise : demande, offre, prix observés, points de vigilance.",
+    intro:
+      "Le Mans est une préfecture de taille intermédiaire avec un tissu industriel historique (automobile) et une économie de services en mutation. Son marché des espaces de stockage présente une demande modérée, portée par une population locataire stable et un tissu de PME/artisans actif.",
+    contexteUrbanistique:
+      "Le Mans dispose d'un parc immobilier diversifié, avec des copropriétés des années 1960-1980 qui concentrent une partie des garages disponibles. Les quartiers centraux (Cité Plantagenêt, Pontlieue) et la première couronne sont les secteurs les plus liquides pour les espaces de stockage.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande est régulière sans être tendue. Elle provient principalement des ménages locataires sans cave ou garage privatif, d'artisans et de PME locales. La ville accueille également une population étudiante (Le Mans Université) qui génère une demande de stockage saisonnier.",
+    },
+    offre: {
+      description:
+        "L'offre est composée principalement de garages en copropriété. Les acteurs du self-storage sont peu présents dans l'agglomération, ce qui limite la concurrence directe.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 40 € et 90 € / mois selon la localisation",
+      note: "Prix observés sur annonces, indicatifs uniquement.",
+    },
+    pointsVigilance: [
+      "Analyser la demande locative réelle avant acquisition dans un marché moins tendu",
+      "Vérifier l'état des copropriétés (bâti des années 60-70, travaux éventuels)",
+      "Tenir compte de la taille de l'agglomération, qui limite la profondeur du marché",
+      "Évaluer la cohérence entre prix d'acquisition et loyer potentiel",
+    ],
+    zoneLimitrophe: ["La Chapelle-Saint-Aubin", "Arnage", "Allonnes", "Coulaines", "Ruaudin"],
+  },
+  {
+    slug: "tours",
+    nom: "Tours",
+    departement: "Indre-et-Loire (37)",
+    region: "Centre-Val de Loire",
+    population: "~140 000 hab. (ville), ~310 000 (métropole)",
+    metaTitle: "Marché des espaces de stockage à Tours — garages, boxes, self-storage",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage à Tours et dans la métropole tourangelle : demande, offre, prix observés, points de vigilance.",
+    intro:
+      "Tours est une ville universitaire et tertiaire, préfecture de l'Indre-et-Loire, bien connectée à Paris (45 min en TGV). Cette position génère une mobilité résidentielle importante et une demande de stockage portée par une population étudiante et des actifs navetteurs.",
+    contexteUrbanistique:
+      "Le centre-ville de Tours dispose d'un parc locatif résidentiel important, notamment dans les quartiers Prébendes, Cathédrale et Velpeau. Les copropriétés des années 1970-1980 en périphérie immédiate (Saint-Cyr-sur-Loire, Joué-lès-Tours) offrent un parc de garages significatif.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande est portée par une population étudiante notable (environ 30 000 étudiants), des actifs en mobilité liés à la proximité de Paris, et un tissu de PME/artisans régulier. La rotation locative est modérée à forte dans les quartiers centraux.",
+    },
+    offre: {
+      description:
+        "L'offre en garages et boxes est correctement distribuée dans les copropriétés et pavillons de la première couronne. Le self-storage est peu développé dans l'agglomération.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 45 € et 100 € / mois selon la localisation",
+      note: "Prix observés sur annonces, indicatifs uniquement.",
+    },
+    pointsVigilance: [
+      "Tenir compte du risque inondation dans les zones basses (Loire, Cher)",
+      "Analyser la demande par secteur : centre vs communes périphériques",
+      "Vérifier la cohérence des loyers avec les niveaux locaux avant acquisition",
+      "Anticiper les effets de la proximité de Paris sur la volatilité de la population active",
+    ],
+    zoneLimitrophe: ["Saint-Cyr-sur-Loire", "Joué-lès-Tours", "Chambray-lès-Tours", "La Riche", "Fondettes"],
+  },
+  {
+    slug: "angers",
+    nom: "Angers",
+    departement: "Maine-et-Loire (49)",
+    region: "Pays de la Loire",
+    population: "~160 000 hab. (ville), ~430 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Angers — garages, boxes, self-storage",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage à Angers et dans l'agglomération angevine : demande, offre, prix observés, points de vigilance.",
+    intro:
+      "Angers est une ville universitaire dynamique à deux heures de Paris, qui connaît une attractivité résidentielle croissante. Son marché locatif est porté par une forte population étudiante et des actifs en mobilité, ce qui génère une demande structurelle pour les espaces de stockage.",
+    contexteUrbanistique:
+      "Angers dispose d'un parc de copropriétés important dans les quartiers centraux et en première couronne (Belle-Beille, Monplaisir, La Roseraie). La ville a connu plusieurs phases de développement résidentiel qui ont créé des besoins de stockage annexe.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande est soutenue par une importante population étudiante (35 000 à 40 000 étudiants selon les sources), des ménages locataires sans cave et un tissu artisanal et PME actif. Angers bénéficie d'une réputation de ville agréable qui attire des actifs en mobilité depuis Paris.",
+    },
+    offre: {
+      description:
+        "L'offre est relativement bien distribuée, avec des garages dans les copropriétés des années 1970-1990. Les acteurs du self-storage sont peu implantés, limitant la concurrence directe.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 45 € et 110 € / mois selon la localisation",
+      note: "Prix observés sur annonces, indicatifs uniquement.",
+    },
+    pointsVigilance: [
+      "Analyser la tension locative par quartier : les disparités sont réelles à Angers",
+      "Vérifier les risques inondation (Maine, Loire à proximité)",
+      "Tenir compte de la saisonnalité universitaire dans l'évaluation de la demande",
+      "Évaluer l'état des copropriétés avant acquisition",
+    ],
+    zoneLimitrophe: ["Saint-Barthélemy-d'Anjou", "Trélazé", "Les Ponts-de-Cé", "Avrillé", "Saint-Sylvain-d'Anjou"],
+  },
+  {
+    slug: "laval",
+    nom: "Laval",
+    departement: "Mayenne (53)",
+    region: "Pays de la Loire",
+    population: "~50 000 hab. (ville), ~105 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Laval — garages, boxes, self-storage",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage à Laval et dans l'agglomération lavalloise : demande, offre, prix observés, points de vigilance.",
+    intro:
+      "Laval est une préfecture de taille modeste, chef-lieu de la Mayenne, avec un tissu économique artisanal et industriel local. Son marché des espaces de stockage est de petite taille, avec une demande modeste mais une concurrence limitée et des prix d'acquisition généralement accessibles.",
+    contexteUrbanistique:
+      "Laval est une ville à dominante pavillonnaire en périphérie et à copropriétés modestes en centre-ville. Le marché locatif résidentiel est peu tendu, ce qui se répercute sur les espaces de stockage annexes.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande est principalement portée par les ménages locataires en centre-ville, les artisans et les PME locales. Le marché est de taille limitée, ce qui implique une analyse fine avant tout investissement.",
+    },
+    offre: {
+      description:
+        "L'offre est composée de garages individuels et de petits lots en copropriété. Les acteurs du self-storage sont absents ou très marginaux dans l'agglomération.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 30 € et 70 € / mois selon la localisation",
+      note: "Prix observés sur annonces, indicatifs uniquement. Le marché est peu fourni en annonces.",
+    },
+    pointsVigilance: [
+      "La faible taille du marché impose une analyse terrain avant toute acquisition",
+      "Vérifier la liquidité potentielle du bien à la revente dans un marché étroit",
+      "Évaluer soigneusement la demande réelle avant de s'engager",
+      "Tenir compte de la distance aux bassins d'emploi régionaux (Rennes, Le Mans)",
+    ],
+    zoneLimitrophe: ["Changé", "Bonchamp-lès-Laval", "Saint-Berthevin", "Louverné"],
+  },
+  {
+    slug: "orleans",
+    nom: "Orléans",
+    departement: "Loiret (45)",
+    region: "Centre-Val de Loire",
+    population: "~115 000 hab. (ville), ~290 000 (métropole)",
+    metaTitle: "Marché des espaces de stockage à Orléans — garages, boxes, self-storage",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage à Orléans et dans la métropole orléanaise : demande, offre, prix observés, points de vigilance.",
+    intro:
+      "Orléans est la capitale régionale du Centre-Val de Loire, à une heure de Paris. Sa proximité avec la capitale en fait un marché résidentiel attractif pour les ménages cherchant des prix inférieurs à ceux de l'Île-de-France, générant une demande de stockage portée par une population mobile.",
+    contexteUrbanistique:
+      "Orléans dispose d'un parc locatif résidentiel significatif dans les quartiers centraux (Saint-Marceau, La Source, Bannier). La proximité de Paris influence les dynamiques de population : mobilité élevée, ménages en transition, actifs navetteurs.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande est portée par la mobilité résidentielle liée à la proximité parisienne, une population étudiante (environ 20 000 étudiants) et un tissu d'entreprises en développement autour des zones d'activité. La demande est régulière sans être sous tension marquée.",
+    },
+    offre: {
+      description:
+        "L'offre est présente en garages et boxes dans les copropriétés. Les acteurs du self-storage commencent à s'implanter dans l'agglomération, notamment en périphérie.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 45 € et 110 € / mois selon la localisation",
+      note: "Prix observés sur annonces, indicatifs uniquement.",
+    },
+    pointsVigilance: [
+      "Vérifier les zones inondables (Loire) qui concernent certains secteurs bas de la ville",
+      "Analyser l'impact de la concurrence parisienne sur les prix d'acquisition",
+      "Tenir compte du développement du self-storage dans l'agglomération",
+      "Évaluer la stabilité de la demande dans un marché influencé par les cycles parisiens",
+    ],
+    zoneLimitrophe: ["Saint-Jean-de-la-Ruelle", "Saint-Jean-de-Braye", "Fleury-les-Aubrais", "Olivet", "Saint-Cyr-en-Val"],
+  },
+  {
+    slug: "caen",
+    nom: "Caen",
+    departement: "Calvados (14)",
+    region: "Normandie",
+    population: "~110 000 hab. (ville), ~270 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Caen — garages, boxes, self-storage",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage à Caen et dans l'agglomération caennaise : demande, offre, prix observés, points de vigilance.",
+    intro:
+      "Caen est la capitale normande, ville universitaire à 2h de Paris et à 15 km de la mer. Son marché immobilier est modérément tendu, avec une demande de stockage portée par une population étudiante importante et un tissu d'actifs locaux stable.",
+    contexteUrbanistique:
+      "Le centre-ville de Caen, largement reconstruit après-guerre, concentre un parc de copropriétés des années 1950-1970. Les quartiers péri-centraux (Vaucelles, Venoix, Hérouville-Saint-Clair) complètent l'offre disponible.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande est alimentée par environ 35 000 étudiants (Université de Caen), des ménages locataires en centre et des actifs liés aux zones d'activité normandes. La demande de stockage est régulière sans être sous forte tension.",
+    },
+    offre: {
+      description:
+        "L'offre en garages est présente dans les copropriétés du centre et de la première couronne. Le self-storage est peu développé dans l'agglomération.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 40 € et 90 € / mois selon la localisation",
+      note: "Prix observés sur annonces, indicatifs uniquement.",
+    },
+    pointsVigilance: [
+      "Analyser la qualité du bâti (constructions d'après-guerre, état variable)",
+      "Tenir compte de la taille modérée du marché pour l'évaluation de la liquidité",
+      "Vérifier la demande réelle secteur par secteur",
+      "Évaluer les charges de copropriété, parfois élevées dans les immeubles anciens reconstruits",
+    ],
+    zoneLimitrophe: ["Hérouville-Saint-Clair", "Mondeville", "Ifs", "Verson", "Fleury-sur-Orne"],
+  },
+  {
+    slug: "dijon",
+    nom: "Dijon",
+    departement: "Côte-d'Or (21)",
+    region: "Bourgogne-Franche-Comté",
+    population: "~155 000 hab. (ville), ~260 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Dijon — garages, boxes, self-storage",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage à Dijon et dans le Grand Dijon : demande, offre, prix observés, points de vigilance.",
+    intro:
+      "Dijon est la capitale bourguignonne, ville universitaire et gastronomique, bien connectée à Paris (1h40 en TGV). Son marché locatif est modérément tendu, avec une demande de stockage portée par une population étudiante notable et des actifs en mobilité.",
+    contexteUrbanistique:
+      "Dijon dispose d'un centre-ville historique dense et d'une ceinture de copropriétés des années 1960-1990 dans les quartiers périphériques (Fontaine-d'Ouche, Grésilles, Valendons). Ces zones concentrent une part significative de l'offre en garages.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande est portée par environ 35 000 étudiants, un tissu administratif et de services important, et des ménages locataires en centre-ville. La rotation locative est modérée.",
+    },
+    offre: {
+      description:
+        "L'offre en garages et boxes est correcte dans les copropriétés. Les acteurs du self-storage sont peu présents dans l'agglomération.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 45 € et 100 € / mois selon la localisation",
+      note: "Prix observés sur annonces, indicatifs uniquement.",
+    },
+    pointsVigilance: [
+      "Distinguer les quartiers centraux historiques (demande forte) des périphéries (demande plus fragile)",
+      "Analyser la situation des copropriétés dans les quartiers des années 60-70",
+      "Vérifier la cohérence loyers / prix d'acquisition dans ce marché intermédiaire",
+      "Tenir compte de la taille modérée de l'agglomération pour évaluer la liquidité",
+    ],
+    zoneLimitrophe: ["Chenôve", "Talant", "Quetigny", "Longvic", "Chevigny-Saint-Sauveur"],
+  },
+  {
+    slug: "grenoble",
+    nom: "Grenoble",
+    departement: "Isère (38)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~160 000 hab. (ville), ~700 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Grenoble — garages, boxes, self-storage",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage à Grenoble et dans l'agglomération grenobloise : demande, offre, prix observés, points de vigilance.",
+    intro:
+      "Grenoble est une métropole alpine à forte identité technologique (Minatec, CEA, Schneider), avec une population étudiante importante et un marché résidentiel relativement tendu. La géographie contrainte (cuvette entourée de massifs) limite l'étalement urbain et maintient une pression locative.",
+    contexteUrbanistique:
+      "La géographie de Grenoble impose une densité élevée dans la plaine. Les quartiers centraux (Championnet, Chorier-Berriat, Île Verte) et les communes limitrophes (Échirolles, Saint-Martin-d'Hères) concentrent l'essentiel de la demande locative.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande est soutenue par une population étudiante massive (environ 60 000 étudiants dans l'académie), un tissu de chercheurs et d'ingénieurs mobiles, et des ménages locataires nombreux. La contrainte géographique renforce la tension sur l'ensemble des actifs immobiliers.",
+    },
+    offre: {
+      description:
+        "L'offre en garages et boxes est présente dans les copropriétés des années 1960-1980 qui caractérisent une partie du parc grenoblois. Les acteurs du self-storage sont présents en périphérie.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 55 € et 130 € / mois selon la localisation",
+      note: "Prix observés sur annonces, indicatifs uniquement.",
+    },
+    pointsVigilance: [
+      "Vérifier l'état des copropriétés (bâti des années 60-70, plans de rénovation)",
+      "Tenir compte du risque inondation dans certains secteurs de la plaine (Drac, Isère)",
+      "Analyser les charges de copropriété qui peuvent être significatives dans les grands ensembles",
+      "Évaluer la concurrence des offres self-storage périphériques",
+    ],
+    zoneLimitrophe: ["Échirolles", "Saint-Martin-d'Hères", "Seyssinet-Pariset", "Meylan", "Grenoble-Presqu'île"],
+  },
+  {
+    slug: "reims",
+    nom: "Reims",
+    departement: "Marne (51)",
+    region: "Grand Est",
+    population: "~185 000 hab. (ville), ~220 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Reims — garages, boxes, self-storage",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage à Reims et dans l'agglomération rémoise : demande, offre, prix observés, points de vigilance.",
+    intro:
+      "Reims est la première ville de la Marne, à 45 minutes de Paris en TGV. Sa proximité avec la capitale et son tissu économique (champagne, industrie, services) alimentent un marché locatif actif et une demande de stockage modérée.",
+    contexteUrbanistique:
+      "Reims dispose d'un parc immobilier important, avec des copropriétés en centre-ville et dans les quartiers périphériques (Croix-Rouge, Wilson, Europe). La ville a bénéficié d'opérations de rénovation urbaine qui ont modernisé une partie du parc.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande est alimentée par une population étudiante notable (environ 25 000 étudiants), des navetteurs vers Paris, et un tissu de PME/artisans lié à l'industrie du champagne et à la logistique. La demande est stable sans être sous forte tension.",
+    },
+    offre: {
+      description:
+        "L'offre en garages est présente dans les copropriétés. Les acteurs du self-storage sont marginalement présents dans l'agglomération.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 45 € et 100 € / mois selon la localisation",
+      note: "Prix observés sur annonces, indicatifs uniquement.",
+    },
+    pointsVigilance: [
+      "Analyser la demande par quartier : les disparités entre centre et périphérie sont réelles",
+      "Tenir compte de la taille modérée de l'agglomération pour l'évaluation de la liquidité",
+      "Vérifier l'état des copropriétés dans les quartiers d'habitat social réhabilité",
+      "Évaluer la cohérence loyers / prix dans un marché influencé par la proximité parisienne",
+    ],
+    zoneLimitrophe: ["Cormontreuil", "Bétheny", "Tinqueux", "Saint-Brice-Courcelles", "Bezannes"],
+  },
+  {
+    slug: "clermont-ferrand",
+    nom: "Clermont-Ferrand",
+    departement: "Puy-de-Dôme (63)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~145 000 hab. (ville), ~480 000 (métropole)",
+    metaTitle: "Marché des espaces de stockage à Clermont-Ferrand — garages, boxes, self-storage",
+    metaDescription:
+      "Analyse du marché locatif des garages et espaces de stockage à Clermont-Ferrand et dans la métropole clermontoise : demande, offre, prix observés, points de vigilance.",
+    intro:
+      "Clermont-Ferrand est la capitale auvergnate, marquée par son histoire industrielle (Michelin) et une présence universitaire notable. Son marché résidentiel est modérément tendu et présente une demande de stockage régulière portée par une population étudiante et ouvrière stable.",
+    contexteUrbanistique:
+      "La ville présente un tissu dense en centre-ville et une ceinture de quartiers résidentiels (Les Vergnes, Champratel, La Plaine) avec un parc de copropriétés significatif. Les communes limitrophes comme Riom, Vichy ou Issoire constituent des bassins d'emploi complémentaires.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande est portée par environ 40 000 étudiants, un tissu d'employés industriels et de services, et des ménages locataires en centre-ville. La stabilité économique liée à Michelin et aux grandes entreprises locales ancre la demande.",
+    },
+    offre: {
+      description:
+        "L'offre en garages et boxes est correcte dans les copropriétés. Le self-storage est peu développé dans l'agglomération.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 40 € et 90 € / mois selon la localisation",
+      note: "Prix observés sur annonces, indicatifs uniquement.",
+    },
+    pointsVigilance: [
+      "Analyser l'exposition de la demande aux cycles économiques de Michelin",
+      "Vérifier l'état des copropriétés dans les quartiers ouvriers anciens",
+      "Tenir compte de la géographie (relief, accès) pour l'accessibilité des biens",
+      "Évaluer la liquidité potentielle dans un marché de taille intermédiaire",
+    ],
+    zoneLimitrophe: ["Chamalières", "Cournon-d'Auvergne", "Aubière", "Beaumont", "Royat"],
+  },
 ];
 
 export function getVilleBySlug(slug: string): Ville | undefined {
