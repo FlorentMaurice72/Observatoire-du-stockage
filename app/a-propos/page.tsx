@@ -182,6 +182,77 @@ export default function AProposPage() {
         </div>
       </section>
 
+      {/* Méthodologie */}
+      <section className="bg-[#f8f9fa] py-12 md:py-16 border-b border-slate-100">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6">
+          <h2 className="text-xl font-bold text-[#1a1a2e] mb-6">Comment nous travaillons</h2>
+          <div className="space-y-6">
+            <div className="bg-white rounded-xl border border-slate-100 p-6">
+              <h3 className="font-bold text-[#1a1a2e] text-base mb-3">Sources et données</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">
+                Nos analyses s'appuient sur des sources publiques et vérifiables : données DVF (transactions foncières), annonces en ligne sur les grandes plateformes, données démographiques INSEE, documents d'urbanisme publics. Quand une donnée ne peut être vérifiée, nous le signalons explicitement et formulons l'information comme hypothèse à valider localement.
+              </p>
+            </div>
+            <div className="bg-white rounded-xl border border-slate-100 p-6">
+              <h3 className="font-bold text-[#1a1a2e] text-base mb-3">Analyses locales</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">
+                Les analyses de marché par ville combinent plusieurs dimensions : démographie et dynamisme économique, niveau de demande observé sur les plateformes locatives, offre existante et pression concurrentielle (self-storage, parkings, entrepôts), fourchettes de prix observées à date. Elles constituent un point de départ méthodique, pas une validation d'opportunité — chaque projet nécessite une vérification terrain.
+              </p>
+            </div>
+            <div className="bg-white rounded-xl border border-slate-100 p-6">
+              <h3 className="font-bold text-[#1a1a2e] text-base mb-3">Actualisation des contenus</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">
+                Le marché évolue. Les contenus publiés portent une date de publication visible. Les analyses locales sont révisées périodiquement en fonction de l'évolution des marchés. Un contenu ancien sur un marché en mouvement peut être obsolète — le mentionner à un professionnel local reste la meilleure vérification.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Ce que nous ne sommes pas */}
+      <section className="bg-white py-12 border-b border-slate-100">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6">
+          <h2 className="text-xl font-bold text-[#1a1a2e] mb-2">Ce que l'Observatoire n'est pas</h2>
+          <p className="text-sm text-slate-500 mb-6">Pour éviter tout malentendu sur notre positionnement.</p>
+          <div className="space-y-3">
+            {[
+              {
+                label: "Pas un conseiller en investissement",
+                detail: "Nos contenus sont éducatifs et informatifs. Ils ne constituent pas des recommandations d'achat, de vente ou d'investissement. Consultez un conseiller en gestion de patrimoine pour toute décision.",
+              },
+              {
+                label: "Pas un site de petites annonces",
+                detail: "Nous n'avons pas de base de données de biens à vendre. Nos analyses portent sur des marchés, pas sur des biens spécifiques.",
+              },
+              {
+                label: "Pas un organisme de formation",
+                detail: "Nous ne vendons pas de formations, de masterclass ou d'accompagnement payant. Les ressources publiées sont gratuites.",
+              },
+              {
+                label: "Pas un cabinet juridique ou fiscal",
+                detail: "Nos contenus sur la réglementation et la fiscalité sont à titre informatif général. Pour votre situation personnelle, consultez un notaire, un avocat ou un expert-comptable.",
+              },
+              {
+                label: "Pas un organe de presse agréé",
+                detail: "L'Observatoire est un média indépendant en ligne. Nos analyses reflètent notre lecture du marché, pas une vérité officielle.",
+              },
+            ].map((item) => (
+              <div key={item.label} className="flex gap-4 bg-[#f8f9fa] rounded-xl border border-slate-100 px-5 py-4">
+                <span className="shrink-0 mt-0.5 w-5 h-5 rounded-full bg-slate-200 flex items-center justify-center">
+                  <svg className="w-3 h-3 text-slate-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </span>
+                <div>
+                  <p className="text-sm font-semibold text-[#1a1a2e] mb-1">{item.label}</p>
+                  <p className="text-xs text-slate-500 leading-relaxed">{item.detail}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Avertissement */}
       <section className="bg-amber-50 border-b border-amber-100 py-8">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
