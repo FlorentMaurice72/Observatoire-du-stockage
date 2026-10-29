@@ -255,7 +255,7 @@ export const articles: Article[] = [
     date: "2026-10-27",
     author: "La rédaction",
     readingTime: 9,
-    image: "https://images.unsplash.com/photo-1582407947304-fd86f28320be?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "due-diligence-lot-garages",
