@@ -113,12 +113,29 @@ const editorialCommitments = [
   { label: "Aucune promesse de rentabilité" },
 ];
 
+const orgJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Observatoire du Stockage",
+  url: "https://observatoire-du-stockage.fr",
+  description:
+    "Le média francophone de référence dédié au marché du stockage, à l'investissement dans les boxs, garages et entrepôts, et à l'optimisation de la rentabilité des espaces de stockage.",
+  inLanguage: "fr-FR",
+  founder: { "@type": "Person", name: "Florent Maurice" },
+  foundingDate: "2024",
+};
+
 export default function HomePage() {
   const featured = getFeaturedArticles();
   const latest = getLatestArticles(6);
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
+      />
+
       {/* Hero */}
       <section className="bg-white border-b border-slate-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24 lg:py-28">

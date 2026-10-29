@@ -54,8 +54,30 @@ export default async function VillePage({ params }: Props) {
     "investir-box-stockage-fondamentaux",
   ].map((slug) => getArticleBySlug(slug)).filter(Boolean);
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Place",
+    name: `Marché du stockage à ${ville.nom}`,
+    description: ville.metaDescription,
+    url: `${BASE_URL}/marche/${ville.slug}`,
+    containedInPlace: {
+      "@type": "AdministrativeArea",
+      name: ville.region,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Observatoire du Stockage",
+      url: BASE_URL,
+    },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       {/* Breadcrumb + header */}
       <section className="bg-white border-b border-slate-100 py-10 md:py-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
