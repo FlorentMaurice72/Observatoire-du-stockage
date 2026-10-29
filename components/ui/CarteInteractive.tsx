@@ -293,6 +293,8 @@ const COORDS: Record<string, [number, number]> = {
   "montoire-sur-le-loir": [47.7508, 0.8639],
   "sarrebourg": [48.7344, 7.0536],
   "saint-mihiel": [48.8889, 5.5536],
+  "saint-pol-de-leon": [48.6836, -3.9856],
+  "commercy": [48.7619, 5.5922],
 };
 
 const NIVEAU_CONFIG = {
