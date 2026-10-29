@@ -121,9 +121,11 @@ export default function CarteInteractive({ villes }: Props) {
 
     mapInstance.current = map;
 
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      maxZoom: 19,
-      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    L.tileLayer("https://api.maptiler.com/maps/positron/{z}/{x}/{y}.png?key=Aj9OBlVKGPscYMGEmxo0", {
+      maxZoom: 20,
+      tileSize: 512,
+      zoomOffset: -1,
+      attribution: '© <a href="https://www.maptiler.com/">MapTiler</a> © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     }).addTo(map);
 
     L.control.zoom({ position: "bottomright" }).addTo(map);
