@@ -3120,6 +3120,13 @@ export default async function ArticlePage({ params }: Props) {
           </div>
         </header>
 
+        {/* Hero image */}
+        {article.image && (
+          <div className="w-full h-64 md:h-80 overflow-hidden">
+            <img src={article.image} alt={article.title} className="w-full h-full object-cover" />
+          </div>
+        )}
+
         {/* Corps */}
         <div className="bg-[#f8f9fa] py-10 md:py-14">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

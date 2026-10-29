@@ -25,7 +25,13 @@ export default function ArticleCard({ article, variant = "default" }: ArticleCar
   if (variant === "featured") {
     return (
       <Link href={`/analyses/${article.slug}`} className="group block bg-white rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden">
-        <div className="h-2 bg-gradient-to-r from-[#1e3a5f] to-blue-600" />
+        {article.image ? (
+          <div className="h-52 overflow-hidden">
+            <img src={article.image} alt={article.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+          </div>
+        ) : (
+          <div className="h-2 bg-gradient-to-r from-[#1e3a5f] to-blue-600" />
+        )}
         <div className="p-6 md:p-8">
           <CategoryBadge slug={article.category} />
           <h2 className="mt-3 text-xl md:text-2xl font-bold text-[#1a1a2e] group-hover:text-blue-700 transition-colors leading-snug">
@@ -53,18 +59,25 @@ export default function ArticleCard({ article, variant = "default" }: ArticleCar
   }
 
   return (
-    <Link href={`/analyses/${article.slug}`} className="group block bg-white rounded-xl border border-slate-100 shadow-sm hover:shadow-md transition-all duration-200 p-5">
-      <CategoryBadge slug={article.category} />
-      <h3 className="mt-3 text-base font-bold text-[#1a1a2e] group-hover:text-blue-700 transition-colors leading-snug line-clamp-2">
-        {article.title}
-      </h3>
-      <p className="mt-2 text-sm text-slate-600 leading-relaxed line-clamp-3">
-        {article.excerpt}
-      </p>
-      <div className="mt-4 flex items-center gap-3 text-xs text-slate-500">
-        <span>{formatDate(article.date)}</span>
-        <span>·</span>
-        <span>{article.readingTime} min</span>
+    <Link href={`/analyses/${article.slug}`} className="group block bg-white rounded-xl border border-slate-100 shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden">
+      {article.image && (
+        <div className="h-44 overflow-hidden">
+          <img src={article.image} alt={article.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+        </div>
+      )}
+      <div className="p-5">
+        <CategoryBadge slug={article.category} />
+        <h3 className="mt-3 text-base font-bold text-[#1a1a2e] group-hover:text-blue-700 transition-colors leading-snug line-clamp-2">
+          {article.title}
+        </h3>
+        <p className="mt-2 text-sm text-slate-600 leading-relaxed line-clamp-3">
+          {article.excerpt}
+        </p>
+        <div className="mt-4 flex items-center gap-3 text-xs text-slate-500">
+          <span>{formatDate(article.date)}</span>
+          <span>·</span>
+          <span>{article.readingTime} min</span>
+        </div>
       </div>
     </Link>
   );
