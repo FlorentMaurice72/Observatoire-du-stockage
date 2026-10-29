@@ -18,7 +18,7 @@ export const articles: Article[] = [
     excerpt:
       "Les obligations de diagnostic immobilier s'appliquent différemment selon la nature du bien. Pour un garage ou un box de stockage, certaines règles diffèrent de celles applicables aux logements. Tour d'horizon de ce qui est obligatoire, de ce qui est recommandé et de ce que l'acheteur ou le bailleur doit savoir.",
     category: "reglementation",
-    date: "2026-12-23",
+    date: "2026-10-28",
     author: "Observatoire du Stockage",
     readingTime: 7,
     featured: false,
@@ -30,7 +30,7 @@ export const articles: Article[] = [
     excerpt:
       "Lorsqu'un garage ou un espace de stockage est loué à un professionnel ou à une entreprise, la question du régime contractuel applicable est déterminante. Bail commercial, contrat de droit commun ou convention de mise à disposition : les régimes ne sont pas équivalents et peuvent engager le bailleur de façon très différente.",
     category: "reglementation",
-    date: "2026-12-16",
+    date: "2026-10-26",
     author: "Observatoire du Stockage",
     readingTime: 9,
     featured: false,
@@ -42,7 +42,7 @@ export const articles: Article[] = [
     excerpt:
       "La révision du loyer d'un espace de stockage est une démarche qui doit respecter certaines conditions — contractuelles et de marché. Entre l'indexation contractuelle, la renegociation à l'amiable et le repositionnement lors d'un changement de locataire, les leviers diffèrent selon les situations.",
     category: "exploitation",
-    date: "2026-12-09",
+    date: "2026-10-24",
     author: "Observatoire du Stockage",
     readingTime: 7,
     featured: false,
@@ -54,7 +54,7 @@ export const articles: Article[] = [
     excerpt:
       "La négociation du prix d'un lot de garages repose sur une préparation rigoureuse et la capacité à objectiver les points faibles du bien ou de la situation locative. Comprendre les motivations du vendeur et identifier les marges de manœuvre réelles permet de construire une offre argumentée.",
     category: "investissement",
-    date: "2026-12-02",
+    date: "2026-10-22",
     author: "Observatoire du Stockage",
     readingTime: 8,
     featured: false,
@@ -66,7 +66,7 @@ export const articles: Article[] = [
     excerpt:
       "La location d'un espace de stockage est, par principe, exonérée de TVA. Mais cette règle connaît des exceptions importantes selon la nature de la location, le profil du locataire et les options fiscales exercées par le bailleur. Un point de vigilance pour tout propriétaire qui souhaite optimiser sa situation fiscale.",
     category: "reglementation",
-    date: "2026-11-25",
+    date: "2026-10-19",
     author: "Observatoire du Stockage",
     readingTime: 8,
     featured: false,
@@ -78,7 +78,7 @@ export const articles: Article[] = [
     excerpt:
       "Les garages et espaces de stockage en zone rurale ou périurbaine présentent des profils de risque et d'opportunité très différents de ceux des marchés urbains denses. Les prix d'acquisition y sont souvent plus accessibles, mais la demande locative peut être plus fragile et la liquidité à la revente plus incertaine.",
     category: "investissement",
-    date: "2026-11-18",
+    date: "2026-10-17",
     author: "Observatoire du Stockage",
     readingTime: 8,
     featured: false,
@@ -90,7 +90,7 @@ export const articles: Article[] = [
     excerpt:
       "La question des travaux dans un espace de stockage loué soulève des interrogations pratiques et juridiques que ne tranche pas un texte spécifique. En l'absence de statut locatif dédié aux garages, c'est le contrat et le droit commun qui fixent les règles — avec une marge de négociation importante.",
     category: "reglementation",
-    date: "2026-11-11",
+    date: "2026-10-14",
     author: "Observatoire du Stockage",
     readingTime: 7,
     featured: false,
@@ -102,7 +102,7 @@ export const articles: Article[] = [
     excerpt:
       "Les Demandes de valeurs foncières (DVF) publiées par la Direction générale des finances publiques offrent un accès partiel aux transactions immobilières enregistrées en France. Pour les garages et espaces de stockage, ces données permettent d'observer des tendances de prix par zone géographique — avec des limites méthodologiques à bien comprendre.",
     category: "marche",
-    date: "2026-11-04",
+    date: "2026-10-12",
     author: "Observatoire du Stockage",
     readingTime: 8,
     featured: false,
@@ -162,7 +162,7 @@ export const articles: Article[] = [
     excerpt:
       "La structure de détention d'un bien immobilier a des conséquences fiscales, patrimoniales et pratiques significatives. Entre l'acquisition en nom propre, la SCI à l'IR et la société à l'IS, les différences sont substantielles — et dépendent étroitement de la situation personnelle de l'investisseur.",
     category: "investissement",
-    date: "2026-12-15",
+    date: "2026-10-25",
     author: "Observatoire du Stockage",
     readingTime: 10,
   },
@@ -172,7 +172,7 @@ export const articles: Article[] = [
     excerpt:
       "Un impayé de loyer est une situation que tout bailleur peut rencontrer. Sur les espaces de stockage, les procédures applicables dépendent du type de contrat. Connaître les étapes légales et les bonnes pratiques préventives permet de limiter les pertes et de réagir avec méthode.",
     category: "exploitation",
-    date: "2026-12-08",
+    date: "2026-10-23",
     author: "Observatoire du Stockage",
     readingTime: 9,
   },
@@ -182,7 +182,7 @@ export const articles: Article[] = [
     excerpt:
       "Les charges de copropriété sont un poste souvent sous-estimé dans l'analyse de rentabilité d'un lot de garages. Leur nature, leur niveau et leur évolution dans le temps peuvent modifier significativement le rendement net d'une opération.",
     category: "rentabilite",
-    date: "2026-12-01",
+    date: "2026-10-21",
     author: "Observatoire du Stockage",
     readingTime: 8,
   },
@@ -192,7 +192,7 @@ export const articles: Article[] = [
     excerpt:
       "Le règlement de copropriété est un document contractuel qui s'impose à tous les copropriétaires. Avant d'acquérir un espace de stockage dans une copropriété, son analyse minutieuse permet d'identifier des contraintes invisibles au premier regard — et parfois déterminantes pour l'exploitation.",
     category: "investissement",
-    date: "2026-11-24",
+    date: "2026-10-18",
     author: "Observatoire du Stockage",
     readingTime: 9,
   },
@@ -202,7 +202,7 @@ export const articles: Article[] = [
     excerpt:
       "Évaluer la demande locative locale est une étape structurante de toute analyse d'acquisition. Avant de s'engager, plusieurs indicateurs concrets permettent d'objectiver le potentiel d'un marché local — sans pour autant prédire la rentabilité d'un projet particulier.",
     category: "investissement",
-    date: "2026-11-17",
+    date: "2026-10-16",
     author: "La rédaction",
     readingTime: 9,
   },
@@ -212,7 +212,7 @@ export const articles: Article[] = [
     excerpt:
       "La mise en location d'un espace de stockage passe aujourd'hui majoritairement par des canaux numériques. Comprendre les plateformes disponibles, rédiger une annonce efficace et gérer les candidatures permet de réduire les périodes de vacance locative.",
     category: "exploitation",
-    date: "2026-11-10",
+    date: "2026-10-13",
     author: "La rédaction",
     readingTime: 8,
   },
@@ -222,7 +222,7 @@ export const articles: Article[] = [
     excerpt:
       "L'assurance propriétaire non occupant (PNO) est souvent négligée lors de l'acquisition d'espaces de stockage. Elle couvre pourtant des risques spécifiques qui ne sont pas pris en charge par l'assurance de copropriété ni par l'assurance du locataire.",
     category: "reglementation",
-    date: "2026-11-03",
+    date: "2026-10-11",
     author: "La rédaction",
     readingTime: 8,
   },
