@@ -65,6 +65,15 @@ const outils: { icon: string; title: string; description: string; features: stri
     status: "Disponible",
     href: "/outils/carte-analyses-locales",
   },
+  {
+    icon: "⚙️",
+    title: "Outil de gestion locative",
+    description:
+      "Suivi des loyers, génération de baux, relances automatiques et tableau de bord de rentabilité — spécialement conçu pour les propriétaires de boxes et garages.",
+    features: ["Suivi des paiements", "Baux PDF conformes", "Relances automatiques"],
+    status: "En développement",
+    href: "/outils/gestion-locative",
+  },
 ];
 
 export default function OutilsPage() {

@@ -21,6 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/outils/modele-contrat-commente`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.7 },
     { url: `${BASE_URL}/outils/suivi-locatif`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.7 },
     { url: `${BASE_URL}/outils/carte-analyses-locales`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
+    { url: `${BASE_URL}/outils/gestion-locative`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/a-propos`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.5 },
     { url: `${BASE_URL}/contact`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.4 },
     { url: `${BASE_URL}/mentions-legales`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.2 },
