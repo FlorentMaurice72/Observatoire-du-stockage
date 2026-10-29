@@ -357,6 +357,102 @@ export const articles: Article[] = [
     author: "La rédaction",
     readingTime: 7,
   },
+  {
+    slug: "cartographie-marche-stockage-france-2026",
+    title: "Cartographie du marché du stockage en France : état des lieux 2026",
+    excerpt:
+      "Entre la montée en puissance des grandes enseignes de self-storage, la résistance des propriétaires particuliers de garages et boxes, et l'émergence de nouvelles zones de tension locative, le marché du stockage en France s'est profondément reconfiguré ces dernières années. Tour d'horizon des dynamiques en présence.",
+    category: "marche",
+    date: "2026-10-29",
+    author: "Observatoire du Stockage",
+    readingTime: 10,
+    featured: true,
+    tags: ["marché", "self-storage", "France", "panorama", "2026"],
+  },
+  {
+    slug: "box-stockage-investissement-antiinflation",
+    title: "Les espaces de stockage comme investissement anti-inflation : réalité ou mythe ?",
+    excerpt:
+      "Dans un contexte de pression inflationniste persistante, les garages et boxes de stockage sont parfois présentés comme des actifs refuges, capables de préserver le pouvoir d'achat de l'investisseur. Qu'en est-il réellement ? Analyse des mécanismes de protection et des limites de cette thèse.",
+    category: "investissement",
+    date: "2026-10-29",
+    author: "Observatoire du Stockage",
+    readingTime: 9,
+    featured: false,
+    tags: ["inflation", "investissement", "rendement", "patrimoine"],
+  },
+  {
+    slug: "digitalisation-gestion-locative-garages",
+    title: "Digitaliser la gestion de ses garages et boxes : outils, méthodes et limites",
+    excerpt:
+      "La gestion d'un parc de garages et espaces de stockage peut rapidement devenir chronophage sans organisation adaptée. Les outils numériques — de la simple feuille de calcul aux logiciels spécialisés — permettent de structurer le suivi des loyers, des contrats et des communications locataires. Panorama des solutions disponibles.",
+    category: "exploitation",
+    date: "2026-10-29",
+    author: "Observatoire du Stockage",
+    readingTime: 8,
+    featured: false,
+    tags: ["gestion", "digitalisation", "outils", "logiciel", "exploitation"],
+  },
+  {
+    slug: "jurisprudence-litiges-garages-2024-2026",
+    title: "Litiges liés aux garages et boxes : ce que dit la jurisprudence récente",
+    excerpt:
+      "Les contentieux entre propriétaires et locataires d'espaces de stockage couvrent des problématiques variées : accès au bien, responsabilité en cas de sinistre, restitution du dépôt de garantie, résiliation anticipée. Un point sur les décisions récentes qui dessinent les contours de la responsabilité de chaque partie.",
+    category: "reglementation",
+    date: "2026-10-29",
+    author: "Observatoire du Stockage",
+    readingTime: 9,
+    featured: false,
+    tags: ["jurisprudence", "litige", "contentieux", "réglementation", "sinistre"],
+  },
+  {
+    slug: "rentabilite-comparee-studios-garages",
+    title: "Rentabilité comparée : studio meublé vs lot de garages — ce que les chiffres montrent",
+    excerpt:
+      "L'arbitrage entre l'immobilier résidentiel classique et les espaces de stockage est souvent résumé à une question de rendement brut. Mais la comparaison mérite d'être plus fine : fiscalité, gestion, liquidité, risque locatif. Un éclairage factuel pour aider à positionner les garages dans une stratégie patrimoniale cohérente.",
+    category: "investissement",
+    date: "2026-10-29",
+    author: "Observatoire du Stockage",
+    readingTime: 11,
+    featured: false,
+    tags: ["rentabilité", "comparaison", "studio", "patrimoine", "investissement"],
+  },
+  {
+    slug: "charges-recuperables-garage-locataire",
+    title: "Quelles charges peut-on répercuter sur le locataire d'un garage ?",
+    excerpt:
+      "La liste des charges récupérables auprès d'un locataire de garage ou de box de stockage est plus restreinte que pour un logement. Entre charges de copropriété, taxe d'enlèvement des ordures ménagères et entretien des parties communes, le point sur ce qui est légalement imputable au locataire.",
+    category: "reglementation",
+    date: "2026-10-29",
+    author: "Observatoire du Stockage",
+    readingTime: 7,
+    featured: false,
+    tags: ["charges", "locataire", "récupérables", "réglementation", "copropriété"],
+  },
+  {
+    slug: "tension-locative-villes-moyennes-stockage",
+    title: "Stockage dans les villes moyennes : les marchés sous tension que l'on ne voit pas",
+    excerpt:
+      "Derrière les métropoles bien identifiées, certaines villes moyennes françaises présentent des déséquilibres offre-demande particulièrement favorables aux propriétaires de garages et boxes. Faible concurrence des enseignes nationales, demande artisanale et commerçante soutenue, prix d'acquisition encore raisonnables : ces marchés méritent une attention particulière.",
+    category: "marche",
+    date: "2026-10-29",
+    author: "Observatoire du Stockage",
+    readingTime: 8,
+    featured: false,
+    tags: ["villes moyennes", "marché", "tension locative", "opportunités"],
+  },
+  {
+    slug: "securite-espace-stockage-obligations-proprietaire",
+    title: "Sécurité d'un espace de stockage : obligations du propriétaire bailleur",
+    excerpt:
+      "Le propriétaire d'un garage ou d'un box de stockage est soumis à une obligation de délivrance d'un bien en bon état et sécurisé. Éclairage, serrurerie, état structurel, conformité électrique : le point sur ce que la loi impose et ce que la prudence recommande pour limiter sa responsabilité en cas de sinistre.",
+    category: "reglementation",
+    date: "2026-10-29",
+    author: "Observatoire du Stockage",
+    readingTime: 7,
+    featured: false,
+    tags: ["sécurité", "obligations", "propriétaire", "sinistre", "réglementation"],
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
