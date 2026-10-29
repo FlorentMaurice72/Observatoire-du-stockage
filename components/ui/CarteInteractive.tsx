@@ -132,6 +132,9 @@ export default function CarteInteractive({ villes }: Props) {
       prefix: '© <a href="https://www.openstreetmap.org/">OSM</a> · © <a href="https://carto.com/">CARTO</a>',
     }).addTo(map);
 
+    // Force Leaflet to recalc container size after mount
+    setTimeout(() => map.invalidateSize(), 100);
+
     villes.forEach((ville) => {
       const coords = COORDS[ville.slug];
       if (!coords) return;
@@ -188,10 +191,12 @@ export default function CarteInteractive({ villes }: Props) {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row h-[calc(100vh-72px)] min-h-[600px] bg-[#f8f9fa]">
+    <div className="flex flex-col lg:flex-row bg-[#f8f9fa]" style={{ height: "calc(100vh - 130px)", minHeight: 600 }}>
 
       {/* Panneau gauche */}
-      <aside className="w-full lg:w-[340px] shrink-0 flex flex-col bg-white border-r border-slate-100 overflow-hidden">
+      <aside className="w-full lg:w-[340px] shrink-0 flex flex-col bg-white border-r border-slate-100 overflow-hidden" style={{ maxHeight: "45vh" }}
+        ref={(el) => { if (el && window.innerWidth >= 1024) el.style.maxHeight = ""; }}
+      >
 
         <div className="px-5 pt-5 pb-4 border-b border-slate-100">
           <h2 className="font-bold text-[#1a1a2e] text-base mb-1">Analyses locales</h2>
@@ -295,7 +300,7 @@ export default function CarteInteractive({ villes }: Props) {
       </aside>
 
       {/* Carte */}
-      <div className="flex-1 relative">
+      <div className="flex-1 relative" style={{ minHeight: 400, height: "100%" }}>
         <style>{`
           .leaflet-container { background: #e8eef5; font-family: system-ui, sans-serif; }
           .carte-popup .leaflet-popup-content-wrapper { border-radius:14px!important; border:1px solid #e2e8f0!important; box-shadow:0 10px 40px rgba(0,0,0,.12)!important; padding:0!important; overflow:hidden; }
@@ -304,7 +309,7 @@ export default function CarteInteractive({ villes }: Props) {
           .carte-popup .leaflet-popup-close-button { top:10px!important; right:12px!important; color:#94a3b8!important; font-size:18px!important; }
         `}</style>
 
-        <div ref={mapRef} className="w-full h-full" />
+        <div ref={mapRef} style={{ position: "absolute", inset: 0 }} />
 
         {!isReady && (
           <div className="absolute inset-0 bg-[#e8eef5] flex items-center justify-center z-10">
