@@ -1506,6 +1506,5256 @@ export const villes: Ville[] = [
     ],
     zoneLimitrophe: ["Romans-sur-Isère", "Bourg-lès-Valence", "Guilherand-Granges", "Montélimar"],
   },
+  {
+    slug: "agen",
+    nom: "Agen",
+    departement: "Lot-et-Garonne (47)",
+    region: "Nouvelle-Aquitaine",
+    population: "~35 000 hab. (ville), ~100 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Agen — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Agen : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Agen offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Agen est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Lot-et-Garonne (47) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Agen est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Agen comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 30 € et 100 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Agen",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Boé", "Bon-Encontre", "Agen"],
+  },
+  {
+    slug: "ajaccio",
+    nom: "Ajaccio",
+    departement: "Corse-du-Sud (2A)",
+    region: "Corse",
+    population: "~70 000 hab. (ville), ~90 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Ajaccio — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Ajaccio : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Ajaccio, située en Corse, présente un marché des espaces de stockage animé par une demande locative soutenue. La densité urbaine et la mobilité résidentielle créent des besoins structurels en garages et boxes. L'attractivité de l'agglomération attire également une clientèle professionnelle et des ménages en transition.",
+    contexteUrbanistique:
+      "Le parc immobilier de Ajaccio est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Corse-du-Sud (2A) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande pour les garages et boxes est soutenue à Ajaccio, portée par une population mobile et un tissu économique actif. Les délais de mise en location observés sur les annonces restent courts dans les secteurs centraux. La demande professionnelle, notamment de la part des artisans et TPE, constitue un segment complémentaire notable.",
+    },
+    offre: {
+      description:
+        "L'offre à Ajaccio comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 40 € et 130 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Ajaccio",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Ajaccio", "Bastelicaccia", "Sarrola-Carcopino"],
+  },
+  {
+    slug: "albi",
+    nom: "Albi",
+    departement: "Tarn (81)",
+    region: "Occitanie",
+    population: "~50 000 hab. (ville), ~80 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Albi — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Albi : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Albi offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Albi est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Tarn (81) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Albi est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Albi comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 30 € et 100 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Albi",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Albi", "Saint-Juéry", "Lescure-d'Albigeois"],
+  },
+  {
+    slug: "ales",
+    nom: "Alès",
+    departement: "Gard (30)",
+    region: "Occitanie",
+    population: "~40 000 hab. (ville), ~70 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Alès — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Alès : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Alès offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Alès est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Gard (30) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Alès est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Alès est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 90 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Alès",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Alès", "Saint-Martin-de-Valgalgues", "Salindres"],
+  },
+  {
+    slug: "alencon",
+    nom: "Alençon",
+    departement: "Orne (61)",
+    region: "Normandie",
+    population: "~25 000 hab. (ville), ~50 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Alençon — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Alençon : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Alençon présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Alençon est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Orne (61) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Alençon est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Alençon est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 70 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Alençon",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Alençon", "Damigny", "Saint-Germain-du-Corbéis"],
+  },
+  {
+    slug: "angouleme",
+    nom: "Angoulême",
+    departement: "Charente (16)",
+    region: "Nouvelle-Aquitaine",
+    population: "~40 000 hab. (ville), ~110 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Angoulême — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Angoulême : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Angoulême offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Angoulême est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Charente (16) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Angoulême est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Angoulême comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 90 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Angoulême",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Angoulême", "Soyaux", "L'Isle-d'Espagnac"],
+  },
+  {
+    slug: "arles",
+    nom: "Arles",
+    departement: "Bouches-du-Rhône (13)",
+    region: "Provence-Alpes-Côte d'Azur",
+    population: "~50 000 hab. (ville), ~60 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Arles — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Arles : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Arles offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Arles est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Bouches-du-Rhône (13) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Arles est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Arles est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 30 € et 100 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Arles",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Arles", "Tarascon", "Saint-Martin-de-Crau"],
+  },
+  {
+    slug: "arras",
+    nom: "Arras",
+    departement: "Pas-de-Calais (62)",
+    region: "Hauts-de-France",
+    population: "~40 000 hab. (ville), ~90 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Arras — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Arras : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Arras offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Arras est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Pas-de-Calais (62) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Arras est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Arras comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 90 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Arras",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Arras", "Beaurains", "Saint-Laurent-Blangy"],
+  },
+  {
+    slug: "auxerre",
+    nom: "Auxerre",
+    departement: "Yonne (89)",
+    region: "Bourgogne-Franche-Comté",
+    population: "~35 000 hab. (ville), ~60 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Auxerre — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Auxerre : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Auxerre offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Auxerre est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Yonne (89) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Auxerre est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Auxerre est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 85 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Auxerre",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Auxerre", "Appoigny", "Saint-Georges-sur-Baulche"],
+  },
+  {
+    slug: "avignon",
+    nom: "Avignon",
+    departement: "Vaucluse (84)",
+    region: "Provence-Alpes-Côte d'Azur",
+    population: "~90 000 hab. (ville), ~200 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Avignon — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Avignon : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Avignon, située en Provence-Alpes-Côte d'Azur, présente un marché des espaces de stockage animé par une demande locative soutenue. La densité urbaine et la mobilité résidentielle créent des besoins structurels en garages et boxes. L'attractivité de l'agglomération attire également une clientèle professionnelle et des ménages en transition.",
+    contexteUrbanistique:
+      "Le parc immobilier de Avignon est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Vaucluse (84) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande pour les garages et boxes est soutenue à Avignon, portée par une population mobile et un tissu économique actif. Les délais de mise en location observés sur les annonces restent courts dans les secteurs centraux. La demande professionnelle, notamment de la part des artisans et TPE, constitue un segment complémentaire notable.",
+    },
+    offre: {
+      description:
+        "L'offre à Avignon comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 40 € et 140 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Avignon",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Avignon", "Villeneuve-lès-Avignon", "Le Pontet", "Morières-lès-Avignon"],
+  },
+  {
+    slug: "bayonne",
+    nom: "Bayonne",
+    departement: "Pyrénées-Atlantiques (64)",
+    region: "Nouvelle-Aquitaine",
+    population: "~50 000 hab. (ville), ~300 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Bayonne — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Bayonne : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Bayonne, située en Nouvelle-Aquitaine, présente un marché des espaces de stockage animé par une demande locative soutenue. La densité urbaine et la mobilité résidentielle créent des besoins structurels en garages et boxes. L'attractivité de l'agglomération attire également une clientèle professionnelle et des ménages en transition.",
+    contexteUrbanistique:
+      "Le parc immobilier de Bayonne est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Pyrénées-Atlantiques (64) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande pour les garages et boxes est soutenue à Bayonne, portée par une population mobile et un tissu économique actif. Les délais de mise en location observés sur les annonces restent courts dans les secteurs centraux. La demande professionnelle, notamment de la part des artisans et TPE, constitue un segment complémentaire notable.",
+    },
+    offre: {
+      description:
+        "L'offre à Bayonne comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 40 € et 130 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Bayonne",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Biarritz", "Anglet", "Bayonne"],
+  },
+  {
+    slug: "beauvais",
+    nom: "Beauvais",
+    departement: "Oise (60)",
+    region: "Hauts-de-France",
+    population: "~55 000 hab. (ville), ~90 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Beauvais — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Beauvais : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Beauvais offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Beauvais est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Oise (60) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Beauvais est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Beauvais comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 30 € et 100 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Beauvais",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Beauvais", "Allonne", "Tillé"],
+  },
+  {
+    slug: "belfort",
+    nom: "Belfort",
+    departement: "Territoire de Belfort (90)",
+    region: "Bourgogne-Franche-Comté",
+    population: "~50 000 hab. (ville), ~140 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Belfort — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Belfort : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Belfort offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Belfort est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Territoire de Belfort (90) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Belfort est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Belfort comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 30 € et 100 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Belfort",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Belfort", "Montbéliard", "Delle"],
+  },
+  {
+    slug: "bergerac",
+    nom: "Bergerac",
+    departement: "Dordogne (24)",
+    region: "Nouvelle-Aquitaine",
+    population: "~25 000 hab. (ville), ~50 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Bergerac — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Bergerac : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Bergerac présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Bergerac est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Dordogne (24) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Bergerac est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Bergerac est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 70 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Bergerac",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Bergerac", "Lalinde", "Sainte-Alvère"],
+  },
+  {
+    slug: "beziers",
+    nom: "Béziers",
+    departement: "Hérault (34)",
+    region: "Occitanie",
+    population: "~75 000 hab. (ville), ~120 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Béziers — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Béziers : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Béziers offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Béziers est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Hérault (34) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Béziers est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Béziers comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 30 € et 110 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Béziers",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Béziers", "Agde", "Pézenas"],
+  },
+  {
+    slug: "blois",
+    nom: "Blois",
+    departement: "Loir-et-Cher (41)",
+    region: "Centre-Val de Loire",
+    population: "~45 000 hab. (ville), ~90 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Blois — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Blois : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Blois offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Blois est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Loir-et-Cher (41) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Blois est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Blois comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 90 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Blois",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Blois", "Vendôme", "Romorantin"],
+  },
+  {
+    slug: "boulogne-sur-mer",
+    nom: "Boulogne-sur-Mer",
+    departement: "Pas-de-Calais (62)",
+    region: "Hauts-de-France",
+    population: "~40 000 hab. (ville), ~130 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Boulogne-sur-Mer — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Boulogne-sur-Mer : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Boulogne-sur-Mer offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Boulogne-sur-Mer est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Pas-de-Calais (62) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Boulogne-sur-Mer est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Boulogne-sur-Mer comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 90 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Boulogne-sur-Mer",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Boulogne-sur-Mer", "Calais", "Saint-Martin-Boulogne"],
+  },
+  {
+    slug: "bourg-en-bresse",
+    nom: "Bourg-en-Bresse",
+    departement: "Ain (01)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~40 000 hab. (ville), ~120 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Bourg-en-Bresse — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Bourg-en-Bresse : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Bourg-en-Bresse offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Bourg-en-Bresse est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Ain (01) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Bourg-en-Bresse est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Bourg-en-Bresse comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 30 € et 100 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Bourg-en-Bresse",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Bourg-en-Bresse", "Mâcon", "Ambérieu-en-Bugey"],
+  },
+  {
+    slug: "brive-la-gaillarde",
+    nom: "Brive-la-Gaillarde",
+    departement: "Corrèze (19)",
+    region: "Nouvelle-Aquitaine",
+    population: "~45 000 hab. (ville), ~90 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Brive-la-Gaillarde — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Brive-la-Gaillarde : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Brive-la-Gaillarde offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Brive-la-Gaillarde est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Corrèze (19) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Brive-la-Gaillarde est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Brive-la-Gaillarde est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 90 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Brive-la-Gaillarde",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Brive-la-Gaillarde", "Tulle", "Malemort"],
+  },
+  {
+    slug: "cahors",
+    nom: "Cahors",
+    departement: "Lot (46)",
+    region: "Occitanie",
+    population: "~20 000 hab. (ville), ~35 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Cahors — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Cahors : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Cahors présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Cahors est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Lot (46) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Cahors est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Cahors est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 65 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Cahors",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Cahors", "Figeac", "Gourdon"],
+  },
+  {
+    slug: "calais",
+    nom: "Calais",
+    departement: "Pas-de-Calais (62)",
+    region: "Hauts-de-France",
+    population: "~70 000 hab. (ville), ~110 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Calais — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Calais : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Calais offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Calais est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Pas-de-Calais (62) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Calais est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Calais comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 30 € et 100 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Calais",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Calais", "Boulogne-sur-Mer", "Saint-Omer"],
+  },
+  {
+    slug: "cannes",
+    nom: "Cannes",
+    departement: "Alpes-Maritimes (06)",
+    region: "Provence-Alpes-Côte d'Azur",
+    population: "~75 000 hab. (ville), ~180 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Cannes — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Cannes : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Cannes, située en Provence-Alpes-Côte d'Azur, présente un marché des espaces de stockage animé par une demande locative soutenue. La densité urbaine et la mobilité résidentielle créent des besoins structurels en garages et boxes. L'attractivité de l'agglomération attire également une clientèle professionnelle et des ménages en transition.",
+    contexteUrbanistique:
+      "Le parc immobilier de Cannes est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Alpes-Maritimes (06) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande pour les garages et boxes est soutenue à Cannes, portée par une population mobile et un tissu économique actif. Les délais de mise en location observés sur les annonces restent courts dans les secteurs centraux. La demande professionnelle, notamment de la part des artisans et TPE, constitue un segment complémentaire notable.",
+    },
+    offre: {
+      description:
+        "L'offre à Cannes comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 50 € et 170 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Cannes",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Cannes", "Antibes", "Mandelieu-la-Napoule"],
+  },
+  {
+    slug: "carcassonne",
+    nom: "Carcassonne",
+    departement: "Aude (11)",
+    region: "Occitanie",
+    population: "~45 000 hab. (ville), ~75 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Carcassonne — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Carcassonne : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Carcassonne offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Carcassonne est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Aude (11) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Carcassonne est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Carcassonne est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 90 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Carcassonne",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Carcassonne", "Limoux", "Castelnaudary"],
+  },
+  {
+    slug: "castres",
+    nom: "Castres",
+    departement: "Tarn (81)",
+    region: "Occitanie",
+    population: "~40 000 hab. (ville), ~75 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Castres — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Castres : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Castres offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Castres est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Tarn (81) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Castres est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Castres est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 85 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Castres",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Castres", "Albi", "Mazamet"],
+  },
+  {
+    slug: "chalons-en-champagne",
+    nom: "Châlons-en-Champagne",
+    departement: "Marne (51)",
+    region: "Grand Est",
+    population: "~45 000 hab. (ville), ~80 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Châlons-en-Champagne — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Châlons-en-Champagne : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Châlons-en-Champagne offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Châlons-en-Champagne est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Marne (51) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Châlons-en-Champagne est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Châlons-en-Champagne est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 85 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Châlons-en-Champagne",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Châlons-en-Champagne", "Reims", "Vitry-le-François"],
+  },
+  {
+    slug: "chalon-sur-saone",
+    nom: "Chalon-sur-Saône",
+    departement: "Saône-et-Loire (71)",
+    region: "Bourgogne-Franche-Comté",
+    population: "~45 000 hab. (ville), ~100 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Chalon-sur-Saône — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Chalon-sur-Saône : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Chalon-sur-Saône offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Chalon-sur-Saône est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Saône-et-Loire (71) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Chalon-sur-Saône est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Chalon-sur-Saône comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 90 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Chalon-sur-Saône",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Chalon-sur-Saône", "Le Creusot", "Mâcon"],
+  },
+  {
+    slug: "chambery",
+    nom: "Chambéry",
+    departement: "Savoie (73)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~60 000 hab. (ville), ~200 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Chambéry — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Chambéry : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Chambéry, située en Auvergne-Rhône-Alpes, présente un marché des espaces de stockage animé par une demande locative soutenue. La densité urbaine et la mobilité résidentielle créent des besoins structurels en garages et boxes. L'attractivité de l'agglomération attire également une clientèle professionnelle et des ménages en transition.",
+    contexteUrbanistique:
+      "Le parc immobilier de Chambéry est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Savoie (73) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande pour les garages et boxes est soutenue à Chambéry, portée par une population mobile et un tissu économique actif. Les délais de mise en location observés sur les annonces restent courts dans les secteurs centraux. La demande professionnelle, notamment de la part des artisans et TPE, constitue un segment complémentaire notable.",
+    },
+    offre: {
+      description:
+        "L'offre à Chambéry comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 40 € et 140 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Chambéry",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Chambéry", "Aix-les-Bains", "Albertville"],
+  },
+  {
+    slug: "chartres",
+    nom: "Chartres",
+    departement: "Eure-et-Loir (28)",
+    region: "Centre-Val de Loire",
+    population: "~40 000 hab. (ville), ~90 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Chartres — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Chartres : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Chartres offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Chartres est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Eure-et-Loir (28) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Chartres est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Chartres comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 30 € et 100 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Chartres",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Chartres", "Dreux", "Maintenon"],
+  },
+  {
+    slug: "chateauroux",
+    nom: "Châteauroux",
+    departement: "Indre (36)",
+    region: "Centre-Val de Loire",
+    population: "~45 000 hab. (ville), ~70 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Châteauroux — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Châteauroux : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Châteauroux présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Châteauroux est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Indre (36) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Châteauroux est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Châteauroux est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 70 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Châteauroux",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Châteauroux", "Issoudun", "Argenton-sur-Creuse"],
+  },
+  {
+    slug: "chatellerault",
+    nom: "Châtellerault",
+    departement: "Vienne (86)",
+    region: "Nouvelle-Aquitaine",
+    population: "~32 000 hab. (ville), ~50 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Châtellerault — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Châtellerault : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Châtellerault présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Châtellerault est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Vienne (86) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Châtellerault est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Châtellerault est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 70 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Châtellerault",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Châtellerault", "Poitiers", "Loudun"],
+  },
+  {
+    slug: "cherbourg-en-cotentin",
+    nom: "Cherbourg-en-Cotentin",
+    departement: "Manche (50)",
+    region: "Normandie",
+    population: "~80 000 hab. (ville), ~120 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Cherbourg-en-Cotentin — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Cherbourg-en-Cotentin : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Cherbourg-en-Cotentin offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Cherbourg-en-Cotentin est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Manche (50) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Cherbourg-en-Cotentin est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Cherbourg-en-Cotentin comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 30 € et 100 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Cherbourg-en-Cotentin",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Cherbourg-en-Cotentin", "Valognes", "Équeurdreville-Hainneville"],
+  },
+  {
+    slug: "cholet",
+    nom: "Cholet",
+    departement: "Maine-et-Loire (49)",
+    region: "Pays de la Loire",
+    population: "~55 000 hab. (ville), ~90 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Cholet — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Cholet : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Cholet offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Cholet est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Maine-et-Loire (49) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Cholet est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Cholet comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 30 € et 100 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Cholet",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Cholet", "Bressuire", "Torfou"],
+  },
+  {
+    slug: "cognac",
+    nom: "Cognac",
+    departement: "Charente (16)",
+    region: "Nouvelle-Aquitaine",
+    population: "~18 000 hab. (ville), ~35 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Cognac — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Cognac : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Cognac présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Cognac est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Charente (16) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Cognac est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Cognac est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 65 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Cognac",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Cognac", "Angoulême", "Saintes"],
+  },
+  {
+    slug: "colmar",
+    nom: "Colmar",
+    departement: "Haut-Rhin (68)",
+    region: "Grand Est",
+    population: "~70 000 hab. (ville), ~130 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Colmar — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Colmar : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Colmar, située en Grand Est, présente un marché des espaces de stockage animé par une demande locative soutenue. La densité urbaine et la mobilité résidentielle créent des besoins structurels en garages et boxes. L'attractivité de l'agglomération attire également une clientèle professionnelle et des ménages en transition.",
+    contexteUrbanistique:
+      "Le parc immobilier de Colmar est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Haut-Rhin (68) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande pour les garages et boxes est soutenue à Colmar, portée par une population mobile et un tissu économique actif. Les délais de mise en location observés sur les annonces restent courts dans les secteurs centraux. La demande professionnelle, notamment de la part des artisans et TPE, constitue un segment complémentaire notable.",
+    },
+    offre: {
+      description:
+        "L'offre à Colmar comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 35 € et 120 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Colmar",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Colmar", "Mulhouse", "Freiburg-im-Breisgau"],
+  },
+  {
+    slug: "compiegne",
+    nom: "Compiègne",
+    departement: "Oise (60)",
+    region: "Hauts-de-France",
+    population: "~40 000 hab. (ville), ~80 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Compiègne — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Compiègne : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Compiègne offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Compiègne est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Oise (60) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Compiègne est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Compiègne comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 30 € et 100 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Compiègne",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Compiègne", "Creil", "Noyon"],
+  },
+  {
+    slug: "dax",
+    nom: "Dax",
+    departement: "Landes (40)",
+    region: "Nouvelle-Aquitaine",
+    population: "~20 000 hab. (ville), ~45 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Dax — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Dax : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Dax présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Dax est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Landes (40) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Dax est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Dax est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 70 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Dax",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Dax", "Mont-de-Marsan", "Bayonne"],
+  },
+  {
+    slug: "dole",
+    nom: "Dole",
+    departement: "Jura (39)",
+    region: "Bourgogne-Franche-Comté",
+    population: "~23 000 hab. (ville), ~45 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Dole — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Dole : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Dole présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Dole est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Jura (39) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Dole est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Dole est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 65 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Dole",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Dole", "Besançon", "Lons-le-Saunier"],
+  },
+  {
+    slug: "draguignan",
+    nom: "Draguignan",
+    departement: "Var (83)",
+    region: "Provence-Alpes-Côte d'Azur",
+    population: "~40 000 hab. (ville), ~70 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Draguignan — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Draguignan : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Draguignan offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Draguignan est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Var (83) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Draguignan est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Draguignan est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 30 € et 100 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Draguignan",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Draguignan", "Fréjus", "Brignoles"],
+  },
+  {
+    slug: "dreux",
+    nom: "Dreux",
+    departement: "Eure-et-Loir (28)",
+    region: "Centre-Val de Loire",
+    population: "~30 000 hab. (ville), ~60 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Dreux — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Dreux : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Dreux présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Dreux est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Eure-et-Loir (28) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Dreux est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Dreux est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 70 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Dreux",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Dreux", "Chartres", "Évreux"],
+  },
+  {
+    slug: "dunkerque",
+    nom: "Dunkerque",
+    departement: "Nord (59)",
+    region: "Hauts-de-France",
+    population: "~90 000 hab. (ville), ~200 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Dunkerque — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Dunkerque : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Dunkerque offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Dunkerque est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Nord (59) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Dunkerque est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Dunkerque comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 30 € et 100 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Dunkerque",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Dunkerque", "Grande-Synthe", "Saint-Pol-sur-Mer"],
+  },
+  {
+    slug: "elbeuf",
+    nom: "Elbeuf",
+    departement: "Seine-Maritime (76)",
+    region: "Normandie",
+    population: "~17 000 hab. (ville), ~80 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Elbeuf — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Elbeuf : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Elbeuf présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Elbeuf est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Seine-Maritime (76) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Elbeuf est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Elbeuf est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 65 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Elbeuf",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Elbeuf", "Rouen", "Saint-Pierre-lès-Elbeuf"],
+  },
+  {
+    slug: "epernay",
+    nom: "Épernay",
+    departement: "Marne (51)",
+    region: "Grand Est",
+    population: "~25 000 hab. (ville), ~40 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Épernay — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Épernay : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Épernay offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Épernay est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Marne (51) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Épernay est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Épernay est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 85 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Épernay",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Épernay", "Reims", "Châlons-en-Champagne"],
+  },
+  {
+    slug: "epinal",
+    nom: "Épinal",
+    departement: "Vosges (88)",
+    region: "Grand Est",
+    population: "~30 000 hab. (ville), ~65 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Épinal — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Épinal : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Épinal présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Épinal est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Vosges (88) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Épinal est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Épinal est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 75 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Épinal",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Épinal", "Golbey", "Vittel"],
+  },
+  {
+    slug: "evreux",
+    nom: "Évreux",
+    departement: "Eure (27)",
+    region: "Normandie",
+    population: "~50 000 hab. (ville), ~85 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Évreux — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Évreux : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Évreux offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Évreux est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Eure (27) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Évreux est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Évreux comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 90 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Évreux",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Évreux", "Rouen", "Vernon"],
+  },
+  {
+    slug: "foix",
+    nom: "Foix",
+    departement: "Ariège (09)",
+    region: "Occitanie",
+    population: "~10 000 hab. (ville), ~25 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Foix — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Foix : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Foix présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Foix est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Ariège (09) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Foix est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Foix est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 60 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Foix",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Foix", "Pamiers", "Tarascon-sur-Ariège"],
+  },
+  {
+    slug: "frejus",
+    nom: "Fréjus",
+    departement: "Var (83)",
+    region: "Provence-Alpes-Côte d'Azur",
+    population: "~55 000 hab. (ville), ~100 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Fréjus — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Fréjus : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Fréjus, située en Provence-Alpes-Côte d'Azur, présente un marché des espaces de stockage animé par une demande locative soutenue. La densité urbaine et la mobilité résidentielle créent des besoins structurels en garages et boxes. L'attractivité de l'agglomération attire également une clientèle professionnelle et des ménages en transition.",
+    contexteUrbanistique:
+      "Le parc immobilier de Fréjus est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Var (83) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande pour les garages et boxes est soutenue à Fréjus, portée par une population mobile et un tissu économique actif. Les délais de mise en location observés sur les annonces restent courts dans les secteurs centraux. La demande professionnelle, notamment de la part des artisans et TPE, constitue un segment complémentaire notable.",
+    },
+    offre: {
+      description:
+        "L'offre à Fréjus comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 40 € et 140 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Fréjus",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Fréjus", "Saint-Raphaël", "Draguignan"],
+  },
+  {
+    slug: "gap",
+    nom: "Gap",
+    departement: "Hautes-Alpes (05)",
+    region: "Provence-Alpes-Côte d'Azur",
+    population: "~40 000 hab. (ville), ~55 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Gap — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Gap : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Gap offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Gap est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Hautes-Alpes (05) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Gap est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Gap est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 90 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Gap",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Gap", "Sisteron", "Briançon"],
+  },
+  {
+    slug: "gueret",
+    nom: "Guéret",
+    departement: "Creuse (23)",
+    region: "Nouvelle-Aquitaine",
+    population: "~13 000 hab. (ville), ~20 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Guéret — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Guéret : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Guéret présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Guéret est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Creuse (23) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Guéret est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Guéret est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 15 € et 55 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Guéret",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Guéret", "Limoges", "Aubusson"],
+  },
+  {
+    slug: "guingamp",
+    nom: "Guingamp",
+    departement: "Côtes-d'Armor (22)",
+    region: "Bretagne",
+    population: "~7 000 hab. (ville), ~30 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Guingamp — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Guingamp : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Guingamp présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Guingamp est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Côtes-d'Armor (22) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Guingamp est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Guingamp est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 60 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Guingamp",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Guingamp", "Saint-Brieuc", "Lannion"],
+  },
+  {
+    slug: "haguenau",
+    nom: "Haguenau",
+    departement: "Bas-Rhin (67)",
+    region: "Grand Est",
+    population: "~35 000 hab. (ville), ~65 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Haguenau — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Haguenau : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Haguenau offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Haguenau est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Bas-Rhin (67) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Haguenau est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Haguenau est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 90 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Haguenau",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Haguenau", "Strasbourg", "Saverne"],
+  },
+  {
+    slug: "hyeres",
+    nom: "Hyères",
+    departement: "Var (83)",
+    region: "Provence-Alpes-Côte d'Azur",
+    population: "~55 000 hab. (ville), ~80 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Hyères — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Hyères : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Hyères, située en Provence-Alpes-Côte d'Azur, présente un marché des espaces de stockage animé par une demande locative soutenue. La densité urbaine et la mobilité résidentielle créent des besoins structurels en garages et boxes. L'attractivité de l'agglomération attire également une clientèle professionnelle et des ménages en transition.",
+    contexteUrbanistique:
+      "Le parc immobilier de Hyères est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Var (83) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande pour les garages et boxes est soutenue à Hyères, portée par une population mobile et un tissu économique actif. Les délais de mise en location observés sur les annonces restent courts dans les secteurs centraux. La demande professionnelle, notamment de la part des artisans et TPE, constitue un segment complémentaire notable.",
+    },
+    offre: {
+      description:
+        "L'offre à Hyères comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 40 € et 140 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Hyères",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Hyères", "Toulon", "La Crau"],
+  },
+  {
+    slug: "la-rochelle",
+    nom: "La Rochelle",
+    departement: "Charente-Maritime (17)",
+    region: "Nouvelle-Aquitaine",
+    population: "~75 000 hab. (ville), ~180 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à La Rochelle — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à La Rochelle : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "La Rochelle, située en Nouvelle-Aquitaine, présente un marché des espaces de stockage animé par une demande locative soutenue. La densité urbaine et la mobilité résidentielle créent des besoins structurels en garages et boxes. L'attractivité de l'agglomération attire également une clientèle professionnelle et des ménages en transition.",
+    contexteUrbanistique:
+      "Le parc immobilier de La Rochelle est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Charente-Maritime (17) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande pour les garages et boxes est soutenue à La Rochelle, portée par une population mobile et un tissu économique actif. Les délais de mise en location observés sur les annonces restent courts dans les secteurs centraux. La demande professionnelle, notamment de la part des artisans et TPE, constitue un segment complémentaire notable.",
+    },
+    offre: {
+      description:
+        "L'offre à La Rochelle comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 40 € et 140 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à La Rochelle",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["La Rochelle", "Rochefort", "Saintes"],
+  },
+  {
+    slug: "la-roche-sur-yon",
+    nom: "La Roche-sur-Yon",
+    departement: "Vendée (85)",
+    region: "Pays de la Loire",
+    population: "~55 000 hab. (ville), ~90 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à La Roche-sur-Yon — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à La Roche-sur-Yon : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "La Roche-sur-Yon offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de La Roche-sur-Yon est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Vendée (85) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à La Roche-sur-Yon est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à La Roche-sur-Yon comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 30 € et 100 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à La Roche-sur-Yon",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["La Roche-sur-Yon", "Nantes", "Cholet"],
+  },
+  {
+    slug: "laon",
+    nom: "Laon",
+    departement: "Aisne (02)",
+    region: "Hauts-de-France",
+    population: "~25 000 hab. (ville), ~40 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Laon — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Laon : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Laon présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Laon est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Aisne (02) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Laon est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Laon est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 65 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Laon",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Laon", "Soissons", "Saint-Quentin"],
+  },
+  {
+    slug: "lannion",
+    nom: "Lannion",
+    departement: "Côtes-d'Armor (22)",
+    region: "Bretagne",
+    population: "~20 000 hab. (ville), ~45 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Lannion — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Lannion : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Lannion présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Lannion est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Côtes-d'Armor (22) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Lannion est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Lannion est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 70 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Lannion",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Lannion", "Guingamp", "Paimpol"],
+  },
+  {
+    slug: "lens",
+    nom: "Lens",
+    departement: "Pas-de-Calais (62)",
+    region: "Hauts-de-France",
+    population: "~30 000 hab. (ville), ~250 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Lens — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Lens : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Lens offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Lens est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Pas-de-Calais (62) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Lens est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Lens comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 90 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Lens",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Lens", "Liévin", "Béthune"],
+  },
+  {
+    slug: "le-creusot",
+    nom: "Le Creusot",
+    departement: "Saône-et-Loire (71)",
+    region: "Bourgogne-Franche-Comté",
+    population: "~22 000 hab. (ville), ~55 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Le Creusot — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Le Creusot : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Le Creusot présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Le Creusot est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Saône-et-Loire (71) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Le Creusot est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Le Creusot est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 65 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Le Creusot",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Le Creusot", "Montceau-les-Mines", "Chalon-sur-Saône"],
+  },
+  {
+    slug: "le-puy-en-velay",
+    nom: "Le Puy-en-Velay",
+    departement: "Haute-Loire (43)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~20 000 hab. (ville), ~35 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Le Puy-en-Velay — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Le Puy-en-Velay : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Le Puy-en-Velay présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Le Puy-en-Velay est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Haute-Loire (43) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Le Puy-en-Velay est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Le Puy-en-Velay est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 65 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Le Puy-en-Velay",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Le Puy-en-Velay", "Brioude", "Yssingeaux"],
+  },
+  {
+    slug: "lisieux",
+    nom: "Lisieux",
+    departement: "Calvados (14)",
+    region: "Normandie",
+    population: "~20 000 hab. (ville), ~35 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Lisieux — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Lisieux : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Lisieux présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Lisieux est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Calvados (14) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Lisieux est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Lisieux est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 65 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Lisieux",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Lisieux", "Caen", "Deauville"],
+  },
+  {
+    slug: "lons-le-saunier",
+    nom: "Lons-le-Saunier",
+    departement: "Jura (39)",
+    region: "Bourgogne-Franche-Comté",
+    population: "~17 000 hab. (ville), ~35 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Lons-le-Saunier — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Lons-le-Saunier : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Lons-le-Saunier présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Lons-le-Saunier est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Jura (39) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Lons-le-Saunier est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Lons-le-Saunier est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 60 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Lons-le-Saunier",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Lons-le-Saunier", "Dole", "Besançon"],
+  },
+  {
+    slug: "lorient",
+    nom: "Lorient",
+    departement: "Morbihan (56)",
+    region: "Bretagne",
+    population: "~55 000 hab. (ville), ~210 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Lorient — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Lorient : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Lorient, située en Bretagne, présente un marché des espaces de stockage animé par une demande locative soutenue. La densité urbaine et la mobilité résidentielle créent des besoins structurels en garages et boxes. L'attractivité de l'agglomération attire également une clientèle professionnelle et des ménages en transition.",
+    contexteUrbanistique:
+      "Le parc immobilier de Lorient est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Morbihan (56) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande pour les garages et boxes est soutenue à Lorient, portée par une population mobile et un tissu économique actif. Les délais de mise en location observés sur les annonces restent courts dans les secteurs centraux. La demande professionnelle, notamment de la part des artisans et TPE, constitue un segment complémentaire notable.",
+    },
+    offre: {
+      description:
+        "L'offre à Lorient comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 35 € et 120 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Lorient",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Lorient", "Vannes", "Quimper"],
+  },
+  {
+    slug: "longwy",
+    nom: "Longwy",
+    departement: "Meurthe-et-Moselle (54)",
+    region: "Grand Est",
+    population: "~14 000 hab. (ville), ~100 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Longwy — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Longwy : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Longwy offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Longwy est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Meurthe-et-Moselle (54) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Longwy est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Longwy est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 75 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Longwy",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Longwy", "Thionville", "Metz"],
+  },
+  {
+    slug: "macon",
+    nom: "Mâcon",
+    departement: "Saône-et-Loire (71)",
+    region: "Bourgogne-Franche-Comté",
+    population: "~33 000 hab. (ville), ~90 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Mâcon — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Mâcon : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Mâcon offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Mâcon est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Saône-et-Loire (71) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Mâcon est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Mâcon est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 90 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Mâcon",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Mâcon", "Chalon-sur-Saône", "Bourg-en-Bresse"],
+  },
+  {
+    slug: "mantes-la-jolie",
+    nom: "Mantes-la-Jolie",
+    departement: "Yvelines (78)",
+    region: "Île-de-France",
+    population: "~45 000 hab. (ville), ~100 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Mantes-la-Jolie — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Mantes-la-Jolie : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Mantes-la-Jolie, située en Île-de-France, présente un marché des espaces de stockage animé par une demande locative soutenue. La densité urbaine et la mobilité résidentielle créent des besoins structurels en garages et boxes. L'attractivité de l'agglomération attire également une clientèle professionnelle et des ménages en transition.",
+    contexteUrbanistique:
+      "Le parc immobilier de Mantes-la-Jolie est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Yvelines (78) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande pour les garages et boxes est soutenue à Mantes-la-Jolie, portée par une population mobile et un tissu économique actif. Les délais de mise en location observés sur les annonces restent courts dans les secteurs centraux. La demande professionnelle, notamment de la part des artisans et TPE, constitue un segment complémentaire notable.",
+    },
+    offre: {
+      description:
+        "L'offre à Mantes-la-Jolie comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 40 € et 130 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Mantes-la-Jolie",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Mantes-la-Jolie", "Versailles", "Cergy-Pontoise"],
+  },
+  {
+    slug: "marmande",
+    nom: "Marmande",
+    departement: "Lot-et-Garonne (47)",
+    region: "Nouvelle-Aquitaine",
+    population: "~18 000 hab. (ville), ~35 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Marmande — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Marmande : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Marmande présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Marmande est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Lot-et-Garonne (47) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Marmande est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Marmande est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 60 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Marmande",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Marmande", "Agen", "Bordeaux"],
+  },
+  {
+    slug: "maubeuge",
+    nom: "Maubeuge",
+    departement: "Nord (59)",
+    region: "Hauts-de-France",
+    population: "~30 000 hab. (ville), ~120 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Maubeuge — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Maubeuge : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Maubeuge offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Maubeuge est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Nord (59) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Maubeuge est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Maubeuge est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 75 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Maubeuge",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Maubeuge", "Valenciennes", "Charleroi"],
+  },
+  {
+    slug: "mayenne",
+    nom: "Mayenne",
+    departement: "Mayenne (53)",
+    region: "Pays de la Loire",
+    population: "~13 000 hab. (ville), ~28 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Mayenne — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Mayenne : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Mayenne présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Mayenne est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Mayenne (53) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Mayenne est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Mayenne est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 60 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Mayenne",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Mayenne", "Laval", "Alençon"],
+  },
+  {
+    slug: "meaux",
+    nom: "Meaux",
+    departement: "Seine-et-Marne (77)",
+    region: "Île-de-France",
+    population: "~55 000 hab. (ville), ~90 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Meaux — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Meaux : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Meaux, située en Île-de-France, présente un marché des espaces de stockage animé par une demande locative soutenue. La densité urbaine et la mobilité résidentielle créent des besoins structurels en garages et boxes. L'attractivité de l'agglomération attire également une clientèle professionnelle et des ménages en transition.",
+    contexteUrbanistique:
+      "Le parc immobilier de Meaux est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Seine-et-Marne (77) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande pour les garages et boxes est soutenue à Meaux, portée par une population mobile et un tissu économique actif. Les délais de mise en location observés sur les annonces restent courts dans les secteurs centraux. La demande professionnelle, notamment de la part des artisans et TPE, constitue un segment complémentaire notable.",
+    },
+    offre: {
+      description:
+        "L'offre à Meaux comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 40 € et 130 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Meaux",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Meaux", "Lagny-sur-Marne", "Chelles"],
+  },
+  {
+    slug: "melun",
+    nom: "Melun",
+    departement: "Seine-et-Marne (77)",
+    region: "Île-de-France",
+    population: "~40 000 hab. (ville), ~100 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Melun — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Melun : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Melun, située en Île-de-France, présente un marché des espaces de stockage animé par une demande locative soutenue. La densité urbaine et la mobilité résidentielle créent des besoins structurels en garages et boxes. L'attractivité de l'agglomération attire également une clientèle professionnelle et des ménages en transition.",
+    contexteUrbanistique:
+      "Le parc immobilier de Melun est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Seine-et-Marne (77) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande pour les garages et boxes est soutenue à Melun, portée par une population mobile et un tissu économique actif. Les délais de mise en location observés sur les annonces restent courts dans les secteurs centraux. La demande professionnelle, notamment de la part des artisans et TPE, constitue un segment complémentaire notable.",
+    },
+    offre: {
+      description:
+        "L'offre à Melun comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 40 € et 130 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Melun",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Melun", "Fontainebleau", "Corbeil-Essonnes"],
+  },
+  {
+    slug: "millau",
+    nom: "Millau",
+    departement: "Aveyron (12)",
+    region: "Occitanie",
+    population: "~22 000 hab. (ville), ~35 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Millau — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Millau : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Millau présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Millau est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Aveyron (12) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Millau est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Millau est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 70 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Millau",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Millau", "Rodez", "Saint-Affrique"],
+  },
+  {
+    slug: "montargis",
+    nom: "Montargis",
+    departement: "Loiret (45)",
+    region: "Centre-Val de Loire",
+    population: "~15 000 hab. (ville), ~55 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Montargis — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Montargis : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Montargis présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Montargis est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Loiret (45) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Montargis est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Montargis est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 70 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Montargis",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Montargis", "Nemours", "Gien"],
+  },
+  {
+    slug: "montauban",
+    nom: "Montauban",
+    departement: "Tarn-et-Garonne (82)",
+    region: "Occitanie",
+    population: "~60 000 hab. (ville), ~100 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Montauban — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Montauban : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Montauban offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Montauban est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Tarn-et-Garonne (82) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Montauban est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Montauban comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 30 € et 100 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Montauban",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Montauban", "Toulouse", "Caussade"],
+  },
+  {
+    slug: "montbrison",
+    nom: "Montbrison",
+    departement: "Loire (42)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~15 000 hab. (ville), ~30 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Montbrison — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Montbrison : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Montbrison présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Montbrison est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Loire (42) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Montbrison est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Montbrison est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 60 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Montbrison",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Montbrison", "Saint-Étienne", "Roanne"],
+  },
+  {
+    slug: "montceau-les-mines",
+    nom: "Montceau-les-Mines",
+    departement: "Saône-et-Loire (71)",
+    region: "Bourgogne-Franche-Comté",
+    population: "~18 000 hab. (ville), ~60 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Montceau-les-Mines — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Montceau-les-Mines : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Montceau-les-Mines présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Montceau-les-Mines est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Saône-et-Loire (71) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Montceau-les-Mines est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Montceau-les-Mines est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 65 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Montceau-les-Mines",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Montceau-les-Mines", "Le Creusot", "Chalon-sur-Saône"],
+  },
+  {
+    slug: "mont-de-marsan",
+    nom: "Mont-de-Marsan",
+    departement: "Landes (40)",
+    region: "Nouvelle-Aquitaine",
+    population: "~30 000 hab. (ville), ~55 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Mont-de-Marsan — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Mont-de-Marsan : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Mont-de-Marsan offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Mont-de-Marsan est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Landes (40) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Mont-de-Marsan est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Mont-de-Marsan est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 22 € et 80 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Mont-de-Marsan",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Mont-de-Marsan", "Dax", "Agen"],
+  },
+  {
+    slug: "montlucon",
+    nom: "Montluçon",
+    departement: "Allier (03)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~35 000 hab. (ville), ~60 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Montluçon — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Montluçon : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Montluçon présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Montluçon est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Allier (03) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Montluçon est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Montluçon est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 70 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Montluçon",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Montluçon", "Moulins", "Vichy"],
+  },
+  {
+    slug: "morlaix",
+    nom: "Morlaix",
+    departement: "Finistère (29)",
+    region: "Bretagne",
+    population: "~14 000 hab. (ville), ~45 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Morlaix — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Morlaix : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Morlaix présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Morlaix est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Finistère (29) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Morlaix est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Morlaix est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 65 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Morlaix",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Morlaix", "Brest", "Quimper"],
+  },
+  {
+    slug: "moulins",
+    nom: "Moulins",
+    departement: "Allier (03)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~18 000 hab. (ville), ~50 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Moulins — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Moulins : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Moulins présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Moulins est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Allier (03) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Moulins est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Moulins est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 65 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Moulins",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Moulins", "Vichy", "Montluçon"],
+  },
+  {
+    slug: "muret",
+    nom: "Muret",
+    departement: "Haute-Garonne (31)",
+    region: "Occitanie",
+    population: "~25 000 hab. (ville), ~60 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Muret — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Muret : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Muret offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Muret est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Haute-Garonne (31) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Muret est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Muret est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 90 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Muret",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Muret", "Toulouse", "Pamiers"],
+  },
+  {
+    slug: "nevers",
+    nom: "Nevers",
+    departement: "Nièvre (58)",
+    region: "Bourgogne-Franche-Comté",
+    population: "~35 000 hab. (ville), ~65 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Nevers — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Nevers : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Nevers présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Nevers est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Nièvre (58) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Nevers est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Nevers est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 75 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Nevers",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Nevers", "Moulins", "Bourges"],
+  },
+  {
+    slug: "niort",
+    nom: "Niort",
+    departement: "Deux-Sèvres (79)",
+    region: "Nouvelle-Aquitaine",
+    population: "~60 000 hab. (ville), ~120 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Niort — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Niort : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Niort offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Niort est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Deux-Sèvres (79) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Niort est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Niort comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 30 € et 100 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Niort",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Niort", "La Rochelle", "Poitiers"],
+  },
+  {
+    slug: "nogent-le-rotrou",
+    nom: "Nogent-le-Rotrou",
+    departement: "Eure-et-Loir (28)",
+    region: "Centre-Val de Loire",
+    population: "~10 000 hab. (ville), ~20 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Nogent-le-Rotrou — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Nogent-le-Rotrou : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Nogent-le-Rotrou présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Nogent-le-Rotrou est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Eure-et-Loir (28) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Nogent-le-Rotrou est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Nogent-le-Rotrou est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 15 € et 55 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Nogent-le-Rotrou",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Nogent-le-Rotrou", "Chartres", "Le Mans"],
+  },
+  {
+    slug: "oyonnax",
+    nom: "Oyonnax",
+    departement: "Ain (01)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~22 000 hab. (ville), ~50 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Oyonnax — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Oyonnax : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Oyonnax présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Oyonnax est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Ain (01) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Oyonnax est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Oyonnax est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 70 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Oyonnax",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Oyonnax", "Bourg-en-Bresse", "Nantua"],
+  },
+  {
+    slug: "perigueux",
+    nom: "Périgueux",
+    departement: "Dordogne (24)",
+    region: "Nouvelle-Aquitaine",
+    population: "~30 000 hab. (ville), ~70 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Périgueux — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Périgueux : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Périgueux offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Périgueux est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Dordogne (24) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Périgueux est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Périgueux est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 22 € et 80 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Périgueux",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Périgueux", "Bergerac", "Brive-la-Gaillarde"],
+  },
+  {
+    slug: "pontivy",
+    nom: "Pontivy",
+    departement: "Morbihan (56)",
+    region: "Bretagne",
+    population: "~13 000 hab. (ville), ~25 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Pontivy — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Pontivy : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Pontivy présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Pontivy est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Morbihan (56) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Pontivy est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Pontivy est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 60 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Pontivy",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Pontivy", "Lorient", "Vannes"],
+  },
+  {
+    slug: "privas",
+    nom: "Privas",
+    departement: "Ardèche (07)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~9 000 hab. (ville), ~20 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Privas — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Privas : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Privas présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Privas est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Ardèche (07) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Privas est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Privas est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 15 € et 55 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Privas",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Privas", "Aubenas", "Valence"],
+  },
+  {
+    slug: "riom",
+    nom: "Riom",
+    departement: "Puy-de-Dôme (63)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~18 000 hab. (ville), ~35 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Riom — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Riom : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Riom présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Riom est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Puy-de-Dôme (63) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Riom est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Riom est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 70 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Riom",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Riom", "Clermont-Ferrand", "Vichy"],
+  },
+  {
+    slug: "roanne",
+    nom: "Roanne",
+    departement: "Loire (42)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~35 000 hab. (ville), ~90 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Roanne — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Roanne : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Roanne offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Roanne est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Loire (42) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Roanne est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Roanne est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 90 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Roanne",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Roanne", "Saint-Étienne", "Lyon"],
+  },
+  {
+    slug: "rochefort",
+    nom: "Rochefort",
+    departement: "Charente-Maritime (17)",
+    region: "Nouvelle-Aquitaine",
+    population: "~25 000 hab. (ville), ~50 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Rochefort — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Rochefort : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Rochefort offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Rochefort est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Charente-Maritime (17) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Rochefort est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Rochefort est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 22 € et 80 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Rochefort",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Rochefort", "La Rochelle", "Saintes"],
+  },
+  {
+    slug: "rodez",
+    nom: "Rodez",
+    departement: "Aveyron (12)",
+    region: "Occitanie",
+    population: "~25 000 hab. (ville), ~55 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Rodez — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Rodez : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Rodez offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Rodez est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Aveyron (12) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Rodez est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Rodez est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 22 € et 85 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Rodez",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Rodez", "Millau", "Figeac"],
+  },
+  {
+    slug: "romans-sur-isere",
+    nom: "Romans-sur-Isère",
+    departement: "Drôme (26)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~33 000 hab. (ville), ~80 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Romans-sur-Isère — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Romans-sur-Isère : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Romans-sur-Isère offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Romans-sur-Isère est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Drôme (26) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Romans-sur-Isère est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Romans-sur-Isère est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 90 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Romans-sur-Isère",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Romans-sur-Isère", "Valence", "Bourg-de-Péage"],
+  },
+  {
+    slug: "saint-brieuc",
+    nom: "Saint-Brieuc",
+    departement: "Côtes-d'Armor (22)",
+    region: "Bretagne",
+    population: "~45 000 hab. (ville), ~175 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Saint-Brieuc — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Saint-Brieuc : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Saint-Brieuc offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Saint-Brieuc est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Côtes-d'Armor (22) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Saint-Brieuc est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Saint-Brieuc comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 30 € et 100 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Saint-Brieuc",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Saint-Brieuc", "Guingamp", "Lannion"],
+  },
+  {
+    slug: "saint-chamond",
+    nom: "Saint-Chamond",
+    departement: "Loire (42)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~35 000 hab. (ville), ~45 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Saint-Chamond — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Saint-Chamond : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Saint-Chamond offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Saint-Chamond est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Loire (42) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Saint-Chamond est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Saint-Chamond est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 85 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Saint-Chamond",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Saint-Chamond", "Saint-Étienne", "Rive-de-Gier"],
+  },
+  {
+    slug: "saint-dizier",
+    nom: "Saint-Dizier",
+    departement: "Haute-Marne (52)",
+    region: "Grand Est",
+    population: "~23 000 hab. (ville), ~40 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Saint-Dizier — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Saint-Dizier : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Saint-Dizier présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Saint-Dizier est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Haute-Marne (52) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Saint-Dizier est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Saint-Dizier est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 65 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Saint-Dizier",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Saint-Dizier", "Chaumont", "Bar-le-Duc"],
+  },
+  {
+    slug: "saint-malo",
+    nom: "Saint-Malo",
+    departement: "Ille-et-Vilaine (35)",
+    region: "Bretagne",
+    population: "~50 000 hab. (ville), ~80 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Saint-Malo — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Saint-Malo : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Saint-Malo, située en Bretagne, présente un marché des espaces de stockage animé par une demande locative soutenue. La densité urbaine et la mobilité résidentielle créent des besoins structurels en garages et boxes. L'attractivité de l'agglomération attire également une clientèle professionnelle et des ménages en transition.",
+    contexteUrbanistique:
+      "Le parc immobilier de Saint-Malo est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Ille-et-Vilaine (35) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande pour les garages et boxes est soutenue à Saint-Malo, portée par une population mobile et un tissu économique actif. Les délais de mise en location observés sur les annonces restent courts dans les secteurs centraux. La demande professionnelle, notamment de la part des artisans et TPE, constitue un segment complémentaire notable.",
+    },
+    offre: {
+      description:
+        "L'offre à Saint-Malo comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 35 € et 130 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Saint-Malo",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Saint-Malo", "Rennes", "Dinard"],
+  },
+  {
+    slug: "saint-nazaire",
+    nom: "Saint-Nazaire",
+    departement: "Loire-Atlantique (44)",
+    region: "Pays de la Loire",
+    population: "~70 000 hab. (ville), ~130 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Saint-Nazaire — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Saint-Nazaire : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Saint-Nazaire, située en Pays de la Loire, présente un marché des espaces de stockage animé par une demande locative soutenue. La densité urbaine et la mobilité résidentielle créent des besoins structurels en garages et boxes. L'attractivité de l'agglomération attire également une clientèle professionnelle et des ménages en transition.",
+    contexteUrbanistique:
+      "Le parc immobilier de Saint-Nazaire est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Loire-Atlantique (44) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande pour les garages et boxes est soutenue à Saint-Nazaire, portée par une population mobile et un tissu économique actif. Les délais de mise en location observés sur les annonces restent courts dans les secteurs centraux. La demande professionnelle, notamment de la part des artisans et TPE, constitue un segment complémentaire notable.",
+    },
+    offre: {
+      description:
+        "L'offre à Saint-Nazaire comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 35 € et 120 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Saint-Nazaire",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Saint-Nazaire", "Nantes", "La Baule-Escoublac"],
+  },
+  {
+    slug: "saint-quentin",
+    nom: "Saint-Quentin",
+    departement: "Aisne (02)",
+    region: "Hauts-de-France",
+    population: "~55 000 hab. (ville), ~80 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Saint-Quentin — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Saint-Quentin : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Saint-Quentin offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Saint-Quentin est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Aisne (02) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Saint-Quentin est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Saint-Quentin comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 90 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Saint-Quentin",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Saint-Quentin", "Laon", "Soissons"],
+  },
+  {
+    slug: "saintes",
+    nom: "Saintes",
+    departement: "Charente-Maritime (17)",
+    region: "Nouvelle-Aquitaine",
+    population: "~25 000 hab. (ville), ~55 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Saintes — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Saintes : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Saintes offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Saintes est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Charente-Maritime (17) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Saintes est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Saintes est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 22 € et 80 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Saintes",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Saintes", "Rochefort", "Cognac"],
+  },
+  {
+    slug: "saumur",
+    nom: "Saumur",
+    departement: "Maine-et-Loire (49)",
+    region: "Pays de la Loire",
+    population: "~25 000 hab. (ville), ~65 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Saumur — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Saumur : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Saumur offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Saumur est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Maine-et-Loire (49) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Saumur est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Saumur est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 22 € et 80 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Saumur",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Saumur", "Angers", "Chinon"],
+  },
+  {
+    slug: "saverne",
+    nom: "Saverne",
+    departement: "Bas-Rhin (67)",
+    region: "Grand Est",
+    population: "~12 000 hab. (ville), ~25 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Saverne — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Saverne : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Saverne présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Saverne est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Bas-Rhin (67) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Saverne est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Saverne est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 60 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Saverne",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Saverne", "Strasbourg", "Haguenau"],
+  },
+  {
+    slug: "sedan",
+    nom: "Sedan",
+    departement: "Ardennes (08)",
+    region: "Grand Est",
+    population: "~18 000 hab. (ville), ~35 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Sedan — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Sedan : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Sedan présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Sedan est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Ardennes (08) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Sedan est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Sedan est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 60 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Sedan",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Sedan", "Charleville-Mézières", "Reims"],
+  },
+  {
+    slug: "sens",
+    nom: "Sens",
+    departement: "Yonne (89)",
+    region: "Bourgogne-Franche-Comté",
+    population: "~25 000 hab. (ville), ~45 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Sens — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Sens : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Sens présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Sens est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Yonne (89) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Sens est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Sens est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 70 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Sens",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Sens", "Auxerre", "Montereau-Fault-Yonne"],
+  },
+  {
+    slug: "sete",
+    nom: "Sète",
+    departement: "Hérault (34)",
+    region: "Occitanie",
+    population: "~45 000 hab. (ville), ~60 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Sète — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Sète : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Sète, située en Occitanie, présente un marché des espaces de stockage animé par une demande locative soutenue. La densité urbaine et la mobilité résidentielle créent des besoins structurels en garages et boxes. L'attractivité de l'agglomération attire également une clientèle professionnelle et des ménages en transition.",
+    contexteUrbanistique:
+      "Le parc immobilier de Sète est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Hérault (34) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande pour les garages et boxes est soutenue à Sète, portée par une population mobile et un tissu économique actif. Les délais de mise en location observés sur les annonces restent courts dans les secteurs centraux. La demande professionnelle, notamment de la part des artisans et TPE, constitue un segment complémentaire notable.",
+    },
+    offre: {
+      description:
+        "L'offre à Sète comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 35 € et 120 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Sète",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Sète", "Montpellier", "Agde"],
+  },
+  {
+    slug: "sisteron",
+    nom: "Sisteron",
+    departement: "Alpes-de-Haute-Provence (04)",
+    region: "Provence-Alpes-Côte d'Azur",
+    population: "~7 000 hab. (ville), ~15 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Sisteron — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Sisteron : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Sisteron présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Sisteron est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Alpes-de-Haute-Provence (04) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Sisteron est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Sisteron est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 15 € et 55 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Sisteron",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Sisteron", "Gap", "Manosque"],
+  },
+  {
+    slug: "soissons",
+    nom: "Soissons",
+    departement: "Aisne (02)",
+    region: "Hauts-de-France",
+    population: "~28 000 hab. (ville), ~55 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Soissons — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Soissons : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Soissons présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Soissons est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Aisne (02) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Soissons est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Soissons est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 70 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Soissons",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Soissons", "Laon", "Reims"],
+  },
+  {
+    slug: "tarbes",
+    nom: "Tarbes",
+    departement: "Hautes-Pyrénées (65)",
+    region: "Occitanie",
+    population: "~42 000 hab. (ville), ~80 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Tarbes — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Tarbes : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Tarbes offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Tarbes est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Hautes-Pyrénées (65) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Tarbes est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Tarbes est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 90 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Tarbes",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Tarbes", "Pau", "Lourdes"],
+  },
+  {
+    slug: "thiers",
+    nom: "Thiers",
+    departement: "Puy-de-Dôme (63)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~11 000 hab. (ville), ~20 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Thiers — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Thiers : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Thiers présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Thiers est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Puy-de-Dôme (63) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Thiers est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Thiers est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 60 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Thiers",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Thiers", "Clermont-Ferrand", "Ambert"],
+  },
+  {
+    slug: "thionville",
+    nom: "Thionville",
+    departement: "Moselle (57)",
+    region: "Grand Est",
+    population: "~40 000 hab. (ville), ~130 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Thionville — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Thionville : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Thionville offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Thionville est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Moselle (57) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Thionville est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Thionville comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 90 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Thionville",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Thionville", "Metz", "Longwy"],
+  },
+  {
+    slug: "thonon-les-bains",
+    nom: "Thonon-les-Bains",
+    departement: "Haute-Savoie (74)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~35 000 hab. (ville), ~90 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Thonon-les-Bains — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Thonon-les-Bains : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Thonon-les-Bains, située en Auvergne-Rhône-Alpes, présente un marché des espaces de stockage animé par une demande locative soutenue. La densité urbaine et la mobilité résidentielle créent des besoins structurels en garages et boxes. L'attractivité de l'agglomération attire également une clientèle professionnelle et des ménages en transition.",
+    contexteUrbanistique:
+      "Le parc immobilier de Thonon-les-Bains est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Haute-Savoie (74) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande pour les garages et boxes est soutenue à Thonon-les-Bains, portée par une population mobile et un tissu économique actif. Les délais de mise en location observés sur les annonces restent courts dans les secteurs centraux. La demande professionnelle, notamment de la part des artisans et TPE, constitue un segment complémentaire notable.",
+    },
+    offre: {
+      description:
+        "L'offre à Thonon-les-Bains comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 35 € et 130 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Thonon-les-Bains",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Thonon-les-Bains", "Annecy", "Genève"],
+  },
+  {
+    slug: "thouars",
+    nom: "Thouars",
+    departement: "Deux-Sèvres (79)",
+    region: "Nouvelle-Aquitaine",
+    population: "~9 000 hab. (ville), ~20 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Thouars — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Thouars : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Thouars présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Thouars est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Deux-Sèvres (79) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Thouars est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Thouars est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 15 € et 55 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Thouars",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Thouars", "Niort", "Saumur"],
+  },
+  {
+    slug: "tulle",
+    nom: "Tulle",
+    departement: "Corrèze (19)",
+    region: "Nouvelle-Aquitaine",
+    population: "~14 000 hab. (ville), ~25 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Tulle — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Tulle : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Tulle présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Tulle est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Corrèze (19) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Tulle est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Tulle est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 60 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Tulle",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Tulle", "Brive-la-Gaillarde", "Ussel"],
+  },
+  {
+    slug: "ussel",
+    nom: "Ussel",
+    departement: "Corrèze (19)",
+    region: "Nouvelle-Aquitaine",
+    population: "~10 000 hab. (ville), ~18 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Ussel — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Ussel : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Ussel présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Ussel est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Corrèze (19) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Ussel est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Ussel est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 15 € et 55 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Ussel",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Ussel", "Tulle", "Aurillac"],
+  },
+  {
+    slug: "vannes",
+    nom: "Vannes",
+    departement: "Morbihan (56)",
+    region: "Bretagne",
+    population: "~55 000 hab. (ville), ~170 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Vannes — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Vannes : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Vannes, située en Bretagne, présente un marché des espaces de stockage animé par une demande locative soutenue. La densité urbaine et la mobilité résidentielle créent des besoins structurels en garages et boxes. L'attractivité de l'agglomération attire également une clientèle professionnelle et des ménages en transition.",
+    contexteUrbanistique:
+      "Le parc immobilier de Vannes est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Morbihan (56) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande pour les garages et boxes est soutenue à Vannes, portée par une population mobile et un tissu économique actif. Les délais de mise en location observés sur les annonces restent courts dans les secteurs centraux. La demande professionnelle, notamment de la part des artisans et TPE, constitue un segment complémentaire notable.",
+    },
+    offre: {
+      description:
+        "L'offre à Vannes comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 35 € et 125 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Vannes",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Vannes", "Lorient", "Rennes"],
+  },
+  {
+    slug: "vichy",
+    nom: "Vichy",
+    departement: "Allier (03)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~25 000 hab. (ville), ~60 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Vichy — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Vichy : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Vichy offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Vichy est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Allier (03) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Vichy est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Vichy est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 22 € et 80 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Vichy",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Vichy", "Clermont-Ferrand", "Moulins"],
+  },
+  {
+    slug: "vienne",
+    nom: "Vienne",
+    departement: "Isère (38)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~30 000 hab. (ville), ~50 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Vienne — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Vienne : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Vienne offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Vienne est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Isère (38) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Vienne est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Vienne est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 90 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Vienne",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Vienne", "Lyon", "Givors"],
+  },
+  {
+    slug: "villefranche-sur-saone",
+    nom: "Villefranche-sur-Saône",
+    departement: "Rhône (69)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~35 000 hab. (ville), ~80 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Villefranche-sur-Saône — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Villefranche-sur-Saône : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Villefranche-sur-Saône offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Villefranche-sur-Saône est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Rhône (69) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Villefranche-sur-Saône est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Villefranche-sur-Saône comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 30 € et 100 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Villefranche-sur-Saône",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Villefranche-sur-Saône", "Lyon", "Mâcon"],
+  },
+  {
+    slug: "villeneuve-sur-lot",
+    nom: "Villeneuve-sur-Lot",
+    departement: "Lot-et-Garonne (47)",
+    region: "Nouvelle-Aquitaine",
+    population: "~23 000 hab. (ville), ~45 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Villeneuve-sur-Lot — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Villeneuve-sur-Lot : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Villeneuve-sur-Lot présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Villeneuve-sur-Lot est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Lot-et-Garonne (47) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Villeneuve-sur-Lot est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Villeneuve-sur-Lot est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 70 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Villeneuve-sur-Lot",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Villeneuve-sur-Lot", "Agen", "Marmande"],
+  },
+  {
+    slug: "vittel",
+    nom: "Vittel",
+    departement: "Vosges (88)",
+    region: "Grand Est",
+    population: "~5 000 hab. (ville), ~12 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Vittel — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Vittel : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Vittel présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Vittel est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Vosges (88) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Vittel est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Vittel est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 15 € et 50 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Vittel",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Vittel", "Épinal", "Contrexéville"],
+  },
+  {
+    slug: "aubenas",
+    nom: "Aubenas",
+    departement: "Ardèche (07)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~12 000 hab. (ville), ~40 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Aubenas — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Aubenas : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Aubenas présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Aubenas est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Ardèche (07) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Aubenas est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Aubenas est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 65 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Aubenas",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Aubenas", "Privas", "Montélimar"],
+  },
+  {
+    slug: "aurillac",
+    nom: "Aurillac",
+    departement: "Cantal (15)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~26 000 hab. (ville), ~50 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Aurillac — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Aurillac : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Aurillac présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Aurillac est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Cantal (15) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Aurillac est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Aurillac est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 70 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Aurillac",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Aurillac", "Issoire", "Figeac"],
+  },
+  {
+    slug: "bar-le-duc",
+    nom: "Bar-le-Duc",
+    departement: "Meuse (55)",
+    region: "Grand Est",
+    population: "~16 000 hab. (ville), ~28 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Bar-le-Duc — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Bar-le-Duc : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Bar-le-Duc présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Bar-le-Duc est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Meuse (55) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Bar-le-Duc est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Bar-le-Duc est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 60 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Bar-le-Duc",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Bar-le-Duc", "Verdun", "Saint-Dizier"],
+  },
+  {
+    slug: "brignoles",
+    nom: "Brignoles",
+    departement: "Var (83)",
+    region: "Provence-Alpes-Côte d'Azur",
+    population: "~17 000 hab. (ville), ~45 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Brignoles — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Brignoles : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Brignoles offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Brignoles est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Var (83) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Brignoles est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Brignoles est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 22 € et 80 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Brignoles",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Brignoles", "Toulon", "Draguignan"],
+  },
+  {
+    slug: "cavaillon",
+    nom: "Cavaillon",
+    departement: "Vaucluse (84)",
+    region: "Provence-Alpes-Côte d'Azur",
+    population: "~26 000 hab. (ville), ~55 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Cavaillon — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Cavaillon : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Cavaillon offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Cavaillon est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Vaucluse (84) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Cavaillon est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Cavaillon est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 90 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Cavaillon",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Cavaillon", "Avignon", "Apt"],
+  },
+  {
+    slug: "charleville-mezieres",
+    nom: "Charleville-Mézières",
+    departement: "Ardennes (08)",
+    region: "Grand Est",
+    population: "~48 000 hab. (ville), ~80 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Charleville-Mézières — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Charleville-Mézières : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Charleville-Mézières offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Charleville-Mézières est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Ardennes (08) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Charleville-Mézières est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Charleville-Mézières est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 85 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Charleville-Mézières",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Charleville-Mézières", "Sedan", "Reims"],
+  },
+  {
+    slug: "chaumont",
+    nom: "Chaumont",
+    departement: "Haute-Marne (52)",
+    region: "Grand Est",
+    population: "~22 000 hab. (ville), ~40 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Chaumont — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Chaumont : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Chaumont présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Chaumont est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Haute-Marne (52) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Chaumont est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Chaumont est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 65 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Chaumont",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Chaumont", "Langres", "Saint-Dizier"],
+  },
+  {
+    slug: "corbeil-essonnes",
+    nom: "Corbeil-Essonnes",
+    departement: "Essonne (91)",
+    region: "Île-de-France",
+    population: "~50 000 hab. (ville), ~80 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Corbeil-Essonnes — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Corbeil-Essonnes : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Corbeil-Essonnes, située en Île-de-France, présente un marché des espaces de stockage animé par une demande locative soutenue. La densité urbaine et la mobilité résidentielle créent des besoins structurels en garages et boxes. L'attractivité de l'agglomération attire également une clientèle professionnelle et des ménages en transition.",
+    contexteUrbanistique:
+      "Le parc immobilier de Corbeil-Essonnes est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Essonne (91) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande pour les garages et boxes est soutenue à Corbeil-Essonnes, portée par une population mobile et un tissu économique actif. Les délais de mise en location observés sur les annonces restent courts dans les secteurs centraux. La demande professionnelle, notamment de la part des artisans et TPE, constitue un segment complémentaire notable.",
+    },
+    offre: {
+      description:
+        "L'offre à Corbeil-Essonnes comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 40 € et 130 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Corbeil-Essonnes",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Corbeil-Essonnes", "Évry-Courcouronnes", "Melun"],
+  },
+  {
+    slug: "creil",
+    nom: "Creil",
+    departement: "Oise (60)",
+    region: "Hauts-de-France",
+    population: "~35 000 hab. (ville), ~100 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Creil — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Creil : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Creil offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Creil est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Oise (60) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Creil est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Creil comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 90 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Creil",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Creil", "Compiègne", "Beauvais"],
+  },
+  {
+    slug: "figeac",
+    nom: "Figeac",
+    departement: "Lot (46)",
+    region: "Occitanie",
+    population: "~10 000 hab. (ville), ~20 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Figeac — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Figeac : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Figeac présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Figeac est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Lot (46) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Figeac est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Figeac est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 15 € et 55 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Figeac",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Figeac", "Rodez", "Cahors"],
+  },
+  {
+    slug: "fontenay-le-comte",
+    nom: "Fontenay-le-Comte",
+    departement: "Vendée (85)",
+    region: "Pays de la Loire",
+    population: "~14 000 hab. (ville), ~30 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Fontenay-le-Comte — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Fontenay-le-Comte : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Fontenay-le-Comte présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Fontenay-le-Comte est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Vendée (85) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Fontenay-le-Comte est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Fontenay-le-Comte est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 60 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Fontenay-le-Comte",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Fontenay-le-Comte", "La Roche-sur-Yon", "Niort"],
+  },
+  {
+    slug: "forbach",
+    nom: "Forbach",
+    departement: "Moselle (57)",
+    region: "Grand Est",
+    population: "~21 000 hab. (ville), ~90 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Forbach — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Forbach : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Forbach offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Forbach est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Moselle (57) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Forbach est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Forbach est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 75 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Forbach",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Forbach", "Sarreguemines", "Metz"],
+  },
+  {
+    slug: "langres",
+    nom: "Langres",
+    departement: "Haute-Marne (52)",
+    region: "Grand Est",
+    population: "~8 000 hab. (ville), ~15 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Langres — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Langres : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Langres présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Langres est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Haute-Marne (52) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Langres est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Langres est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 15 € et 50 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Langres",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Langres", "Chaumont", "Dijon"],
+  },
+  {
+    slug: "montbeliard",
+    nom: "Montbéliard",
+    departement: "Doubs (25)",
+    region: "Bourgogne-Franche-Comté",
+    population: "~25 000 hab. (ville), ~115 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Montbéliard — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Montbéliard : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Montbéliard offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Montbéliard est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Doubs (25) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Montbéliard est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre à Montbéliard comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 90 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Montbéliard",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Montbéliard", "Belfort", "Besançon"],
+  },
+  {
+    slug: "montelimar",
+    nom: "Montélimar",
+    departement: "Drôme (26)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~38 000 hab. (ville), ~60 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Montélimar — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Montélimar : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Montélimar offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Montélimar est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Drôme (26) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Montélimar est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Montélimar est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 90 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Montélimar",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Montélimar", "Valence", "Aubenas"],
+  },
+  {
+    slug: "verdun",
+    nom: "Verdun",
+    departement: "Meuse (55)",
+    region: "Grand Est",
+    population: "~18 000 hab. (ville), ~35 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Verdun — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Verdun : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Verdun présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Verdun est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Meuse (55) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Verdun est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Verdun est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 65 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Verdun",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Verdun", "Bar-le-Duc", "Metz"],
+  },
+  {
+    slug: "vesoul",
+    nom: "Vesoul",
+    departement: "Haute-Saône (70)",
+    region: "Bourgogne-Franche-Comté",
+    population: "~15 000 hab. (ville), ~30 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Vesoul — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Vesoul : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Vesoul présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Vesoul est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Haute-Saône (70) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Vesoul est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Vesoul est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 60 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Vesoul",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Vesoul", "Belfort", "Besançon"],
+  },
+  {
+    slug: "vierzon",
+    nom: "Vierzon",
+    departement: "Cher (18)",
+    region: "Centre-Val de Loire",
+    population: "~27 000 hab. (ville), ~40 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Vierzon — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Vierzon : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Vierzon présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Vierzon est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Cher (18) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Vierzon est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Vierzon est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 65 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Vierzon",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Vierzon", "Bourges", "Châteauroux"],
+  },
+  {
+    slug: "argenteuil",
+    nom: "Argenteuil",
+    departement: "Val-d'Oise (95)",
+    region: "Île-de-France",
+    population: "~110 000 hab. (ville), ~130 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Argenteuil — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Argenteuil : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Argenteuil, située en Île-de-France, présente un marché des espaces de stockage animé par une demande locative soutenue. La densité urbaine et la mobilité résidentielle créent des besoins structurels en garages et boxes. L'attractivité de l'agglomération attire également une clientèle professionnelle et des ménages en transition.",
+    contexteUrbanistique:
+      "Le parc immobilier de Argenteuil est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Val-d'Oise (95) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande pour les garages et boxes est soutenue à Argenteuil, portée par une population mobile et un tissu économique actif. Les délais de mise en location observés sur les annonces restent courts dans les secteurs centraux. La demande professionnelle, notamment de la part des artisans et TPE, constitue un segment complémentaire notable.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Argenteuil est diversifiée, avec des garages en copropriété et la présence d'opérateurs de self-storage structurés dans l'agglomération. La concurrence est notable et devra être intégrée dans l'analyse de rentabilité.",
+      concurrenceSelfStorage: "importante",
+    },
+    prixObserves: {
+      fourchette: "Entre 45 € et 140 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Argenteuil",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Argenteuil", "Cergy-Pontoise", "Sarcelles"],
+  },
+  {
+    slug: "noisy-le-grand",
+    nom: "Noisy-le-Grand",
+    departement: "Seine-Saint-Denis (93)",
+    region: "Île-de-France",
+    population: "~65 000 hab. (ville), ~80 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Noisy-le-Grand — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Noisy-le-Grand : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Noisy-le-Grand, située en Île-de-France, présente un marché des espaces de stockage animé par une demande locative soutenue. La densité urbaine et la mobilité résidentielle créent des besoins structurels en garages et boxes. L'attractivité de l'agglomération attire également une clientèle professionnelle et des ménages en transition.",
+    contexteUrbanistique:
+      "Le parc immobilier de Noisy-le-Grand est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Seine-Saint-Denis (93) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande pour les garages et boxes est soutenue à Noisy-le-Grand, portée par une population mobile et un tissu économique actif. Les délais de mise en location observés sur les annonces restent courts dans les secteurs centraux. La demande professionnelle, notamment de la part des artisans et TPE, constitue un segment complémentaire notable.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Noisy-le-Grand est diversifiée, avec des garages en copropriété et la présence d'opérateurs de self-storage structurés dans l'agglomération. La concurrence est notable et devra être intégrée dans l'analyse de rentabilité.",
+      concurrenceSelfStorage: "importante",
+    },
+    prixObserves: {
+      fourchette: "Entre 40 € et 130 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Noisy-le-Grand",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Noisy-le-Grand", "Chelles", "Vincennes"],
+  },
+  {
+    slug: "flers",
+    nom: "Flers",
+    departement: "Orne (61)",
+    region: "Normandie",
+    population: "~14 000 hab. (ville), ~30 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Flers — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Flers : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Flers présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Flers est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Orne (61) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Flers est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Flers est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 60 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Flers",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Flers", "Alençon", "Caen"],
+  },
+  {
+    slug: "issoire",
+    nom: "Issoire",
+    departement: "Puy-de-Dôme (63)",
+    region: "Auvergne-Rhône-Alpes",
+    population: "~14 000 hab. (ville), ~30 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Issoire — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Issoire : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Issoire présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Issoire est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Puy-de-Dôme (63) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Issoire est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Issoire est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 60 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Issoire",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Issoire", "Clermont-Ferrand", "Brioude"],
+  },
+  {
+    slug: "libourne",
+    nom: "Libourne",
+    departement: "Gironde (33)",
+    region: "Nouvelle-Aquitaine",
+    population: "~25 000 hab. (ville), ~50 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Libourne — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Libourne : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Libourne offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Libourne est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Gironde (33) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Libourne est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Libourne est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 25 € et 90 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Libourne",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Libourne", "Bordeaux", "Bergerac"],
+  },
+  {
+    slug: "mende",
+    nom: "Mende",
+    departement: "Lozère (48)",
+    region: "Occitanie",
+    population: "~12 000 hab. (ville), ~20 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Mende — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Mende : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Mende présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Mende est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Lozère (48) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Mende est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Mende est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 15 € et 55 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Mende",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Mende", "Millau", "Aurillac"],
+  },
+  {
+    slug: "pamiers",
+    nom: "Pamiers",
+    departement: "Ariège (09)",
+    region: "Occitanie",
+    population: "~15 000 hab. (ville), ~30 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Pamiers — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Pamiers : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Pamiers présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Pamiers est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Ariège (09) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Pamiers est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Pamiers est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 60 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Pamiers",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Pamiers", "Foix", "Carcassonne"],
+  },
+  {
+    slug: "parthenay",
+    nom: "Parthenay",
+    departement: "Deux-Sèvres (79)",
+    region: "Nouvelle-Aquitaine",
+    population: "~10 000 hab. (ville), ~20 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Parthenay — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Parthenay : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Parthenay présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Parthenay est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Deux-Sèvres (79) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Parthenay est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Parthenay est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 15 € et 55 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Parthenay",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Parthenay", "Niort", "Thouars"],
+  },
+  {
+    slug: "pontoise",
+    nom: "Pontoise",
+    departement: "Val-d'Oise (95)",
+    region: "Île-de-France",
+    population: "~30 000 hab. (ville), ~200 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Pontoise — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Pontoise : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Pontoise, située en Île-de-France, présente un marché des espaces de stockage animé par une demande locative soutenue. La densité urbaine et la mobilité résidentielle créent des besoins structurels en garages et boxes. L'attractivité de l'agglomération attire également une clientèle professionnelle et des ménages en transition.",
+    contexteUrbanistique:
+      "Le parc immobilier de Pontoise est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Val-d'Oise (95) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande pour les garages et boxes est soutenue à Pontoise, portée par une population mobile et un tissu économique actif. Les délais de mise en location observés sur les annonces restent courts dans les secteurs centraux. La demande professionnelle, notamment de la part des artisans et TPE, constitue un segment complémentaire notable.",
+    },
+    offre: {
+      description:
+        "L'offre à Pontoise comprend principalement des garages et boxes en copropriété, complétée par quelques opérateurs locaux de self-storage. La concurrence reste maîtrisable mais mérite d'être cartographiée avant acquisition.",
+      concurrenceSelfStorage: "moderee",
+    },
+    prixObserves: {
+      fourchette: "Entre 35 € et 120 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Pontoise",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Pontoise", "Cergy", "Conflans-Sainte-Honorine"],
+  },
+  {
+    slug: "saint-omer",
+    nom: "Saint-Omer",
+    departement: "Pas-de-Calais (62)",
+    region: "Hauts-de-France",
+    population: "~14 000 hab. (ville), ~50 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Saint-Omer — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Saint-Omer : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Saint-Omer présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Saint-Omer est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Pas-de-Calais (62) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Saint-Omer est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Saint-Omer est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 65 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Saint-Omer",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Saint-Omer", "Calais", "Boulogne-sur-Mer"],
+  },
+  {
+    slug: "sarreguemines",
+    nom: "Sarreguemines",
+    departement: "Moselle (57)",
+    region: "Grand Est",
+    population: "~20 000 hab. (ville), ~60 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Sarreguemines — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Sarreguemines : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Sarreguemines présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Sarreguemines est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Moselle (57) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Sarreguemines est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Sarreguemines est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 18 € et 65 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Sarreguemines",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Sarreguemines", "Forbach", "Metz"],
+  },
+  {
+    slug: "vitry-sur-seine",
+    nom: "Vitry-sur-Seine",
+    departement: "Val-de-Marne (94)",
+    region: "Île-de-France",
+    population: "~90 000 hab. (ville), ~100 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Vitry-sur-Seine — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Vitry-sur-Seine : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Vitry-sur-Seine, située en Île-de-France, présente un marché des espaces de stockage animé par une demande locative soutenue. La densité urbaine et la mobilité résidentielle créent des besoins structurels en garages et boxes. L'attractivité de l'agglomération attire également une clientèle professionnelle et des ménages en transition.",
+    contexteUrbanistique:
+      "Le parc immobilier de Vitry-sur-Seine est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Val-de-Marne (94) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "forte",
+      description:
+        "La demande pour les garages et boxes est soutenue à Vitry-sur-Seine, portée par une population mobile et un tissu économique actif. Les délais de mise en location observés sur les annonces restent courts dans les secteurs centraux. La demande professionnelle, notamment de la part des artisans et TPE, constitue un segment complémentaire notable.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Vitry-sur-Seine est diversifiée, avec des garages en copropriété et la présence d'opérateurs de self-storage structurés dans l'agglomération. La concurrence est notable et devra être intégrée dans l'analyse de rentabilité.",
+      concurrenceSelfStorage: "importante",
+    },
+    prixObserves: {
+      fourchette: "Entre 45 € et 140 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Vitry-sur-Seine",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Vitry-sur-Seine", "Ivry-sur-Seine", "Choisy-le-Roi"],
+  },
+  {
+    slug: "fougeres",
+    nom: "Fougères",
+    departement: "Ille-et-Vilaine (35)",
+    region: "Bretagne",
+    population: "~20 000 hab. (ville), ~35 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Fougères — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Fougères : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Fougères présente un marché du stockage de taille modeste, reflet de son tissu économique et démographique local. La demande, plus diffuse, provient principalement des ménages locaux et de quelques acteurs économiques du territoire. Les opportunités d'investissement peuvent exister à condition d'une analyse fine du secteur ciblé.",
+    contexteUrbanistique:
+      "Le parc immobilier de Fougères est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Ille-et-Vilaine (35) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "faible",
+      description:
+        "La demande à Fougères est modeste et essentiellement portée par les ménages locaux. Le marché présente peu de tension locative et les délais de mise en location peuvent être plus longs qu'en zone tendue. Une étude de la demande réelle est indispensable avant tout investissement sur ce marché.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Fougères est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 20 € et 65 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Fougères",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Fougères", "Rennes", "Saint-Malo"],
+  },
+  {
+    slug: "lunel",
+    nom: "Lunel",
+    departement: "Hérault (34)",
+    region: "Occitanie",
+    population: "~25 000 hab. (ville), ~55 000 (agglomération)",
+    metaTitle: "Marché des espaces de stockage à Lunel — garages, boxes, self-storage",
+    metaDescription: "Analyse du marché locatif des garages et espaces de stockage à Lunel : demande, offre, prix observés et points de vigilance pour investisseurs.",
+    intro:
+      "Lunel offre un marché des espaces de stockage de taille intermédiaire, avec une demande régulière sans tension majeure. La ville, chef-lieu ou pôle régional, génère des besoins en stockage portés par les résidents, les artisans et les petites entreprises locales. Le marché reste accessible à l'entrée tout en offrant des perspectives de stabilité locative.",
+    contexteUrbanistique:
+      "Le parc immobilier de Lunel est composé d'un mélange de logements collectifs et individuels, avec des besoins en annexes de stockage variables selon les quartiers. Les contraintes de stationnement et la densification progressive des centres-bourgs tendent à renforcer la demande pour des espaces de stockage déportés. La situation géographique en Hérault (34) influence également le profil de la demande locale.",
+    demande: {
+      niveau: "moderee",
+      description:
+        "La demande à Lunel est régulière, portée par les résidents locaux, les ménages en transition et quelques acteurs économiques. Le marché ne présente pas de tension majeure mais offre une stabilité locative appréciable. La demande est à vérifier localement avant toute acquisition, selon le secteur et le type de bien.",
+    },
+    offre: {
+      description:
+        "L'offre de stockage à Lunel est principalement constituée de garages et boxes en copropriété. La concurrence des opérateurs de self-storage structurés est limitée à faible, ce qui peut constituer un avantage pour un investisseur bien positionné.",
+      concurrenceSelfStorage: "limitee",
+    },
+    prixObserves: {
+      fourchette: "Entre 22 € et 80 € / mois selon la surface et la localisation",
+      note:
+        "Ces données sont indicatives et ne constituent pas une référence de marché certifiée.",
+    },
+    pointsVigilance: [
+      "Vérifier la demande locative réelle dans le secteur précis ciblé à Lunel",
+      "Analyser la concurrence locale (self-storage, offre privée) avant toute acquisition",
+      "S'assurer de l'accessibilité du bien : hauteur sous plafond, voie d'accès, sécurisation",
+      "Consulter un professionnel de l'immobilier local pour valider les niveaux de loyers observés",
+    ],
+    zoneLimitrophe: ["Lunel", "Montpellier", "Nîmes"],
+  }
 ];
 
 export function getVilleBySlug(slug: string): Ville | undefined {
