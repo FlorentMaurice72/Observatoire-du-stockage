@@ -2850,6 +2850,537 @@ const diagnosticPerformanceEnergetiqueGarageContent = () => (
   </div>
 );
 
+const selfStorageVsGaragesContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      Self-storage en enseigne et garages individuels sont souvent mis dans le même panier par les investisseurs qui découvrent ce secteur. Pourtant, ces deux modèles diffèrent profondément sur presque tous les paramètres : ticket d'entrée, gestion, profil de risque et potentiel de valorisation.
+    </p>
+
+    <div className="my-8 bg-[#f8f9fa] rounded-xl border border-slate-100 p-6 flex items-center justify-center">
+      <svg width="100%" height="160" viewBox="0 0 520 160" className="max-w-lg">
+        <rect x="20" y="20" width="220" height="120" rx="8" fill="#1e3a5f" opacity="0.07" stroke="#1e3a5f" strokeWidth="1.5"/>
+        <text x="130" y="48" textAnchor="middle" fontSize="11" fill="#1e3a5f" fontFamily="sans-serif" fontWeight="700">Garages individuels</text>
+        <text x="130" y="68" textAnchor="middle" fontSize="9" fill="#475569" fontFamily="sans-serif">Ticket : 5 000 – 80 000 €</text>
+        <text x="130" y="84" textAnchor="middle" fontSize="9" fill="#475569" fontFamily="sans-serif">Gestion : directe possible</text>
+        <text x="130" y="100" textAnchor="middle" fontSize="9" fill="#475569" fontFamily="sans-serif">Financement banque : possible</text>
+        <text x="130" y="116" textAnchor="middle" fontSize="9" fill="#475569" fontFamily="sans-serif">Revente : marché ouvert</text>
+        <rect x="280" y="20" width="220" height="120" rx="8" fill="#0ea5e9" opacity="0.07" stroke="#0ea5e9" strokeWidth="1.5"/>
+        <text x="390" y="48" textAnchor="middle" fontSize="11" fill="#0369a1" fontFamily="sans-serif" fontWeight="700">Self-storage enseigne</text>
+        <text x="390" y="68" textAnchor="middle" fontSize="9" fill="#475569" fontFamily="sans-serif">Ticket : 500 k€ – plusieurs M€</text>
+        <text x="390" y="84" textAnchor="middle" fontSize="9" fill="#475569" fontFamily="sans-serif">Gestion : opérateur dédié</text>
+        <text x="390" y="100" textAnchor="middle" fontSize="9" fill="#475569" fontFamily="sans-serif">Financement : dette commerciale</text>
+        <text x="390" y="116" textAnchor="middle" fontSize="9" fill="#475569" fontFamily="sans-serif">Revente : marché professionnel</text>
+      </svg>
+    </div>
+
+    <h2 id="definition-modeles">Deux modèles, une même vocation</h2>
+    <p>
+      Le self-storage professionnel désigne des centres de stockage exploités par des opérateurs spécialisés (Shurgard, Homebox, Box&amp;Go, etc.), proposant des unités de différentes tailles en location courte ou moyenne durée, avec accès sécurisé, alarme individuelle et parfois gestion 100 % en ligne. Le client loue un espace dans un bâtiment conçu à cet effet.
+    </p>
+    <p>
+      Les garages individuels désignent quant à eux des espaces de stationnement ou de rangement fermés, situés dans des résidences, des sous-sols d'immeuble ou des cités de garages. Ils sont loués directement par des propriétaires particuliers ou institutionnels à des locataires.
+    </p>
+    <p>
+      Ces deux modèles répondent à des demandes partiellement différentes et impliquent des modes d'investissement très distincts.
+    </p>
+
+    <h2 id="ticket-entree">Le ticket d'entrée</h2>
+    <p>
+      C'est la différence la plus évidente. Un lot de garages individuels peut s'acquérir dès quelques milliers d'euros pour un seul espace, ou entre 50 000 et 200 000 € pour un lot structurant. Un centre de self-storage représente un investissement de plusieurs centaines de milliers d'euros à plusieurs millions, selon la superficie et la localisation.
+    </p>
+    <p>
+      Pour un investisseur particulier, les garages individuels sont donc beaucoup plus accessibles. L'accès à un centre de self-storage se fait généralement via des véhicules d'investissement (fonds immobiliers, SCPI spécialisées, club deals) plutôt que par acquisition directe.
+    </p>
+
+    <h2 id="gestion-operationnelle">La gestion opérationnelle</h2>
+    <p>
+      Un garage individuel peut se gérer en direct, avec des ressources modestes : rédaction d'un contrat, état des lieux, encaissement du loyer, gestion des éventuels incidents. La charge est faible pour un ou deux espaces, mais croît avec le nombre d'unités.
+    </p>
+    <p>
+      Un centre de self-storage requiert une organisation professionnelle : gestion des contrats à court terme (souvent mensuels), accès sécurisé 24h/24, relation client active, maintenance du site, marketing en ligne. L'opérateur facture des frais de gestion substantiels, qui pèsent sur le rendement net du propriétaire.
+    </p>
+
+    <h2 id="rendement-risque">Rendement et profil de risque</h2>
+    <p>
+      Les garages individuels peuvent afficher des rendements bruts élevés, mais très variables selon la localisation et le prix d'acquisition. La vacance locative, les impayés et les travaux de maintien en état sont les principaux risques. La demande peut être saisonnière ou sensible aux conditions économiques locales.
+    </p>
+    <p>
+      Les centres de self-storage professionnels présentent une demande plus diversifiée (particuliers en déménagement, artisans, e-commerçants) et une rotation plus forte des locataires, ce qui peut lisser les risques mais implique une gestion plus active. Les marges sur coûts opérationnels peuvent être élevées à saturation, mais la montée en charge d'un nouveau site peut prendre plusieurs années.
+    </p>
+
+    <CalloutBox type="vigilance">
+      Comparer les rendements bruts entre ces deux modèles sans intégrer les coûts de gestion, la structure de financement et les conditions fiscales spécifiques donne une image trompeuse. L'analyse doit toujours porter sur le rendement net et la cohérence avec le profil de l'investisseur.
+    </CalloutBox>
+
+    <h2 id="liquidite-revente">Liquidité et revente</h2>
+    <p>
+      Un lot de garages individuels bénéficie d'un marché de revente relativement ouvert : vendeurs particuliers, investisseurs, professions libérales cherchant un stationnement. La liquidité reste limitée par rapport à l'immobilier résidentiel, mais le marché existe.
+    </p>
+    <p>
+      Un centre de self-storage se revend à des investisseurs institutionnels ou des opérateurs professionnels. Le marché est plus étroit et plus cyclique, et la valorisation dépend fortement des taux d'occupation et des revenus d'exploitation.
+    </p>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      Les garages individuels conviennent à un investisseur particulier cherchant un ticket abordable, une gestion directe et une entry sur le marché du stockage. Le self-storage professionnel relève d'une logique d'investissement immobilier d'exploitation, avec des tickets plus élevés, une gestion déléguée et un marché de revente plus spécialisé. Les deux modèles ne sont pas concurrents : ils s'adressent à des profils et des étapes patrimoniales différents.
+    </CalloutBox>
+
+    <div className="mt-8 pt-6 border-t border-slate-100">
+      <h3 className="text-sm font-bold text-slate-700 mb-3">Sources et références</h3>
+      <ul className="space-y-1">
+        <li className="text-xs text-slate-500">→ Fédération des entreprises du stockage (FES) — données sectorielles</li>
+        <li className="text-xs text-slate-500">→ Self Storage Association Europe — rapports annuels</li>
+        <li className="text-xs text-slate-500">→ CBRE / JLL — études immobilières sur le secteur du stockage</li>
+      </ul>
+    </div>
+  </div>
+);
+
+const gestionLocativeBoxesBauxDepotsContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      La location d'un box ou d'un garage ne bénéficie pas d'un cadre légal aussi précis que la location de logements. Cette souplesse est une opportunité, à condition de savoir comment l'utiliser. Bail, dépôt de garantie, état des lieux, gestion des départs : les décisions clés pour exploiter sereinement.
+    </p>
+
+    <h2 id="le-bail">Le bail : un contrat de droit commun</h2>
+    <p>
+      La location d'un espace de stockage n'est soumise ni à la loi du 6 juillet 1989 (locations d'habitation) ni au statut des baux commerciaux. C'est le droit commun du contrat qui s'applique, ce qui donne au bailleur une grande liberté dans la rédaction du bail.
+    </p>
+    <p>
+      Le bail doit néanmoins comporter les éléments essentiels : identification des parties, désignation précise du bien, durée, loyer, conditions de révision et modalités de résiliation. Un bail écrit, même simple, est fortement recommandé — il constitue la preuve de la relation contractuelle et fixe les règles en cas de litige.
+    </p>
+    <p>
+      La durée est librement fixée par les parties. On choisit généralement un bail à durée indéterminée (résiliable par l'une ou l'autre des parties avec un préavis convenu), ou un bail à durée déterminée avec tacite reconduction. Le préavis de résiliation peut être fixé à 1 ou 3 mois selon les pratiques locales.
+    </p>
+
+    <h2 id="depot-de-garantie">Le dépôt de garantie</h2>
+    <p>
+      Aucun texte légal ne plafonne le montant du dépôt de garantie pour un espace de stockage — contrairement aux locations d'habitation. En pratique, un dépôt équivalent à 1 ou 2 mois de loyer est courant.
+    </p>
+    <p>
+      Le dépôt doit être restitué au locataire à la fin du bail, déduction faite des sommes éventuellement dues (loyers impayés, réparations à la charge du locataire). Sans délai légal imposé, il est conseillé de prévoir une clause dans le bail fixant un délai de restitution (généralement 1 à 2 mois après remise des clés et état des lieux de sortie).
+    </p>
+
+    <CalloutBox type="vigilance">
+      Ne pas confondre dépôt de garantie et avance sur loyer. Le dépôt est une somme conservée en garantie, restituable en fin de bail. Il ne doit pas servir à couvrir les derniers loyers — une clause le précisant dans le bail est utile pour éviter les malentendus.
+    </CalloutBox>
+
+    <h2 id="etat-des-lieux">L'état des lieux : entrée et sortie</h2>
+    <p>
+      L'état des lieux d'entrée est le document de référence qui permettra de déterminer, à la sortie du locataire, si des dégradations ont été commises. Pour un espace de stockage, il doit décrire l'état du sol, des murs, du plafond, de la porte, de la serrure et de tout équipement présent (éclairage, prises, etc.).
+    </p>
+    <p>
+      Il est recommandé de réaliser l'état des lieux en présence du locataire et de le faire signer par les deux parties. Des photos datées constituent un complément utile, même si elles ne remplacent pas le document écrit.
+    </p>
+    <p>
+      L'état des lieux de sortie est comparé à celui d'entrée. Seules les dégradations allant au-delà de l'usure normale peuvent être imputées au locataire. Un espace rendu propre et en état de fonctionnement normal doit donner lieu à restitution intégrale du dépôt.
+    </p>
+
+    <h2 id="gestion-des-departs">La gestion des départs</h2>
+    <p>
+      Un départ anticipé de locataire génère une période de vacance. Pour la limiter, il est conseillé de mettre le bien en annonce dès la réception du préavis de départ, sans attendre la sortie effective du locataire. La mise en location simultanée avec l'annonce du départ est légale.
+    </p>
+    <p>
+      En cas de départ sans préavis ou de disparition du locataire, la situation est plus délicate. Sans texte spécifique, c'est la procédure de droit commun qui s'applique — ce qui implique de passer par le tribunal si le locataire laisse des affaires dans le box et refuse de libérer les lieux. Un avocat ou un huissier peut aider à sécuriser la procédure.
+    </p>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      La location d'un box ou d'un garage repose sur le droit commun du contrat. Cette souplesse permet d'adapter le bail à sa situation, mais impose de rédiger soigneusement chaque clause. Un bail écrit, un dépôt de garantie documenté et des états des lieux rigoureux sont les trois piliers d'une gestion locative sans litige.
+    </CalloutBox>
+  </div>
+);
+
+const evaluerConcurrenceLocaleStockageContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      Avant d'investir dans des espaces de stockage, évaluer la pression concurrentielle locale est aussi important qu'estimer la demande. Un marché avec une offre abondante et bien organisée n'est pas le même projet qu'un marché sous-équipé. Voici comment conduire cette analyse.
+    </p>
+
+    <h2 id="cartographie-offre">Cartographier l'offre existante</h2>
+    <p>
+      La première étape consiste à recenser l'offre de stockage disponible dans la zone de chalandise du bien envisagé. Cette zone varie selon la densité urbaine : quelques kilomètres en milieu dense, davantage en zone périurbaine ou rurale.
+    </p>
+    <p>
+      L'offre à analyser comprend plusieurs catégories :
+    </p>
+    <ul>
+      <li><strong>Les centres de self-storage professionnels</strong> : Shurgard, Homebox, Box&amp;Go, enseignes régionales — facilement identifiables sur Google Maps et leurs sites propres ;</li>
+      <li><strong>Les parkings couverts en location</strong> : offre qui peut capter une partie de la demande de stationnement ;</li>
+      <li><strong>Les garages particuliers</strong> : offre diffuse, repérable sur LeBonCoin, PAP, Bien'ici ;</li>
+      <li><strong>Les entrepôts artisanaux ou industriels</strong> : pour la demande professionnelle de volume.</li>
+    </ul>
+
+    <h2 id="analyser-saturation">Analyser le niveau de saturation</h2>
+    <p>
+      Une offre professionnelle bien implantée et affichant des taux d'occupation élevés est un signal positif : elle confirme que la demande existe. Mais elle capte aussi une partie de cette demande, avec des moyens marketing et opérationnels que le propriétaire d'un lot de garages individuels ne peut généralement pas égaler.
+    </p>
+    <p>
+      À l'inverse, l'absence totale d'offre structurée dans une zone n'est pas nécessairement un avantage — elle peut indiquer que la demande est insuffisante pour justifier un investissement.
+    </p>
+    <p>
+      Pour les centres de self-storage professionnels, certains opérateurs communiquent leurs taux d'occupation dans leurs rapports annuels ou financiers. Pour les garages individuels, le temps de parution des annonces sur les plateformes est un proxy utile : des annonces qui restent longtemps en ligne signalent un marché peu tendu.
+    </p>
+
+    <h2 id="observer-annonces">Observer les annonces et les prix pratiqués</h2>
+    <p>
+      Une revue des annonces en ligne (LeBonCoin, PAP, Bien'ici, LocService) sur la zone cible permet d'estimer le volume d'offre disponible, les loyers pratiqués par la concurrence, et la vitesse de rotation (certaines plateformes permettent de voir la date de mise en ligne).
+    </p>
+    <p>
+      Cette observation doit être conduite sur plusieurs semaines pour avoir une image représentative et non conjoncturelle.
+    </p>
+
+    <CalloutBox type="info" title="Indicateur pratique">
+      Si les annonces de garages dans la zone restent en ligne plus de 3 à 4 semaines sans être supprimées, c'est généralement le signe d'un marché peu tendu. Un marché dynamique voit les annonces disparaître en quelques jours.
+    </CalloutBox>
+
+    <h2 id="positionnement-concurrentiel">Identifier son positionnement concurrentiel</h2>
+    <p>
+      L'analyse de la concurrence doit aboutir à une réponse claire : quelle est la proposition de valeur du bien envisagé par rapport à l'offre existante ? Est-il mieux situé ? Plus accessible ? Mieux sécurisé ? Plus abordable ? Ou identique à ce qui est déjà disponible ?
+    </p>
+    <p>
+      Un bien sans avantage distinctif dans un marché saturé sera le dernier loué et le premier affecté par la vacance. Un bien bien situé, bien entretenu et correctement tarifé dans un marché sous-équipé bénéficiera d'une demande structurellement soutenue.
+    </p>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      L'analyse de la concurrence locale est une étape à part entière de la due diligence sur un investissement en espaces de stockage. Elle ne se résume pas à compter les acteurs : elle consiste à comprendre la structure de l'offre, son niveau de saturation, ses prix et son positionnement — pour identifier si le bien envisagé a une chance réelle de trouver preneur dans des délais raisonnables.
+    </CalloutBox>
+  </div>
+);
+
+const chargesDeductiblesRevenusFonciersGaragesContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      Au régime réel d'imposition (catégorie des revenus fonciers), un propriétaire de garages peut déduire de ses loyers une série de charges. Connaître ces déductions permet d'optimiser sa situation fiscale légalement — et de calculer correctement son rendement net. Ce que vous pouvez déduire, et sous quelles conditions.
+    </p>
+
+    <CalloutBox type="legal">
+      Cet article présente les principes généraux du régime réel des revenus fonciers. Votre situation personnelle peut présenter des spécificités importantes. Consultez un expert-comptable ou un conseiller fiscal avant toute décision.
+    </CalloutBox>
+
+    <h2 id="regime-micro-vs-reel">Micro-foncier ou régime réel : le préalable</h2>
+    <p>
+      Si vos revenus fonciers bruts (loyers encaissés) sont inférieurs à 15 000 € par an, vous pouvez opter pour le régime micro-foncier, qui applique un abattement forfaitaire de 30 % sans justification de charges. C'est simple, mais souvent moins avantageux lorsque les charges réelles dépassent 30 % des revenus.
+    </p>
+    <p>
+      Au-delà de 15 000 € de revenus fonciers bruts annuels, le régime réel s'impose. En dessous, vous pouvez y opter volontairement — engagement de 3 ans minimum.
+    </p>
+
+    <h2 id="charges-deductibles">Les principales charges déductibles</h2>
+    <p>
+      Au régime réel, les charges suivantes sont déductibles sous conditions :
+    </p>
+    <ul>
+      <li><strong>Frais de gestion et d'administration</strong> : honoraires d'agence, frais de syndic, frais de procédure en cas de litige ;</li>
+      <li><strong>Primes d'assurance</strong> : assurance propriétaire non occupant (PNO), assurance contre les loyers impayés ;</li>
+      <li><strong>Charges de copropriété</strong> : les charges déductibles sont celles qui constituent des dépenses d'entretien et de réparation — pas les charges liées aux travaux d'amélioration ;</li>
+      <li><strong>Travaux d'entretien et de réparation</strong> : travaux conservant l'état et la qualité du bien (réfection d'étanchéité, remplacement d'une porte, ravalement) ;</li>
+      <li><strong>Intérêts d'emprunt</strong> : les intérêts du crédit immobilier contracté pour l'acquisition sont déductibles ;</li>
+      <li><strong>Taxe foncière</strong> : la taxe foncière due par le propriétaire est déductible (pas la TEOM refacturée au locataire) ;</li>
+      <li><strong>Frais de déplacement</strong> : dans certaines conditions, les frais engagés pour gérer le bien ;</li>
+      <li><strong>Frais d'établissement</strong> : honoraires de notaire, frais d'agence à l'acquisition, sous conditions.</li>
+    </ul>
+
+    <h2 id="travaux-pas-deductibles">Ce qui n'est pas déductible</h2>
+    <p>
+      Les travaux d'amélioration (ajout d'équipements nouveaux, transformation du bien) ne sont généralement pas déductibles au titre des revenus fonciers — contrairement aux travaux d'entretien ou de réparation. La frontière entre les deux catégories n'est pas toujours évidente et peut faire l'objet d'un contrôle fiscal.
+    </p>
+    <p>
+      Le remboursement du capital emprunté n'est pas déductible — seuls les intérêts le sont.
+    </p>
+
+    <h2 id="deficit-foncier">Le déficit foncier</h2>
+    <p>
+      Si les charges déductibles excèdent les revenus fonciers, le déficit foncier est imputable sur le revenu global dans la limite de 10 700 € par an (sous conditions). L'excédent est reportable sur les revenus fonciers des 10 années suivantes. Ce mécanisme peut être avantageux lorsqu'un investisseur réalise d'importants travaux de rénovation sur son bien.
+    </p>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      Au régime réel des revenus fonciers, les charges déductibles comprennent notamment les intérêts d'emprunt, la taxe foncière, les primes d'assurance, les frais de gestion et les travaux d'entretien et de réparation. Les travaux d'amélioration et le remboursement du capital ne sont pas déductibles. La frontière entre travaux d'entretien et travaux d'amélioration mérite une attention particulière. Faites-vous accompagner par un professionnel pour optimiser votre situation dans le respect des règles fiscales.
+    </CalloutBox>
+  </div>
+);
+
+const investirSciGaragesContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      La SCI est une structure de détention immobilière couramment utilisée pour faciliter la gestion à plusieurs ou préparer une transmission. Son adéquation avec l'investissement dans des garages et boxes mérite cependant une analyse spécifique — les avantages sont réels, mais les pièges aussi.
+    </p>
+
+    <CalloutBox type="legal">
+      Cet article présente des éléments d'information générale sur les SCI. La création d'une SCI et son régime fiscal impliquent des choix personnels importants. Consultez un notaire et un expert-comptable avant toute décision.
+    </CalloutBox>
+
+    <h2 id="sci-definition">La SCI : principes de base</h2>
+    <p>
+      La Société Civile Immobilière (SCI) est une structure juridique permettant à plusieurs personnes de détenir et de gérer un patrimoine immobilier en commun. Elle peut être constituée par deux personnes au minimum (membres de la famille, associés, amis), avec un capital librement fixé.
+    </p>
+    <p>
+      Par défaut, une SCI est soumise à l'impôt sur le revenu (IR) : les revenus fonciers générés sont imposés entre les mains des associés, au prorata de leurs parts. Elle peut opter pour l'impôt sur les sociétés (IS), ce qui change considérablement la donne fiscale — en bien et en moins bien selon les situations.
+    </p>
+
+    <h2 id="avantages-sci">Les avantages d'une SCI pour des garages</h2>
+    <p>
+      Pour plusieurs associés souhaitant investir ensemble, la SCI offre un cadre organisé : les statuts fixent les règles de décision, les droits de chacun et les modalités de sortie. Elle évite l'indivision, régime par défaut qui peut s'avérer conflictuel.
+    </p>
+    <p>
+      Pour la transmission patrimoniale, la SCI permet de donner progressivement des parts à ses enfants, en bénéficiant d'abattements fiscaux sur les donations. La décote de liquidité sur les parts (bien moins liquide qu'un bien détenu en direct) peut par ailleurs être valorisée fiscalement.
+    </p>
+    <p>
+      Pour la gestion au quotidien, la SCI donne un cadre légal clair : le gérant agit au nom de la société, sans avoir à recueillir l'accord de chaque associé pour chaque décision courante.
+    </p>
+
+    <h2 id="pieges-sci">Les pièges à éviter</h2>
+    <p>
+      La SCI implique des obligations comptables et administratives : assemblées générales, tenue d'une comptabilité (simple à l'IR, plus lourde à l'IS), déclarations fiscales spécifiques. Ces obligations ont un coût, notamment si on recourt à un expert-comptable.
+    </p>
+    <p>
+      Les associés d'une SCI à l'IR sont indéfiniment responsables des dettes de la société, proportionnellement à leurs parts. Ce n'est pas la protection offerte par une SARL ou une SAS.
+    </p>
+    <p>
+      L'option à l'IS permet d'amortir comptablement le bien (mécanisme réduisant le résultat imposable) mais déclenche une imposition sur la plus-value lors de la revente — calculée sur la valeur nette comptable (après amortissements), ce qui peut conduire à une imposition bien plus lourde qu'en détention directe.
+    </p>
+
+    <h2 id="sci-petits-lots">SCI et petits lots de garages</h2>
+    <p>
+      Pour un investisseur solo acquérant quelques garages, la SCI n'est pas toujours pertinente. Les frais de fonctionnement (comptabilité, formalités) peuvent dépasser les avantages fiscaux ou patrimoniaux pour des actifs de faible valeur. La question mérite d'être posée au cas par cas.
+    </p>
+    <p>
+      Elle devient plus pertinente dès lors qu'on investit à plusieurs, que le patrimoine atteint une certaine masse, ou que la transmission est un objectif à moyen terme.
+    </p>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      La SCI peut être un outil utile pour détenir des garages à plusieurs, organiser la gestion ou préparer une transmission. Mais elle génère des obligations administratives et des coûts de fonctionnement, et son régime fiscal (IR ou IS) doit être choisi en fonction de la situation globale de l'investisseur. Une consultation avec un notaire et un expert-comptable est indispensable avant de créer une SCI pour ce type d'actif.
+    </CalloutBox>
+  </div>
+);
+
+const transformerGaragesBoxesTravaux = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      Transformer des garages en boxes de stockage locatifs peut sembler une manière simple d'améliorer le rendement d'un bien. En pratique, l'opération implique des travaux, des contraintes réglementaires et une logique économique qu'il faut analyser rigoureusement avant de s'engager.
+    </p>
+
+    <h2 id="definitions">Garage et box : quelle différence ?</h2>
+    <p>
+      Un garage traditionnel est conçu pour le stationnement d'un véhicule. Un box de stockage est un espace dédié exclusivement au rangement, généralement sans obligation d'accès pour un véhicule, pouvant être de dimensions plus modestes.
+    </p>
+    <p>
+      La transformation consiste souvent à subdiviser un grand garage en plusieurs boxes de taille plus petite, ou à réaménager un espace de stationnement en local de rangement fermé et sécurisé.
+    </p>
+
+    <h2 id="travaux-necessaires">Les travaux typiquement nécessaires</h2>
+    <p>
+      Selon l'état initial du bien et l'objectif visé, les travaux peuvent comprendre :
+    </p>
+    <ul>
+      <li>Cloisonnement : création de séparations pour délimiter des unités indépendantes ;</li>
+      <li>Installation de portes individuelles sécurisées ;</li>
+      <li>Mise en place d'un éclairage ;</li>
+      <li>Réfection du sol si nécessaire (ragréage, peinture) ;</li>
+      <li>Installation éventuelle d'une ventilation ou d'un système d'accès sécurisé.</li>
+    </ul>
+    <p>
+      Ces travaux représentent un coût variable selon les prestataires, la surface et le niveau de finition visé. Des devis comparatifs auprès d'artisans locaux sont indispensables — aucune estimation générale ne peut se substituer à un chiffrage réel sur site.
+    </p>
+
+    <h2 id="contraintes-reglementaires">Les contraintes réglementaires</h2>
+    <p>
+      La transformation d'un usage doit être vérifiée au regard du règlement de copropriété (si le bien est en copropriété) et des règles d'urbanisme locales. Un changement de destination peut nécessiter une déclaration préalable ou un permis de construire selon les cas.
+    </p>
+    <p>
+      Si les travaux affectent les parties communes ou la structure du bâtiment, l'accord de l'assemblée générale de copropriété peut être requis. Anticiper ces démarches évite des surprises après engagement des travaux.
+    </p>
+
+    <CalloutBox type="vigilance">
+      Ne pas vérifier les autorisations requises avant de lancer des travaux peut aboutir à une mise en demeure de remettre les lieux en état. Consultez le règlement de copropriété et rapprochez-vous de la mairie pour vérifier les règles d'urbanisme applicables.
+    </CalloutBox>
+
+    <h2 id="analyse-economique">L'analyse économique</h2>
+    <p>
+      La rentabilité de l'opération dépend de l'écart entre le loyer qu'on peut espérer après transformation et le coût des travaux, rapporté à la valeur du bien. Dans certains cas, plusieurs petits boxes peuvent générer plus de revenus qu'un seul grand garage — mais cela suppose une demande locale pour ce type d'unités.
+    </p>
+    <p>
+      Il faut également intégrer le coût de gestion supplémentaire (davantage de locataires, davantage d'états des lieux, davantage de risques de vacance partielle) et la durée de retour sur investissement des travaux.
+    </p>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      Transformer des garages en boxes de stockage peut être pertinent dans certains contextes de marché, à condition de vérifier les autorisations requises, de faire chiffrer les travaux par des professionnels, et d'analyser rigoureusement l'équation économique. Cette opération n'est pas automatiquement rentable : elle dépend de la demande locale, du coût des travaux et de la capacité du propriétaire à gérer un parc plus fragmenté.
+    </CalloutBox>
+  </div>
+);
+
+const reventeLotGaragesValorisationContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      La revente d'un lot de garages ou de boxes de stockage ne s'improvise pas. Pour obtenir le meilleur prix dans les meilleures conditions, la préparation compte autant que le timing et le positionnement. Tour d'horizon des facteurs qui influencent la valorisation et des étapes d'une cession réussie.
+    </p>
+
+    <h2 id="timing">Choisir le bon moment pour vendre</h2>
+    <p>
+      Le timing d'une cession peut influencer significativement le prix obtenu. Quelques éléments à considérer :
+    </p>
+    <ul>
+      <li><strong>Taux d'occupation</strong> : un lot entièrement loué se valorise mieux qu'un lot partiellement vacant. Si vous envisagez de vendre, assurez-vous d'avoir une situation locative solide avant de mettre en vente ;</li>
+      <li><strong>Contexte de taux</strong> : un environnement de taux bas stimule la demande des acquéreurs (crédit moins cher) ; des taux élevés peuvent compresser les prix ;</li>
+      <li><strong>Dynamisme local</strong> : les marchés en tension (demande &gt; offre) restent favorables aux vendeurs même en période moins portante ;</li>
+      <li><strong>Travaux récents</strong> : vendre après avoir effectué des travaux d'entretien permet de présenter un bien en bon état, ce qui réduit les marges de négociation de l'acheteur.</li>
+    </ul>
+
+    <h2 id="preparer-dossier">Préparer un dossier de vente solide</h2>
+    <p>
+      Un acquéreur sérieux demandera à consulter la situation locative complète avant de s'engager. Préparez :
+    </p>
+    <ul>
+      <li>Les contrats de bail en cours ;</li>
+      <li>L'historique des loyers encaissés sur les 2-3 dernières années ;</li>
+      <li>Les charges de copropriété et leur évolution ;</li>
+      <li>Les procès-verbaux d'assemblée générale récents ;</li>
+      <li>Le carnet d'entretien ou la liste des travaux réalisés ;</li>
+      <li>Les diagnostics immobiliers obligatoires.</li>
+    </ul>
+    <p>
+      Un dossier complet inspire confiance et réduit les objections. Il limite également la négociation sur les inconnues.
+    </p>
+
+    <h2 id="positionnement-prix">Le positionnement du prix</h2>
+    <p>
+      Le prix d'un lot de garages est habituellement exprimé en multiple des loyers annuels nets (rendement cible de l'acquéreur) ou en prix au m². Les deux approches coexistent selon les marchés.
+    </p>
+    <p>
+      Observer les transactions récentes sur des DVF (Demandes de valeurs foncières) pour des biens comparables dans la même zone donne une base de positionnement. Les plateformes spécialisées permettent également d'observer les prix affichés sur le marché actif.
+    </p>
+    <p>
+      Un prix trop élevé allonge les délais de vente et signale souvent une méconnaissance du marché. Un prix en ligne avec la réalité permet des délais courts et une marge de négociation raisonnable.
+    </p>
+
+    <h2 id="cibles-acquereurs">Identifier les bons acquéreurs</h2>
+    <p>
+      Les acheteurs de lots de garages sont essentiellement des investisseurs particuliers cherchant un rendement locatif, des propriétaires occupants cherchant un stationnement sécurisé, ou (plus rarement) des investisseurs professionnels pour des lots de grande taille. Cibler les canaux adaptés — plateformes de petites annonces, réseaux d'investisseurs, agences spécialisées — accélère la mise en relation.
+    </p>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      Une revente réussie passe par un timing choisi (taux d'occupation maximal, marché favorable), un dossier locatif complet et transparent, un prix cohérent avec les transactions récentes et un ciblage des acquéreurs adaptés. La préparation en amont — parfois plusieurs mois avant la mise en vente — est souvent ce qui fait la différence entre une cession rapide au bon prix et un bien qui stagne sur le marché.
+    </CalloutBox>
+  </div>
+);
+
+const etatDesLieuxGarageContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      L'état des lieux est le document pivot de toute relation locative. Pour un garage ou un box de stockage, sa rédaction méticuleuse à l'entrée et à la sortie conditionne la capacité du bailleur à retenir des sommes sur le dépôt de garantie en cas de dégradation. Voici la méthode.
+    </p>
+
+    <h2 id="importance-edl">Pourquoi l'état des lieux compte</h2>
+    <p>
+      En l'absence d'état des lieux d'entrée, le bien est présumé avoir été remis en bon état au locataire. Le bailleur ne peut alors imputer à ce dernier aucune dégradation à la sortie — même avérée. C'est une règle de droit commun que connaissent bien les praticiens du contentieux locatif.
+    </p>
+    <p>
+      Un état des lieux bien rédigé, signé des deux parties, constitue la preuve de référence. Toute dégradation constatée à la sortie, absente de l'état des lieux d'entrée, peut être imputée au locataire — sous réserve qu'elle dépasse l'usure normale.
+    </p>
+
+    <h2 id="contenu-edl-entree">Le contenu de l'état des lieux d'entrée</h2>
+    <p>
+      L'état des lieux doit décrire chaque élément du bien avec précision :
+    </p>
+    <ul>
+      <li><strong>Sol</strong> : nature (béton, carrelage…), état (propre, fissuré, taché…) ;</li>
+      <li><strong>Murs et plafond</strong> : état de la peinture ou du crépi, présence d'humidité ou de traces ;</li>
+      <li><strong>Porte et serrure</strong> : type de porte (basculante, sectionnelle…), état de fonctionnement, nombre de clés remises ;</li>
+      <li><strong>Éclairage</strong> : présence et état de fonctionnement ;</li>
+      <li><strong>Équipements éventuels</strong> : prises électriques, prise d'eau, alarme, système de sécurité ;</li>
+      <li><strong>Propreté générale</strong> : mention explicite.</li>
+    </ul>
+    <p>
+      Des photos datées, annexées à l'état des lieux et paraphées par les deux parties, constituent un complément utile mais ne remplacent pas la description écrite.
+    </p>
+
+    <h2 id="edl-sortie">L'état des lieux de sortie</h2>
+    <p>
+      Il est établi dans les mêmes conditions que l'entrée, idéalement en présence du locataire. La comparaison avec l'état des lieux d'entrée permet d'identifier les dégradations imputables au locataire.
+    </p>
+    <p>
+      L'usure normale ne peut pas être retenue à charge du locataire. Pour un box de stockage, l'usure normale comprend généralement les légères traces au sol, les marques mineures sur les murs liées à un usage ordinaire. Des trous dans les murs, des dégradations de la porte ou une importante salissure vont au-delà de l'usure normale.
+    </p>
+
+    <h2 id="en-cas-de-litige">En cas de désaccord</h2>
+    <p>
+      Si le locataire refuse de signer l'état des lieux de sortie, il est possible de faire appel à un huissier. Le constat d'huissier a force probante et peut être produit en justice. Son coût est partagé entre les parties.
+    </p>
+    <p>
+      En cas de litige sur la retenue de dépôt de garantie, le tribunal judiciaire (anciennement tribunal d'instance) est compétent. Les états des lieux d'entrée et de sortie sont les pièces maîtresses du dossier.
+    </p>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      Un état des lieux rigoureux, signé des deux parties, est la meilleure protection contre les litiges à la fin d'une location. Pour un garage ou un box, la description doit couvrir le sol, les murs, la porte, la serrure, l'éclairage et les équipements. Les photos sont un complément utile. À la sortie, seules les dégradations allant au-delà de l'usure normale peuvent être imputées au locataire.
+    </CalloutBox>
+  </div>
+);
+
+const parkingExterieurVsGarageFermeContent = () => (
+  <div className="prose-article">
+    <p className="text-lg text-slate-700 leading-relaxed font-medium border-l-4 border-[#1e3a5f] pl-4 my-6 bg-blue-50/50 py-3 rounded-r-lg">
+      Parking extérieur, box couvert et garage fermé sont souvent présentés comme équivalents dans les annonces immobilières. Pour un investisseur, ces trois actifs présentent des profils de rendement, de risque et de gestion très différents. Ce qu'il faut savoir pour analyser chaque type de bien correctement.
+    </p>
+
+    <div className="my-8 bg-[#f8f9fa] rounded-xl border border-slate-100 p-6 flex items-center justify-center">
+      <svg width="100%" height="170" viewBox="0 0 560 170" className="max-w-2xl">
+        <rect x="20" y="20" width="155" height="130" rx="8" fill="#e2e8f0" stroke="#94a3b8" strokeWidth="1.5"/>
+        <text x="98" y="48" textAnchor="middle" fontSize="10" fill="#475569" fontFamily="sans-serif" fontWeight="700">Parking extérieur</text>
+        <text x="98" y="68" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Loyer : le plus bas</text>
+        <text x="98" y="84" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Ticket : faible</text>
+        <text x="98" y="100" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Risque vol / vandalisme</text>
+        <text x="98" y="116" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Demande : stationnement</text>
+        <rect x="203" y="20" width="155" height="130" rx="8" fill="#dbeafe" stroke="#3b82f6" strokeWidth="1.5"/>
+        <text x="280" y="48" textAnchor="middle" fontSize="10" fill="#1d4ed8" fontFamily="sans-serif" fontWeight="700">Box couvert</text>
+        <text x="280" y="68" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Loyer : intermédiaire</text>
+        <text x="280" y="84" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Ticket : moyen</text>
+        <text x="280" y="100" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Couvert mais pas fermé</text>
+        <text x="280" y="116" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Demande : mixte</text>
+        <rect x="385" y="20" width="155" height="130" rx="8" fill="#dcfce7" stroke="#22c55e" strokeWidth="1.5"/>
+        <text x="463" y="48" textAnchor="middle" fontSize="10" fill="#166534" fontFamily="sans-serif" fontWeight="700">Garage fermé</text>
+        <text x="463" y="68" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Loyer : le plus élevé</text>
+        <text x="463" y="84" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Ticket : plus élevé</text>
+        <text x="463" y="100" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Sécurité maximale</text>
+        <text x="463" y="116" textAnchor="middle" fontSize="9" fill="#64748b" fontFamily="sans-serif">Demande : plus large</text>
+      </svg>
+    </div>
+
+    <h2 id="parking-exterieur">Le parking extérieur</h2>
+    <p>
+      Un parking extérieur est une place de stationnement en plein air, généralement délimitée par des marquages au sol. Il peut être situé dans une résidence, une cour ou un terrain.
+    </p>
+    <p>
+      Les loyers pratiqués sont les plus bas des trois catégories. La demande est essentiellement orientée vers le stationnement de véhicules. Ce type de bien est exposé aux risques de vol, dégradation et intempéries. Le ticket d'entrée est généralement le plus faible, ce qui peut offrir des rendements bruts intéressants — mais la vacance peut être plus fréquente en zones bien desservies par les transports en commun.
+    </p>
+
+    <h2 id="box-couvert">Le box couvert</h2>
+    <p>
+      Un box couvert est un espace de stationnement protégé par une toiture, mais sans fermeture individuelle complète (pas de porte fermant à clé). Il peut faire partie d'un parking collectif en sous-sol ou en structure couverte.
+    </p>
+    <p>
+      Il offre une protection contre les intempéries mais reste accessible — ce qui limite son intérêt pour le stockage sécurisé. La demande provient surtout de propriétaires de véhicules souhaitant les protéger des éléments. Les loyers sont intermédiaires entre le parking en plein air et le garage fermé.
+    </p>
+
+    <h2 id="garage-ferme">Le garage fermé</h2>
+    <p>
+      Un garage fermé est un local individuel fermé par une porte (basculante, sectionnelle, battante) avec serrure. C'est l'actif le plus polyvalent des trois : il peut accueillir un véhicule, du matériel, des archives ou du matériel professionnel.
+    </p>
+    <p>
+      La demande est plus large et plus diversifiée. Les loyers sont plus élevés, et la concurrence d'un locataire à l'autre pour un espace disponible est souvent plus marquée. Le ticket d'acquisition est généralement plus élevé, mais la liquidité à la revente peut aussi être meilleure.
+    </p>
+
+    <h2 id="quel-actif-choisir">Quel actif pour quel objectif ?</h2>
+    <p>
+      Si l'objectif est d'optimiser le rendement brut avec un ticket faible et une gestion simple, un parking extérieur en zone dense peut être pertinent. Si l'objectif est de diversifier le risque locatif et de capter une demande plus large, le garage fermé est généralement préférable — à condition que le prix d'acquisition reflète cette prime.
+    </p>
+    <p>
+      Dans tous les cas, la localisation et la demande locale restent les déterminants principaux. Un parking extérieur en zone très tendue peut afficher une vacance quasi nulle, quand un garage fermé en zone détendue peut peiner à trouver preneur.
+    </p>
+
+    <CalloutBox type="retenir" title="Ce qu'il faut retenir">
+      Parking extérieur, box couvert et garage fermé ne sont pas interchangeables. Ils diffèrent par leur loyer potentiel, leur niveau de sécurité, la diversité de la demande et leur ticket d'entrée. Analyser chaque actif séparément — en tenant compte des spécificités du marché local — est indispensable pour positionner correctement une décision d'investissement.
+    </CalloutBox>
+  </div>
+);
+
 // ── Page component ──────────────────────────────────────────────────────────────
 
 export default async function ArticlePage({ params }: Props) {
@@ -3050,6 +3581,61 @@ export default async function ArticlePage({ params }: Props) {
       { id: "loi-carrez", title: "La loi Carrez en copropriété", level: 2 },
       { id: "ce-qui-ne-sapplique-pas", title: "Ce qui ne s'applique généralement pas aux garages", level: 2 },
     ],
+    "self-storage-vs-garages-individuels": [
+      { id: "definition-modeles", title: "Deux modèles, une même vocation", level: 2 },
+      { id: "ticket-entree", title: "Le ticket d'entrée", level: 2 },
+      { id: "gestion-operationnelle", title: "La gestion opérationnelle", level: 2 },
+      { id: "rendement-risque", title: "Rendement et profil de risque", level: 2 },
+      { id: "liquidite-revente", title: "Liquidité et revente", level: 2 },
+    ],
+    "gestion-locative-boxes-baux-depots": [
+      { id: "le-bail", title: "Le bail : un contrat de droit commun", level: 2 },
+      { id: "depot-de-garantie", title: "Le dépôt de garantie", level: 2 },
+      { id: "etat-des-lieux", title: "L'état des lieux : entrée et sortie", level: 2 },
+      { id: "gestion-des-departs", title: "La gestion des départs", level: 2 },
+    ],
+    "evaluer-concurrence-locale-stockage": [
+      { id: "cartographie-offre", title: "Cartographier l'offre existante", level: 2 },
+      { id: "analyser-saturation", title: "Analyser le niveau de saturation", level: 2 },
+      { id: "observer-annonces", title: "Observer les annonces et les prix pratiqués", level: 2 },
+      { id: "positionnement-concurrentiel", title: "Identifier son positionnement concurrentiel", level: 2 },
+    ],
+    "charges-deductibles-revenus-fonciers-garages": [
+      { id: "regime-micro-vs-reel", title: "Micro-foncier ou régime réel : le préalable", level: 2 },
+      { id: "charges-deductibles", title: "Les principales charges déductibles", level: 2 },
+      { id: "travaux-pas-deductibles", title: "Ce qui n'est pas déductible", level: 2 },
+      { id: "deficit-foncier", title: "Le déficit foncier", level: 2 },
+    ],
+    "investir-sci-garages": [
+      { id: "sci-definition", title: "La SCI : principes de base", level: 2 },
+      { id: "avantages-sci", title: "Les avantages d'une SCI pour des garages", level: 2 },
+      { id: "pieges-sci", title: "Les pièges à éviter", level: 2 },
+      { id: "sci-petits-lots", title: "SCI et petits lots de garages", level: 2 },
+    ],
+    "transformer-garages-boxes-travaux": [
+      { id: "definitions", title: "Garage et box : quelle différence ?", level: 2 },
+      { id: "travaux-necessaires", title: "Les travaux typiquement nécessaires", level: 2 },
+      { id: "contraintes-reglementaires", title: "Les contraintes réglementaires", level: 2 },
+      { id: "analyse-economique", title: "L'analyse économique", level: 2 },
+    ],
+    "revente-lot-garages-valorisation": [
+      { id: "timing", title: "Choisir le bon moment pour vendre", level: 2 },
+      { id: "preparer-dossier", title: "Préparer un dossier de vente solide", level: 2 },
+      { id: "positionnement-prix", title: "Le positionnement du prix", level: 2 },
+      { id: "cibles-acquereurs", title: "Identifier les bons acquéreurs", level: 2 },
+    ],
+    "etat-des-lieux-garage": [
+      { id: "importance-edl", title: "Pourquoi l'état des lieux compte", level: 2 },
+      { id: "contenu-edl-entree", title: "Le contenu de l'état des lieux d'entrée", level: 2 },
+      { id: "edl-sortie", title: "L'état des lieux de sortie", level: 2 },
+      { id: "en-cas-de-litige", title: "En cas de désaccord", level: 2 },
+    ],
+    "parking-exterieur-vs-garage-ferme": [
+      { id: "parking-exterieur", title: "Le parking extérieur", level: 2 },
+      { id: "box-couvert", title: "Le box couvert", level: 2 },
+      { id: "garage-ferme", title: "Le garage fermé", level: 2 },
+      { id: "quel-actif-choisir", title: "Quel actif pour quel objectif ?", level: 2 },
+    ],
   };
   const tocItems = tocMap[slug] ?? [];
 
@@ -3169,6 +3755,15 @@ export default async function ArticlePage({ params }: Props) {
                     "augmenter-loyer-garage": augmenterLoyerGarageContent,
                     "garage-bail-commercial-ou-civil": garageBailCommercialOuCivilContent,
                     "diagnostic-performance-energetique-garage": diagnosticPerformanceEnergetiqueGarageContent,
+                    "self-storage-vs-garages-individuels": selfStorageVsGaragesContent,
+                    "gestion-locative-boxes-baux-depots": gestionLocativeBoxesBauxDepotsContent,
+                    "evaluer-concurrence-locale-stockage": evaluerConcurrenceLocaleStockageContent,
+                    "charges-deductibles-revenus-fonciers-garages": chargesDeductiblesRevenusFonciersGaragesContent,
+                    "investir-sci-garages": investirSciGaragesContent,
+                    "transformer-garages-boxes-travaux": transformerGaragesBoxesTravaux,
+                    "revente-lot-garages-valorisation": reventeLotGaragesValorisationContent,
+                    "etat-des-lieux-garage": etatDesLieuxGarageContent,
+                    "parking-exterieur-vs-garage-ferme": parkingExterieurVsGarageFermeContent,
                   };
                   const renderContent = contentMap[slug];
                   return renderContent ? renderContent() : (
