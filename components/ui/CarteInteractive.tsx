@@ -121,9 +121,9 @@ export default function CarteInteractive({ villes }: Props) {
 
     mapInstance.current = map;
 
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
-      maxZoom: 19,
-      subdomains: "abcd",
+    L.tileLayer("https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png", {
+      maxZoom: 20,
+      attribution: '© <a href="https://stadiamaps.com/">Stadia Maps</a> © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
     }).addTo(map);
 
     L.control.zoom({ position: "bottomright" }).addTo(map);
