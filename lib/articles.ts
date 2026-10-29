@@ -505,7 +505,7 @@ export const articles: Article[] = [
     readingTime: 9,
     featured: false,
     tags: ["self-storage", "garages", "comparaison", "investissement", "modèle"],
-    image: "https://images.unsplash.com/photo-1486325212980-adbe4854ba85?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "gestion-locative-boxes-baux-depots",
@@ -596,7 +596,7 @@ export const articles: Article[] = [
     readingTime: 7,
     featured: false,
     tags: ["état des lieux", "entrée", "sortie", "dépôt de garantie", "litige"],
-    image: "https://images.unsplash.com/photo-1553531580-d1f7e8583f75?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "parking-exterieur-vs-garage-ferme",
@@ -609,7 +609,7 @@ export const articles: Article[] = [
     readingTime: 7,
     featured: false,
     tags: ["parking", "garage", "comparaison", "loyer", "investissement"],
-    image: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&auto=format&fit=crop&q=80",
   },
 ];
 
