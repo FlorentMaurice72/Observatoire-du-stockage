@@ -62,7 +62,8 @@ const outils: { icon: string; title: string; description: string; features: stri
     description:
       "Une carte interactive pour accéder aux analyses de marché par ville et département, avec indicateurs de dynamisme locatif.",
     features: ["Analyses par géographie", "Indicateurs locaux", "Données comparatives"],
-    status: "À venir",
+    status: "Disponible",
+    href: "/outils/carte-analyses-locales",
   },
 ];
 
