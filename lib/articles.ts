@@ -178,7 +178,7 @@ export const articles: Article[] = [
     date: "2026-10-25",
     author: "Observatoire du Stockage",
     readingTime: 10,
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1568602741-2d9c4e74c7e2?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "gerer-impayes-espace-stockage",
@@ -200,7 +200,7 @@ export const articles: Article[] = [
     date: "2026-10-21",
     author: "Observatoire du Stockage",
     readingTime: 8,
-    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1466692476-c489fa28d094?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "reglement-copropriete-espace-stockage",
@@ -244,7 +244,7 @@ export const articles: Article[] = [
     date: "2026-10-11",
     author: "La rédaction",
     readingTime: 8,
-    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "vacance-locative-espaces-stockage",
@@ -266,7 +266,7 @@ export const articles: Article[] = [
     date: "2026-10-20",
     author: "La rédaction",
     readingTime: 10,
-    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "rentabilite-brute-nette-difference",
@@ -288,7 +288,7 @@ export const articles: Article[] = [
     date: "2026-10-10",
     author: "La rédaction",
     readingTime: 9,
-    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1464938050520-b72f5ba3abb8?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "fixer-loyer-espace-stockage",
@@ -311,7 +311,7 @@ export const articles: Article[] = [
     author: "La rédaction",
     readingTime: 9,
     featured: true,
-    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1544213369-9e04e0b7a2bd?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "garage-box-entrepot-differences-investisseur",
@@ -322,7 +322,7 @@ export const articles: Article[] = [
     date: "2025-05-06",
     author: "La rédaction",
     readingTime: 7,
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1493552152-b8f23b90a5cd?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "analyser-rentabilite-espace-stockage",
@@ -333,7 +333,7 @@ export const articles: Article[] = [
     date: "2025-04-28",
     author: "La rédaction",
     readingTime: 8,
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "risques-achat-lot-garages",
@@ -344,7 +344,7 @@ export const articles: Article[] = [
     date: "2025-04-20",
     author: "La rédaction",
     readingTime: 6,
-    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1511376777-da7f8ceb69f1?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "reglementation-espaces-stockage-points-vigilance",
@@ -388,7 +388,7 @@ export const articles: Article[] = [
     date: "2025-03-21",
     author: "La rédaction",
     readingTime: 7,
-    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1532619938913-e7c4b6513c2c?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "cartographie-marche-stockage-france-2026",
@@ -401,7 +401,7 @@ export const articles: Article[] = [
     readingTime: 10,
     featured: true,
     tags: ["marché", "self-storage", "France", "panorama", "2026"],
-    image: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1474376370820-c23e0f5fb23e?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "box-stockage-investissement-antiinflation",
@@ -414,7 +414,7 @@ export const articles: Article[] = [
     readingTime: 9,
     featured: false,
     tags: ["inflation", "investissement", "rendement", "patrimoine"],
-    image: "https://images.unsplash.com/photo-1554224154-22dec7ec8818?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1580587971-fe9a840c9555?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "digitalisation-gestion-locative-garages",
@@ -440,7 +440,7 @@ export const articles: Article[] = [
     readingTime: 9,
     featured: false,
     tags: ["jurisprudence", "litige", "contentieux", "réglementation", "sinistre"],
-    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1498243063-9a78be7b7543?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "rentabilite-comparee-studios-garages",
@@ -466,7 +466,7 @@ export const articles: Article[] = [
     readingTime: 7,
     featured: false,
     tags: ["charges", "locataire", "récupérables", "réglementation", "copropriété"],
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1467683671894-d7e3ec1e7d2e?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "tension-locative-villes-moyennes-stockage",
@@ -492,7 +492,7 @@ export const articles: Article[] = [
     readingTime: 7,
     featured: false,
     tags: ["sécurité", "obligations", "propriétaire", "sinistre", "réglementation"],
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "self-storage-vs-garages-individuels",
@@ -505,7 +505,7 @@ export const articles: Article[] = [
     readingTime: 9,
     featured: false,
     tags: ["self-storage", "garages", "comparaison", "investissement", "modèle"],
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1553028826-f4f0b25deb11?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "gestion-locative-boxes-baux-depots",
@@ -557,7 +557,7 @@ export const articles: Article[] = [
     readingTime: 10,
     featured: false,
     tags: ["SCI", "société", "structure", "investissement", "fiscalité"],
-    image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "transformer-garages-boxes-travaux",
@@ -596,7 +596,7 @@ export const articles: Article[] = [
     readingTime: 7,
     featured: false,
     tags: ["état des lieux", "entrée", "sortie", "dépôt de garantie", "litige"],
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1571089716-d4c5e56d8a7d?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "parking-exterieur-vs-garage-ferme",
