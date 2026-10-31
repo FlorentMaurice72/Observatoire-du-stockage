@@ -24,7 +24,7 @@ export const articles: Article[] = [
     readingTime: 7,
     featured: false,
     tags: ["DPE", "diagnostics", "réglementation", "vente", "location"],
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/diagnostic-performance-energetique-garage/1200/800",
   },
   {
     slug: "garage-bail-commercial-ou-civil",
@@ -37,7 +37,7 @@ export const articles: Article[] = [
     readingTime: 9,
     featured: false,
     tags: ["bail commercial", "contrat", "professionnel", "réglementation"],
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/garage-bail-commercial-ou-civil/1200/800",
   },
   {
     slug: "augmenter-loyer-garage",
@@ -50,7 +50,7 @@ export const articles: Article[] = [
     readingTime: 7,
     featured: false,
     tags: ["loyer", "révision", "indexation", "exploitation"],
-    image: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/augmenter-loyer-garage/1200/800",
   },
   {
     slug: "negocier-prix-achat-lot-garages",
@@ -63,7 +63,7 @@ export const articles: Article[] = [
     readingTime: 8,
     featured: false,
     tags: ["négociation", "prix", "acquisition", "investissement"],
-    image: "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/negocier-prix-achat-lot-garages/1200/800",
   },
   {
     slug: "tva-location-garage",
@@ -76,7 +76,7 @@ export const articles: Article[] = [
     readingTime: 8,
     featured: false,
     tags: ["TVA", "fiscalité", "réglementation", "option TVA"],
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/tva-location-garage/1200/800",
   },
   {
     slug: "investir-garage-zone-rurale",
@@ -89,7 +89,7 @@ export const articles: Article[] = [
     readingTime: 8,
     featured: false,
     tags: ["zone rurale", "périurbain", "demande locative", "risque"],
-    image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/investir-garage-zone-rurale/1200/800",
   },
   {
     slug: "travaux-garage-loue-responsabilite",
@@ -102,7 +102,7 @@ export const articles: Article[] = [
     readingTime: 7,
     featured: false,
     tags: ["travaux", "réparations", "responsabilité", "bailleur", "locataire"],
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/travaux-garage-loue-responsabilite/1200/800",
   },
   {
     slug: "prix-garages-donnees-dvf",
@@ -115,7 +115,7 @@ export const articles: Article[] = [
     readingTime: 8,
     featured: false,
     tags: ["DVF", "prix", "transactions", "données", "marché"],
-    image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/prix-garages-donnees-dvf/1200/800",
   },
   {
     slug: "structurer-gestion-plusieurs-unites-stockage",
@@ -128,7 +128,7 @@ export const articles: Article[] = [
     readingTime: 8,
     featured: false,
     tags: ["gestion", "organisation", "outils", "exploitation"],
-    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/structurer-gestion-plusieurs-unites-stockage/1200/800",
   },
   {
     slug: "acteurs-self-storage-france",
@@ -141,7 +141,7 @@ export const articles: Article[] = [
     readingTime: 8,
     featured: false,
     tags: ["self-storage", "marché", "acteurs", "concurrence"],
-    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/acteurs-self-storage-france/1200/800",
   },
   {
     slug: "lot-garages-occupe-ou-vacant",
@@ -154,7 +154,7 @@ export const articles: Article[] = [
     readingTime: 8,
     featured: false,
     tags: ["acquisition", "occupation", "locataires", "stratégie"],
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/lot-garages-occupe-ou-vacant/1200/800",
   },
   {
     slug: "financer-achat-lot-garages",
@@ -167,7 +167,7 @@ export const articles: Article[] = [
     readingTime: 9,
     featured: false,
     tags: ["financement", "crédit immobilier", "apport", "investissement"],
-    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/financer-achat-lot-garages/1200/800",
   },
   {
     slug: "nom-propre-societe-espaces-stockage",
@@ -178,7 +178,7 @@ export const articles: Article[] = [
     date: "2026-10-25",
     author: "Observatoire du Stockage",
     readingTime: 10,
-    image: "https://images.unsplash.com/photo-1568602741-2d9c4e74c7e2?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/nom-propre-societe-espaces-stockage/1200/800",
   },
   {
     slug: "gerer-impayes-espace-stockage",
@@ -189,7 +189,7 @@ export const articles: Article[] = [
     date: "2026-10-23",
     author: "Observatoire du Stockage",
     readingTime: 9,
-    image: "https://images.unsplash.com/photo-1434626881859-194d67b2b86f?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/gerer-impayes-espace-stockage/1200/800",
   },
   {
     slug: "charges-copropriete-garages-impact",
@@ -200,7 +200,7 @@ export const articles: Article[] = [
     date: "2026-10-21",
     author: "Observatoire du Stockage",
     readingTime: 8,
-    image: "https://images.unsplash.com/photo-1466692476-c489fa28d094?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/charges-copropriete-garages-impact/1200/800",
   },
   {
     slug: "reglement-copropriete-espace-stockage",
@@ -211,7 +211,7 @@ export const articles: Article[] = [
     date: "2026-10-18",
     author: "Observatoire du Stockage",
     readingTime: 9,
-    image: "https://images.unsplash.com/photo-1568234928966-359c35dd8327?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/reglement-copropriete-espace-stockage/1200/800",
   },
   {
     slug: "evaluer-demande-locative-espace-stockage",
@@ -222,7 +222,7 @@ export const articles: Article[] = [
     date: "2026-10-16",
     author: "La rédaction",
     readingTime: 9,
-    image: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/evaluer-demande-locative-espace-stockage/1200/800",
   },
   {
     slug: "mise-en-location-espace-stockage-ligne",
@@ -233,7 +233,7 @@ export const articles: Article[] = [
     date: "2026-10-13",
     author: "La rédaction",
     readingTime: 8,
-    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/mise-en-location-espace-stockage-ligne/1200/800",
   },
   {
     slug: "assurance-pno-espace-stockage",
@@ -244,7 +244,7 @@ export const articles: Article[] = [
     date: "2026-10-11",
     author: "La rédaction",
     readingTime: 8,
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/assurance-pno-espace-stockage/1200/800",
   },
   {
     slug: "vacance-locative-espaces-stockage",
@@ -255,7 +255,7 @@ export const articles: Article[] = [
     date: "2026-10-27",
     author: "La rédaction",
     readingTime: 9,
-    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/vacance-locative-espaces-stockage/1200/800",
   },
   {
     slug: "due-diligence-lot-garages",
@@ -266,7 +266,7 @@ export const articles: Article[] = [
     date: "2026-10-20",
     author: "La rédaction",
     readingTime: 10,
-    image: "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/due-diligence-lot-garages/1200/800",
   },
   {
     slug: "rentabilite-brute-nette-difference",
@@ -277,7 +277,7 @@ export const articles: Article[] = [
     date: "2026-10-15",
     author: "La rédaction",
     readingTime: 9,
-    image: "https://images.unsplash.com/photo-1554224154-22dec7ec8818?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/rentabilite-brute-nette-difference/1200/800",
   },
   {
     slug: "bail-location-espace-stockage",
@@ -288,7 +288,7 @@ export const articles: Article[] = [
     date: "2026-10-10",
     author: "La rédaction",
     readingTime: 9,
-    image: "https://images.unsplash.com/photo-1464938050520-b72f5ba3abb8?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/bail-location-espace-stockage/1200/800",
   },
   {
     slug: "fixer-loyer-espace-stockage",
@@ -299,7 +299,7 @@ export const articles: Article[] = [
     date: "2026-10-05",
     author: "La rédaction",
     readingTime: 8,
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/fixer-loyer-espace-stockage/1200/800",
   },
   {
     slug: "investir-box-stockage-fondamentaux",
@@ -311,7 +311,7 @@ export const articles: Article[] = [
     author: "La rédaction",
     readingTime: 9,
     featured: true,
-    image: "https://images.unsplash.com/photo-1544213369-9e04e0b7a2bd?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/investir-box-stockage-fondamentaux/1200/800",
   },
   {
     slug: "garage-box-entrepot-differences-investisseur",
@@ -322,7 +322,7 @@ export const articles: Article[] = [
     date: "2025-05-06",
     author: "La rédaction",
     readingTime: 7,
-    image: "https://images.unsplash.com/photo-1493552152-b8f23b90a5cd?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/garage-box-entrepot-differences-investisseur/1200/800",
   },
   {
     slug: "analyser-rentabilite-espace-stockage",
@@ -333,7 +333,7 @@ export const articles: Article[] = [
     date: "2025-04-28",
     author: "La rédaction",
     readingTime: 8,
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/analyser-rentabilite-espace-stockage/1200/800",
   },
   {
     slug: "risques-achat-lot-garages",
@@ -344,7 +344,7 @@ export const articles: Article[] = [
     date: "2025-04-20",
     author: "La rédaction",
     readingTime: 6,
-    image: "https://images.unsplash.com/photo-1511376777-da7f8ceb69f1?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/risques-achat-lot-garages/1200/800",
   },
   {
     slug: "reglementation-espaces-stockage-points-vigilance",
@@ -355,7 +355,7 @@ export const articles: Article[] = [
     date: "2025-04-14",
     author: "La rédaction",
     readingTime: 7,
-    image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/reglementation-espaces-stockage-points-vigilance/1200/800",
   },
   {
     slug: "optimiser-taux-occupation-garages",
@@ -366,7 +366,7 @@ export const articles: Article[] = [
     date: "2025-04-07",
     author: "La rédaction",
     readingTime: 6,
-    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/optimiser-taux-occupation-garages/1200/800",
   },
   {
     slug: "marche-self-storage-france-panorama",
@@ -377,7 +377,7 @@ export const articles: Article[] = [
     date: "2025-03-29",
     author: "La rédaction",
     readingTime: 8,
-    image: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/marche-self-storage-france-panorama/1200/800",
   },
   {
     slug: "fiscalite-revenus-garages-location",
@@ -388,7 +388,7 @@ export const articles: Article[] = [
     date: "2025-03-21",
     author: "La rédaction",
     readingTime: 7,
-    image: "https://images.unsplash.com/photo-1532619938913-e7c4b6513c2c?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/fiscalite-revenus-garages-location/1200/800",
   },
   {
     slug: "cartographie-marche-stockage-france-2026",
@@ -401,7 +401,7 @@ export const articles: Article[] = [
     readingTime: 10,
     featured: true,
     tags: ["marché", "self-storage", "France", "panorama", "2026"],
-    image: "https://images.unsplash.com/photo-1474376370820-c23e0f5fb23e?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/cartographie-marche-stockage-france-2026/1200/800",
   },
   {
     slug: "box-stockage-investissement-antiinflation",
@@ -414,7 +414,7 @@ export const articles: Article[] = [
     readingTime: 9,
     featured: false,
     tags: ["inflation", "investissement", "rendement", "patrimoine"],
-    image: "https://images.unsplash.com/photo-1580587971-fe9a840c9555?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/box-stockage-investissement-antiinflation/1200/800",
   },
   {
     slug: "digitalisation-gestion-locative-garages",
@@ -427,7 +427,7 @@ export const articles: Article[] = [
     readingTime: 8,
     featured: false,
     tags: ["gestion", "digitalisation", "outils", "logiciel", "exploitation"],
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/digitalisation-gestion-locative-garages/1200/800",
   },
   {
     slug: "jurisprudence-litiges-garages-2024-2026",
@@ -440,7 +440,7 @@ export const articles: Article[] = [
     readingTime: 9,
     featured: false,
     tags: ["jurisprudence", "litige", "contentieux", "réglementation", "sinistre"],
-    image: "https://images.unsplash.com/photo-1498243063-9a78be7b7543?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/jurisprudence-litiges-garages-2024-2026/1200/800",
   },
   {
     slug: "rentabilite-comparee-studios-garages",
@@ -453,7 +453,7 @@ export const articles: Article[] = [
     readingTime: 11,
     featured: false,
     tags: ["rentabilité", "comparaison", "studio", "patrimoine", "investissement"],
-    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/rentabilite-comparee-studios-garages/1200/800",
   },
   {
     slug: "charges-recuperables-garage-locataire",
@@ -466,7 +466,7 @@ export const articles: Article[] = [
     readingTime: 7,
     featured: false,
     tags: ["charges", "locataire", "récupérables", "réglementation", "copropriété"],
-    image: "https://images.unsplash.com/photo-1467683671894-d7e3ec1e7d2e?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/charges-recuperables-garage-locataire/1200/800",
   },
   {
     slug: "tension-locative-villes-moyennes-stockage",
@@ -479,7 +479,7 @@ export const articles: Article[] = [
     readingTime: 8,
     featured: false,
     tags: ["villes moyennes", "marché", "tension locative", "opportunités"],
-    image: "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/tension-locative-villes-moyennes-stockage/1200/800",
   },
   {
     slug: "securite-espace-stockage-obligations-proprietaire",
@@ -492,7 +492,7 @@ export const articles: Article[] = [
     readingTime: 7,
     featured: false,
     tags: ["sécurité", "obligations", "propriétaire", "sinistre", "réglementation"],
-    image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/securite-espace-stockage-obligations-proprietaire/1200/800",
   },
   {
     slug: "self-storage-vs-garages-individuels",
@@ -505,7 +505,7 @@ export const articles: Article[] = [
     readingTime: 9,
     featured: false,
     tags: ["self-storage", "garages", "comparaison", "investissement", "modèle"],
-    image: "https://images.unsplash.com/photo-1553028826-f4f0b25deb11?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/self-storage-vs-garages-individuels/1200/800",
   },
   {
     slug: "gestion-locative-boxes-baux-depots",
@@ -518,7 +518,7 @@ export const articles: Article[] = [
     readingTime: 8,
     featured: false,
     tags: ["gestion locative", "bail", "dépôt de garantie", "exploitation", "départ"],
-    image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/gestion-locative-boxes-baux-depots/1200/800",
   },
   {
     slug: "evaluer-concurrence-locale-stockage",
@@ -531,7 +531,7 @@ export const articles: Article[] = [
     readingTime: 8,
     featured: false,
     tags: ["concurrence", "marché local", "analyse", "investissement", "self-storage"],
-    image: "https://images.unsplash.com/photo-1483478153557-a567b5e65aad?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/evaluer-concurrence-locale-stockage/1200/800",
   },
   {
     slug: "charges-deductibles-revenus-fonciers-garages",
@@ -544,7 +544,7 @@ export const articles: Article[] = [
     readingTime: 9,
     featured: false,
     tags: ["charges déductibles", "revenus fonciers", "fiscalité", "régime réel", "imposition"],
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/charges-deductibles-revenus-fonciers-garages/1200/800",
   },
   {
     slug: "investir-sci-garages",
@@ -557,7 +557,7 @@ export const articles: Article[] = [
     readingTime: 10,
     featured: false,
     tags: ["SCI", "société", "structure", "investissement", "fiscalité"],
-    image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/investir-sci-garages/1200/800",
   },
   {
     slug: "transformer-garages-boxes-travaux",
@@ -570,7 +570,7 @@ export const articles: Article[] = [
     readingTime: 9,
     featured: false,
     tags: ["travaux", "transformation", "boxes", "rentabilité", "aménagement"],
-    image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/transformer-garages-boxes-travaux/1200/800",
   },
   {
     slug: "revente-lot-garages-valorisation",
@@ -583,7 +583,7 @@ export const articles: Article[] = [
     readingTime: 8,
     featured: false,
     tags: ["revente", "cession", "valorisation", "stratégie", "plus-value"],
-    image: "https://images.unsplash.com/photo-1560472354-b33ff0ad2a89?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/revente-lot-garages-valorisation/1200/800",
   },
   {
     slug: "etat-des-lieux-garage",
@@ -596,7 +596,7 @@ export const articles: Article[] = [
     readingTime: 7,
     featured: false,
     tags: ["état des lieux", "entrée", "sortie", "dépôt de garantie", "litige"],
-    image: "https://images.unsplash.com/photo-1571089716-d4c5e56d8a7d?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/etat-des-lieux-garage/1200/800",
   },
   {
     slug: "parking-exterieur-vs-garage-ferme",
@@ -609,7 +609,7 @@ export const articles: Article[] = [
     readingTime: 7,
     featured: false,
     tags: ["parking", "garage", "comparaison", "loyer", "investissement"],
-    image: "https://images.unsplash.com/photo-1506521780719-4b522af6c825?w=1200&auto=format&fit=crop&q=80",
+    image: "https://picsum.photos/seed/parking-exterieur-vs-garage-ferme/1200/800",
   },
 ];
 
