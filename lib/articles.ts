@@ -518,7 +518,7 @@ export const articles: Article[] = [
     readingTime: 8,
     featured: false,
     tags: ["gestion locative", "bail", "dépôt de garantie", "exploitation", "départ"],
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "evaluer-concurrence-locale-stockage",
@@ -531,7 +531,7 @@ export const articles: Article[] = [
     readingTime: 8,
     featured: false,
     tags: ["concurrence", "marché local", "analyse", "investissement", "self-storage"],
-    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1483478153557-a567b5e65aad?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "charges-deductibles-revenus-fonciers-garages",
@@ -544,7 +544,7 @@ export const articles: Article[] = [
     readingTime: 9,
     featured: false,
     tags: ["charges déductibles", "revenus fonciers", "fiscalité", "régime réel", "imposition"],
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "investir-sci-garages",
@@ -570,7 +570,7 @@ export const articles: Article[] = [
     readingTime: 9,
     featured: false,
     tags: ["travaux", "transformation", "boxes", "rentabilité", "aménagement"],
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "revente-lot-garages-valorisation",
@@ -583,7 +583,7 @@ export const articles: Article[] = [
     readingTime: 8,
     featured: false,
     tags: ["revente", "cession", "valorisation", "stratégie", "plus-value"],
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1560472354-b33ff0ad2a89?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "etat-des-lieux-garage",
@@ -609,7 +609,7 @@ export const articles: Article[] = [
     readingTime: 7,
     featured: false,
     tags: ["parking", "garage", "comparaison", "loyer", "investissement"],
-    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1506521780719-4b522af6c825?w=1200&auto=format&fit=crop&q=80",
   },
 ];
 
