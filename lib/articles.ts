@@ -37,7 +37,7 @@ export const articles: Article[] = [
     readingTime: 9,
     featured: false,
     tags: ["bail commercial", "contrat", "professionnel", "réglementation"],
-    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "augmenter-loyer-garage",
@@ -115,7 +115,7 @@ export const articles: Article[] = [
     readingTime: 8,
     featured: false,
     tags: ["DVF", "prix", "transactions", "données", "marché"],
-    image: "https://images.unsplash.com/photo-1460472178825-e5240623afd5?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "structurer-gestion-plusieurs-unites-stockage",
@@ -128,7 +128,7 @@ export const articles: Article[] = [
     readingTime: 8,
     featured: false,
     tags: ["gestion", "organisation", "outils", "exploitation"],
-    image: "https://images.unsplash.com/photo-1664575602554-2087b04935a5?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "acteurs-self-storage-france",
@@ -141,7 +141,7 @@ export const articles: Article[] = [
     readingTime: 8,
     featured: false,
     tags: ["self-storage", "marché", "acteurs", "concurrence"],
-    image: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "lot-garages-occupe-ou-vacant",
@@ -154,7 +154,7 @@ export const articles: Article[] = [
     readingTime: 8,
     featured: false,
     tags: ["acquisition", "occupation", "locataires", "stratégie"],
-    image: "https://images.unsplash.com/photo-1601599561213-832382fd07ba?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "financer-achat-lot-garages",
@@ -167,7 +167,7 @@ export const articles: Article[] = [
     readingTime: 9,
     featured: false,
     tags: ["financement", "crédit immobilier", "apport", "investissement"],
-    image: "https://images.unsplash.com/photo-1554224154-22dec7ec8818?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "nom-propre-societe-espaces-stockage",
@@ -178,7 +178,7 @@ export const articles: Article[] = [
     date: "2026-10-25",
     author: "Observatoire du Stockage",
     readingTime: 10,
-    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "gerer-impayes-espace-stockage",
@@ -211,7 +211,7 @@ export const articles: Article[] = [
     date: "2026-10-18",
     author: "Observatoire du Stockage",
     readingTime: 9,
-    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1568234928966-359c35dd8327?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "evaluer-demande-locative-espace-stockage",
@@ -277,7 +277,7 @@ export const articles: Article[] = [
     date: "2026-10-15",
     author: "La rédaction",
     readingTime: 9,
-    image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1554224154-22dec7ec8818?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "bail-location-espace-stockage",
@@ -311,7 +311,7 @@ export const articles: Article[] = [
     author: "La rédaction",
     readingTime: 9,
     featured: true,
-    image: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "garage-box-entrepot-differences-investisseur",
@@ -344,7 +344,7 @@ export const articles: Article[] = [
     date: "2025-04-20",
     author: "La rédaction",
     readingTime: 6,
-    image: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "reglementation-espaces-stockage-points-vigilance",
@@ -388,7 +388,7 @@ export const articles: Article[] = [
     date: "2025-03-21",
     author: "La rédaction",
     readingTime: 7,
-    image: "https://images.unsplash.com/photo-1554224154-22dec7ec8818?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "cartographie-marche-stockage-france-2026",
@@ -414,7 +414,7 @@ export const articles: Article[] = [
     readingTime: 9,
     featured: false,
     tags: ["inflation", "investissement", "rendement", "patrimoine"],
-    image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1554224154-22dec7ec8818?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "digitalisation-gestion-locative-garages",
@@ -453,7 +453,7 @@ export const articles: Article[] = [
     readingTime: 11,
     featured: false,
     tags: ["rentabilité", "comparaison", "studio", "patrimoine", "investissement"],
-    image: "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=1200&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1200&auto=format&fit=crop&q=80",
   },
   {
     slug: "charges-recuperables-garage-locataire",
