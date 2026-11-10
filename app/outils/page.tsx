@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Outils pour investisseurs et exploitants — calculateurs, checklists, guides",
   alternates: { canonical: "https://observatoire-du-stockage.fr/outils" },
   description:
-    "Calculateurs, checklists, modèles et guides pratiques pour analyser et gérer des espaces de stockage. Bientôt disponibles.",
+    "Calculateurs, checklists, modèles et guides pratiques pour analyser et gérer des espaces de stockage en France.",
 };
 
 const outils: { icon: string; title: string; description: string; features: string[]; status: string; href?: string }[] = [
@@ -67,11 +67,11 @@ const outils: { icon: string; title: string; description: string; features: stri
   },
   {
     icon: "⚙️",
-    title: "Outil de gestion locative",
+    title: "GestionPark",
     description:
-      "Suivi des loyers, génération de baux, relances automatiques et tableau de bord de rentabilité — spécialement conçu pour les propriétaires de boxes et garages.",
-    features: ["Suivi des paiements", "Baux PDF conformes", "Relances automatiques"],
-    status: "En développement",
+      "Application de gestion de boxes en location : tableau de bord multi-biens, import CSV bancaire, suivi des paiements, quittances automatiques et rentabilité par bien.",
+    features: ["Tableau de bord & KPIs", "Import CSV bancaire", "Quittances PDF automatiques"],
+    status: "Disponible",
     href: "/outils/gestion-locative",
   },
 ];
@@ -84,7 +84,7 @@ export default function OutilsPage() {
           <SectionHeader
             label="Outils"
             title="Ressources pratiques pour investisseurs et exploitants"
-            description="Des outils concrets pour analyser des projets, suivre son exploitation et prendre des décisions éclairées. Ces ressources sont en cours de développement."
+            description="Des outils concrets pour analyser des projets, suivre son exploitation et prendre des décisions éclairées."
           />
         </div>
       </section>
