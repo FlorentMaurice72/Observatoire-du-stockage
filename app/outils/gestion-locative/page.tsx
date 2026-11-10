@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "GestionPark — Logiciel de gestion de boxes et garages en location",
+  title: "GestionPark — Application de gestion de boxes et garages en location",
   alternates: { canonical: "https://observatoire-du-stockage.fr/outils/gestion-locative" },
   description:
     "GestionPark centralise la gestion de vos boxes de stockage en location : loyers, impayés, locataires, documents et rentabilité — sans Excel ni agence.",
