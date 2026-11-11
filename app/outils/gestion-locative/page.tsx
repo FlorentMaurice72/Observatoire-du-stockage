@@ -149,7 +149,7 @@ export default function GestionLocativePage() {
               href="/newsletter"
               className="inline-flex items-center gap-2 bg-[#1e3a5f] text-white font-semibold px-7 py-3.5 rounded-xl hover:bg-[#162d4a] transition-colors text-sm"
             >
-              Être notifié du lancement
+              Essayer GestionPark
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
@@ -161,7 +161,7 @@ export default function GestionLocativePage() {
 
           <div className="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-3xl mx-auto">
             {[
-              { val: "88 %", label: "Taux d'occupation moyen" },
+              { val: "Multi", label: "Biens gérés en parallèle" },
               { val: "Zéro", label: "Excel requis" },
               { val: "14 j", label: "D'essai gratuit" },
               { val: "DSP2", label: "Connexion bancaire (Pro)" },
@@ -560,13 +560,13 @@ export default function GestionLocativePage() {
             Prêt à automatiser la gestion de vos boxes ?
           </h2>
           <p className="text-blue-200 text-base leading-relaxed mb-8">
-            GestionPark est en cours de déploiement. Inscrivez-vous pour être notifié en priorité à l'ouverture des accès.
+            GestionPark centralise la gestion de vos boxes, loyers et locataires en un seul tableau de bord.
           </p>
           <Link
             href="/newsletter"
             className="inline-flex items-center gap-2 bg-white text-[#1e3a5f] font-bold px-8 py-3.5 rounded-xl hover:bg-blue-50 transition-colors text-sm"
           >
-            Être notifié du lancement
+            Accéder à GestionPark
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>

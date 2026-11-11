@@ -143,9 +143,9 @@ export default function OutilsPage() {
       {/* CTA newsletter */}
       <section className="bg-white py-12 border-b border-slate-100">
         <div className="max-w-2xl mx-auto px-4 sm:px-6 text-center">
-          <h2 className="text-xl font-bold text-[#1a1a2e] mb-3">Soyez prévenu à chaque sortie d'outil</h2>
+          <h2 className="text-xl font-bold text-[#1a1a2e] mb-3">Restez informé des mises à jour</h2>
           <p className="text-slate-600 text-sm leading-relaxed mb-6">
-            Les outils de l'Observatoire seront publiés progressivement. Inscrivez-vous à la newsletter pour être informé dès qu'une nouvelle ressource est disponible.
+            Inscrivez-vous à la newsletter pour être informé dès qu'une nouvelle ressource ou mise à jour est disponible.
           </p>
           <Link
             href="/newsletter"
