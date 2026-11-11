@@ -3,6 +3,7 @@ import Link from "next/link";
 import SectionHeader from "@/components/ui/SectionHeader";
 import ArticleCard from "@/components/ui/ArticleCard";
 import NewsletterBlock from "@/components/ui/NewsletterBlock";
+import VillesFilter from "@/components/ui/VillesFilter";
 import { getArticlesByCategory } from "@/lib/articles";
 import { villes } from "@/lib/villes";
 
@@ -104,40 +105,8 @@ export default function MarchePage() {
           <SectionHeader
             label="Analyses locales"
             title="Décryptage des marchés par ville"
-            description="Demande locative, offre, niveaux de prix observés et points de vigilance : une analyse par grande métropole."
           />
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {[...villes].sort((a, b) => a.nom.localeCompare(b.nom, "fr")).map((v) => {
-              const niveauColors: Record<string, string> = {
-                forte: "bg-green-50 text-green-700 border-green-100",
-                moderee: "bg-amber-50 text-amber-700 border-amber-100",
-                faible: "bg-red-50 text-red-700 border-red-100",
-              };
-              const niveauLabels: Record<string, string> = { forte: "Demande forte", moderee: "Demande modérée", faible: "Demande faible" };
-              return (
-                <Link key={v.slug} href={`/marche/${v.slug}`}>
-                  <div className="bg-white rounded-xl border border-slate-100 hover:border-blue-200 hover:shadow-md p-5 h-full transition-all cursor-pointer">
-                    <div className="flex items-start justify-between mb-2">
-                      <div>
-                        <h3 className="font-bold text-[#1a1a2e] text-base">{v.nom}</h3>
-                        <p className="text-xs text-slate-400">{v.departement}</p>
-                      </div>
-                      <span className={`text-xs font-medium px-2 py-0.5 rounded-full border shrink-0 ml-2 ${niveauColors[v.demande.niveau]}`}>
-                        {niveauLabels[v.demande.niveau]}
-                      </span>
-                    </div>
-                    <p className="text-xs text-slate-500 leading-relaxed line-clamp-2">{v.intro.slice(0, 120)}…</p>
-                    <p className="mt-3 text-xs font-semibold text-blue-700 flex items-center gap-1">
-                      Lire l'analyse
-                      <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                      </svg>
-                    </p>
-                  </div>
-                </Link>
-              );
-            })}
-          </div>
+          <VillesFilter villes={villes} />
         </div>
       </section>
 
