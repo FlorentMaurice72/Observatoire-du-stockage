@@ -36,17 +36,17 @@ const apercu = [
   {
     label: "Analyse",
     title: "Prix des garages en France : ce que disent les données DVF",
-    href: "/articles/prix-garages-donnees-dvf",
+    href: "/analyses/prix-garages-donnees-dvf",
   },
   {
     label: "Guide",
     title: "Structurer la gestion de plusieurs unités de stockage",
-    href: "/articles/structurer-gestion-plusieurs-unites-stockage",
+    href: "/analyses/structurer-gestion-plusieurs-unites-stockage",
   },
   {
     label: "Réglementation",
     title: "TVA et location de garage : quand s'applique-t-elle ?",
-    href: "/articles/tva-location-garage",
+    href: "/analyses/tva-location-garage",
   },
 ];
 
