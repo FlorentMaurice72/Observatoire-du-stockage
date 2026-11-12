@@ -26,6 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/contact`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.4 },
     { url: `${BASE_URL}/mentions-legales`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.2 },
     { url: `${BASE_URL}/politique-confidentialite`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.2 },
+    { url: `${BASE_URL}/desinscription`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.1 },
   ];
 
   const villePages: MetadataRoute.Sitemap = villes.map((v) => ({

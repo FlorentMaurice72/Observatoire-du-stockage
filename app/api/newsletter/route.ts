@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
+const BASE_URL = "https://observatoire-du-stockage.fr";
+
 const WELCOME_HTML = (email: string) => `<!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -68,7 +70,7 @@ const WELCOME_HTML = (email: string) => `<!DOCTYPE html>
               Vous recevez cet email car l'adresse <strong>${email}</strong> a été inscrite à la newsletter de l'Observatoire du Stockage.
             </p>
             <p style="margin:0;color:#9ca3af;font-size:12px;">
-              Pour vous désabonner, répondez à cet email avec la mention « désabonnement ».
+              <a href="${BASE_URL}/desinscription?email=${encodeURIComponent(email)}" style="color:#6b7280;text-decoration:underline;">Se désabonner</a>
             </p>
           </td>
         </tr>
